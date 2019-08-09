@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=grausC
+comment0.target=double\ celsiusParaFarenheit(double)
+comment0.text=\n\ M\u00E9todo\ que\ dado\ um\ valor\ em\ graus\ Celsius\ calcula\n\ o\ correspondente\ em\ graus\ Farenheit\n\ \n\ @param\ grausC\ valor\ em\ graus\ Celsius\n
+comment1.params=a\ b
+comment1.target=int\ maximoNumeros(int,\ int)
+numComments=2

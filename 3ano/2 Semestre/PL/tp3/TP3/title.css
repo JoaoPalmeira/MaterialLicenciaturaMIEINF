@@ -1,0 +1,9 @@
+.page-title {
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 7vw;
+  line-height: 1;
+  text-align: center;
+  border-bottom: 5px solid #000;
+  font-family: Arnoldboecklin, fantasy;
+}

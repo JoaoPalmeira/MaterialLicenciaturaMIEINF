@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TesteParque()
+comment0.text=\r\n\ Construtor\ default\ para\ a\ classe\ de\ teste\ TesteParque\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Define\ a\ .\r\n\r\n\ Chamado\ antes\ de\ cada\ m\u00E9todo\ de\ caso\ de\ teste.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Chamado\ ap\u00F3s\ cada\ m\u00E9todo\ de\ teste\ de\ caso.\r\n
+numComments=3

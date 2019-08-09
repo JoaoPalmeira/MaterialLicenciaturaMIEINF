@@ -1,0 +1,33 @@
+%option noyywrap
+%%
+
+	FILE* lista = fopen("lista.html", "w");
+	fprintf(lista, "<!DOCTYPE html>\n<html>\n<body>\n\n<h2>Lista de verbos no infinitivo</h2>\n\n<ol>\n");
+
+
+[ ]to[ ][a-z]*[ ] {yytext[yyleng-1]='\0';fprintf(lista," <li>%s</li>\n",yytext+4);}
+
+[ ]can[ ][a-z]*[ ] {yytext[yyleng-1]='\0';fprintf(lista," <li>%s</li>\n",yytext+5);}
+[ ]could[ ][a-z]*[ ] {yytext[yyleng-1]='\0';fprintf(lista," <li>%s</li>\n",yytext+7);}
+[ ]shall[ ][a-z]*[ ] {yytext[yyleng-1]='\0';fprintf(lista," <li>%s</li>\n",yytext+7);}
+[ ]should[ ][a-z]*[ ] {yytext[yyleng-1]='\0';fprintf(lista," <li>%s</li>\n",yytext+8);}
+[ ]will[ ][a-z]*[ ] {yytext[yyleng-1]='\0';fprintf(lista," <li>%s</li>\n",yytext+6);}
+[ ]would[ ][a-z]*[ ] {yytext[yyleng-1]='\0';fprintf(lista," <li>%s</li>\n",yytext+7);}
+[ ]may[ ][a-z]*[ ] {yytext[yyleng-1]='\0';fprintf(lista," <li>%s</li>\n",yytext+5);}
+[ ]might[ ][a-z]*[ ] {yytext[yyleng-1]='\0';fprintf(lista," <li>%s</li>\n",yytext+7);}
+
+[ ]do[ ][a-z]*[ ] {yytext[yyleng-1]='\0';fprintf(lista," <li>%s</li>\n",yytext+4);}
+[ ]does[ ][a-z]*[ ] {yytext[yyleng-1]='\0';fprintf(lista," <li>%s</li>\n",yytext+6);}
+[ ]did[ ][a-z]*[ ] {yytext[yyleng-1]='\0';fprintf(lista," <li>%s</li>\n",yytext+5);}
+
+<<EOF>> {fprintf(lista, "</ol>\n\n</body>\n</html>"); fclose(lista); return 0;}
+
+%%
+
+int main(int argc, char* argv[]){
+	if (argc == 2)
+		yyin = fopen(argv[1],"r");
+		yyout = fopen("out.txt","w");
+	yylex();
+	return 0;
+}

@@ -1,0 +1,13 @@
+Reducao: designa-se por reducao uma operacao que processa um conjunto de dados para a partir dele gerar um unico valor, exemplo, a soma/maximo/produto de todos os elementos de um vector.
+A reducao e tao comum que o OpenMP inclui uma clausala especifica (mas nao para o maximo)
+A clausula redution aplica-se apenas a operacoes associativas.
+x=x op espr
+x=expr op x (excepto subtracao)
+a binop= expr
+x++ ; ++x
+x-- ; --x
+x - var escalar
+expr - expr esca que nao refere x
+op - +,*,-,/,&,^,|,&&,||
+binop - +,*,-,/,&,^,|
+As operações sobre operandos em vírgula flutuante não são associativas.

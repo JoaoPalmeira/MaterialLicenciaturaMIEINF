@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=i\ r\ p\ pm\ v\ e\ t\ a\ w\ por\ gar
+comment0.target=Apartamento(java.lang.String,\ java.lang.String,\ double,\ double,\ int,\ Estado,\ java.lang.String,\ double,\ int,\ int,\ java.lang.Boolean)
+comment1.params=c
+comment1.target=Apartamento(Apartamento)
+comment2.params=
+comment2.target=java.lang.String\ getTipoApa()
+comment3.params=
+comment3.target=double\ getAreaApa()
+comment4.params=
+comment4.target=int\ getWcApa()
+comment5.params=
+comment5.target=int\ getPortaApa()
+comment6.params=
+comment6.target=java.lang.Boolean\ getGaragem()
+comment7.params=
+comment7.target=void\ showApartamento()
+comment8.params=
+comment8.target=void\ isHabitavel()
+comment9.params=
+comment9.target=Apartamento\ clone()
+numComments=10

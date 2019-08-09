@@ -1,0 +1,1023 @@
+PT fruta
+-catgra nf
+-exuso a banana é uma fruta.
+EN fruit
+AUDEN n
+FR fruit
+AUDFR n
+ES fruta
+AUDES n  
+DE frucht
+AUDDE n
+CN ??
+NU 10015
+DOM alimentação
+BT  
+PART semente 
+PART casca 
+PART polpa
+POF árvore 
+UP fazer salada, sumo, doce, batido, compota, licor, bolo, gelado e tarte  
+Def algo como a banana, a maçã ou o morango, que cresce a partir de uma árvore ou planta
+GI 2
+IM 3
+ID manuel
+
+PT fruta
+-catgra nf
+-exuso todos os dias devemos comer fruta.
+AUDPT n
+EN fruit
+AUDEN n
+FR fruit
+AUDFR n
+ES fruta
+AUDES n
+DE frucht
+AUDDE n
+CN ??
+NU 10015
+DOM alimentação
+BT 
+UP fazer salada, sumo, doce, batido, compota, licor, bolo, gelado e tarte 
+Def quando falamos de todas as frutas que existem
+GI 2
+IM 2
+ID manuel 
+
+PT maçã
+-catgra nf
+-exuso A mãe está a preparar uma tarte de maçã.
+EN apple
+FR pomme 
+ES manzana 
+DE apfel
+CN ??
+NU 205
+DOM alimento
+BT
+POF macieira
+Def fruto redondo e duro que pode ter casca vermelha, verde claro ou amarela 
+IMG Maça.jpg 
+GI 4
+IM 4
+ID manuel 
+
+PT pêra
+-catgra nf
+-exuso gosto muito de sumo de pêra.
+EN pear
+FR poire 
+ES pera
+DE birne 
+CN ?
+NU 206
+DOM alimento
+BT
+POF pereira
+Def fruto doce e sumarento que tem uma base arredondada ficando mais fina no em cima
+IMG Pêra.jpg
+GI 4 
+IM 4
+ID manuel 
+
+PT damasco 
+catgra nm
+-exuso o damasco é um fruto parecido com o pêssego e também é chamado de alperce.
+EN damson
+FR abricot
+ES damasco
+ES albaricoque
+DE aprikose
+CN ?????
+NU 239
+PT alperce
+-catgra nm
+-exuso o alperce é um fruto parecido com o pêssego. 
+EN apricot
+FR abricot 
+ES albaricoque
+DE aprikose
+CN ?
+NU 207
+DOM alimento
+BT
+POF damasqueiro 
+PART caroço 
+Def fruto pequeno e redondo que pode ser cor-de-laranja ou amarelo, contendo uma semente grande no interior
+GI 4
+IM 4 
+ID manuel 
+
+PT pêssego
+-catgra nm
+-exuso o pêssego é bom para fazer tarte. 
+EN peach
+FR pêche
+ES melocotón
+DE pfirsich
+CN ?
+NU 208
+DOM alimento
+BT
+POF pessegueiro
+PART caroço
+Def fruto redondo de casca macia que pode ser amarelo ou vermelho, de polpa doce e sumarenta
+GI 4
+IM 4
+ID manuel 
+
+PT uva
+-catgra nf
+-exuso o vinho é feito a partir do sumo da uva.
+EN grape
+FR raisin 
+ES uva
+DE traube
+CN ??
+NU 209
+DOM alimento
+BT
+POF cacho de uvas
+POF videira
+UP usado para a fazer vinho  
+Def pequena baga que pode apresentar cor roxa ou verde e que cresce na videira 
+IMG Uva.jpg
+GI 4
+IM 4
+ID manuel 
+
+PT banana 
+-catgra nf
+-exuso os macacos gostam muito de banana.
+EN banana
+FR banane 
+ES plátano
+ES banano
+£DE banane
+CN ??
+NU 210
+DOM alimento
+BT
+POF bananeira
+Def fruto comprido e curvo de casca amarela 
+IMG Banana.jpg
+GI 4
+IM 4
+ID manuel 
+
+PT ananás
+PT_BR abacaxi
+-catgra nm
+-exuso o ananás é um fruto dos países quentes.
+-exuso o abacaxi é um fruto dos países quentes. 
+EN pineapple
+FR ananas 
+ES piña
+ES ananá
+DE ananas
+CN ??
+NU 211
+DOM alimento
+BT 
+?Def fruto de casca castanha e polpa amarela que cresce nos países quentes
+GI 4
+IM 4
+ID manuel 
+
+PT ameixa
+-catgra nf
+-exuso gosto tanto da ameixa vermelha como da ameixa amarela. 
+EN plum
+FR prune 
+FR mirabelle (ameixa amarela)
+FR quetsche (ameixa vermelha) 
+ES ciruelo
+DE pflaume
+CN ??
+NU 212
+DOM alimento
+BT
+POF ameixoeira 
+RT ameixoal 
+Def fruto pequeno e redondo, vermelho escuro ou amarelo e de polpa suculenta
+GI 4
+IM 4
+ID manuel 
+
+PT melancia
+-catgra nf
+-exuso A melancia é grande, tem a casca verde e é vermelha por dentro.
+EN watermelon
+FR pastèque 
+ES sandía
+DE wassermelone
+CN ??
+NU 213
+DOM alimento
+BT
+Def fruto grande e redondo de casca verde e dura, de polpa vermelha com muitas sementes pequenas
+IMG Melancia.jpg
+GI 4
+IM 4
+ID manuel 
+
+PT laranja
+-catgra nf
+-exuso A laranja é um fruto rico em vitamina C.
+EN orange
+FR orange 
+ES naranja 
+DE orange
+CN ?
+NU 214
+DOM alimento
+BT
+POF laranjeira 
+PART gomo 
+UP temperar cozinhados  
+Def fruto redondo de casca grossa e cor-de-laranja, dividido em gomos no parte interior
+IMG Laranja.jpg
+GI 4 
+IM 4
+ID manuel 
+
+PT limão
+-catgra nm
+-exuso O limão é usado para temperar a carne e o peixe.
+EN lemon
+FR citron  
+ES limón
+DE zitrone
+CN ??
+NU 215
+DOM alimento
+BT
+POF limoeiro 
+PART gomo 
+UP temperar comida
+Def fruto de sabor ácido e de casca grossa e amarela
+IMG limao.jpg
+GI 4
+IM 4
+ID manuel 
+
+PT manga
+-catgra nf
+-exuso A manga é um fruto tropical muito popular na Europa.
+EN mango
+FR mangue
+ES mango 
+DE mango 
+CN ??
+NU 216
+DOM alimento
+BT
+POF 
+PART caroço
+Def fruto tropical de casca fina, de cor verde ou vermelha e polpa doce e amarela
+GI 3
+IM 4
+ID manuel 
+
+PT morango
+-catgra nm
+-exuso o doce de morango estava delicioso.
+EN strawberry
+FR fraise
+ES fresa
+DE erdbeere
+CN ??
+NU 217
+DOM alimento
+BT
+POF morangueiro
+Def fruto pequeno e vermelho, com pequenas sementes à superfície
+IMG Morango.jpg
+GI
+IM
+ID manuel 
+
+PT nêspera
+-catgra nf
+-exuso A nêspera é originária do sudeste da China.
+PT magnóreo
+-catgra nm
+EN medlar
+FR nèfle
+ES níspero
+DE mispel
+CN ??\n ???
+NU 218
+DOM alimento
+BT
+POF nespereira
+Def fruto oval de casca aveludada e macia, cor amarelo-alaranjada
+GI 4
+IM 4
+ID manuel 
+
+PT amora
+-catgra nf
+-exuso a amora é um fruto bastante doce.
+EN mulberry
+FR mûre
+ES mora
+DE maulbeere
+CN ??
+NU 219
+DOM alimento
+BT
+POF amoreira
+POF silvas  
+Def fruto pequeno e roxo escuro que cresce nas silvas
+GI 3
+IM 4
+ID manuel 
+
+PT nectarina
+-catgra nf
+-exuso a nectarina também é chamada de "pêssego careca".
+EN nectarine
+FR néctarine
+ES
+DE nektarine
+CN ??
+NU 220
+DOM alimento
+BT
+PART caroço
+Def fruto parecido com o pêssego, mas de casca mais fina e mais lisa
+GI 4
+IM 4
+ID manuel 
+
+PT cereja
+-catgra nf
+-exuso a cereja 
+EN cherry
+FR cerise 
+ES
+DE kirsche
+CN ??
+NU 221
+DOM alimento
+BT
+POF cacho de cerejas
+POF cerejeira/cerdeira
+PART caroço
+Def fruto pequeno e redondo que pode ser preto ou vermelho
+GI 4
+IM 4
+ID manuel 
+
+PT romã
+-catgra nm
+-exuso 
+EN pomegranate
+FR grenada 
+ES granada
+DE granatapfel
+CN ??
+NU 222
+DOM alimento
+BT
+POF romãnzeira
+Def fruto redondo de casca dura parecido com a laranja, vermelho por dentro e que contém muitas sementes pequenas 
+GI 4
+IM 4
+ID manuel 
+
+PT figo
+-catgra nm
+-exuso O figo foi um dos primeiros frutos cultivados pelo Homem.
+EN fig
+FR figue 
+ES higo
+DE feige
+CN ???
+NU 223
+DOM alimento
+BT
+POF figueira
+Def fruto doce, com muitas sementes pequenas no seu interior que pode ser comido seco
+IMG figo.jpg
+GI 4
+IM 4
+ID manuel 
+
+PT tangerina
+-catgra nf
+-exuso a tangerina é mais pequena do que a laranja. 
+EN tangerine
+FR
+ES
+DE mandarine
+CN ??
+NU 224
+DOM alimento
+BT
+POF tangerineira 
+PART gomo 
+Def fruto alaranjado, parecido com a laranja, embora mais pequeno e mais doce 
+GI 4
+IM 4
+ID manuel 
+
+PT dióspiro
+PT_BR caqui
+-catgra nm
+-exuso O dióspiro é um fruto originário da China.
+EN persimmon
+FR plaquemine
+FR kaki
+ES
+DE 
+CN ??
+NU 225
+DOM alimento
+BT
+POF dióspireiro 
+Def fruto de cor alaranjada, muito doce e mole  
+GI 3
+IM 2
+ID manuel 
+
+PT noz
+-catgra nf
+-exuso A noz tem uma casca muito dura que tem de se partir.
+EN walnut
+FR noix
+ES nuez
+£DE nussfrucht
+CN ??
+NU 226
+DOM alimento
+BT
+POF nogueira
+Def fruto seco e pequeno, de casca grossa e que por dentro parece um cérebro humano 
+GI 2
+IM 4
+ID manuel 
+
+PT avelã
+-catgra nf
+-exuso o João gosta muito de comer chocolate com avelã.
+EN hazelnut
+FR noisette
+FR aveline
+ES avellana
+DE hasel 
+CN ??
+NU 227
+DOM alimento
+BT
+POF avelaneira
+Def fruto seco, pequeno e castanho de casca dura
+GI 2
+IM 4
+ID manuel 
+
+PT amendoim
+-catgra nm
+-exuso o meu pai gosta muito de comer amendoins enquanto vejo o futebol.
+EN peanut
+FR cacahuète
+FR arachide
+ES cacauhete
+ES panchito
+DE erdnuss
+CN ??
+NU 228
+DOM alimento
+BT
+UP
+Def fruto seco que se desenvolve no solo, dentro de uma casca fina
+GI 2
+IM 4
+ID manuel 
+
+PT tâmara
+-catgra nf
+-exuso a tâmara é um fruto dos países quentes  
+EN date
+FR datte
+ES dátil 
+DE dattel
+CN ?
+NU 229
+DOM alimento
+BT
+POF tamareira
+PART caroço
+Def fruto pequeno de cor amarelada  
+GI 2
+IM 4
+ID manuel 
+
+PT castanha
+-catgra nf
+-exuso a castanha cresce dentro de um ouriço.
+EN chestnut
+FR châtaigne
+ES castaña
+DE edelkastanie
+CN ?
+NU 230
+DOM alimento
+BT
+POF ouriço
+POF castanheiro
+UP para fazer um magusto 
+Def fruto seco, redondo e castanho que se desenvolove nos ouriços do castanheiro
+GI 2
+IM 4
+ID manuel 
+
+PT groselha
+-catgra nf
+-exuso gosto de beber xarope de groseha 
+EN currant
+FR groseille
+ES groselha
+DE stachelbeere
+CN ??
+NU 231
+DOM alimento
+BT
+POF cacho
+POF groselheira
+UP fazer xarope 
+Def fruto de bago vermelho ou branco, pequeno e seco
+GI 2
+IM 4
+ID manuel 
+
+PT côco
+-catgra nm
+-exuso O côco é utilizado para fazer sabonetes e perfumes.
+EN coconut
+EN cocoanut
+FR coco
+ES coco
+DE 
+CN ??
+NU 232
+DOM alimento
+BT
+POF coqueiro 
+Def fruto de casca castanha e dura quando maduro, com uma polpa branca e com um cheiro forte
+GI 2
+IM 4
+ID manuel 
+
+PT arando
+-catgra nm
+-exuso
+EN bilberry
+FR canneberge
+ES arándano
+DE
+CN ??
+NU 233
+DOM alimento
+BT
+Def fruto azul ou preto que cresce no Norte da Europa
+GI 2 
+IM 2
+ID manuel 
+
+PT amora silvestre
+-catgra nf
+-exuso
+EN blackberry
+EN blueberry
+FR mûre sauvage
+FR mûron
+ES
+DE
+CN ??
+NU 234
+DOM alimento
+BT
+Def
+GI
+IM
+ID manuel 
+
+PT abacate
+-catgra nm
+-exuso o abacate é um fruto tropical. 
+EN avocado
+FR avocat
+ES aguacate 
+£DE avocado
+CN ??
+NU 235
+DOM alimento
+BT
+POF abacateiro
+Def fruto de casca grossa e de cor verde ou roxo em forma de pêra que é verde por dentro e tem uma grande semente  
+GI 4
+IM 4
+ID manuel 
+
+#PT groselha negra
+-catgra nf
+-exuso
+EN black currant
+CN ???
+NU 236
+DOM alimento
+BT
+Def
+GI
+
+!PT laranja vermelha
+-catgra nf
+-exuso
+EN blood orange
+FR
+ES
+DE
+CN ??
+NU 237
+DOM alimento
+BT
+Def
+GI
+IM
+ID manuel 
+
+PT cidra
+-catgra
+-exuso
+£EN citron
+£EN grapefruit
+FR cédrat 
+ES cidro
+DE zider
+CN ??
+NU 238
+DOM alimento
+BT
+POF cidreira
+UP temperar 
+Def fruto grande e azedo em forma de ovo de casca verde clara e que é usado principalmente para tempêro porque cheira muito bem
+GI 4
+IM 4
+ID manuel 
+
+PT amêndoa
+-catgra nf
+-exuso faz parte da tradiçao comer amêndoas na Páscoa. 
+EN almond
+FR amande
+ES almendra
+DE mandel
+CN ???
+NU 240
+DOM alimento
+BT
+POF amendoieira 
+RT amendoal   
+Def fruto seco, pequeno e achatado de cor castanha
+GI 2
+IM 4
+ID manuel 
+
+PT noz-moscada
+-catgra nf
+-exuso gosto do sabor da noz moscada. 
+EN nutmeg
+FR noix muscade 
+ES nuez moscada 
+DE muskatnuss
+CN ???
+NU 241
+DOM alimento
+BT fruto 
+POF noz-moscada 
+UP fazer óleo medicinal 
+UP fazer tempero 
+Def fruto castanho de aroma muito agradável cuja semente é usada para fazer um pó que serve para temperar comida 
+GI 2
+IM 3
+ID manuel 
+
+PT papaia
+-catgra nf
+-exuso a papaia é um fruto que vem dos países quentes. 
+EN papaya
+FR papaye
+ES papaya 
+DE papaya
+CN ???
+NU 242
+DOM alimento
+BT
+POF papaieira 
+Def fruto tropical grande parecido com um melão, de cor verde ou amarela
+GI 2
+IM 2
+ID manuel 
+
+PT goiaba
+-catgra nf
+-exuso
+EN guava
+FR goyave 
+ES guayaba
+DE guajava
+CN ???
+NU 243
+DOM alimento
+BT
+POF goiabeira 
+RT goiabada   
+Def fruto tropical pequeno com polpa cor-de-rosa e muitas sementes
+GI 2
+IM 4
+ID manuel 
+
+PT pistácio
+-catgra nm
+-exuso quando vamos ao cinema compramos uma caixa de pistácios para comer enqunto vemos o filme. 
+EN pistachio
+FR pistache 
+ES pistacho 
+DE pistazie 
+CN ????
+NU 244
+DOM alimento
+BT
+POF pistácia/pistacheiro
+UP fazer pistácios
+Def fruto seco em forma de noz, pequeno e com uma semente esverdeada
+GI 3
+IM 4
+ID manuel 
+
+#PT figo-do-inferno
+-catgra nm
+-exuso
+EN prickly pear
+FR
+ES
+DE
+CN ????
+NU 245
+DOM alimento
+BT 
+Def
+GI
+
+PT framboesa
+-catgra nf
+-exuso o Pedro gosta muito de doce de framboesa. 
+EN raspberry
+FR framboise 
+ES frambuesa
+ES churdón
+DE himbeere
+CN ???
+NU 246
+DOM alimento
+BT
+POF framboeseira 
+Def fruto pequeno, doce e vermelho
+GI 3
+IM 4
+ID manuel 
+
+#PT graviola
+-catgra nf
+-exuso
+EN soursop
+CN ?????
+NU 247
+DOM alimento
+BT
+Def
+GI
+
+#PT tomate
+-catgra nm
+-exuso
+EN tomato
+FR
+ES
+DE
+CN ??\n ???
+NU 853
+DOM alimento
+BT
+Def fruto redondo e vermelho comido cru ou cozinhado como vegetal
+GI
+IM
+ID manuel 
+
+#PT abóbora
+-catgra nf
+-exuso 
+EN pumpkin
+FR
+ES
+DE
+CN ???
+NU 864
+DOM alimento
+BT
+Def fruto grande cor-de-laranja
+GI
+IM
+ID manuel 
+
+PT melão
+-catgra nm
+-exuso o melão deve comer-se fresco.
+EN melon
+FR melon
+ES melón
+DE melone
+CN ??\n ??
+NU 873
+DOM alimento
+BT
+POF meloeiro
+RT meloal 
+Def fruto redondo de casca verde ou amarela que contém muitas sementes por dentro  
+IMG Melão.jpg
+GI 3
+IM 4
+ID manuel 
+
+PT meloa
+-catgra nf
+-exuso a meloa é um fruto saboroso.
+EN cantaloupe
+FR cantaloup
+ES 
+DE honigmelone
+DOM alimento
+BT
+POF meloeiro
+RT meloal 
+Def tipo de melão que tem uma casca com mais rugas e que é alaranjada por dentro 
+GI 3
+IM 4
+ID manuel 
+
+PT azeitona
+-catgra nf
+-exuso o azeite é feito a partir da azeitona.
+EN olive
+FR olive 
+ES aceituna
+DE olive 
+DOM alimento
+BT
+POF oliveira 
+PART caroço 
+UP fazer azeite
+UP aperitivo
+RT olival 
+RT olivedo
+RT olivicultura
+RT olivicultor
+RT olivícola
+RT azeita
+Def fruto redondo e pequeno que pode ser preto ou verde que é usado para fazer o azeite. 
+GI 4
+IM 4
+ID manuel 
+
+PT marmelo
+-catgra nm
+-exuso a marmelada é feita a partir do marmelo.
+EN quince
+FR coing
+ES membrillo
+DE quitte
+DOM alimento
+BT
+POF marmeleiro
+UP fazer marmelada  
+Def fruto de cor amarelada parecido com uma pêra que tem um cheiro forte e que normalmente não se come cru; é do marmelo que se faz a marmelada  
+GI 3
+IM 4
+ID manuel 
+
+PT lima 
+-catgra nf
+-exuso a lima é um fruto parecido com o limão.
+EN 
+FR lime
+FR limette
+ES lima
+DE 
+DOM alimento 
+BT 
+POF limeira
+PART gomo 
+Def fruto com uma casca lisa e amarelada, verde por dentro; é parecida com o limão, mas é mais ácida 
+GI 4
+IM 4
+ID manuel 
+
+PT quivi
+PT kiwi
+-catgra nm
+-exuso o kiwi é um fruto muito saboroso e fresco.
+EN 
+FR kiwi
+ES kiwi
+DE 
+DOM alimento 
+BT 
+POF 
+Def fruto pequeno, de casca castanha coberta de pêlos e verde por dentro
+GI 2
+IM 2 
+ID manuel 
+
+PT clementina 
+-catgra nf
+-exuso a clementina é parecida com a laranja.
+EN 
+FR clémentine
+ES clementina 
+DE 
+DOM alimento 
+BT 
+POF 
+PART gomo 
+Def fruto de casca cor-de-laranja que é muito parecido com a laranja e que não tem sementes   
+GI 3
+IM 4
+ID manuel 
+
+PT caju
+-catgra nm
+-exuso a amêndoa do caju é usada para fazer para fazer aperitivo. 
+EN 
+FR acajou
+ES acáju
+DE 
+DOM alimento 
+BT 
+POF cajueiro
+PART amêndoa
+UP fazer aperitivos e óleo
+Def   
+GI 3
+IM 4
+ID manuel 
+
+PT maracujá
+-catgra nm
+-exuso gosto muito de beber sumo de maracujá.
+EN maracuyá
+EN passion fruit
+FR maracuja
+ES maracuyá
+DE passionsfrucht
+DOM alimento 
+BT 
+POF maracujazeiro
+UP fazer tempero  
+Def fruto que pode ser amarelo ou púrpura e que tem muitas sementes por dentro
+GI 2
+IM 4
+ID manuel 
+
+PT toranja
+-catgra nm
+-exuso a toranja tem um sabor pouco doce.  
+EN 
+EN toranja
+FR pamplemousse
+ES 
+DE 
+DOM alimento 
+BT 
+POF toranjeira
+Def fruto amarelado pouco doce que é parecido com a laranja 
+GI 2
+IM 4
+ID manuel 
+
+!PT guaraná
+-catgra nm
+-exuso 
+EN 
+EN 
+FR 
+ES 
+DE 
+DOM alimento 
+BT 
+Def
+GI 
+IM 
+ID manuel 

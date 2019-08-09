@@ -1,0 +1,15 @@
+Data forwarding: Motivacao
+As dependências de dados são demasiado comuns  
+ResolvêJlas recorrendo à injecção de  bolhas  resulta no  desperdício de um elevado número de ciclos, comprometendo o  desempenho do pipeline 
+A realimentação de dados (data forwarding) propõeJse resolver  estas dependências de dados, diminuindo o número de bolhas  injectadas (logo o número de ciclos desperdiçados) 
+As dependências de controlo não sofrem qualquer alteração. 
+
+Data Forwarding 
+Problema 
+Um registo é lido na fase de DECODE 
+A escrita só ocorre na fase de WRITEBACK 
+Observação 
+O valor a escrever no registo existe dentro do pipeline desde a fase de execução 
+Resolução do problema 
+Passar o valor necessário directamente do estágio onde está  disponível (E ou W) para o estágio de DECODE 
+

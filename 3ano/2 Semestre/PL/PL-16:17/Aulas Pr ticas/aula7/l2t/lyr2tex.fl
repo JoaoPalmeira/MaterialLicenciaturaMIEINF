@@ -1,0 +1,63 @@
+%option noyywrap
+%{
+void begin_latex(FILE* f);
+void end_latex(FILE* f);
+void processa(int n, FILE* lyr);
+%}
+%x META ABC POEMA TITLE
+%%
+  FILE* lyr = fopen("out.tex", "w" );
+  FILE* abc;
+  char ttl[1024], abcfn[1024];
+  int n = 0; // abc number
+  begin_latex(lyr);
+  system("mkdir -p _abc");
+
+<*>title:[=* ]* { BEGIN TITLE; }
+<*>\<abc\> { BEGIN ABC;
+             sprintf(abcfn, "_abc/m%d.abc", ++n);
+             abc = fopen(abcfn, "w"); }
+
+<POEMA>[_$%#] { fprintf(lyr, "\\%s", yytext); }
+<POEMA>[\[\]]|»|« { }
+<POEMA>. { fprintf(lyr, "%s", yytext); }
+<POEMA>\n { fprintf(lyr, "\\\\\n"); }
+
+<TITLE>.+ { fprintf(lyr, "\\section{%s}\n", yytext); BEGIN META; }
+
+<META>\n{2,} { BEGIN POEMA; }
+<META>.|\n { }
+
+<ABC>.|\n { fprintf(abc, "%s", yytext); }
+<ABC>\<\/abc\> { BEGIN POEMA; fclose(abc); processa(n, lyr); }
+<*><<EOF>> { end_latex(lyr); return 0; }
+%%
+int main (int argc, char* argv[]) {
+    if(argc == 2)
+      yyin = fopen(argv[1], "r");
+    yylex();
+    return 0;
+}
+
+void begin_latex(FILE* f) {
+    fprintf(f, "%s", "\\documentclass{article}\n");
+    fprintf(f, "%s", "\\usepackage[utf8]{inputenc}\n");
+    fprintf(f, "%s", "\\usepackage{graphicx}\n");
+    fprintf(f, "%s", "\\begin{document}\n");
+}
+
+void end_latex(FILE* f) {
+    fprintf(f, "%s", "\\end{document}\n");
+}
+
+void processa(int n, FILE* lyr) {
+    char cmd[1024];
+
+    sprintf(cmd, "abcm2ps -c -E _abc/m%d.abc", n);
+    system(cmd);
+
+    sprintf(cmd, "epstopdf --outfile=_abc/m%d.pdf Out001.eps", n);
+    system(cmd);
+
+    fprintf(lyr, "\\includegraphics[width=\\textwidth]{_abc/m%d.pdf}\n", n);
+}

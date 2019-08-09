@@ -1,0 +1,24 @@
+program exerciseOne
+{
+    variable x, y, z : integer;
+    variable larger : integer;
+
+    instructions
+    {
+        read(x);
+        read(y);
+        read(z);
+
+        if ((x >= y) && (x >= z)) {
+            larger = x;
+        } else {
+            if ((y >= x) && (y >= z)) {
+                larger = y;
+            } else {
+                larger = z;
+            }
+        }
+
+        write("Maior = " ++ larger ++ "\n");
+    }
+}

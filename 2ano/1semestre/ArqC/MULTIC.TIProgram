@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Thread Level Parallelism 
+
+Paralelismo a um nivel mais grosso do que as instrucoes de um programa: 
+–  explorar o paralelismo entre diferentes fios de execucao (threads) de um mesmo programa ou de programas diferentes  –  as threads podem ser partes de um programa paralelo ou mesmo programas diferentes (processos)  –  cada thread tem o seu estado (instrucoes, dados, contexto ( conteudo de registos, instruction pointer, etc.)) para que possa executar independentemente 
+—ILP explora paralelismo implícito numa única sequência de instruções  —TLP explora paralelismo explícito entre múltiplas sequências de instruções
+		
+Simultaneous Multi Threading 
+Permitir a execucao simultanea de multiplas threads no mesmo processador (core)
+Ideia base : as diferentes unidades funcionais podem ser partilhadas por diferentes threads
+Sem SMT apenas uma thread usa o nucleo em cada instante 
+Com SMT ambas as threads podem executar simultaneamente mas muitos recursos sao partilhados e nao podem ser usados simultaneamente por diferentes threads 
+As threads partilham recursos entre si resultando num ganho marginal 
+A Intel designa SMT por Hyper Threading (HT)  Nos processadores hyperthreaded duas threads podem usar diferentes recursos do mesmo processador  HT resulta normalmente num ganho de 30% em tempo de execucao  Diz-se que um processador HT tem dois cores (nucleos) logicos </string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

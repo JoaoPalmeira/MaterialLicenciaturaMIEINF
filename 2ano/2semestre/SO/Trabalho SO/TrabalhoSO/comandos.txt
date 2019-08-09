@@ -1,0 +1,3 @@
+node 1 const 10
+node 2 const 20
+connect 1 2

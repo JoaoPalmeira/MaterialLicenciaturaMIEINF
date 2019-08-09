@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ParqueComRecusados()
+comment1.params=p
+comment1.target=ParqueComRecusados(ParqueComRecusados)
+comment2.params=cartao\ matricula
+comment2.target=void\ entra(java.lang.String,\ java.lang.String)
+comment3.params=o
+comment3.target=boolean\ equals(java.lang.Object)
+comment4.params=
+comment4.target=java.util.HashMap\ getRecusas()
+numComments=5

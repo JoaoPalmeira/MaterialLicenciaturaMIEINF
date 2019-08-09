@@ -1,0 +1,74 @@
+%option noyywrap
+%{
+#include <string.h>
+
+void processa(char* verbos[], FILE* lista, int n);
+void insertionSort(char* verbos[], int n);
+
+%}
+
+V 	[Tt]o|can|could|shall|should|will|would|may|might|do|does|did
+E 	also|the|that|lambdas|not|one|two|it|this|then|never|your|different|explicitly|uppercase|you|its|manually|each|still|all|so|now|them|likely|my|numeric|always|faster|elements|mutable|easily|index|new|calling|changing|something
+
+%%
+	
+	FILE* lista = fopen("lista.html", "w");
+	char* verbos[1024];
+	int n = 0;
+
+
+[ ]{V}[ ]{E}[ ]              {}
+
+[ ][Tt]o[ ][a-z][a-z]+[ ]    {yytext[yyleng-1]='\0';verbos[n]=strdup(yytext+4);n++;}
+
+[ ]can[ ][a-z][a-z]+[ ]      {yytext[yyleng-1]='\0';verbos[n]=strdup(yytext+5);n++;}
+[ ]could[ ][a-z][a-z]+[ ]    {yytext[yyleng-1]='\0';verbos[n]=strdup(yytext+7);n++;}
+[ ]shall[ ][a-z][a-z]+[ ]    {yytext[yyleng-1]='\0';verbos[n]=strdup(yytext+7);n++;}
+[ ]should[ ][a-z][a-z]+[ ]   {yytext[yyleng-1]='\0';verbos[n]=strdup(yytext+8);n++;}
+[ ]will[ ][a-z][a-z]+[ ]     {yytext[yyleng-1]='\0';verbos[n]=strdup(yytext+6);n++;}
+[ ]would[ ][a-z][a-z]+[ ]    {yytext[yyleng-1]='\0';verbos[n]=strdup(yytext+7);n++;}
+[ ]may[ ][a-z][a-z]+[ ]      {yytext[yyleng-1]='\0';verbos[n]=strdup(yytext+5);n++;}
+[ ]might[ ][a-z][a-z]+[ ]    {yytext[yyleng-1]='\0';verbos[n]=strdup(yytext+7);n++;}
+
+[ ]do[ ][a-z][a-z]+[ ]       {yytext[yyleng-1]='\0';verbos[n]=strdup(yytext+4);n++;}
+[ ]does[ ][a-z][a-z]+[ ]     {yytext[yyleng-1]='\0';verbos[n]=strdup(yytext+6);n++;}
+[ ]did[ ][a-z][a-z]+[ ]      {yytext[yyleng-1]='\0';verbos[n]=strdup(yytext+5);n++;}
+
+<<EOF>>                      {processa(verbos, lista, n); return 0;}
+
+%%
+
+int main(int argc, char* argv[]){
+	if (argc == 2)
+		yyin = fopen(argv[1],"r");
+		yyout = fopen("out.txt","w");
+	yylex();
+	return 0;
+}
+
+void processa(char* verbos[], FILE* lista, int n){
+	fprintf(lista, "<!DOCTYPE html>\n<html>\n<body>\n\n<h2>Lista de verbos no infinitivo</h2>\n\n<ol>\n");
+
+	insertionSort(verbos, n);
+
+	for(int i=0; verbos[i]!='\0'; i++){
+		fprintf(lista," <li>%s</li>\n",verbos[i]);
+	}
+
+	fprintf(lista, "</ol>\n\n</body>\n</html>"); fclose(lista);
+}
+
+void insertionSort(char* verbos[], int n){
+	int i, j;
+	char key[1024];
+	for (j=1 ; j<n ; j++) {
+		strcpy(key,verbos[j]);
+		i = j-1;
+		while (i>=0 && strcmp(verbos[i],key)>0) {
+			verbos[i+1]=strdup(verbos[i]);
+			i--;
+		}
+	strcpy(verbos[i+1],key);
+	}
+}
+

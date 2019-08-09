@@ -1,0 +1,17 @@
+int main int argc char* argv[]
+int i 
+for (i=0 i<argc i++)
+	print "argv[%d] = %s\n" i argv[i]
+
+ac
+int main
+int a b
+print antes
+if fork == 0
+exec\"usr/bin/a03" v "a" v "b" v Nu\\
+perror("naoexiste")
+exit1
+
+wait nu\\
+
+print depois

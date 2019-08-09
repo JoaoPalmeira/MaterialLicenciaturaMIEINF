@@ -1,0 +1,733 @@
+﻿PT meteorologia
+-catgra nf
+-exuso  a metereologia é a ciência que estuda o tempo e o clima.
+EN meteorology
+FR météorologie
+ES meteorologia
+DE wetterkunde
+CN 气象学
+NU 32
+Dom ciência
+BT ciências naturais 
+RT metereológico
+RT boletim metereológico
+Def ciência que estuda o tempo e o clima
+GI 1
+IM 3
+ID manuel
+
+PT atmosfera
+-catgra nf
+-exuso o planeta Marte tem uma atmosfera.  
+EN atmosphere
+FR atmosphère
+ES atmósfera
+DE atmosphäre
+CN 大气
+NU 33
+Dom  tempo
+BT meteorologia
+PART gás
+Def camada de gases que não se vê que envolve a Terra e outros astros. 
+GI 1
+IM 3
+ID manuel
+
+PT atmosfera
+-catgra nf
+!-exuso na escola reina uma atmosfera de companheirismo.  
+EN 
+FR ambiance
+ES
+DE
+CN 大气
+NU 33
+Dom 
+BT 
+Def  
+GI 1
+IM 1
+ID manuel
+
+PT clima
+-catgra nm
+-exuso a Noruega tem um clima frio e húmido porque neva e chove muitas vezes.
+-exuso a Serra da Estrela tem um clima de montanha. 
+EN climate
+FR climat
+ES clima
+DE klima
+CN 气候
+NU 34
+Dom  tempo
+BT metereologia
+RT climatérico
+RT climatizar
+RT climatizado
+RT climático
+RT climatização 
+RT aclimatar 
+RT aclimatação
+RT climatolólico 
+RT climatologia
+?Def  
+GI 3
+IM 3
+ID manuel
+
+PT clima
+-catgra nm
+-exuso na minha casa há um clima de alegria e de boa disposição.
+EN climate 
+FR 
+ES
+DE
+CN 
+NU 
+Dom 
+BT 
+?Def  
+GI 3
+IM 1
+ID manuel
+
+PT mudar de clima
+-catgra nm
+-exuso às vezes é preciso mudar de clima, ir viver para outro país ou para outra região.
+EN climate 
+FR climat 
+ES
+DE
+CN 
+NU 
+Dom 
+BT 
+?Def  
+GI 3
+IM 1
+ID manuel
+
+PT elemento
+-catgra
+-exuso
+EN element
+FR élément
+ES elemento
+DE
+CN 自然力量(风 、雨)
+NU 35
+Dom  tempo
+BT metereologia
+Def
+GI 
+IM 
+
+PT temperatura
+-catgra nf 
+-exuso a temperatura está agradável esta Primavera. 
+EN temperature
+FR température
+ES temperatura
+DE temperatur
+CN 气温
+NU 36
+Dom  tempo
+BT metereologia
+Def
+GI 1
+IM 2
+ID manuel
+
+PT estar calor
+-catgra 
+-exuso em Agosto está muito calor e vamos à praia para ficarmos mais frescos. 
+EN to be warm
+EN to be hot
+FR faire chaud 
+ES hacer calor
+DE
+CN 天气热
+NU 37
+Dom  tempo
+BT meteorologia
+Def
+GI 3
+IM 2
+ID manuel
+
+PT estar frio
+-catgra 
+-exuso quando está muito frio vestimos um casaco para nos sentirmos mais quentes. 
+EN to be cold
+FR faire froid 
+ES hacer frio
+DE
+CN 天气冷
+NU 38
+Dom tempo
+BT meteorologia
+Def 
+GI 2
+IM 2
+ID manuel
+
+PT estação
+-catgra nf
+-exuso o Inverno, a Primavera, o Verão e o Outono são as quatro estações do ano. 
+EN season
+FR saison 
+ES estación
+DE saison
+CN 季节
+NU 39
+Dom  tempo
+BT meteorologia
+PART Inverno 
+PART Primavera 
+PART Verão 
+PART Outono 
+Def divisão do ano em quatro partes 
+GI 3
+IM 4
+ID manuel
+
+PT geada
+-catgra nf 
+-exuso esta manhã os automóveis estavam cheios de geada.  
+EN frost
+FR givre 
+ES helada 
+DE frost 
+CN 霜
+NU 44
+Dom  tempo
+BT meteorologia
+RT gelo 
+RT gear 
+RT gelado
+Def camada fina de gelo que se forma quando o orvalho congela com o frio.  
+GI 4
+IM 3
+ID manuel
+
+PT saraiva
+-catgra nf 
+-exuso a saraiva é chuva congelada em grãos brancos.  
+PT granizo
+-catgra nm
+-exuso ontem houve uma tempestade de granizo. 
+EN hail
+FR grêle
+FR grésil
+ES granizo 
+DE hagel 
+CN 冰雹
+NU 45
+Dom  tempo
+BT meteorologia
+Def água da chuva que congela e que cai em grãos brancos.
+GI 4
+IM 3
+ID manuel
+
+PT neve
+-catgra nf 
+-exuso a neve é água da chuva congelada em flocos brancos.   
+EN snow
+FR neige 
+ES nieve
+DE schnee
+CN 雪
+NU 46
+Dom  tempo
+BT meteorologia
+Def chuva que fica congelada quando o ar fica muito frio e que cai em flocos brancos
+RT nevar 
+RT nevão
+RT nevada
+GI 4
+IM 3
+ID manuel
+
+PT trovão
+-catgra nm 
+-exuso primeiro vem o relâmpago e depois ouvimos o trovão.  
+EN thunder
+FR tonnerre 
+ES trueno
+DE donner
+CN 雷
+NU 47
+Dom  tempo
+BT meteorologia
+Def barulho que os raios fazem quando, durante uma trovoada, caem na terra. 
+GI 5
+IM 3
+ID manuel
+
+PT vento
+-catgra nm 
+-exuso no Outono o vento arranca as folhas da árvores. 
+EN wind
+FR vent 
+ES viento
+DE wind
+CN 风
+NU 48
+Dom  tempo
+BT meteorologia
+Def
+GI
+IM 2
+ID manuel
+
+PT névoa
+-catgra nf 
+-exuso  
+EN mist
+FR brouillasse
+ES niebla 
+DE nebel 
+CN 雾
+NU 49
+PT neblina
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+Dom  tempo
+BT meteorologia
+Def
+GI 0
+IM 1
+ID manuel
+
+PT nuvem
+-catgra nf 
+-exuso hoje o céu está cinzento, porque há muitas nuvens. 
+EN cloud
+FR nuage 
+ES nube 
+DE wolke
+CN 云
+NU 50
+Dom  tempo
+BT meteorologia
+Def
+GI
+IM 2
+ID manuel
+
+PT bruma
+-catgra nf 
+-exuso
+EN haze
+FR brume 
+ES bruma 
+DE nebel 
+CN 霾
+NU 51
+Dom  tempo
+BT meteorologia
+Def
+GI
+IM 1
+ID manuel
+
+PT chuva
+-catgra nf 
+-exuso a chuva que caiu ontem molhou a roupa que estava a secar. 
+EN rain
+FR pluie
+ES lluvia
+DE regen 
+CN 雨
+NU 52
+Dom  tempo
+BT meteorologia
+Def
+GI
+IM 2
+ID manuel
+
+PT aguaceiro 
+-catgra nm 
+-exuso hoje caiu um aguaceiro, uma chuva que durou pouco tempo. 
+EN downpour
+FR averse
+FR ondée
+ES aguacero 
+DE bö
+CN 暴雨
+NU 53
+Dom  tempo
+BT meteorologia
+Def uma chuva que dura pouco tempo 
+GI
+IM 3
+ID manuel
+
+PT nevão
+-catgra nm 
+-exuso a Serra da Estrela está coberta por uma grande nevão, por muita neve.  
+EN snowfall
+FR enneigement
+FR tempête de neige
+ES nevada 
+DE blizzard
+CN 暴雨
+NU 53
+Dom  tempo
+BT meteorologia
+Def
+GI
+IM 2
+ID manuel
+
+PT tempestade
+-catgra nf 
+-exuso muitos barcos afundaram no mar por causa de uma tempestade.  
+EN storm
+EN tempest
+FR tempête 
+ES tempestad
+DE sturn
+CN 暴风雨
+NU 54
+Dom  tempo
+BT meteorologia
+Def mau tempo, trovoada, vento forte e muita chuva
+GI
+IM 3
+ID manuel
+
+PT relâmpago
+PT raio 
+-catgra nm 
+-exuso .
+-exuso .  
+EN lightning
+FR éclair 
+FR foudre
+ES relámpago
+DE blitz
+CN 闪电
+NU 55
+Dom  tempo
+BT meteorologia
+POF trovoada 
+Def
+GI
+IM 2
+ID manuel
+
+#PT brisa terrestre
+-catgra 
+-exuso
+EN land wind
+FR
+ES
+DE
+CN 陆风
+NU 56
+Dom  tempo
+BT meteorologia
+Def
+GI
+IM
+
+PT ciclone
+-catgra nm
+-exuso ontem ouve um ciclone no mar, choveu muito e o vento era muito forte. 
+EN cyclone
+FR cyclone 
+ES ciclón
+DE wirbelwind
+CN 旋风
+NU 58
+Dom  tempo
+BT meteorologia
+Def
+GI
+IM 2
+ID manuel
+
+PT tufão
+-catgra nm
+-exuso na Madeira houve ontem um tufão, o vento era muito forte e choveu muito. 
+EN typhoon
+FR typhon 
+ES tifón
+DE
+CN 台风
+NU 59
+Dom  tempo
+BT meteorologia
+Def
+GI
+IM 2
+ID manuel
+
+PT furacão
+-catgra nm 
+-exuso na praia houve um furacão.
+EN whirlwind
+EN hurricane
+FR ouragan 
+ES huracán
+DE orkan
+CN 龙卷风
+CN 飓风
+NU 60
+Dom  tempo
+BT meteorologia
+Def forte tempestade, ondas muito grandes, muita chuva e vento muito forte
+GI 3
+IM 3
+ID manuel 
+
+PT ventania
+-catgra nf 
+-exuso ontem esteve uma ventania, o vento soprou forte todo o dia.  
+EN gale
+FR vent fort 
+ES ventarrón
+DE
+CN 季节风
+NU 61
+Dom  tempo
+BT meteorologia
+Def vento que sopra muito forte por muito tempo. 
+GI 3
+IM 3
+ID manuel
+
+PT rajada de vento
+PT rabanada de vento
+-catgra
+-exuso o Rui saiu à rua e sentiu que o vento era forte e soprava em várias direcções, sentiu grandes rajadas de vento.
+-exuso uma rabanada de vento estragou o guarda-chuva à Sofia. 
+EN gust of wind
+FR gifle de vent 
+FR bouffée de vent
+ES
+DE
+CN 阵风
+NU 62
+Dom  tempo
+BT meteorologia
+Def quando o vento sopra muito forte e por pouco tempo seguido. 
+GI 3
+IM 2
+ID manuel
+
+PT brisa
+PT aragem 
+-catgra nf 
+-exuso uma brisa agradável sente-se quando vamos ao mar. 
+-exuso quando vamos ao mar sentimos uma aragem agradável.
+EN breeze
+FR brise 
+ES brisa 
+DE zephyr
+CN 微风
+NU 63 
+Dom  tempo
+EN
+FR
+ES
+DE
+BT meteorologia
+Def vento fraco e fresco
+GI
+IM 2
+ID manuel
+
+PT nevoeiro
+-catgra nm 
+-exuso esta manhã estava um nevoeiro, não se via nada.   
+EN fog
+FR brouillard
+ES niebla
+DE nebel
+CN 浓雾
+NU 64
+Dom  tempo
+BT meteorologia
+Def pequenas gotas de água no ar que se juntam e que impedem que se veja da melhor forma
+GI
+IM 3
+ID manuel
+
+PT orvalho
+-catgra nm 
+-exuso esta manhã a erva estava cheia de orvalho. 
+EN dew
+FR rosée
+ES rocío 
+DE tau
+CN 露水
+NU 65
+Dom  tempo
+BT meteorologia
+Def pequenas gotas de água que se formam de manhã e que não são chuva
+RT orvalhar 
+RT orvalhado 
+GI
+IM 3
+ID manuel
+
+PT humidade
+-catgra nf 
+-exuso o ferro ganha ferrugem com a humidade, quando está num local húmido. 
+EN humidity
+FR humidité 
+ES humedad
+DE
+CN 潮湿
+NU 66
+Dom  tempo
+BT meteorologia
+Def
+GI
+IM 2
+ID manuel
+
+PT gelo
+-catgra nm 
+-exuso durante a noite caiu geada e o gelo estragou os legumes na horta. 
+EN freeze
+FR gel 
+ES
+DE
+CN 冰冻
+NU 67
+Dom  tempo
+BT meteorologia
+Def
+RT geada 
+GI
+IM 3
+ID manuel
+
+PT vaga de frio
+-catgra 
+-exuso desde sábado que está muito frio, é uma vaga de frio.
+EN freeze
+FR vague de froid 
+ES
+DE
+CN 冰冻
+NU 67
+Dom  tempo
+BT meteorologia
+Def
+GI 2
+ID manuel
+
+PT floco de neve
+-catgra
+-exuso a chuva congela e forma flocos de neve.
+EN snowflake
+FR flocon de neige 
+ES copo de nieve
+DE
+CN 雪花
+NU 68
+Dom  tempo
+BT meteorologia
+Def
+GI
+IM 2
+ID manuel
+
+PT queda de neve
+-catgra 
+-exuso quando vou a Serra da Estrela gosto de ver a queda de neve.  
+EN snowfall
+FR chute de neige
+ES nevada
+DE
+CN 降雪
+NU 69
+Dom  tempo
+BT meteorologia
+?Def diz-se de quando está a nevar
+GI 1
+IM 2
+ID manuel
+
+PT tromba d'água
+-catgra nf
+-exuso esta noite caiu uma tromba d'água. 
+EN waterspout
+FR trombe d'eau
+ES
+DE
+CN 水龙卷
+NU 70
+Dom  tempo
+BT meteorologia
+Def quando chov muito. com muita força e por muito tempo
+RT chuvada
+GI
+IM 3
+ID manuel
+
+PT marasmo
+-catgra nm 
+-exuso 
+EN dead calm
+FR marasme 
+ES
+DE
+CN 风平浪静
+NU 71
+Dom 
+BT 
+Def
+GI 0
+IM 1
+ID manuel
+
+!PT verão indiano
+-catgra
+-exuso
+EN indian summer
+FR été indien 
+ES
+DE
+CN 小阳春
+NU 72
+Dom  tempo
+BT meteorologia
+Def período de tempo quente no Outono 
+GI 0
+IM 1
+ID manuel
+
+PT seca
+-cargra nf 
+-exuso este foi um ano foi um ano de grande seca.
+EN drought
+FR sécheresse 
+ES
+DE
+CN 干旱
+NU 73
+PT aridez
+-catgra a aridez dos campos não é boa para a agricultura.
+-exuso
+EN
+FR aridité
+ES
+DE
+Dom  tempo
+BT meteorologia
+Def diz-se de quando chove pouco ou quando não chove nada
+RT árido
+GI 2
+IM 3
+ID manuel?

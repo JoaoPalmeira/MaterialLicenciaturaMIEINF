@@ -1,0 +1,7 @@
+Localidade Espacial
+Localidade Espacial – se um elemento de memória é acedido pelo CPU, então elementos com endereços na proximidade serão, com grande probabilidade, acedidos num futuro próximo.
+Exemplos: as instruções são acedidas em sequência, assim como, na maior parte dos programas os elementos dos arrays.
+
+C: os elementos de um vector multidimensional são armazenados row-wise
+(0,0),(0,1)(1,0),(1,1)
+

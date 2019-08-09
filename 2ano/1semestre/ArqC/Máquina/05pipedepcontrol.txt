@@ -1,0 +1,22 @@
+Dependências de Controlo jXX
+Preve-se que o salto é sempre tomado 
+A correcção da previsão é determinada posteriormente, quando  a instrução de salto termina o estágio de execução 
+Se a previsão estiver errada as instruções que entretanto foram  lidas para o pipeline são conver8das em nops: 
+Injecção de  bolhas  
+Isto é possível porque estas instruções ainda não tiveram  hipótese de alterar o estado da máquina 
+Escritas que alteram o estado acontecem apenas nos estágios de   EXECUTE  (CC) e  WRITEBACK  (Registos) 
+stall do pipeline (injecção de  bolhas ): resulta num desperdício  de um número de ciclos igual ao número de bolhas injectadas
+
+
+Previsão estatistica dos saltos 
+Análises estatisticas: saltos condicionais são tomados em 60 dos casos.  Prever que o salto é tomado (Taken) acerta mais do que metade das vezes 
+Alternativas:   NT – Not Taken   
+BTFNT – Backward Taken, Forward Not Taken 
+Previsão dinâmica dos saltos 
+A previsão é feita em tempo de execução baseada no historial recente 
+Branch predic7on buffer – tabela que guarda para cada instrução de salto do programa 1 bit indicando se o salto foi ou não tomado na úl8ma execução  De facto este buffer tem um número  limitado de entradas e guarda informação apenas sobre as úl8mas instruções de salto 
+
+Branch delay slot 
+A instrução a seguir ao salto é sempre executada. Compete ao compilador  colocar a seguir ao salto uma instrução executável (ou um nop). 
+Técnica caiu em desuso devido à profundidade dos pipelines  actuais 
+

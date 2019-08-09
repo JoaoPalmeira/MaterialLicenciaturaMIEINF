@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ActividadeEconomica
+comment0.text=\n\ Write\ a\ description\ of\ class\ ActividadeEconomica\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=ActividadeEconomica()
+comment10.params=
+comment10.target=ActividadeEconomica\ clone()
+comment2.params=deduzivel\ codigo
+comment2.target=ActividadeEconomica(boolean,\ int)
+comment3.params=ae
+comment3.target=ActividadeEconomica(ActividadeEconomica)
+comment4.params=
+comment4.target=boolean\ getDeduzivel()
+comment5.params=
+comment5.target=int\ getCodigo()
+comment6.params=deduzivel
+comment6.target=void\ setDeduzivel(boolean)
+comment7.params=codigo
+comment7.target=void\ setCodigo(int)
+comment8.params=o
+comment8.target=boolean\ equals(java.lang.Object)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=11

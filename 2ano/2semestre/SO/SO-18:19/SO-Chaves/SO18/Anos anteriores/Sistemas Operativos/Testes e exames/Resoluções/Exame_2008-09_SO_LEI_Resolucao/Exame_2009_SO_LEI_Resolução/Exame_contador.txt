@@ -1,0 +1,56 @@
+/*
+ *  Created by Nuno Morais on 05/07/09.
+ *  Updated 05/07/09
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <signal.h>
+
+#define CONTX 1000000000
+
+long long int contador;
+int *pids;
+
+void saiFilho(int signum){
+  exit((contador*100)/CONTX);
+}
+
+int main(int argc, char **argv){
+	
+  int i,p;
+	int x = atoi(argv[1]);
+	int menor, resultado;
+	pids = (int *) malloc (sizeof(int)*x);
+	for(i=0; i<x; i++){
+		
+		//Faz o fork e executa o filho
+	  if (!(pids[i]=fork())){
+			
+	    signal(SIGSTOP, saiFilho);
+	    
+	    for(contador = 0; contador < CONTX; contador++);
+			
+			//Quando contador chegar aos 1000000000 sai.
+	    exit(100);
+	  }
+	}
+	p = wait(&menor);
+	menor = WEXITSTATUS(menor);
+	for(i=0; i<x; i++) {
+	  if(pids[i]!=p){
+	    kill(pids[i], SIGSTOP); //Pára todos os filhos
+	    waitpid(pids[i],&resultado,1);
+	    resultado = WEXITSTATUS(resultado);
+	    if(resultado < menor) menor = resultado;
+	  }
+	}
+	
+	printf("\nContador: %d \n", menor);
+	
+	
+	return (EXIT_SUCCESS);
+}

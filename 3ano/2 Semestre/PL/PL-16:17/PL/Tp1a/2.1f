@@ -1,0 +1,10 @@
+BEGIN{
+	FS = ">|</"
+}
+
+$1~/OPERADOR/ {a[$2]++}
+
+END{
+	for (i in a) {if(a[i]>m){m=a[i]; op=i;}}
+	print op, m;
+}

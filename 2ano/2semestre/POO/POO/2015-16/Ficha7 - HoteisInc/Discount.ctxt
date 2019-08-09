@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Discount()
+comment1.params=codigo\ nome\ localidade\ precoQuarto\ nquartos\ ocupacao
+comment1.target=Discount(java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ int,\ double)
+comment2.params=
+comment2.target=double\ precoQuarto()
+comment3.params=
+comment3.target=Discount\ clone()
+comment4.params=
+comment4.target=double\ getOcupacao()
+comment5.params=ocupacao
+comment5.target=void\ setOcupacao(double)
+numComments=6

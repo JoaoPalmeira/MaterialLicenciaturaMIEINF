@@ -1,0 +1,13 @@
+//exercicio1
+int main(int argc, char** argv){
+	int ret;
+	char *exec_args[]={"/bin/ls", "-l", NULL};
+
+	ret = execl("/bin/ls", "/bin/ls", "-l", NULL);
+	ret = execlp("ls","/bin/ls", "-l", NULL);
+}
+
+//exercicio2
+int main(int argc, char** argv){
+	
+}

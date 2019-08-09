@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=id
+comment0.target=Conta(int)
+comment1.params=id\ saldo
+comment1.target=Conta(int,\ double)
+comment2.params=
+comment2.target=double\ consultar()
+comment3.params=valor
+comment3.target=void\ depositar(double)
+comment4.params=valor
+comment4.target=void\ levantar(double)
+comment5.params=
+comment5.target=int\ getId()
+comment6.params=
+comment6.target=void\ lock()
+comment7.params=
+comment7.target=void\ unlock()
+numComments=8

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=m\ n\ p\ mo\ na
+comment0.target=Comprador(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.params=
+comment1.target=java.util.List\ getFav()
+comment2.params=im
+comment2.target=void\ setFavorito(Imovel)
+numComments=3

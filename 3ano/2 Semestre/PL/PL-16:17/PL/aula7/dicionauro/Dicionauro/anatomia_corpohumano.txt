@@ -1,0 +1,389 @@
+﻿PT corpo humano
+-catgra loc
+-exuso O corpo humano é estudado pelos cientistas.
+EN human body
+EN human body
+CN 人体
+NU 288
+CN 身体
+NU 289
+FR corps humain
+ES cuerpo humano
+DE menschlicher körper
+FR corps humain
+ES cuerpo humano
+DE menschlicher körper
+Dom anatomia
+BT 
+NT cabeça
+NT tronco
+NT membros
+NT cabeça
+NT tronco
+NT membro
+NT costas
+NT garganta
+NT pêlo
+NT abdómen
+NT partes íntimas
+NT clavícula
+NT coxa
+NT nádega
+NT clavícula
+NT costela
+NT ombro
+NT anca
+NT crânio
+NT espinha dorsal
+NT omoplata
+NT esterno
+NT osso
+NT estrutura muscular
+NT esqueleto
+NT articulação
+NT vaso sanguíneo
+NT aparelho circulatório
+NT artéria
+NT veia
+NT capilar
+NT nervo
+NT medula espinal
+NT aparelho respiratório
+NT sistema nervoso
+NT traqueia
+NT coração
+NT diafragma
+NT exalar
+NT inalar
+NT órgão interno
+NT esófago
+NT estômago
+NT fígado
+NT vesícula biliar
+NT pâncreas
+NT baço
+NT duodeno
+NT intestino delgado
+NT intestino grosso
+NT ceco
+NT apêndice
+NT recto
+NT ânus
+NT digerir
+NT absorver
+NT secreção
+NT escremento
+NT fezes
+NT rim
+NT bexiga
+NT urina
+NT pénis
+NT útero
+NT ovário
+NT vagina
+NT aurícula
+NT ventrículo
+NT artéria aorta
+NT artéria pulmonar
+NT veia pulmonar
+NT mão
+NT ombro
+Def o corpo humano é formado pela ^cabeça^, ^tronco^ e ^membros^.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT anatomia
+-catgra nf
+FEM
+-exuso 
+EN anatomy
+AUDIOEN
+FR anatomie
+AUDIOFR
+ES anatomía
+AUDIOES
+DE anatomie
+AUDIODE
+CN
+NU
+Dom medicina
+BT 
+RT
+UP
+Def a Anatomia é a ciência que estuda a forma do corpo dos seres vivos.
+IMG
+GI
+IM
+ID noelia
+
+PT esqueleto
+-catgra nm
+-exuso
+EN   skeleton
+CN 骨骼
+NU 317
+PART crânio
+PART costela
+PART clavícula
+PART esterno
+PART pélvis
+PART osso
+PART espinha dorsal
+PART omoplata
+PART esterno
+PART articulação
+Dom anatamia  
+BT corpo humano
+Def estrutura que protege os órgãos internos do corpo humano, formada por ossos, cartilagens e ligamentos
+ID noelia
+
+PT estrutura muscular
+-catgra nf
+FEM
+-exuso
+EN
+AUDIOEN
+FR
+AUDIOFR
+ES
+AUDIOES
+DE
+AUDIODE
+CN
+NU
+Dom
+BT
+NT
+RT
+PART tendão
+PART músculo
+PART diafragma
+UP
+Def
+IMG
+GI
+IM
+ID noelia
+
+PT sistema circulatório
+-catgra nm
+FEM
+-exuso
+EN
+AUDIOEN
+FR
+AUDIOFR
+ES
+AUDIOES
+DE
+AUDIODE
+CN
+NU
+Dom corpo humano
+BT anatomia
+NT
+RT
+PART vaso sanguíneo
+PART veia
+PART artéria
+PART capilar
+PART coração
+PART aurícula
+PART ventrículo
+PART artéria aorta
+PART artéria pulmonar
+PART veia pulmonar
+UP
+Def
+IMG
+GI
+IM
+ID noelia
+
+PT sistema nervoso
+-catgra nm
+FEM
+-exuso
+EN
+AUDIOEN
+FR
+AUDIOFR
+ES
+AUDIOES
+DE
+AUDIODE
+CN
+NU
+Dom
+BT
+NT
+RT
+PART nervo
+PART medula espinal
+UP
+Def
+IMG
+GI
+IM
+ID noelia
+
+PT aparelho respiratório
+-catgra 
+FEM
+-exuso
+EN
+AUDIOEN
+FR
+AUDIOFR
+ES
+AUDIOES
+DE
+AUDIODE
+CN
+NU
+Dom
+BT
+NT
+RT
+PART respiração
+PART traqueia
+PART exalar
+PART inalar
+PART 
+UP
+Def
+IMG
+GI
+IM
+ID noelia
+
+PT aparelho digestivo
+-catgra nm
+FEM
+-exuso
+EN
+AUDIOEN
+FR
+AUDIOFR
+ES
+AUDIOES
+DE
+AUDIODE
+CN
+NU
+Dom 
+BT
+NT
+RT
+PART esófago
+PART estômago
+PART fígado
+PART vesícula biliar
+PART pâncreas
+PART baço
+PART duodeno
+PART intestino delgado
+PART intestino grosso
+PART apêndice
+PART recto
+PART ânus
+PART digerir
+PART absorver
+PART escremento
+PART fezes
+UP
+Def
+IMG
+GI
+IM
+ID noelia
+
+PT sistema endócrino
+-catgra 
+FEM
+-exuso
+EN
+AUDIOEN
+FR
+AUDIOFR
+ES
+AUDIOES
+DE
+AUDIODE
+CN
+NU
+Dom 
+BT
+NT
+RT
+PART secreção
+PART testículos
+PART ovário
+UP
+Def
+IMG
+GI
+IM
+ID noelia
+
+PT aparelho urinário
+-catgra nm
+FEM
+-exuso
+EN
+AUDIOEN
+FR
+AUDIOFR
+ES
+AUDIOES
+DE
+AUDIODE
+CN
+NU
+Dom anatomia
+BT
+NT
+RT
+PART rim
+PART bexiga
+PART pénis
+PART urina
+PART 
+UP
+Def
+IMG
+GI
+IM
+ID noelia
+
+PT aparelho reprodutor
+-catgra nm
+FEM
+-exuso
+EN
+AUDIOEN
+FR
+AUDIOFR
+ES
+AUDIOES
+DE
+AUDIODE
+CN
+NU
+Dom anatomia
+BT
+NT
+RT
+PART pénis
+PART testículos
+PART útero
+PART ovário
+PART vagina
+UP
+Def
+IMG
+GI
+IM
+ID noelia

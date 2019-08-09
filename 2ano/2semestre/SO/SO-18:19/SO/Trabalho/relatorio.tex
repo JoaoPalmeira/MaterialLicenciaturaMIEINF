@@ -1,0 +1,350 @@
+%
+% Layout retirado de http://www.di.uminho.pt/~prh/curplc09.html#notas
+%
+\documentclass{report}
+\usepackage[toc,page]{appendix}
+\usepackage[portuges]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[latin1]{inputenc}
+ 
+\usepackage{url}
+\usepackage{enumerate}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+ 
+%\usepackage{alltt}
+%\usepackage{fancyvrb}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,left=3cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
+
+
+%LISTING - GENERAL
+\usepackage{listings}
+\lstset{
+    basicstyle=\small\ttfamily,
+    columns=flexible,
+    breaklines=true
+}
+%
+%\lstset{ %
+%   language=Java,                          % choose the language of the code
+%   basicstyle=\ttfamily\footnotesize,      % the size of the fonts that are used for the code
+%   keywordstyle=\bfseries,                 % set the keyword style
+%   %numbers=left,                          % where to put the line-numbers
+%   numberstyle=\scriptsize,                % the size of the fonts that are used for the line-numbers
+%   stepnumber=2,                           % the step between two line-numbers. If it's 1 each line
+%                                           % will be numbered
+%   numbersep=5pt,                          % how far the line-numbers are from the code
+%   backgroundcolor=\color{white},          % choose the background color. You must add \usepackage{color}
+%   showspaces=false,                       % show spaces adding particular underscores
+%   showstringspaces=false,                 % underline spaces within strings
+%   showtabs=false,                         % show tabs within strings adding particular underscores
+%   frame=none,                             % adds a frame around the code
+%   %abovecaptionskip=-.8em,
+%   %belowcaptionskip=.7em,
+%   tabsize=2,                              % sets default tabsize to 2 spaces
+%   captionpos=b,                           % sets the caption-position to bottom
+%   breaklines=true,                        % sets automatic line breaking
+%   breakatwhitespace=false,                % sets if automatic breaks should only happen at whitespace
+%   title=\lstname,                         % show the filename of files included with \lstinputlisting;
+%                                           % also try caption instead of title
+%   escapeinside={\%*}{*)},                 % if you want to add a comment within your code
+%   morekeywords={*,...}                    % if you want to add more keywords to the set
+%}
+ 
+\usepackage{xspace}
+ 
+\parindent=0pt
+\parskip=2pt
+ 
+
+ 
+\def\darius{\textsf{Darius}\xspace}
+\def\antlr{\texttt{AnTLR}\xspace}
+\def\pe{\emph{Publicação Eletrónica}\xspace}
+ 
+\def\titulo#1{\section{#1}}
+\def\super#1{{\em Supervisor: #1}\\ }
+\def\area#1{{\em \'{A}rea: #1}\\[0.2cm]}
+\def\resumo{\underline{Resumo}:\\ }
+
+\begin{document}
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+% HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE Universidade do Minho}\\[1.5cm] % Name of your university/college
+\textsc{\Large Mestrado Integrado em Engenharia Informática}\\[0.5cm] % Major heading such as course name
+\textsc{\large Sistemas Operativos}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+% TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{\huge \bfseries \emph{Processamento de Notebooks}}\\[0.2cm] % Title of your document
+\HRule \\[1.5cm]
+ 
+%----------------------------------------------------------------------------------------
+% AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+\Large \emph{Autores:}\\
+Joel Morais (A70841) \\
+João Gomes (A74033) \\
+Tiago Fraga (A74092) \\[1cm]
+
+%----------------------------------------------------------------------------------------
+% DATE SECTION
+%----------------------------------------------------------------------------------------
+
+{\large \today}\\[1cm] % Date, change the \today to a set date if you want to be precise
+ 
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+% LOGO SECTION
+%----------------------------------------------------------------------------------------
+
+\includegraphics{logo.jpg} % Include a department/university logo - this will require the graphicx package
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+ 
+
+
+\tableofcontents
+
+\chapter{Introdução} \label{intro}
+
+O projeto apresentado neste relatório surge no âmbito da Unidade Curricular de Sistemas Operativos do 2º ano do Mestrado Integrado em Engenharia Informática, com o objetivo de solidificar os conhecimentos adquiridos durante o semestre, tendo como tema principal a criação de um sistema de \textit{processamento de notebooks}. 
+
+Um \textit{notebook} é um ficheiro de texto que depois de processado é modificado de modo a incorporar resultados da execução de código ou comandos nele embebidos.
+
+Este processamento consiste em interpretar as linhas começadas por \textit{\$} como comandos que serão executados e o resultado produzido inserido imediatamente a seguir. E as linhas começadas por \textit{\$|} executam comandos que dependem do resultado produzido anteriormente.
+
+Começamos este projeto por implementar funcionalidades básicas, como a \textbf{Execução de Programas}, ou seja, reconhecimento das linhas e execução dos comandos descritos nessas linhas. \textbf{Re-processamento de um notebook} garantir que o \textit{notebook} possa ser editado e processado novamente. E por último implementamos a funcionalidade de \textbf{ Deteção de erros e interrupção da execução} que consiste em abortar o processamento, devendo o \textit{notebook} ficar inalterado. 
+
+Ao longo deste relatório será explicado o raciocínio e decisões que o grupo tomou durante a a implementação do projeto, bem como apresentada a arquitetura do sistema final.
+
+
+\chapter{Funcionalidades básicas} \label{components}
+
+Tal como referido de forma breve na introdução começamos por implementar as funcionalidades básicas. Para que tal aconteça inicialmente, filtramos as linhas começadas por \textit{\$} de modo a podermos retirar o comando e os seus argumentos de modo a executarmos o comando pretendido. Depois de conseguirmos executar um comando sozinho, seguimos para o processamento de uma linha com \textit{\$|} de modo a executarmos um comando que dependia da execução do anterior.
+Para darmos este passo optamos pela utilização de de \textbf{pipes anónimos} de modo a poder enviar o output do comando anterior para o input do comando a executar, além disso usamos um conjunto de ficheiros auxiliares, um por comando lido, para guardar o output produzido pelos mesmos.
+
+O nosso programa permite que o notebook, seja alterado, substituindo os resultados de processamento anterior pelos novos resultados. Isto acontece porque a medida que efetuamos o processamento anterior vamos guardando num ficheiro os resultados e só no fim do processamento é que voltamos a escrever no ficheiro de teste.
+
+Como na parte de deteção de erros, quando é detetado algum, temos de manter o ficheiro original inalterado, logo achamos que esta estratégia do uso de ficheiros auxiliares era a melhor para garantir estas condições. Neste ponto utilizamos um sinal para informar o processo pai que um erro ocorreu e assim interromper a execução do comando.
+
+\begin{verbatim}
+while((linha = lerLinha(fd))!=NULL){
+      
+      if (linha[0] == '$' && linha[1] == '|'){  
+        
+        write(fd_result,linha,strlen(linha));
+        write(fd_result,"\n",1);
+
+        for(token = strtok(linha+2, " "), i = 0; token; token = strtok(NULL, " "), i++)
+          args[i] = token;
+          
+        args[i] = NULL;
+        write(fd_result,">>>\n",4);
+
+        pipe(p);
+        
+        if(fork()==0){
+          close(p[0]);
+          char* name_ant = (char*) malloc(sizeof(char)*10);
+          sprintf(name_ant,"%d.txt",j-1);
+
+          file = open(name_ant, O_RDONLY);
+
+          dup2(p[1], 1);
+          dup2(file, 0);
+          execvp(args[0], args);
+          kill(getppid(),SIGUSR1);
+          _exit(0);
+        }
+      
+        wait(&status);
+        close(p[1]);
+
+        signal(SIGUSR1,handler);
+        if(controlo == 0){
+          sprintf(name,"%d.txt",j);
+        
+          fd_tmp[j] = open(name,O_CREAT | O_RDONLY |O_WRONLY,S_IRWXU | S_IRWXG | S_IRWXO);
+          if(fd_tmp[j]!=-1){
+            
+            while((linha = lerLinha(p[0]))){
+              write(fd_result, linha, strlen(linha));
+              write(fd_tmp[j], linha, strlen(linha));
+              write(fd_tmp[j],"\n",1);
+              write(fd_result,"\n",1);
+            } 
+
+            close(p[0]);
+            close(fd_tmp[j]);
+            j++;
+            write(fd_result,"<<<\n",4);
+          }else{
+            perror("NAO ABRIU O FICHEIRO");
+            _exit(1);
+          }
+        }else{
+          remove("result");
+          perror("COMANDO IMPOSSIVEL DE EXECUTAR");
+          _exit(1);
+        } 
+\end{verbatim}
+
+  Aqui evidenciado temos o inicio do ciclo \textit{while} que vai ler o \textit{notebook} e o primeiro \textit{if} que trata os casos em que temos um \textit{\$} seguidos \textit{|}, ou seja, um comando dependente do resultado do comando anterior. 
+
+\begin{verbatim}
+else if(linha[0] == '$'){
+
+        write(fd_result,linha,strlen(linha));
+        write(fd_result,"\n",1);
+
+        for(token = strtok(linha+1, " "), i = 0; token; token = strtok(NULL, " "), i++){
+          args[i] = token;
+        }
+          
+        args[i] = NULL;
+        write(fd_result,">>>\n",4);
+
+          pipe(p);
+
+
+        if(fork()==0){
+          close(p[0]);
+          dup2(p[1], 1);
+          execvp(args[0], args);
+          kill(getppid(),SIGUSR1);
+          _exit(0);
+        }
+
+        wait(&status);
+        close(p[1]);
+        signal(SIGUSR1,handler);
+
+        if(controlo == 0){
+          sprintf(name,"%d.txt",j);
+        
+          fd_tmp[j] = open(name,O_CREAT | O_RDONLY |O_WRONLY,S_IRWXU | S_IRWXG | S_IRWXO);
+
+          if(fd_tmp[j]!=-1){
+
+            while((linha = lerLinha(p[0]))){
+              write(fd_result, linha, strlen(linha));
+              write(fd_tmp[j], linha, strlen(linha));
+              write(fd_tmp[j],"\n",1);
+              write(fd_result,"\n",1);
+            } 
+
+            close(p[0]);
+            close(file);
+            close(fd_tmp[j]);
+            j++;
+            write(fd_result,"<<<\n",4);
+          }else{
+            perror("NAO ABRIU O FICHEIRO");
+            _exit(1);
+          }
+\end{verbatim}
+
+  Ainda relativamente as funcionalidades básicas temos o caso mais simples em que a linha possuí só um \textit{\$}, ou seja, só um comando independente.
+
+
+\chapter{Funcionalidades Avançadas}
+
+  Depois de desenvolvidas as \textbf{funcionalidades básicas}, resolvemos melhorar o nosso trabalho desenvolvendo \textbf{funcionalidades avançadas}.
+  Para desenvolvermos a primeira funcionalidade avançada proposta fizemos uso dos ficheiros temporários, um por comando, cada ficheiro temporário possuí com nome o número, incrementado a medida que aparecem no ficheiro, mantendo assim uma ordem de ficheiro para ficheiro, assim podemos ir buscar o resultado do n-ésimo comando anterior facilmente.
+
+\begin{verbatim}
+}else if(linha[0] == '$' && linha[2] == '|'){
+
+        write(fd_result,linha,strlen(linha));
+        write(fd_result,"\n",1);
+
+        for(token = strtok(linha+3," "), i = 0; token; token = strtok(NULL, " "), i++){
+          args[i] = token;
+        }
+          
+        args[i] = NULL;
+        write(fd_result,">>>\n",4);
+
+        num = linha[1] - '0';
+        ant = j-num;
+        
+        pipe(p); 
+        
+        if(fork()==0){
+          close(p[0]);
+          char* name_ant = (char*) malloc(sizeof(char)*10);
+          sprintf(name_ant,"%d.txt",ant);
+
+          file = open(name_ant, O_RDONLY);
+
+          dup2(p[1], 1);
+          dup2(file, 0);
+          execvp(args[0], args);
+          kill(getppid(),SIGUSR1);
+          _exit(0);
+        }
+      
+        wait(&status);
+        close(p[1]);
+
+        signal(SIGUSR1,handler);
+        if(controlo == 0){
+          sprintf(name,"%d.txt",j);
+        
+          fd_tmp[j] = open(name,O_CREAT | O_RDONLY |O_WRONLY,S_IRWXU | S_IRWXG | S_IRWXO);
+          if(fd_tmp[j]!=-1){
+            
+            while((linha = lerLinha(p[0]))){
+              write(fd_result, linha, strlen(linha));
+              write(fd_tmp[j], linha, strlen(linha));
+              write(fd_tmp[j],"\n",1);
+              write(fd_result,"\n",1);
+            } 
+
+            close(p[0]);
+            close(fd_tmp[j]);
+            j++;
+            write(fd_result,"<<<\n",4);
+          }else{
+            perror("NAO ABRIU O FICHEIRO");
+            _exit(1);
+          }
+        }else{
+          remove("result");
+          perror("COMANDO IMPOSSIVEL DE EXECUTAR");
+          _exit(1);
+        } 
+\end{verbatim} 
+
+  Aqui apresentamos o \textit{if} que faltava no ciclo \textit{while} apresentado anteriormente, ou seja, entramos nesta condição quando possuímos uma linha com \textit{\$} seguido \textit{numero} seguido de \textit{}. 
+
+\chapter{Conclusão} \label{concl}
+ 
+Este trabalho foi bastante importante e enriquecedor uma vez que permitiu que todos os elementos do grupo compreendessem e assimilassem melhor os conceitos lecionados na unidade curricular durante o semestre. 
+
+Foi então possível compreender melhor os mecanismos para a criação de processos bem como o seu modo de funcionamento e de comunicação com outros, neste caso através de \emph{pipes} como foi demonstrado anteriormente na elaboração do controlador.
+Foi também útil para aprendemos mais sobre o sistema operativo utilizado (Linux), percebendo como este poderia ser explorado.
+
+\end{document}

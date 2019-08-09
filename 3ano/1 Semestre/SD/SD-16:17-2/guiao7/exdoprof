@@ -1,0 +1,105 @@
+
+class CHatLog
+{
+	Vector<String> log = new Vector<String>();
+
+	public synchronized void add(String s)
+	{
+
+		log.add(s);
+		notifyAll();
+	}
+
+	public void writeloop(PrintWriter pw)
+	{
+		int i = 0;
+		try
+		{
+			while(true)
+			{
+			
+				synchronized(this) {				
+				while (i >=log.size()) wait();
+				}
+				
+				pw.println(log.elementAt(i));
+				i++;
+			}
+		}
+		catch (InterruptedException e) {}
+	}
+}
+
+class TreatClientRead implements RUnnable
+{
+	Socket cs;
+	ChatLog l;
+	
+	TreatCLientRead(SOcket cs , CHatLog l) {
+		this.cs = cs;
+		this.l = l;
+	}
+	public void run() {
+	
+	try{
+		BufferedReader in = new BufferedReader(new InputStreamReader( cs.getInputStream()));
+
+		String current;
+		System.out.println("New connection");
+		while((current = in.readline()) != null)
+		{
+			l.add(current);			
+			System.out.println("echo :" + current);
+		}
+		in.close();
+		cs.close();
+		System.out.ptinln("COnnection closed");
+
+		}catch(IOException e)
+		{}
+	}
+
+}
+
+class TreatClientWrite implements Runnable
+{
+
+	Socket cs;
+	ChatLog l;
+	
+	TreatCLientWrite(SOcket cs , CHatLog l) {
+		this.cs = cs;
+		this.l = l;
+	}
+
+	public void run() {
+
+	try{
+		PrintWriter out = new PrintWriter (cs.getOutputStream(),true);
+		l.writeloop(out);
+	   } catch(IOException e) {
+		e.printStackTrace();
+	}
+}
+public class ChatServ
+{
+	public static void main(String args[]) throws IOException {
+
+	ServerSOcket ss = new ServerSocket (9999);
+	Socket cs = null;
+	
+	ChatLog l = new ChatLog();
+	
+	while (true)
+	{
+		cs = ss.accept();
+		Thread tr = new Thread(new TreatCLientRead(cs,l));
+		Thread tw = new Thread (new TreatClientWritee(cs,l));
+		tr.start();
+		tw.start();
+	}
+
+
+     }
+}
+

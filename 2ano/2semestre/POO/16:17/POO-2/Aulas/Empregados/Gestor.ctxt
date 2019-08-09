@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Gestor()
+comment1.params=cod\ nom\ dias\ prem
+comment1.target=Gestor(java.lang.String,\ java.lang.String,\ int,\ double)
+comment2.params=gest
+comment2.target=Gestor(Gestor)
+comment3.params=
+comment3.target=double\ getPremio()
+comment4.params=nPremio
+comment4.target=void\ setPremio(double)
+comment5.params=
+comment5.target=double\ salario()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=g
+comment7.target=boolean\ equals(java.lang.Object)
+comment8.params=
+comment8.target=Gestor\ clone()
+numComments=9

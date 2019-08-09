@@ -1,0 +1,10 @@
+Ideia 
+–  Dividir processo em estágios independentes 
+–  Objectos movemJse através dos  estágios em sequência 
+–  Em cada instante, múliplos objectos  são processados simultaneamente
+
+Instruction Level Parallelism  
+As arquitecturas em pipeline exploram o paralelismo ao nível das instruções 
+Uma vez que cada instrução se encontra num estágio  diferente de execução, o pipeline permite reduzir o período  do relógio 
+O CPI com pipeline é normalmente superior a 1, devido a  dependências entre instruções (a ver adiante) 
+Outras formas de paralelismo, mesmo ao nível das  instruções diminuem o CPI, como forma de aumentar o  desempenho (tempo de resposta ou débito). 

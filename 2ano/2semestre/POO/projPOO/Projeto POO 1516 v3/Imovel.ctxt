@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=i\ r\ p\ pm\ v\ e
+comment0.target=Imovel(java.lang.String,\ java.lang.String,\ double,\ double,\ int,\ Estado)
+comment1.params=
+comment1.target=Imovel()
+comment10.params=
+comment10.target=void\ showImovel()
+comment2.params=
+comment2.target=java.lang.String\ getId()
+comment3.params=
+comment3.target=java.lang.String\ getRua()
+comment4.params=
+comment4.target=double\ getPreco()
+comment5.params=
+comment5.target=double\ getPrecoMin()
+comment6.params=
+comment6.target=int\ getView()
+comment7.params=
+comment7.target=java.lang.String\ getEstado()
+comment8.params=
+comment8.target=void\ incView()
+comment9.params=e
+comment9.target=void\ setEstadoAux(Estado)
+numComments=11

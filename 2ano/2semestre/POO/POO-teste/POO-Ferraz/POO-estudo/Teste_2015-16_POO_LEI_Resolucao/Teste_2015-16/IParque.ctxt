@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=cartao\ matricula
+comment0.target=void\ entra(java.lang.String,\ java.lang.String)
+comment1.params=matricula
+comment1.target=void\ sai(java.lang.String)
+comment2.params=matricula
+comment2.target=boolean\ noParque(java.lang.String)
+comment3.params=o
+comment3.target=boolean\ equals(java.lang.Object)
+numComments=4

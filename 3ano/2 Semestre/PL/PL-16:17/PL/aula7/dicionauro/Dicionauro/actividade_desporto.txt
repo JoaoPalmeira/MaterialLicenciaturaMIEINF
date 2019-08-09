@@ -1,0 +1,536 @@
+PT_PT desporto colectivo
+PT_BR esporte colectivo 
+-catgr
+-exuso o futebol é um jogo colectivo e todos os jogadores são importantes. 
+AUDPT n 
+EN 
+AUDEN n 
+FR sport collectif
+AUDFR n 
+ES deporte de equipo
+AUDES n   
+DE kollektivum
+AUDDE n 
+CN   
+NU   
+DOM actividade 
+BT
+NT futebol 
+NT andebol 
+NT basquetebol 
+NT basebol 
+NT hóquei em patins 
+NT ténis 
+NT ténis de mesa 
+NT voleibol 
+NT voleibol de praia 
+NT hóquei no gelo 
+NT bobsleigh
+NT polo 
+NT polo aquático 
+NT futsal 
+NT badminton 
+NT criquete 
+NT futebol americano 
+NT futebol de praia 
+NT futebol de cinco 
+NT futebol de sete 
+NT futvolei  
+NT lacrosse 
+NT malha 
+NT corta-mato
+NT petanca 
+NT remo
+NT vela
+NT canoagem 
+NT esqui aquático
+RT equipa 
+Def todo o desporto que é ^praticado^ por duas pessoas ou mais e que fazem uma ^equipa^.
+IMG n 
+GI 3
+IM 3
+ID manuel
+
+PT_PT desporto individual 
+PT_BR esporte individual 
+-catgr
+-exuso 
+EN individual sport
+AUDEN n 
+FR sport individuel
+AUDFR n 
+ES
+AUDES n 
+DE
+AUDDE n
+CN   
+NU   
+DOM actividade 
+BT 
+NT golfe 
+NT columbofilia 
+NT halterofilismo 
+NT minigolfe 
+NT hipismo 
+NT balonismo 
+NT biatlo 
+NT ciclismo 
+NT alpinismo 
+NT petanca
+NT esgrima 
+NT orientação 
+NT parapente 
+NT pesca
+NT squash 
+NT boxe 
+NT capoeira 
+NT karaté 
+NT luta livre 
+NT judo
+NT luta greco-romana  
+NT sumo 
+NT surf 
+NT ténis
+NT ténis de mesa 
+NT tiro 
+NT tiro com arco 
+NT xadrez 
+NT pentatlo moderno 
+NT triatlo 
+NT parcour 
+NT salto em altura 
+NT skate 
+NT esqui 
+NT luge
+NT patinagem no gelo
+NT skeleton
+NT mergulho 
+NT windsurf
+NT bodyboarding
+NT snowboard
+NT montanhismo 
+NT ginástica artistica 
+NT ginástica aeróbica 
+NT ginática acrobática 
+NT ginástica rítmica
+NT trampolim 
+NT fitness
+NT salto em cumprimento 
+NT salto com vara
+NT triplo salto 
+NT 100 metros 
+NT 200 metros 
+NT 400 metros 
+NT 110 metros barreiras 
+NT 100 metros barreiras 
+NT 400 metros barreiras 
+NT 800 metros 
+NT 1500 metros 
+NT 3000 metros obstáculos 
+NT 5000 metros 
+NT 10000 metros 
+NT maratona 
+NT marcha 
+NT 4x400 metros 
+NT 4x100 metros 
+NT lançamento do disco 
+NT lançamento do dardo 
+NT arremesso do martelo 
+NT arremesso do peso 
+NT heptatlo
+NT decatlo 
+NT canoagem 
+NT meia-maratona
+NT remo
+NT caiaque 
+NT jet ski
+NT natação  
+NT rali 
+NT motocrosse 
+NT Fórmula 1
+NT karting 
+NT todo-terreno
+Def todo o desporto que é praticado apenas por uma pessoa
+IMG n 
+GI 3
+IM 3
+ID manuel
+
+PT atletismo    
+-catgr
+-exuso
+EN athletics
+FR athlétisme 
+ES atletismo 
+DE leichtathletik
+CN   
+NU   
+DOM actividade  
+BT 
+NT salto em cumprimento 
+NT salto com vara 
+NT salto em altura 
+NT triplo salto 
+NT 100 metros 
+NT 200 metros 
+NT 400 metros 
+NT 110 metros barreiras 
+NT 100 metros barreiras 
+NT 400 metros barreiras 
+NT 800 metros 
+NT 1500 metros 
+NT 3000 metros obstáculos 
+NT 5000 metros 
+NT 10000 metros 
+NT maratona 
+NT marcha 
+NT 4x400 metros 
+NT 4x100 metros 
+NT lançamento do disco 
+NT lançamento do dardo 
+NT arremesso do martelo 
+NT arremesso do peso 
+NT heptatlo 
+NT decatlo 
+NT corta-mato
+NT meia maratona
+NT corrida de meio-fundo
+Def desporto que junta a corrida, o salto e o lançamento 
+IMG n 
+GI 3
+IM 3
+ID manuel
+
+PT_PT desporto náutico
+PT_BR esporte náutico 
+-catgr
+-exuso o ^windsurf^ é um desporto náutico 
+AUDPT n 
+EN 
+AUDEN n 
+FR sport nautique 
+AUDFR n 
+ES
+AUDES n 
+DE
+AUDDE n 
+CN   
+NU   
+DOM actividade  
+BT 
+NT canoagem 
+NT remo 
+NT vela 
+NT caiaque 
+NT windsurf 
+NT esqui aquático 
+NT bodyboard
+RT navegação 
+RT água 
+Def todo o desporto que se ^pratica^ na água usando barcos ou outras ^embarcações^, como por exemplo, uma ^canoa^, um ^caiaque^, ou uma ^prancha^
+IMG n 
+GI 3
+IM 3
+ID manuel
+
+PT_PT desporto radical 
+PT_BR esporte de aventura 
+-catgra
+-exuso o João é muito corajoso e gosta muito de desportos radicais 
+AUDPT n 
+EN extreme sport
+AUDEN n 
+FR sport extrême  
+AUDFR n 
+ES deporte extremo
+AUDES n 
+DE extremsport
+AUDDE n 
+CN
+NU
+DOM actividade
+BT
+NT skate 
+NT snowboard 
+NT parkour 
+NT surf 
+NT esqui 
+NT escalada 
+NT alpinismo 
+NT bunging jumping
+Def 
+IMG n 
+GI 3
+IM 3
+ID manuel 
+
+PT_PT desporto aquático
+PT_BR esporte aquático  
+-catgr
+-exuso o pedro gosta muito do mar e pratica desportos aquáticos.  
+AUDPT n 
+EN water sports
+AUDEN n  
+FR sport nautique
+AUDFR 
+ES deporte acuático
+AUDES n  
+DE wassersport
+AUDDE n 
+CN
+NU
+DOM actividade
+BT 
+NT surf 
+NT windsurf 
+NT bodyboard
+NT jetski 
+NT esqui aquático 
+NT mergulho 
+NT natação 
+NT pólo aquático 
+NT pentatlo moderno 
+NT triatlo 
+NT pesca
+RT aquático  
+Def todo o desporto que se ^pratica^ na água, seja numa piscina, num rio, numa ^barragem^, num ^lago^ ou no mar
+IMG n 
+GI 3
+IM 4
+ID manuel 
+
+PT_PT desporto motorizado
+PT_BR esporte motorizado  
+-catgr
+-exuso o motocrosse é um desporto motorizado. 
+AUDPT n 
+EN 
+AUDEN n 
+FR
+AUDFR n 
+ES
+AUDES n 
+DE
+AUDDE n 
+CN   
+NU   
+DOM actividade  
+BT 
+NT rali
+NT formula 1
+NT motocrosse
+NT karting 
+NT tuning 
+NT motociclismo 
+NT automobilismo 
+NT jet ski
+NT todo-terreno
+RT motor 
+RT velocidade   
+Def todo o desporto que se ^pratica^ com um ^veículo^ a motor
+IMG n 
+GI 3 
+IM 2
+ID manuel
+
+PT_PT desporto de combate
+PT_BR esporte de combate  
+-catgr
+-exuso os desportos de combate são muito violentos para o corpo
+AUDPT n 
+EN combate sports
+AUDEN n 
+FR sport de combat 
+AUDFR n
+ES deporto de combate
+AUDES n  
+DE
+AUDDE n 
+CN   
+NU   
+DOM actividade  
+BT
+NT boxe 
+NT capoeira  
+NT luta livre 
+NT karaté 
+NT judo  
+NT sumo 
+Def todo o desporto em que uma pessoa luta contra outra pessoa
+IMG n 
+GI 
+IM 
+ID manuel
+
+PT_PT desporto de Inverno
+PT_BR esporte de inverno 
+-catgra
+-exuso os desportos de ^Inverno^ são ^praticados^ nos países mais frios. 
+AUDPT n
+EN winter sports
+AUDEN n 
+FR sport d'hiver
+AUDFR n 
+ES deporte de invierno
+AUDES n
+DE wintersport
+AUDDE n
+CN
+NU
+DOM actividade 
+BT 
+NT esqui 
+NT salto de esqui 
+NT snowboard 
+NT biatlo
+NT hóquei no gelo
+NT luge
+NT bobsleigh
+NT patinagem no gelo
+NT patinagem de velocidade 
+NT skeleton
+RT Inverno 
+RT neve 
+RT gelo
+Def todo o desporto que só se ^pratica^ no Inverno e quando há neve
+IMG n 
+GI 4
+IM 3
+ID manuel 
+
+PT_PT desporto de bola
+PT_BR esporte de bola  
+-catgra 
+-exuso o futebol é um desporto de bola, tal como o ^golfe^ e o ^pólo aquático^. 
+AUDPT n
+EN 
+AUDEN n
+FR
+AUDFR n
+ES
+AUDES n
+DE
+AUDDE n
+CN
+NU
+DOM
+BT
+NT badmintom
+NT basebol
+NT basquetebol
+NT bilhar 
+NT críquete 
+NT futebol 
+NT futebol americano 
+NT futebol de praia 
+NT futsal 
+NT futebol de 7
+NT râguebi
+NT golfe
+NT andebol
+NT hóquei em patins
+NT hóquei no gelo
+NT lacrosse 
+NT pólo
+NT pólo aquático
+NT squash
+NT ténis 
+NT ténis de mesa 
+NT voleibol 
+NT voleibol de praia
+NT petanca
+NT minigolfe
+NT futvolei
+NT futebol de 5
+PART bola
+Def todo o desporto que se ^pratica^ com uma bola  
+IMG n 
+GI 2
+IM 2
+ID manuel 
+
+PT_PT desporto olímpico 
+PT_BR esporte olímpico 
+-catgra 
+-exuso um desporto em competição nos jogos olímpicos é um desporto olímpico. 
+AUDPT
+EN olympic sport
+AUDEN
+FR sport olympic
+AUDFR
+ES deporte olímpico
+AUDES
+DE olympischer sport
+AUDDE
+CN
+NU
+DOM desporto 
+BT
+NT futebol 
+NT andebol 
+NT basquetebol 
+NT basebol 
+NT ténis 
+NT ténis de mesa 
+NT voleibol 
+NT voleibol de praia 
+NT hóquei no gelo 
+NT bobsleigh
+NT polo aquático 
+NT badminton  
+NT futebol de praia 
+NT remo
+NT vela
+NT canoagem 
+NT halterofilismo 
+NT hipismo 
+NT biatlo 
+NT ciclismo 
+NT esgrima  
+NT boxe 
+NT luta greco-romana
+NT luta livre 
+NT judo  
+NT tiro 
+NT tiro com arco 
+NT pentatlo moderno 
+NT triatlo 
+NT esqui 
+NT luge
+NT patinagem no gelo
+NT skeleton
+NT snowboard 
+NT ginástica artistica 
+NT ginástica rítmica
+NT trampolim 
+NT salto em altura 
+NT salto em cumprimento 
+NT salto com vara
+NT triplo salto 
+NT 100 metros 
+NT 200 metros 
+NT 400 metros 
+NT 110 metros barreiras 
+NT 400 metros barreiras 
+NT 800 metros 
+NT 1500 metros 
+NT 3000 metros obstáculos 
+NT 5000 metros 
+NT 10000 metros 
+NT maratona 
+NT marcha 
+NT 4x400 metros 
+NT 4x100 metros 
+NT lançamento do disco 
+NT lançamento do dardo 
+NT lançamento do martelo 
+NT lançamento do peso 
+NT decatlo 
+NT natação  
+RT jogos olímpicos 
+RT competição 
+Def desporto que faz parte dos ^Jogos Olímpicos de Verão^ e dos ^Jogos Olímpicos de Inverno^ 
+IMG n
+GI 4
+IM 2
+ID manuel 

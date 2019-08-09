@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=id\ milhas\ categoria\ autonomia\ listaReg\ areaVela\ seguro
+comment0.target=BarcoCatamaran(java.lang.String,\ double,\ java.lang.String,\ double,\ java.util.ArrayList,\ double,\ double)
+comment1.params=b
+comment1.target=BarcoCatamaran(BarcoCatamaran)
+comment2.params=
+comment2.target=double\ getAreaVela()
+comment3.params=
+comment3.target=double\ getSeguro()
+comment4.params=
+comment4.target=BarcoCatamaran\ clone()
+numComments=5

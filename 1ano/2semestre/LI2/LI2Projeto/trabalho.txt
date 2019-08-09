@@ -1,0 +1,118 @@
+STACK.H :
+
+anulcom:
+   qt -> quantidade de alteraçoes feitas aos elementos do tabuleiro.
+   tm -> tamanho do array a fazer reallock
+   nm -> quantidade de comandos
+   um so comando pode causar varias alteraçoes.
+   listch -> (lista de todas as alteraçoes) o tamanho da lista é igual ao numero de alteraçoes que estao no qt
+
+listch: 
+   lim -> linha onde ocorreu a alteraçao
+   col -> coluna onde ocorreu a alteraçao
+   com -> comando que foi executado
+   ant -> caractere que estava anteriormente na posiçao designada do tabuleiro
+
+tabsload:
+   (so se usa para os comandos C e L)
+   qt -> quantidade de tabuleiros que ja foram guardados
+   tm -> numero maximo de tabuleiros que podem ser guardados
+   listch -> contem todos os tabuleiros guardados
+
+
+INTERP.C :
+
+main: inicializar as variaveis e chamar o interpretador.
+
+interp:
+   puz -> tabuleiro atual
+   com -> lista de comandos (onde tambem esta incluida a lista de alteraçoes)
+   tabsload -> lista de tabuleiros
+   esta funçao chama as funçoes necessarias a execuçao de cada comando. 
+   faz um ciclo onde ve atraves do scanf cada comando. enquanto o checkQ for igual a 0 vai estar sempre a repetir o ciclo,
+   quando encontra o comando Q, o checkQ passa a ser igual a 1 e acaba o ciclo.
+
+ETAPA1.C :
+
+lerTab: 
+   é a funçao chamada pelo tabuleiro lendo o tabuleiro e devolvendo-o.
+   os 2 primeiros if sao para caso de se exceder o tamanho do array listch e tabsload-tabs e se isso acontecer faz-se reallock para 
+   arranjar mais memoria.
+   ela faz scan da quantidade das linhas e colunas e depois faz um FOR onde o i=0 e enquanto o i for menor qt de linhas faz scan dos 
+   segmentos das linhas
+
+insM:
+   nao altera nada no tabuleiro, so o vai imprimir.
+   imprime o tabuleiro com o numero de seguementos de barco ao lado de cada linha e o numero de seguementos de barco de cada coluna em
+   baixo de cada coluna.
+
+insH:
+   substitui os pontos por agua na linha escolhida e guarda os locais onde havia agua antes dessa substituiçao.
+
+insV:
+   substitui os pontos por agua na coluna escolhida e guarda os locais onde havia agua antes dessa substituiçao.
+
+insP:
+   os 2 primeiros if sao para caso de se exceder o tamanho do array listch e tabsload-tabs e se isso acontecer faz-se reallock para 
+   arranjar mais memoria.
+   recebe a linha e coluna mais o caractere que queremos substituir nessa posiçao.
+
+ETAPA2.C :
+
+insL:
+   ler um tabuleiro a partir de um ficheiro.
+   é praticamente igual à C.
+   os 2 primeiros if sao para caso de se exceder o tamanho do array listch e tabsload-tabs e se isso acontecer faz-se reallock para 
+   arranjar mais memoria.
+   faz scan no inicio. temos de indicar o endereço onde esta guardado o ficheiro.
+   criar ficheiro file que importa o ficheiro do tabuleiro e que o abre com a funçao fopen. faz o scan do tabuleiro e depois utiliza a 
+   funçao fclose para fechar o ficheiro.
+
+insE:
+   escreve o tabuleiro num ficheiro à parte.
+   indica o endereço onde vai ficar o tabuleiro.
+   no file faz fprintf linhas e das colunas, depois faz fprint dos seguementos das linhas, depois faz fprintf dos seguementos das colunas.
+   no fim faz fprintf do tabuleiro e fecha o ficheiro (fclose).
+
+pushEstack:
+   primeiro ve se é preciso fazer reallock
+   recebe os comandos, o numero do comando em questao, o caractere anterior, a linha e a coluna.
+   o numero da alteraçao é o numero do comando.
+   o caractere da alteraçao é o anterior.
+   a linha e a coluna da alteraçao sao as fornecidas.
+   o comando vai ser um E.
+
+insE1:
+   coloca agua onde deduz que vai existir agua à volta de segmentos de barcos.
+
+insE2:
+   coloca agua nas linhas ou colunas onde tudos os segmentos de barco ja foram colocados.
+
+insE3:
+   coloca seguementos de barco nas linhas e colunas nas quais deduza que vai existir, sem exceder o numero de segmentos dessa linha ou coluna.
+
+insVer:
+   o r define se o tabuleiro é verdadeiro ou falso.
+   no inicio admitimos que é verdadeiro (r=1).
+   verificamos varios casos e se o tabuleiro nao obdecer a algum desses casos, definimos o r como sendo 0 (falso).
+   no fim se o r for 0, imprimimos nao, se for 1, imprimimos sim.
+
+insD:
+   quando é p, o comando d coloca no tabuleiro o que estava antes de ser realizado o comando p.
+   quando é h, substitui todas as aguas por pontos na linha onde se tem de anular, depois vai a lista de alteraçoes buscar as aguas que estavam la nesse
+   sitio e poe-nas no tabuleiro atual.
+   quando é v, substitui todas as aguas por pontos na coluna onde se tem de anular, depois vai a lista de alteraçoes buscar as aguas que estavam la nesse
+   sitio e poe-nas no tabuleiro atual.
+   quando é n, (este comando é executado quando ao executar o h nao ha nenhuma agua na linha em questao do tabuleiro, portanto nao se guardaram aguas na lista de alteraçoes)
+   faz o mesmo que no h (caso expecifico).
+   quando é z, este comando é executado quando ao executar o h nao ha nenhuma agua na coluna em questao do tabuleiro, portanto nao se guardaram aguas na lista de alteraçoes)
+   faz o mesmo que no h (caso expecifico).
+   quando é E, anula uma das 3 estrategias indo buscar o tabuleiro anterior à utilizaçao da estrategia.
+   quando é l ou c, vamos à stack dos tabuleiros e andamos 1 para traz para ir buscar o tabuleiro anterior, definindo-o como tabuleiro atual e consequentemente andamos 1 para 
+   traz no comando.
+
+insR:
+   definimos inicialmente o x, o y e o z como sendo 1.
+   esta funçao vai executar em loop as 3 estrategias ate que as 3 variaveis (x, y, z) seja igual a 0.
+   primeiro for corre as linhas e o segundo corre as colunas.
+   

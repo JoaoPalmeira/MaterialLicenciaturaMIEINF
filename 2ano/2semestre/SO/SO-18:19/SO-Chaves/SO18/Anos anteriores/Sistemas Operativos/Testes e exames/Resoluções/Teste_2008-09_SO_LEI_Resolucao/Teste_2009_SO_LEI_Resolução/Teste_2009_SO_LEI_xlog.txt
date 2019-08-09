@@ -1,0 +1,42 @@
+/*
+ *  Created by Nuno Morais on 12/06/09.
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+int main(int argc, char **argv){
+	
+	int i;
+	
+	//Abre o descritor onde queremos escrever os logs
+	int fd = open("xlog.log", O_WRONLY, 0666);
+	
+	for(i=1; i<argc; i++){
+		
+		//Faz o fork e executa o filho
+		if (!fork()){
+			
+			//Trocamos o output para o FD
+			dup2(fd,1);
+			close(fd);
+			
+			//Executa o comando
+			execlp(argv[i],argv[i],NULL);
+			
+			//Caso o exec dê erro.
+			exit(EXIT_FAILURE);
+		}
+		
+	}
+	
+	for(i=1; i<argc; i++) wait(0);
+	
+	//Fechamos o FD porque não vamos precisar mais dele
+	close(fd);
+	
+	return (EXIT_SUCCESS);
+}

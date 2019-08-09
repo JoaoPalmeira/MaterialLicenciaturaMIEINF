@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CidadeExistenteException
+comment0.text=\n\ Write\ a\ description\ of\ class\ UtilizadorSemFaturasException\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=CidadeExistenteException()
+comment2.params=message
+comment2.target=CidadeExistenteException(java.lang.String)
+numComments=3

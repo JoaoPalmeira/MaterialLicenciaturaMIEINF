@@ -1,0 +1,32 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid2\'00;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Dependencia read after write (RaW)!\uc0\u8232 Como i cresce, o valor de a[i+1] e alterado na proxima iteracao anterior.\u8232 Codigo nao vectorizavel.\
+Dependencia write after read (WaR).\uc0\u8232 Como i cresce, o valor de a[i+1] so sera alterado na proxima iteracao.\u8232 Codigo vectorizavel.\
+Distancia da dependencia : diferenca entre o indice de escrita e o indice de leitura \
+Se d <= 0 nao ha depend\'eancias RaW : ciclo pode ser vectorizado\
+Se d > 0 nao ha depend\'eancias WaR : ciclo pode ser vectorizado \
+Se i\'97\'97 entao -d, se i++ entao d\
+\
+Processamento Vectorial: Linhas de Orientacao \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf0 Usar ciclos \'93for\'94 contaveis: pontos unicos de entrada e saida; \
+\pard\tx0\tx0\tx220\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf0 Evitar estruturas condicionais; mascaras sao vectorizaveis, mas resultam na realizacao de trabalho inutil; \uc0\u8232 Evitar dependencias, especialmente do tipo \'93read-after-write\'94 \u8232 Evitar a utilizacao de apontadores e prevenir aliasing \u8232 Usar acessos a memoria eficientes: \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf0 \'96 \'a0Ciclo mais aninhado com stride 1 (dados consecutivos) \
+\'96 \'a0Minimizar acessos indirectos \
+\'96 \'a0Alinhar os dados a multiplos de 16 (Intel SSE) \uc0\u8232 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sl620\sa240\partightenfactor0
+
+\f1 \cf0 \
+}

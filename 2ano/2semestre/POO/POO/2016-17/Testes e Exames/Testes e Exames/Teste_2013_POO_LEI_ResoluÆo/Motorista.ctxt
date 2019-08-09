@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Motorista()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Motorista\r\n
+comment1.params=cod\ n\ dias\ sal\ kmPer
+comment1.target=Motorista(java.lang.String,\ java.lang.String,\ int,\ double,\ double)
+comment2.params=motorista
+comment2.target=Motorista(Motorista)
+comment3.params=
+comment3.target=double\ getKmPercorridos()
+comment4.params=
+comment4.target=double\ salario()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=
+comment6.target=Motorista\ clone()
+numComments=7

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Imoobiliaria()
+comment1.params=
+comment1.target=void\ MenuInicial()
+comment2.params=
+comment2.target=void\ MenuRegUtil()
+comment3.params=
+comment3.target=void\ MenuInitSessao()
+comment4.params=
+comment4.target=void\ MenuVendedor()
+comment5.params=utilizador
+comment5.target=void\ registarUtilizador(Utilizador)
+comment6.params=
+comment6.target=void\ showUsers()
+numComments=7

@@ -1,0 +1,445 @@
+﻿PT lavatório
+-catgra nm
+-exuso  deixa o lavatório limpo depois de o usares
+EN toilet
+EN lavatory
+FR lavabo
+ES lavabo
+ES lavatorio
+DE 
+CN 恭桶
+NU 75
+DOM casa
+BT compartimento
+POF casa 
+UP para lavar-se ou fazer as dejecções
+PART lavatório
+PART sanita
+PART chuveiro 
+PART bidé 
+PART banheira 
+Def parte da casa onde está o lavatório, a sanita, etc
+GI 2
+IM 4
+ID manuel 
+
+PT lavatório
+-catgra  nm
+-exuso  limpa o lavatorio depois da lavares as mãos
+EN wash basin
+EN hand basin
+FR lavabo 
+ES lavamanos 
+DE
+CN 面盆
+NU 84
+DOM casa
+BT louça sanitária
+POF casa de banho
+UP para lavar as mãos ou o rosto
+Def louça sanitária onde se lavam as mãos e o rosto
+GI 2
+IM 4
+ID manuel
+
+PT papel higiénico
+-catgra nm
+-exuso sempre que fores à sanita fazer chichi ou cocó limpa-te com papel higiénico. 
+EN toilet paper
+EN toilet roll
+FR papier hygiénique 
+FR papier toilette 
+ES papel higiénico
+DE 
+CN 卫生纸
+NU 76
+Dom casa
+BT higiéne diária
+POF casa de banho
+UP para nos liparmos depois de irmos à sanita 
+Def papel fino que vem em rolos e que serve para nos limparmos sempre que vamos à sanita 
+GI 4
+IM 4
+ID manuel
+
+PT porta-rolo
+-catgra 
+-exuso o papel higiénico deve estar sempre no porta rolo.
+EN toilet paper holder
+FR support à papier toilettes
+ES 
+DE
+CN 卫生纸架
+NU 77
+DOM casa
+BT mobiliário 
+POF casa de banho
+UP meter o rolo de papel higiénico 
+Def peça que serve para meter o rolo de papel higiénico, para que o possamos tirar de uma maneira fácil
+GI 4
+IM 4
+ID manuel
+
+PT tampo da sanita
+-catgra
+-exuso sempre que usares a sanita fecha o tampo da sanita. 
+EN toilet cover
+FR
+ES 
+DE
+CN 恭桶盖
+NU 78
+DOM casa
+BT peça  
+POF sanita
+UP tapar a sanita 
+Def 
+GI
+IM
+ID manuel
+
+PT assento da sanita
+-catgra
+-exuso quando fores à sanita senta-te no assento da sanita. 
+EN toilet seat
+FR 
+ES
+DE
+CN 恭桶座圈
+NU 79
+DOM casa
+BT peça
+POF sanita
+UP nos sentarmos na sanita 
+Def peça que serve de assento na sanita sempre que vamos fazer chichi ou cocó
+GI 3
+IM 3
+ID manuel
+
+PT armário da casa de banho
+-catgra
+-exuso as escovas de dentes podem ser guardadas no armário da casa de banho. 
+EN bathroom cabinet
+£FR placard de la salle de bain 
+ES
+DE
+CN 卫生间镜箱
+NU 81
+DOM casa
+BT mobiliário
+POF casa de banho
+UP guardar os objectos de que precisamos para a nossa higiéne diária. 
+UP guardar medicamentos 
+UP guardar caixa de primeiros socorros 
+Def armário que está na casa de banho e que serve para guardar todas as coisas que fazem falta numa casa de banho
+GI 2
+IM 3
+ID manuel
+
+PT toalha de mão
+-catgra
+-exuso para limpar as mãos usamos uma toalha de mão. 
+EN hand towel
+FR essuie-main
+ES
+DE
+CN 毛巾
+NU 82
+DOM casa
+BT peça 
+POF casa de banho
+UP limpar as mãos 
+Def toalha pequena que serve para limpar as mãos e que se encontra normalmente ao lado do lavatório num toalheiro.
+RT toalheiro 
+RT toalhete 
+GI 3
+IM 4
+ID manuel
+
+PT toalheiro
+-catgra nm
+-exuso na minha casa de banho há um toalheiro onde colocamos as toalhas. 
+EN towel rack
+EN towel rail
+FR porte-serviettes
+ES toallero
+DE
+CN 毛巾架
+NU 83
+DOM casa
+BT mobiliário
+POF casa de banho
+UP pendurar as toalhas 
+Def peça de mobiliário que serve para pendurar as toalhas que usamos para nos limparmos depois de tomarmos banho os lavarmos as mãos
+GI 4
+IM 4
+ID manuel
+
+PT torneira
+-catgra nf
+-exuso depois de lavares as mão fecha bem a torneira para não se perder água. 
+EN faucet
+EN tap
+FR robinet 
+ES grifo
+DE 
+CN 水龙头
+NU 85
+DOM casa
+BT 
+POF casa de banho
+UP abrir e fechar a água 
+?Def peça que se liga a uma tubo e que permite que se abre ou feche a água 
+GI 1
+IM 2
+ID manuel
+
+#PT tomada para máquina de barbear
+-catgra
+-exuso
+EN shaver outlet, shaver point
+CN 剃须刀插座
+NU 86
+DOM casa
+BT
+POF casa de banho
+Def
+GI
+
+PT banheira
+-catgra nf
+-exuso hoje vou tomar um banho na banheira. 
+EN bath
+EN bathtub
+FR baignoire
+ES bañera
+ES tina
+£DE badewanne
+CN 浴缸
+NU 87
+DOM casa
+BT louça sanitária
+POF casa de banho
+UP tomar banho
+Def objecto grande e em forma de bacia que está na casa de banho e que serve para as pessoas tomarem banho
+RT banho 
+GI 3
+IM 4
+ID manuel
+
+#PT banheira
+-catgra nf
+-exuso
+EN tank
+FR
+ES
+DE
+CN 低水箱
+NU 80
+DOM
+BT 
+POF 
+Def
+GI
+IM
+
+PT toalha de banho
+-catgra 
+-exuso para limpar o corpo molhado uso uma toalha de banho.
+EN bath towel
+FR nappe de bain 
+ES toalla
+DE
+CN 浴巾
+NU 88
+DOM casa
+BT 
+POF casa de banho
+UP limpar o corpo depois de tomar banho
+Def toalha grande que se usa para limpar o corpo depois de tomar banho
+RT toalheiro 
+RT toalha 
+RT toalhete
+GI 4
+IM 3
+ID manuel
+
+#PT espiche
+-catgra
+-exuso
+EN faucet, mixer tap
+CN 明三联式浴缸水嘴
+NU 89
+DOM casa
+BT
+Def
+GI
+
+PT duche
+-catgra nm
+-exuso todas as manhãs tomo um duche.
+EN shower
+FR douche
+ES ducha
+£DE duchen
+CN 淋浴喷头
+NU 90
+PT banho 
+-catgra nm
+-exuso todas as manhãs tomo um banho. 
+EN  
+FR bain
+ES baño
+DE 
+DOM 
+BT 
+POF 
+Def 
+GI 1
+IM 1
+ID manuel
+
+PT cortina do duche
+-catgra
+-exuso quando vou tomar um duche fecho sempre a cortina do duche 
+EN shower curtain
+FR rideau du douche 
+ES 
+DE
+CN 浴盆帘
+NU 91
+DOM casa
+BT
+POF casa de banho
+UP para tapar o chuveiro enquanto estamos a tomar banho
+?Def peça em plástico que serve para tapar o duche, ou chuveiro
+GI
+IM
+ID manuel
+
+PT saboneteira
+-catgra nf
+-exuso se quiseres usar o sabonete está na saboneteira.
+EN soap dish
+FR boite à savon 
+ES jabonera
+DE 
+CN 浴皂盒
+NU 92
+DOM casa
+BT 
+POF casa de banho
+UP para colocar o sabonete
+Def objecto onde colocamos o sabonete 
+GI 2
+IM 3
+ID manuel
+
+PT azulejo
+-catgra nm
+-exuso o chão da casa de banho é em azulejo. 
+EN tiles
+FR azulejo
+FR mosaïque 
+ES azulejo
+ES baldosín
+DE 
+CN 瓷砖
+NU 93
+DOM casa
+BT
+POF casa de banho
+UP revestir chãos e paredes 
+Def 
+GI 2
+IM 3
+ID manuel
+
+PT válvula de descarga
+-catgra
+-exuso
+EN sink drain
+FR 
+ES
+DE
+CN 落水管
+NU 94
+DOM casa
+BT
+POF casa de banho
+Def
+GI
+IM
+ID manuel
+
+PT sifão
+-catgra nm
+-exuso o sifão da casa de banho precisa de ser desentupido.  
+EN trap
+FR siphon 
+ES sifón
+DE 
+CN 存水弯
+NU 95
+DOM casa
+BT peça
+POF casa de banho
+UP esvaziar a água que se usa em toda a casa para o esgoto. 
+Def tubo em forma de U que serve para esvaziar a água usada em toda a casa 
+GI 3
+IM 4
+ID manuel
+
+#PT tubo de admissão
+-catgra
+-exuso
+EN inlet tube
+CN 进水管
+NU 100
+DOM casa
+BT
+Def
+GI
+IM
+
+PT autoclismo 
+-catgra nm
+-exuso quando utilizares a sanita não te esqueças de descarregar o autoclismo 
+EN 
+FR chasse d'eau
+ES
+DE spülklosett
+DOM casa
+BT 
+POF casa de banho
+UP despejar água para a limpeza de sanitas e urinóis, etc. 
+Def   
+GI 2
+IM 2
+ID manuel 
+
+PT puxar o autoclismo 
+-catgra
+-exuso quando utilizares a sanita não te esqueças de puxar o autoclismo. 
+EN
+FR tirer la chasse 
+ES
+DE
+DOM casa 
+BT 
+Def acto de  carregar no botão do aucoclismo e se descarrega a água que despeja e limpa a sanita ou o urinol
+GI 2
+IM 2
+
+!PT ir à casa de banho 
+-catgra
+-exuso estou com vontade de ir à casa de banho 
+EN 
+FR 
+ES
+DE
+DOM
+BT
+Def diz-se quando estamos com vontade de fazer chichi ou cocó
+GI 
+IM

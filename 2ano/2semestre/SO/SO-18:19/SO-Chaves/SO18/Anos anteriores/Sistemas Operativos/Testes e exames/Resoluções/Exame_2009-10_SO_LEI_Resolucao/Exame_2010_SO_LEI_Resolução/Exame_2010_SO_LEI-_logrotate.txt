@@ -1,0 +1,68 @@
+/*
+ *  Created by Nuno Morais on 11/06/09.
+ *
+ */
+
+int pid;
+char *nomeficheiro;
+
+void fa(){
+	
+	//Manda parar o processo
+	kill(SIGSTOP, pid);
+	
+	//Executa o logrotate
+	if( !fork() ){
+		execlp("logrotate","logrotate", nomeficheiro,NULL);
+		exit(EXIT_SUCCESS);
+	}
+	
+	//Espera até o fork terminar
+	wait(0);
+	
+	//Continua o processo
+	kill(SIGCONT, pid);
+	
+	alarm(600);
+}
+
+int main(int argc, char **argv){
+	
+	int i;
+	int fd;
+	
+	signal(SIGALRM, fa);
+	alarm(600);
+	
+	//Concatenar o nome do ficheiro com a pasta
+	nomeficheiro = (char *) malloc(sizeof(strlen(argv[i])+strlen("/var/log/")));
+	strcat(nomeficheiro,"/var/log/");
+	strcat(nomeficheiro,argv[i]);
+	
+	//Abre o descritor do ficheiro
+	fd = open( nomeficheiro, O_WRONLY | O_CREAT, 0666 );
+	
+	if ( !(pid=fork()) ){
+		
+		//Escreve no descritor do ficheiro
+		dup2(fd,1);
+		
+		//Executa o comando
+		execlp(argv[i], argv[i], NULL);
+		
+		//Fecha o fd e faz exit caso dê erro
+		close(fd);
+		exit(EXIT_FAILURE);
+	}
+	
+	//Espera até terminar o fork
+	wait(0);
+	
+	//Fecha o descritor
+	close(fd);
+	
+	//Liberta o nomeficheiro
+	free(nomeficheiro);
+	
+	return (EXIT_SUCCESS);
+}

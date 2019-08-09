@@ -1,0 +1,22 @@
+Mapeamento n-way set associative
+O mapeamento directo resulta num grande número de colisões.
+O mapeamento fully associative implica um grande overhead em termos de tag e pesquisas mais longas nas linhas da cache.
+O mapeamento n-way set associative representa um compromisso entre os 2. A cache é dividida em S sets de E linhas.
+Dentro de cada set o bloco pode ser colocado em qualquer linha.
+Relativamente ao mapeamento directo - reduz-se o número de colisões Relativamente ao mapeamento fully associative – reduz-se o número de bits
+de tag e o tempo de procura na cache (hit time)
+
+Considere uma máquina com um espaço de endereçamento de 32 bits, uma cache de 64 Kbytes, mapeamento 8-way set associative e blocos de 32 bytes.
+Quantos bits são necessários para a tag?
+
+8 linhas por set (E = 8).
+64K / (8*32) = 26 * 210 / ( 23 * 25) = 28 sets (s=8 bits) • bloco offset são b=log2(32) = 5 bits.
+A tag será de t = m – s –b = 32-8-5 =19 bits.
+
+Mapeamento n-way set associative
+S sets com E linhas cada
+Um endereço de memória mapeia num único set
+Um endereço de memória mapeia em qualquer linha do seu set
+Consequência: compromisso no número de colisões
+Para localizar um endereço dentro do respectivo set é necessário
+comparar com as tags de todas as linhas desse set • Consequência: compromisso no hit time

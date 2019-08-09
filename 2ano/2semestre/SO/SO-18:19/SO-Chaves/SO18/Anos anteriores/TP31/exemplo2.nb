@@ -1,0 +1,43 @@
+/ Este comando lista os ficheiros:
+$ ls
+>>>
+enunciado-so-2017-18.pdf
+errors.txt
+exemplo1.nb
+exemplo2.nb
+exemplo3.nb
+exemplo4.nb
+exemplo5.nb
+exemplo6.nb
+makefile
+processNotebooks
+processNotebooks.c
+result.txt
+<<<
+/ Este comando mostra o conteudo da makefile
+$ cat makefile
+>>>
+processNotebooks:	processNotebooks.c
+					gcc -o processNotebooks processNotebooks.c
+
+execute:			processNotebooks
+					./processNotebooks *.nb
+
+install:			processNotebooks
+					sudo cp processNotebooks /usr/local/bin
+
+remove: 			processNotebooks
+					rm processNotebooks errors.txt<<<
+/processNotebooks *.nb
+/usr/local/bin
+/processNotebooks *.nb
+/usr/local/bin
+/processNotebooks *.nb
+/usr/local/bin
+/processNotebooks *.nb
+/usr/local/bin
+/ Este comando conta o numero de palavras do enunciado
+$ wc -c enunciado-so-2017-18.pdf
+>>>
+74687 enunciado-so-2017-18.pdf
+<<<

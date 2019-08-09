@@ -1,0 +1,100 @@
+\documentclass[12pt,a4paper,portuges]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[portuges]{babel}
+
+\begin{document}
+
+\title{\textbf{Laboratórios de Informática II Batalha Naval em C}}
+\author{André Freitas \and Bruno Sousa \and João Palmeira}
+\date{\today}
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{\textbf{Introdução}}
+%Breve descrição do trabalho e dos seus objetivos.
+
+Na batalha naval, existem dois jogadores que tentam descobrir onde estão colocados os barcos um do outro, no entanto, no \textit{puzzle} da batalha naval há apenas um jogador que tem de descobrir onde estão os barcos através de informações como saber o que se encontra em certas posições da grelha (água ou segmentos de barcos) e o número de segmentos em cada linha ou coluna. 
+
+Este projeto tem como objetivo criar uma aplicação na linguagem de programação C que resolva o \textit{puzzle} da batalha naval, sendo constituído por três etapas.
+
+\newpage
+
+\section{\textbf{Desenvolvimento}}
+%Descrição das várias etapas do projeto.
+
+\subsection{\textbf{1ª Etapa}}
+
+A aplicação desenvolvida deve ler os comandos do \textit{standard input} que permitem desempenhar várias tarefas. Mais concretamente, para a primeira etapa, os comandos a ser desenvolvidos são "c", "m", "h", "v", "p" e "q" (criando, para isso, um interpretador de comandos). Para esse efeito utilizamos várias funções:
+\begin{itemize}
+\item \textit{main} que chama o interpretador de comandos, dando-lhe um tabuleiro (da batalha naval) vazio;
+\item \textit{interp} que é o interpretador de comandos e recebe o tabuleiro, sendo que enquanto não surgir o comando "q", vai correr um ciclo. Neste ciclo, quando um tabuleiro é lido, a função verifica o comando inserido e aplica-lhe as ações correspondentes;
+\item \textit{lerTab} que é chamada quando o interpretador de comandos lê o comando "c", sendo que esta função lê o tabuleiro e devolve-o;
+\item \textit{insM} que imprime o tabuleiro final e é chamada quando é inserido o comando "m" no interpretador de comandos;
+\item \textit{insH} que substitui os valores indeterminados da linha do tabuleiro inserida por água. É chamada quando é inserido o comando "h" no interpretador de comandos;
+\item \textit{insV} que é chamada quando é lido o comando "v" no interpretador e que tem um funcionamento semelhante à \textit{insH}, mas para as colunas do tabuleiro em vez das linhas;
+\item \textit{insP} que substitui o caracter escrito pelo que está na posição dada quando o comando "p" é lido no interpretador de comandos.
+\end{itemize}
+
+Para além destas funções, é também importante referir o que algumas designações utilizadas significam:
+\begin{itemize}
+\item O tipo \textit{tabuleiro} designa o tabuleiro da batalha naval;
+\item O \textit{array} de caracteres \textit{tab} representa o tabuleiro da batalha naval sem os segmentos;
+\item O inteiro \textit{lin} designa a quantidade de linhas do tabuleiro;
+\item O inteiro \textit{col} representa a quantidade de colunas do tabuleiro;
+\item O \textit{array} de inteiros \textit{segl} designa os segmentos das linhas do tabuleiro da batalha naval; 
+\item O \textit{array} de inteiros \textit{segc} é idêntico ao \textit{segl}, mas para as colunas em vez das linhas;
+\item O inteiro \textit{val} designa se o tabuleiro é válido ou não.
+\end{itemize}
+
+\newpage
+
+\subsection{\textbf{2ª Etapa}}
+
+Para a segunda etapa, os comandos a ser desenvolvidos são "l", "e", "V", "E1", "E2", "E3" e "D", que vão ser usados através do interpretador de comandos de forma idêntica à da etapa anterior. Para isso, foi necessário ciar várias funções:
+\begin{itemize}
+\item \textit{insL} que é chamada quando é inserido o comando 'l' no interpretador de comandos, sendo que esta função lê o tabuleiro a partir de um ficheiro externo;
+\item \textit{insE} que escreve o tabuleiro num ficheiro externo e é chamada quando é inserido o comando 'e' no interpretador de comandos;
+\item \textit{insE1} que coloca água que se deduza que vai existir à volta de todos os segmentos de barcos já colocados, sendo chamada pelo interpretador quando é inserido o comando "E1";
+\item \textit{insE2} que coloca água nas linhas e colunas em que todos os segmentos de barcos já foram colocados e é chamada pelo interpretador quando é inserido o comando "E2";
+\item \textit{insE3} que é chamada quando o comando "E3" é inserido no interpretador de comandos e que coloca segmentos de barcos nas linhas e colunas nas quais todos os espaços vazios (isto é, que contêm um '.') têm que conter segmentos de barcos para que o nº correspondente seja respeitado;
+\item \textit{insVer} que é chamada quando é inserido comando "V" no interpretador, sendo que esta função verifica se o tabuleiro em questão é válido ou não;
+\item \textit{insD} que desfaz o último comando inserido (ou seja, anula o comando anterior) e é chamada quando o comando "D" é inserido no interpretador de comandos.
+\end{itemize}
+
+Convém ainda referir o significado de mais algumas designações utilizadas neste etapa:
+\begin{itemize}
+\item O tipo \textit{Dcom} contém alterações feitas a um tabuleiro da batalha naval;
+\item O tipo \textit{Listch} contém as especificações de uma alteração feita a um tabuleiro;
+\item O tipo \textit{Tabsload} contém uma \textit{stack} de tabuleiros para as funcões em que compensa guardar o tabuleiro todo como, por exemplo, as funções de carregar tabuleiros e as estratégias.
+\end{itemize}
+
+\newpage
+
+\subsection{\textbf{3ª Etapa}}
+
+Na terceira etapa, 
+
+\newpage
+
+\section{\textbf{Conclusão}}
+%Retiram-se conclusões acerca do projeto, referindo-se as dificuldades encontradas e os conhecimentos adquiridos.
+
+Concluindo, a primeira etapa criou-nos algumas dificuldades como perceber exatamente o que era um interpretador de comandos e como iria funcionar, para além de problemas que surgiram no código, no entanto, julgamos que conseguimos cumprir os objetivos desta etapa. Ajudou-nos a perceber aplicações mais práticas da linguagem de programação C e ajudou-nos também a utilizar uma ferramenta muito útil como o \textit{git} que também nos causou algumas dificuldades inicialmente. No total, tivemos cerca de dezoito horas de trabalho coletivo nas diversas partes necessárias para entrega nesta etapa.
+
+Quanto à segunda etapa, revelou-se um pouco mais difícil, principalmente nos comandos "E3" e "D", mas conseguimos cumprir os seus objetivos. A separação do código em várias partes foi algo bastante útil que aprendemos a nível de organização, tornando mais fácil de perceber o código. Tivemos por volta de 22 horas de trabalho coletivo para ser possível a entrega de todas as partes necessárias nesta etapa.
+
+Em relação à terceira etapa,
+\end{document}
+
+
+
+
+
+
+

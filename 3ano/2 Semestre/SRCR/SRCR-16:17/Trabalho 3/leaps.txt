@@ -1,0 +1,5 @@
+install.packages("leaps")
+library(leaps)
+dados<-read.csv("o meu caminho pro ficheiro da exaustao ai e tal bue pastas")
+regg1<-regsubsets(FatigueLevel ~ KDTM + MAM + MVM + TBCM + DDCM + DMSM + AEDM + ADMSLM, dados)
+summary(regg1)

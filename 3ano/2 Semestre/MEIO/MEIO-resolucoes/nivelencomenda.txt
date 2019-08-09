@@ -1,0 +1,16 @@
+l - Prazo de entrega
+E(DDLT) = U(DDLT)
+E(DDLT) - Procura do prazo de entrega
+SS - Stock Seguranca
+SS = S - E(DDLT)
+P(DDLT) - Risco ótimo de quebra
+
+Esperanca de quebra por unidade de tempo:
+r/q * E(DDLT>S)
+
+Numero de quebras por ano:
+r/q * P(DDLT>S)
+
+p(x) = 1 / b-a
+
+U(DDLT) = a+b/2

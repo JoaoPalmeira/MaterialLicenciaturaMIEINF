@@ -1,0 +1,12 @@
+node 1 window 2 avg 10
+node 2 window 2 max 10
+node 3 filter 2 <= 3
+node 4 const cooling
+node 5 filter 2 > 3
+node 6 const warming
+node 7 filter 2 > 4
+node 8 tee warm-log.txt
+node 9 const 100
+node 10 filter 2 > 5
+node 11 spawn shutdown -n
+node 12 tee log.txt

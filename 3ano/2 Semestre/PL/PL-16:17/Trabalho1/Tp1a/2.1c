@@ -1,0 +1,15 @@
+BEGIN{
+	FS = ">|</"
+}
+
+$1~/DATA_SAIDA/ {split($2, mes, "-")}
+$1~/IMPORTANCIA/ {sub(",","."); a[mes[2]]+=$2}
+$1~/VALOR_DESCONTO/ {sub(",","."); desconto[mes[2]]+=$2}
+
+END{
+	for (i in a){total+=a[i]-desconto[i]; print "mes:", i,"  valor:", a[i],"  desconto:", desconto[i]};
+	print "valor total:", total;
+} 
+
+
+

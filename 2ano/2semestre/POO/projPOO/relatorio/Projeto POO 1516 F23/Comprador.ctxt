@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=m\ n\ p\ mo\ na
+comment0.target=Comprador(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.params=
+comment1.target=Comprador()
+comment2.params=v
+comment2.target=Comprador(Comprador)
+comment3.params=
+comment3.target=Comprador\ clone()
+comment4.params=
+comment4.target=java.util.TreeSet\ verFavoritos()
+comment5.params=im
+comment5.target=void\ adicionaFavorito(Imovel)
+comment6.params=
+comment6.target=void\ showUtilizador()
+numComments=7

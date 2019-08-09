@@ -1,0 +1,112 @@
+
+PT   equitação
+-catgra
+-exuso
+EN   riding
+FR
+ES
+DE
+CN   骑马
+NU   6375
+Dom  Equitação e corrida de cavalos
+BT
+Def
+ID
+
++PT   pista de corridas, hipódromo
+-catgra
+-exuso
+EN   racecourse, racetrack
+FR
+ES
+DE
+CN   跑马场\n 赛马场
+NU   6376
+Dom  Equitação e corrida de cavalos
+BT
+Def
+ID
+
++PT   jóquei, polo
+-catgra
+-exuso
+EN   jockey, polo
+FR
+ES
+DE
+CN   马球
+NU   6377
+Dom  Equitação e corrida de cavalos
+BT
+Def
+ID
+
+PT   cavaleiro
+-catgra
+-exuso
+EN   rider
+FR
+ES
+DE
+CN   马球运动员
+NU   6378
+Dom  Equitação e corrida de cavalos
+BT
+Def
+ID
+
+#PT   concurso hípico
+-catgra
+-exuso
+EN   show jumping competition
+FR
+ES
+DE
+CN   跳跃赛
+NU   6379
+Dom  Equitação e corrida de cavalos
+BT
+Def
+ID
+
+#PT   "corrida de cavalos do género de corta-mato"
+-catgra
+-exuso
+EN   steeplechase
+FR
+ES
+DE
+CN   障碍赛
+NU   6380
+Dom  Equitação e corrida de cavalos
+BT
+Def
+ID
+
+PT   obstáculo
+-catgra
+-exuso
+EN   fence
+FR
+ES
+DE
+CN   障碍
+NU   6381
+Dom  Equitação e corrida de cavalos
+BT
+Def
+ID
+
+PT   cavalo de trote
+-catgra
+-exuso
+EN   trotter
+FR
+ES
+DE
+CN   快跑的马
+NU   6382
+Dom  Equitação e corrida de cavalos
+BT
+Def
+ID

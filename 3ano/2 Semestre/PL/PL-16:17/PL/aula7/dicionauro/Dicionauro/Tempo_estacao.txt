@@ -1,0 +1,220 @@
+﻿PT Primavera
+-catgra nf
+-exuso as plantas florescem, estamos na Primavera.
+EN Spring
+FR Printemps 
+ES primavera
+DE Frühling
+CN 春
+NU 40
+Dom tempo
+BT estação  
+Def estação do ano, entre o Inverno e o Verão, em que as plantas florescem e que começa no dia 21 de Março e termina no dia 21 de Junho.  
+IMG n
+GI 4
+IM 3
+ID manuel
+
+PT primavera da vida 
+-catgra loc
+-exuso uma pessoa jovem está na primavera da vida. 
+EN 
+FR  
+ES
+DE
+CN 春
+NU 40
+PT juventude
+-catgra nf
+-exuso a minha mãe fala muitas vezes da sua juventude, da época em que ela era jovem. 
+EN youth
+FR jeunesse 
+ES juventud
+DE jugend
+Dom vida 
+BT idade
+Def período da nossa vida em que somos jovens, antes de sermos adultos.  
+GI 4
+IM 4
+ID manuel
+
+PT primavera
+-catgra nf
+-exuso A joana completou ontem 25 primaveras.
+EN 
+FR  
+ES
+DE
+CN 春
+NU 40
+PT ano
+catgra nm
+-exuso A joana completou ontem 25 anos.  
+EN year
+FR an
+ES año
+DE
+Dom vida  
+BT idade 
+?Def a idade de uma pessoa.  
+GI 4
+IM 4
+ID manuel
+
+PT primavera
+-catgra nf
+-exuso a planta primavera também é chamada prímula. 
+EN 
+FR  
+ES
+DE
+CN 春
+NU 40
+Dom botânica 
+BT planta 
+Def planta de folha larga e com flores de várias cores.
+UP enfeitar, decorar
+GI 1
+IM 3
+ID manuel
+
+PT Verão
+-catgra nm 
+-exuso o Verão é a estação mais quente do ano.  
+EN summer
+FR été
+ES verano
+DE sommer
+CN 夏
+NU 41
+Dom tempo
+BT estação
+Def estação do ano, entre a Primavera e o Outono, em que está mais calor e que começa no dia 21 de junho e acaba no dia 20 de Setembro. 
+RT estival 
+RT estivo
+IMG n
+GI 3
+IM 4
+ID manuel
+
+PT verão
+-catgra nm 
+-exuso este ano tivemos dois verões.  
+EN summer
+FR été
+ES verano
+DE sommer
+CN 夏
+NU 41
+Dom tempo
+BT estação
+Def época em todo o ano em que está mais calor  
+GI 1
+IM 2
+ID manuel
+
+PT verão da vida
+-catgra loc
+-exuso depois da juventude vem o verão da vida.  
+EN summer
+FR été
+ES 
+DE
+CN 夏
+NU 41
+Dom vida 
+BT idade 
+Def 
+GI 0
+IM 2
+ID manuel
+
+PT Outono
+-catgra nm
+-exuso No Outono as folhas das árvores caem.  
+EN autumn
+FR automne
+ES otoño
+DE herbst
+CN 秋 (美作:fall)
+NU 42
+Dom tempo
+BT estação
+Def estação do ano, entre o Verão e o Inverno, em que as folhas caem e na qual se começa a sentir mais frio e vento e que começa no dia 21 ou 22 de Setembro e acaba no dia 20 de Dezembro.   
+RT outonal 
+RT outoniço
+IMG n  
+GI 4
+IM 4
+ID manuel
+
+PT outono da vida 
+-catgra loc
+-exuso uma pessoa que começa a ficar velha entra no outono da vida.  
+EN autumn
+FR automne
+ES
+DE
+CN 秋 (美作:fall)
+NU 42
+Dom vida 
+BT idade 
+?Def período da vida em que uma pessoa começa a ficar velha. 
+GI 4
+IM 8
+ID manuel
+
+PT Inverno
+-catgra nm
+-exuso no Inverno os dias são mais pequenos e as noites maiores. 
+EN Winter
+FR Hiver 
+ES invierno
+DE Winter
+CN 冬
+NU 43
+Dom tempo
+BT estação
+Def estação do ano, entre o Outono e a Primavera, em que chove e está mais frio e que começa no dia 21 de Dezembro e acaba no dia 20 de Março.  
+GI 4
+IM 4
+ID manuel
+
+PT inverno
+-catgra nm
+-exuso este ano foi um ano de inverno. 
+EN winter
+FR hiver 
+ES invierno
+DE winter
+CN 冬
+NU 43
+Dom tempo
+BT estação
+Def quando, durante uma época qualquer do ano, o tempo é muito frio, com muita chuva e vento. 
+GI 4
+IM 3
+ID manuel
+
+PT inverno da vida 
+-catgra loc 
+-exuso a minha avó está no inverno da vida.
+EN
+FR  
+ES
+DE
+CN 冬
+NU 43
+PT velhice 
+-catgra nf
+-exuso a avó morreu proque era velha, morreu de velhice.  
+EN 
+FR vieillesse 
+ES 
+DE das alter
+Dom vida
+BT idade  
+Def quando estamos muito velhos. 
+GI 4
+IM 2
+ID manuel

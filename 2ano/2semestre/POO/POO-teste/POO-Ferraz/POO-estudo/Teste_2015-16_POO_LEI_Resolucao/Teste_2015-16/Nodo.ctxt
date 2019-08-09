@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Nodo()
+comment1.params=prox\ c
+comment1.target=Nodo(Nodo,\ Candidato)
+comment2.params=a
+comment2.target=Nodo(Nodo)
+comment3.params=
+comment3.target=Candidato\ getCandidato()
+comment4.params=c
+comment4.target=void\ setCandidato(Candidato)
+comment5.params=
+comment5.target=Nodo\ getNext()
+comment6.params=prox
+comment6.target=void\ setNext(Nodo)
+comment7.params=o
+comment7.target=boolean\ equals(java.lang.Object)
+comment8.params=
+comment8.target=Nodo\ clone()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

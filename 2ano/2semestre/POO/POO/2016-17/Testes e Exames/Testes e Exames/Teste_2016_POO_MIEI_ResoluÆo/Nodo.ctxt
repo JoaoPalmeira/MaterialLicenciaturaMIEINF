@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=c
+comment0.target=Nodo(Candidato)
+comment1.params=
+comment1.target=Candidato\ getCandidato()
+comment2.params=c
+comment2.target=void\ setCandidato(Candidato)
+comment3.params=
+comment3.target=Nodo\ getNext()
+comment4.params=prox
+comment4.target=void\ setNext(Nodo)
+numComments=5

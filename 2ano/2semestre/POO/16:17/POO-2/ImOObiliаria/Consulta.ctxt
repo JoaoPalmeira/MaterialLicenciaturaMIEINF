@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Consulta()
+comment1.params=email\ imovel
+comment1.target=Consulta(java.lang.String,\ Imovel)
+comment2.params=data\ email\ imovel
+comment2.target=Consulta(java.util.GregorianCalendar,\ java.lang.String,\ Imovel)
+comment3.params=c2
+comment3.target=Consulta(Consulta)
+comment4.params=
+comment4.target=java.util.GregorianCalendar\ getData()
+comment5.params=
+comment5.target=java.lang.String\ getEmail()
+comment6.params=
+comment6.target=Imovel\ getImovel()
+comment7.params=
+comment7.target=Consulta\ clone()
+comment8.params=o
+comment8.target=boolean\ equals(java.lang.Object)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

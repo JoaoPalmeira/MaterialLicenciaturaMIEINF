@@ -1,0 +1,40 @@
+Hiato processador-memória:
+“A memória é incapaz de alimentar o processador com instruções e dados a uma taxa suficiente para o manter constantemente ocupado"
+
+princípio da localidade:
+“Os programas bem escritos tendem a aceder a dados que estão próximos (em termos de endereço de memória) de outros dados acedidos recentemente, bem como a referenciar repetidamente os mesmos dados.”
+consequência:
+num determinado período de tempo os acessos à memória concentram-se num subconjunto bem localizado do espaço de endereçamento.
+O princípio da localidade divide-se em 2 componentes:
+Localidade temporal
+Localidade espacial
+
+
+Hierarquia de Memória
+Dotar a máquina de vários níveis de memória, tão mais rápidos (mais caros e menor capacidade) quanto mais perto se encontram do processador.
+Cada nível contêm uma cópia do código e dados mais usados em cada instante, explorando a localidade.
+
+Abandonamos o modelo de memória linear:
+“a memória é um vector (linear) com um tempo de acesso constante para cada byte”
+
+modelo de memória hierárquico:
+“a memória é uma estrutura hierárquica com um tempo de acesso a cada bytevariável e dependente da distância a que se encontra do CPU”
+
+Os dados contidos num nível mais próximo do processador são um sub- conjunto dos dados contidos no nível anterior.
+O nível mais baixo contem a totalidade dos dados.
+
+Uma escrita num nível superior deve (eventualmente) ser propagada para os níveis inferiores.
+
+Como é que a hierarquia de memória influencia Texec?
+#I – O número de instruções a executar depende do algoritmo, do conjunto de instruções e do compilador.
+Tcc – é fixo para cada máquina. Não é alterado modificando a organização da memória.
+
+CPICPU – no de ciclos que o processador necessita, em média, para executar cada instrução;
+O hit time considera-se incluído no CPICPU
+CPIMEM – no de ciclos que o processador pára, em média, à espera de dados da memória central, por que não encontrou estes dados na cache. Estes são vulgarmente designados por memory stall cycles ou wait states.
+
+Os acessos à memória devem-se ao fetch de instruções e ao acesso a dados. Como estes têm comportamentos diferentes usam-se diferentes percentagens de acesso à memória e miss rate para os dois casos.
+Instruções – Todas as instruções são lidas da memória, logo a % de acesso à memória é de 100%. missrateI refere-se ao acesso às instruções. Esta é geralmente menor que a dos dados devido à localidade espacial.
+Dados – Apenas uma determinada percentagem de instruções acede à memória (%Mem). missrateD refere-se ao acesso a dados.
+
+

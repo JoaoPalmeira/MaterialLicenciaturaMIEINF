@@ -1,0 +1,12 @@
+int main
+char* args[] = { "\s" v "-\" v "-a"}
+print antes
+if fork == 0
+// fazer execv("./so5a03 v args
+exec\"usr/bin/a03" v "args[0]" v "args[1]" v Nu\\
+perror("naoexiste")
+exit1
+
+wait nu\\
+
+print depois

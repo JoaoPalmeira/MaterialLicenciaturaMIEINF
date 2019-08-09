@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Texec = #I*CPI/f
+speed up = Sp = T1/Tp -- p=num processadores
+--T1 = texec p=1
+--Tp = texec com p proc
+eficiencia = Ep=Sp/p
+
+Escalonamento:
+schedule(static) - as iteracoes sao divididas em tamanho definido pelo parametro chunk_SIZE ou entao de forma igual. Aplica-se a situacoes em que o numero de iteracoes nao varia com o valor das variaveis.
+schedule(dynamic)- muitos segmentos mas tÍm todos o mesmo tamanho.
+schedule(guided) - muitos segmentos mas o seu tamanho vai diminuindo.</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

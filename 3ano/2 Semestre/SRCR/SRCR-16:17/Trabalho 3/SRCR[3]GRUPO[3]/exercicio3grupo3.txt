@@ -1,0 +1,63 @@
+library(hydroGOF)
+library(neuralnet)
+library(leaps)
+
+dados<-read.csv("insira o seu caminho\\exaustao-numerico.csv",sep=",",dec=".")
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+REDE PARA TASK
+
+ESCOLHA DOS MELHORES ATRIBUTOS USANDO O LEAPS
+
+regg1<-regsubsets(Task ~ KDTM + MAM + MVM + TBCM + DDCM + DMSM + AEDM + ADMSLM, dados)
+summary(regg1)
+
+TREINO E VERIFICAÇÃO DO ERRO DA REDE
+
+teste<-dados[1:197,]
+treino<-dados[198:844,]
+formula<-Task ~ KDTM + DDCM + DMSM 
+rnaexaustao<-neuralnet(formula,treino,hidden=c(4,2),lifesign="full",linear.output = FALSE,threshold=0.1)
+teste.01<-subset(teste,select=c("KDTM","DDCM","DMSM"))
+rnaexaustao.resultados<-compute(rnaexaustao,teste.01)
+resultados<-data.frame(atual=teste$Task,previsao=rnaexaustao.resultados$net.result)
+resultados$previsao<-round(resultados$previsao,digits=3)
+rmse(c(teste$Task),c(resultados$previsao))
+
+TESTE
+
+teste <- data.frame(KDTM=0.00006422618927,DDCM=0.018949826004444,DMSM=-0.01721424291766)
+teste[2,] <- data.frame(KDTM=1.954466e-04,DDCM=0.113942555970,DMSM=0.01972536166231)
+rnaexaustao.results <- compute(rnaexaustao,teste)
+rnaexaustao.results
+print(round(rnaexaustao.results$net.result))
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+REDE PARA FATIGUE LEVEL
+
+ESCOLHA DOS MELHORES ATRIBUTOS USANDO O LEAPS
+
+regg2<-regsubsets(FatigueLevel ~ KDTM + MAM + MVM + TBCM + DDCM + DMSM + AEDM + ADMSLM, dados)
+summary(regg2)
+
+TREINO E VERIFICAÇÃO DO ERRO DA REDE
+
+teste<-dados[1:711,]
+treino<-dados[712:844,]
+formula<-FatigueLevel ~ MAM + MVM + DDCM + AEDM
+rnaexaustao<-neuralnet(formula,treino,hidden=c(10,5,3),lifesign="full",linear.output = FALSE,threshold=0.1)
+teste.01<-subset(teste,select=c("MAM","MVM","DDCM","AEDM"))
+rnaexaustao.resultados<-compute(rnaexaustao,teste.01)
+resultados<-data.frame(atual=teste$FatigueLevel,previsao=rnaexaustao.resultados$net.result)
+resultados$previsao<-round(resultados$previsao,digits=3)
+rmse(c(teste$FatigueLevel),c(resultados$previsao))
+
+TESTE
+
+teste <- data.frame(MAM=0.0363465191,MVM=4.167764e-02,DDCM=9.900291e-02,AEDM=-0.0071098412)
+teste[2,] <- data.frame(MAM=0.15918549229637,MVM=0.199314993857410,DDCM=0.240448907889,AEDM=0.115046120572765)
+rnaexaustao.results <- compute(rnaexaustao,teste)
+rnaexaustao.results
+print(round(rnaexaustao.results$net.result))

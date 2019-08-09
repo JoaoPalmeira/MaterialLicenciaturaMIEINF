@@ -1,0 +1,69 @@
+#--------------------------------------------------------------------- 
+# dom => juntar dom=vestuário a todos os termos (skope:até novo dom)
+
+%dom: vestuário
+
+#--------------------------------------------------------------------- 
+# inv => cada vez que (A nt B) juntar (B bt A)
+
+%inv:nt:bt
+%inv:dom:voc
+%inv:has:pof
+%inv:inst:iof
+
+#--------------------------------------------------------------------- 
+%THE: nt 
+
+vestuário: roupa | calçado
+roupa: roupa feminina | roupa de cama
+
+#--------------------------------------------------------------------- 
+%THE: inst 
+
+##Roupa
+
+roupa: chapéu | barrete | carapuço | boné
+roupa: calças | camisa | cachecol | meias | cuecas | camisola interior
+roupa: tee-shirt | fato de banho | colete | camisola | fato | luva | calções
+roupa: fato de treino| gabardine
+roupa: avental | gravata
+
+roupa de cama: lençol | fronhas | edredão | cobertor | manta | toalha de banho
+
+roupa feminina: combinação | soutien | saia | blusa | saia e casaco | bikini | top
+roupa feminina: meias-calças | colans
+
+## calçado
+
+calçado: sandálias | sapatilhas | sapatos| chinelos | botas | croques 
+
+loja: retrosaria | alfaiataria | pronto a vestir 
+
+#--------------------------------------------------------------------- 
+%THE:has
+
+camisa: botão| bolso | colarinho | manga | punho
+camisola: manga | gola
+sapato: tacão | sola | palmilha | atacadores
+chapéu : abas
+boné : pala
+
+calças: cintura | bolso | fecho ecler | cinto | baínha
+fato: calças | casaco
+soutien: copa | alsa
+
+#--------------------------------------------------------------------- 
+%THE:EN
+saco : bag
+bota : boot
+pano : cloth
+roupa : clothing
+casaco : coat
+colarinho : collar
+chapéu : hat
+casaco : jacket
+camisa : shirt
+sapato : shoe
+saia : skirt
+meia : sock
+gravata : tie

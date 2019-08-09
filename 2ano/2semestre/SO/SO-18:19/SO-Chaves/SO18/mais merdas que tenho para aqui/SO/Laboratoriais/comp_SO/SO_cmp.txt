@@ -1,0 +1,63 @@
+
+ls -l /dev/fd
+	tty -> utilizador especial
+	0  1 2 -> associados ao teclado, ecra
+	3 4 -> associados a 2 pastas uma associada ao /dev e outra associada ao /fd
+	-> cada open que eu faça a seguir acrescenta números na minha tabela
+	-> eu preciso de Opens sempre que vá abrir algo que não seja o stdinput ou stdoutput, pois são os unicos que permanecem abertos smp
+
+
+	ls | ./cat -> pegar no output de ls e injeta-lo no cat
+
+	./cat1a < xxx , ha um close de 0 e um redirecionamento do xxx no mesmo lugar
+
+
+	man -k : key de procura
+
+	man -k disk | grep free
+					procura a linha que tem free
+
+
+	man df
+
+	df | grep disk1
+	quero ir á 5 coluna : man -k cut
+
+	secção 1 manual -> comandos bash
+	secção 2 manual -> system calls
+	secção 3 manual ->  funções,bibliotecas
+
+
+	df | grep disk1 | cut -d ' ' -f5 (5 elemento) field
+	-d -> delimitador
+
+	df | grep disk1 | tr -s ' ' // comprimir os espaçõs para 1
+
+	agora
+		df| grep disk1 | tr -s ' ' | cut -d ' ' -f5 | cut -d '%' -f 1
+		// obtemos apenas o valor da percentagem
+
+
+	echo &PATH // variavel que a bash tem já que diz a lista das pastas onde vai buscar os comandos
+
+	PS1 -> variável de config
+	echo $(ver o valor) PS1
+
+	set | more (ver lista das variáveis)
+
+	!(bang) 
+
+	atrinuir variáveis 
+	nomevar = valorvar
+
+	se eu queria que a var ficasse consistente tinha que ir ao /profile e coloca-la lá, assim sempre que iniciasse a bash de novo estava feito
+
+
+	voltando ao exemplo da percentagem
+	ficheiros mostram o conteudo com cat, variaveis mostram com echo
+
+	comando 
+	whereis vi -> p.exmplo
+
+	size `whereis vi`
+

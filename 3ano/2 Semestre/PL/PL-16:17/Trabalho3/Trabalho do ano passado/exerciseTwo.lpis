@@ -1,0 +1,18 @@
+program exerciseTwo
+{
+    variable N, index, number, sum : integer;
+
+    instructions
+    {
+        read(N);
+
+        while (index < N)
+        {
+            read(number);
+            sum = sum + number;
+            index = index + 1;
+        }
+
+        write("Somatorio = " ++ sum ++ "\n");
+    }
+}

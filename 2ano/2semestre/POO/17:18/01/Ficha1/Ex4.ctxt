@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Ex4
+comment0.text=\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ Ex4\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\n
+comment1.params=valor\ taxaConversao
+comment1.target=double\ eurosParaLibras(double,\ double)
+numComments=2

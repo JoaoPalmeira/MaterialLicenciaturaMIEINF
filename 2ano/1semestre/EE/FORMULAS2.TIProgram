@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Amortizacoes=custo aquisicao/anos de vida utilVAL= n somatório t=0 (FCt/(1+i)^t)PRI – PRI0=FC0   PRI1=PRI0+FC1 ...FAE – A=P*i*(1+i)^n/(1+i)^n-1</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

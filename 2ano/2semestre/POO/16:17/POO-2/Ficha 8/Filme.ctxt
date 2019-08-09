@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=f2
+comment0.target=Filme(Filme)
+comment1.params=
+comment1.target=java.util.List\ getAtores()
+comment2.params=
+comment2.target=java.lang.String\ getRealizador()
+comment3.params=
+comment3.target=Filme\ clone()
+numComments=4

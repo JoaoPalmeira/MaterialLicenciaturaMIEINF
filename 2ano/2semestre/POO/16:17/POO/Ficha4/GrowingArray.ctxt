@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GrowingArray()
+comment1.params=capacidade
+comment1.target=GrowingArray(int)
+comment2.params=
+comment2.target=int\ getSize()
+comment3.params=
+comment3.target=Veiculo[]\ getElementos()
+comment4.params=indice
+comment4.target=Veiculo\ get(int)
+comment5.params=v
+comment5.target=void\ add(Veiculo)
+comment6.params=o
+comment6.target=boolean\ equals(GrowingArray)
+comment6.text=\n\ equals\n\ \n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ toString\n
+comment8.params=
+comment8.target=GrowingArray\ clone()
+comment8.text=\n\ clone\n
+numComments=9

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Hierarquia de Memoria
+
+Terminologia: 
+
+Linha – a cache esta dividida em linhas. Cada linha tem o seu endereço (indice) e tem a capacidade de um bloco. Bloco – Quantidade de informacao que e transferida de cada vez da memoria central para a cache. E igual a capacidade da linha. 
+Hit – Diz-se que ocorreu um hit quando o elemento de memoria acedido pelo CPU se encontra na cache. 
+Miss – Diz-se que ocorreu um miss quando o elemento de memoria acedido pelo CPU nao se encontra na cache, sendo necessario le-lo do nivel inferior da hierarquia.
+Hit rate – Percentagem de hits ocorridos relativamente ao total de acessos a 
+memoria. Miss rate – Percentagem de misses ocorridos relativamente ao total de 
+acessos a memoria.
+Hit time – Tempo necessario para aceder a cache, incluindo o tempo necessario para determinar se o elemento a que o CPU esta a aceder se encontra ou nao na cache. 
+Miss penalty – Penalizacao incorrida para aceder a um bloco dos niveis superiores da hierarquia, ocorre um miss. 
+
+H-M e Localidade:
+
+Localidade Temporal A primeira vez que um endereco de memoria e acedido, e carregado do nível de  memoria inferior para a cache – cold miss  O proximo acesso a esse endereco encontra os dados na cache – hit  (excepto se entretanto foram removidos devido a uma colisao, resultando nesse caso numa miss)  
+Localidade Espacial Quando um endereço e carregado para a cache, e carregado um bloco de  enderecos consecutivos O acesso seguinte a um endereco na vizinhanca resulta num hit </string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Hiato Processador-Memoria
+
+Dynamic RAM (DRAM): 
+– 1condensador+1transistor por bit • (alta densidade -&gt; alta capacidade e baixo custo relativo) 
+– Nao persistente, refresh periodico (-&gt; tempos de acesso elevados) 
+Static RAM (SRAM) :
+– 6 transistores por bit (baixa densidade) • baixa densidade -&gt; menor capacidade e alto custo relativo) 
+– Muito persistente: bistable (-&gt; tempos de acesso reduzidos) 
+
+Localidade:
+
+-Temporal: um elemento de memoria acedido pelo CPU ser, com grande probabilidade, acedido de novo num futuro proximo. 
+exemplos: tanto as instrucoes dentro dos ciclos, como as variaveis usadas como contadores de ciclos, sao acedidas repetidamente em curtos intervalos de tempo. 
+
+
+-Espacial: se um elemento de memoria e acedido pelo CPU, entao elementos com enderecos na proximidade serao, com grande probabilidade, acedidos num futuro proximo. 
+exemplos: as instrucoes sao acedidas em sequencia, assim como, na maior parte dos programas os elementos dos arrays.
+
+Hierarquia de Memoria
+
+-Inclusao: Os dados contidos num nivel mais proximo do processador sao um sub- conjunto dos dados contidos no nivel anterior. 
+O nivel mais baixo contem a totalidade dos dados. 
+
+-Escrita: Uma escrita num nivel superior deve (eventualmente) ser propagada para os niveis inferiores.
+</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

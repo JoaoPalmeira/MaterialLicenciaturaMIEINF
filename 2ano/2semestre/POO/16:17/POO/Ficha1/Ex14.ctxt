@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\ \ public\ static\ void\ primo(int\ n){\r\n\ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ int\ d\=2;\r\n\ \ \ \ \ \ \r\n\ \ \ \ \ \ \ while((n/d)>\ d\ &&n\ %d\!\=0\ &&\ n\!\=d){\r\n\ \ \ \ \ \ \ \ \ \ \ d++;\r\n\ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ if(n%d\=\=0\ &&\ n\!\=d){\r\n\ \ \ \ \ \ \ \ \ \ System.out.println("O\ n\u00FAmero\ n\u00E3o\ \u00E9\ primo\!");\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ else{\r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("O\ n\u00FAmero\ \u00E9\ primo");\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ n--;\r\n\ \ \ \ }\r\n\ \ \ \r\n}
+numComments=1

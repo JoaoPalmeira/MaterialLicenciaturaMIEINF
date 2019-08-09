@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getTipo()
+comment1.params=
+comment1.target=double\ getAreaT()
+comment2.params=
+comment2.target=int\ getNQuartos()
+comment3.params=
+comment3.target=int\ getNWc()
+comment4.params=
+comment4.target=int\ getNPorta()
+comment5.params=tipo
+comment5.target=void\ setTipo(java.lang.String)
+comment6.params=areaT
+comment6.target=void\ setAreaT(double)
+comment7.params=nQuartos
+comment7.target=void\ setNQuartos(int)
+comment8.params=nWc
+comment8.target=void\ setNWc(int)
+comment9.params=nPorta
+comment9.target=void\ setNPorta(int)
+numComments=10

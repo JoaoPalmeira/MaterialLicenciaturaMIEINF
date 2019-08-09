@@ -1,0 +1,4 @@
+Escalonamento:
+schedule(static) - as iteracoes sao divididas em tamanho definido pelo parametro chunk_SIZE ou entao de forma igual. Aplica-se a situacoes em que o numero de iteracoes nao varia com o valor das variaveis.
+schedule(dynamic)- muitos segmentos mas têm todos o mesmo tamanho.
+schedule(guided) - muitos segmentos mas o seu tamanho vai diminuindo.

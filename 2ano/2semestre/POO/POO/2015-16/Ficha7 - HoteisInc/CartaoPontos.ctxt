@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ obterValorPontos()
+comment1.params=pontos
+comment1.target=void\ definirValorPontos(int)
+comment2.params=
+comment2.target=double\ calculaPontos()
+comment2.text=\r\n\ Devolve\ o\ n\u00FAmero\ de\ pontos\ por\ noite\r\n
+numComments=3

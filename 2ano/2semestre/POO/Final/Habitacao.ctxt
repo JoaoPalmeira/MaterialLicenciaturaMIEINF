@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Habitacao
+comment0.text=\n\ Write\ a\ description\ of\ class\ Habitacao\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Habitacao()
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment11.params=
+comment11.target=Habitacao\ clone()
+comment2.params=deducao\ codigo\ valorDeducao\ descricao\ tipoHabitacao
+comment2.target=Habitacao(boolean,\ int,\ double,\ java.lang.String,\ java.lang.String)
+comment3.params=h
+comment3.target=Habitacao(Habitacao)
+comment4.params=
+comment4.target=double\ getValorDeducao()
+comment5.params=
+comment5.target=java.lang.String\ getDescricao()
+comment6.params=
+comment6.target=java.lang.String\ getTipoHabitacao()
+comment7.params=valor
+comment7.target=void\ setValorDeducao(double)
+comment8.params=descricao
+comment8.target=void\ setDescricao(java.lang.String)
+comment9.params=tipoHabitacao
+comment9.target=void\ setTipoHabitacao(java.lang.String)
+numComments=12

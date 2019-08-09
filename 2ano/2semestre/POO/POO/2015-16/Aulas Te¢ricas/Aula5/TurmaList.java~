@@ -1,0 +1,221 @@
+/**
+ * Classe que representa um Turma, utilizando Set.
+ * 
+ * @author José C. Campos 
+ * @version 20160310
+ */
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.stream.Collectors;
+
+public class TurmaList {
+     
+    // Variáveis de instância
+    private String designação;
+    private Aluno[] lstAlunos;
+    
+    // construtores
+    /**
+     * Construtor Vazio.
+     */
+    public TurmaList() {
+           this("N/A");
+
+    }
+    
+    /**
+     * @param desig nome da turma.
+     */
+    public TurmaList(String desig) {
+            designação = desig;
+            lstAlunos = new ArrayList<>();
+    }
+    
+    /**
+     * Construtor de cópia.
+     * 
+     * @param t a turma a ser copiada.
+     */
+    public TurmaList(TurmaList t) {
+        designação = t.getDesignação();
+        lstAlunos = t.getLstAlunos();
+    }
+    
+    // Métodos de instãncia
+    
+    /**
+     * @return o nome da turma.
+     */
+    public String getDesignação() {
+        return designação;
+    }
+    
+    /**
+     * Método auxiliar que devolve uma 'deep copy' da lista de alunos.
+     * Declarado privado: outras classes não poderão obter a lista.
+     * 
+     * @return um List com os alunos da turma (faz uma 'deep copy')
+     */
+    public List<Aluno> getLstAlunos() {
+        return lstAlunos.stream()
+                        .map(Aluno::clone)
+                        .collect(Collectors.toList());
+    }
+    
+    /**
+     * @return o número de alunos da turma.
+     */
+    public int getTamanho() {
+        return lstAlunos.size();
+    }
+    
+    /**
+     * Adicionar um aluno à turma. (Não verifica existência!)
+     * 
+     * @param a o aluno a adicionar.
+     */
+    public void addAluno(Aluno a) {
+        lstAlunos.add(a.clone());
+    }
+    
+    /**
+     * Obter o i-ésimo aluno da turma.
+     * 
+     * @param pos a posição do aluno pretendido
+     * @return uma cópia do aluno na posição referida
+     */
+    public Aluno getAluno(int pos) {
+        if (pos<lstAlunos.size())
+            return lstAlunos.get(pos).clone();
+        else 
+            return null;
+    }
+    
+    /**
+     * Alterar a nota de um aluno.
+     * 
+     * @param pos a posição do aluno
+     * @param nota a nova nota
+     */
+    public void setNota(int pos, double nota) {
+        if (pos<lstAlunos.size())
+                lstAlunos.get(pos).setNota(nota);
+    }
+    
+    /**
+     * Quantos alunos passam?
+     * 
+     * @return um int com nº alunos que passa
+     */
+    public long quantosPassam() {
+      
+        return lstAlunos.stream().filter(Aluno::passa).count();  
+    }
+    
+    /**
+     * Algum aluno passa?
+     * 
+     * @return true se algum aluno passa
+     */
+    public boolean alguemPassa() {
+        return lstAlunos.stream().anyMatch(Aluno::passa);
+    }
+    
+          
+    /**
+     * Remover notas mais baixas
+     * 
+     * @param nota a nota limite
+     */
+    public void removerPorNota(int nota) {
+        lstAlunos = lstAlunos.stream()
+                             .filter(a -> a.getNota()<nota)
+                             .collect(Collectors.toList());
+    }
+    
+    public void removerPorNota2(int nota) {
+        lstAlunos.removeIf(a -> a.getNota()<nota);
+    }
+    
+    /**
+     * Média da turma
+     * 
+     * @return um double com a média da turma
+     */
+    public double media() {
+        double tot = 0.0;
+        
+        for(Aluno a: lstAlunos)
+            tot += a.getNota();
+            
+        return tot/lstAlunos.size(); 
+    }
+    
+    /**
+     * Média da turma
+     * 
+     * @return um double com a média da turma
+     */
+    public double media2() {
+        double tot = lstAlunos.stream()
+                              .mapToDouble(Aluno::getNota)
+                              .reduce(0.0, Double::sum); 
+        return tot/lstAlunos.size(); 
+    }
+    
+    /**
+     * Média da turma
+     * 
+     * @return um double com a média da turma
+     */
+    public double media3() {
+        double tot = lstAlunos.stream()
+                              .mapToDouble(Aluno::getNota)
+                              .sum(); 
+        return tot/lstAlunos.size(); 
+    }
+    
+    /**
+     * Subir a nota a todos os alunos
+     * 
+     * @param bonus int valor a subir. 
+     */
+    public void aguaBenta(int bonus) {
+        lstAlunos.forEach(a -> a.sobeNota(bonus));
+    } 
+    
+    /**
+     * Verificar se um aluno existe na turma.
+     * 
+     * @param a o aluno a procurar
+     * @return true se o aluno existe; false noutro caso.
+     */
+    public boolean existeAluno(Aluno a) {
+        
+        return lstAlunos.contains(a);        
+    }
+    
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (o==null || o.getClass()!=this.getClass())
+            return false;
+        TurmaList t = (TurmaList) o;
+        return this.designação.equals(t.getDesignação()) 
+            && this.lstAlunos.equals(t.getLstAlunos());
+    }
+    
+    public TurmaList clone() {
+        return new TurmaList(this);
+    }
+    
+    public String toString() {
+        StringBuilder sb = new StringBuilder("Turma(");
+        sb.append(this.designação);
+        sb.append(", ");
+        sb.append(this.lstAlunos.toString());
+        return sb.toString();
+    }
+    
+}

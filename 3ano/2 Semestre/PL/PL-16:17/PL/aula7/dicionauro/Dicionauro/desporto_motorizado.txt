@@ -1,0 +1,143 @@
+PT automobilismo 
+-catgra nm
+-exuso
+EN  
+FR automobilisme 
+ES automobilismo 
+DE
+CN 
+NU 
+DOM desporto
+BT motorizado 
+RT 
+Def
+ID manuel
+
+PT motociclismo 
+-catgra nm
+-exuso
+EN motorcycling  
+FR motocyclisme
+ES motociclismo
+DE
+CN 
+NU 
+DOM desporto
+BT motorizado 
+RT 
+Def
+ID manuel
+
+PT   corrida
+-catgra substantivo
+-exuso
+EN   race
+FR
+ES
+DE
+CN   ???
+NU   6322
+Dom  Motociclismo
+BT Desporto
+Def
+ID Ana Rita Sá
+
+PT rali
+PT   rally
+-catgra substantivo masculino
+-exuso
+EN   rally
+FR
+ES
+DE
+CN   ?????
+NU   6327
+Dom  Motociclismo
+BT Desporto
+Def prova automobilística corrida em vias públicas e segundo a exigência de uma velocidade média especificada (cuja aferição é feita em postos de controle distribuídos pelo percurso e ger. desconhecidos dos participantes, até o início da corrida)
+ID Ana Rita Sá
+
+PT fórmula 1
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT motocrosse 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT karting
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT tuning 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT jet ski
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT todo-terreno
+PT TT
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel  

@@ -1,0 +1,39 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Mapeamento Direto:\
+\
+Numero de sets (S) igual ao numero de linhas\uc0\u8232 Uma linha por set (E=1)\u8232 Um endereco de memoria mapeia em uma e uma so linha da cache \
+Consequencia: potencial para elevado numero de colisoes\uc0\u8232 O set index, e a linha correspondente da cache, e determinado de \
+forma univoca por s bits do endere\'e7o\uc0\u8232 Consequencia: hit time reduzido pois so e necessaria uma \
+comparacao de tags \
+\
+Mapeamento Completamente Associativo:\
+\
+Um unico set (S=1)\uc0\u8232 Todas as linhas pertencem ao mesmo set\u8232 Um endere\'e7o de memoria mapeia em qualquer linha da cache \
+Consequencia: reduzido numero de colisoes\uc0\u8232 Como nao existe set index a tag tem mp-bp bits e a procura de um \
+endereco implica a comparacao com todas as tags\uc0\u8232 Consequencia: hit time aumenta pois e necessario comparar \
+com todas as tags, que tem um numero elevado de bits \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf0 Mapeamento n-way set associative \
+\
+S sets com E linhas cada\uc0\u8232 Um endereco de memoria mapeia num unico set\u8232 Um endereco de memoria mapeia em qualquer linha do seu set \
+Consequencia: compromisso no numero de colisoes\uc0\u8232 Para localizar um endereco dentro do respectivo set e necessario \
+comparar com as tags de todas as linhas desse set \
+Consequ\'eancia: compromisso no hit time 
+\f1 \
+\
+\
+
+\f0 \
+\
+}

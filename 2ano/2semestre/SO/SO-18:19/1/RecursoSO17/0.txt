@@ -1,0 +1,10 @@
+0.txt
+1.txt
+20170626.pdf
+controlador
+controlador.c
+parte2.c
+streamer
+streamer.c
+untitled.c
+

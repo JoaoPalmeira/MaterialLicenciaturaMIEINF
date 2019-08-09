@@ -1,0 +1,46 @@
+﻿PT cor 
+-catgra 
+-exuso 
+AUDPT n
+EN color 
+AUDEN n
+FR couleur 
+AUDFR n
+ES color 
+AUDES n
+DE farbe
+AUDDE n
+CN
+NU
+DOM 
+BT
+NT vermelho 
+NT castanho 
+NT amarelo 
+NT verde 
+NT cinzento 
+NT bege 
+NT roxo 
+NT branco 
+NT preto 
+NT violeta  
+NT magenta 
+NT turquesa 
+NT ciano 
+NT azul 
+NT cor-de-rosa 
+NT cor-de-laranja
+NT escarlate
+NT prateado
+NT dourado 
+NT cor-de-vinho
+NT lilás 
+NT salmão
+NT púrpura
+RT corante 
+RT colorido 
+RT coloração 
+Def 
+GI
+IM
+ID manuel 

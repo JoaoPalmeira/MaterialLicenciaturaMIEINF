@@ -1,0 +1,42 @@
+$ ls
+>>>
+enunciado-so-2017-18.pdf
+makefile
+notebook
+notebook.c
+result.txt
+temp.txt
+<<<
+$| sort
+>>>
+enunciado-so-2017-18.pdf
+makefile
+notebook
+notebook.c
+result.txt
+temp.txt
+<<<
+$1| head -2
+>>>
+enunciado-so-2017-18.pdf
+makefile
+<<<
+$| head -4
+>>>
+enunciado-so-2017-18.pdf
+makefile
+<<<
+$| head -2
+>>>
+enunciado-so-2017-18.pdf
+makefile
+<<<
+$| head -1
+>>>
+enunciado-so-2017-18.pdf
+<<<
+$3| sort
+>>>
+enunciado-so-2017-18.pdf
+makefile
+<<<

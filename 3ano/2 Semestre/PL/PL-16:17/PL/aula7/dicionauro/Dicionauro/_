@@ -1,0 +1,1278 @@
+0a1,20
+> PT corpo humano
+> -catgra loc
+> -exuso O corpo humano é estudado pelos cientistas.
+> EN human body
+> FR corps humain
+> ES cuerpo humano
+> DE menschlicher körper
+> CN   ??
+> NU   289
+> Dom Biologia
+> BT anatomia 
+> PART cabeça
+> PART tronco
+> PART membro
+> PART costas
+> !Def parte física do ser humano, formado por cabeça, tronco e membros
+> IMG N
+> GI 5
+> IM 3
+> ID noelia
+4c24
+< -exuso A cabeça de uma pessoa adulta pode chegar a pesar........
+---
+> -exuso
+15c35
+< Def a cabeça é a parte do corpo humano que se encontra por cima do pescoço.
+---
+> !Def parte do corpo humano que se encontra acima dos ombros.
+23c43
+< -exuso Na zona do tronco é onde temos os órgãos vitais.....
+---
+> -exuso 
+40c60
+< Def o tronco é a parte do corpo humano abaixo da cabeça, que suporta os braços e que fica acima das pernas.
+---
+> Def parte do corpo humano abaixo da cabeça, que suporta os braços e que fica acima das pernas.
+48c68
+< -exuso Os ^braços^ e as ^pernas^ são os membros do corpo humano.
+---
+> -exuso Os braços e as pernas são os membros do corpo humano.
+57c77
+< Def um membro é o braço ou a perna.
+---
+> Def o braço ou a perna
+65c85
+< -exuso Quando temos a garganta inflamada temos dificuldade em falar ou em engulir.
+---
+> -exuso Tinha a garganta irritada por isso não conseguia falar.
+75c95
+< Def a garganta é a parte do pescoço por onde passam os alimentos da boca para o estômago.
+---
+> !Def parte do pescoço por onde passam os alimentos da boca para o estomâgo
+93c113
+< !Def o pêlo é um fio que cresce na pele.
+---
+> !Def fio que cresce na pele
+101c121
+< -exuso Os mamíferos fêmea têm mamilos por onde sai o leite que alimenta as crias.
+---
+> -exuso
+118c138
+< -exuso Quando inspiramos enchemos o peito de ar.
+---
+> -exuso 
+127c147
+< Def o peito é a parte da frente do tronco.
+---
+> Def parte da frente do tronco
+144c164
+< Def um sinal é uma mancha ou pinta escura na pele.
+---
+> Def mancha ou pinta escura na pele.
+153c173
+< -exuso O umbigo na nossa barriga é uma cicatriz e todos os seres humanos têm uma parecida.
+---
+> -exuso 
+155,157c175,177
+< FR nombril
+< ES ombligo 
+< DE nabel
+---
+> FR
+> ES 
+> DE
+162c182
+< Def o umbigo é uma cicatriz na barriga, deixada pelo corte do cordão umbilical no momento em que nascemos.
+---
+> Def cicatriz na barriga, deixada pelo corte do cordão umbilical
+169,171c189,190
+< -catgra nm 
+< PL abdómenes
+< -exuso O abdómen também se pode chamar ^"barriga"^.
+---
+> -catgra nm [pl abdómenes]
+> -exuso
+174c193
+< -exuso A barriga é um sinónimo de ^"abdómen"^.
+---
+> -exuso
+176,178c195,197
+< FR abdomen
+< ES abdomen
+< DE bauch
+---
+> FR
+> ES
+> DE
+183c202
+< Def o abdómen á a parte do corpo onde se situam o estômago e os intestinos.
+---
+> Def parte do corpo onde se situam o estômago e os intestinos
+191c210
+< -exuso Cobrimos as partes íntimas com roupa interior.
+---
+> !-exuso Cobrimos as partes íntimas com a com roupa interior.
+193c212
+< FR 
+---
+> FR
+210,212c229,231
+< FR cuisse
+< ES muslo
+< DE oberschenkel
+---
+> FR
+> ES
+> DE
+217c236
+< Def a coxa é a parte da perna que fica acima do joelho.
+---
+> Def parte da perna que fica acima do joelho.
+235c254
+< Def o pescoço é a parte do corpo que segura a cabeça.
+---
+> Def parte do corpo que segura a cabeça
+252c271
+< Def o ombro é a parte superior do braço.
+---
+> Def parte superior do braço
+269c288
+< Def as costas ficam na parte de trás do tronco.
+---
+> Def parte de trás do tronco.
+280c299
+< ES cintura
+---
+> ES
+286c305
+< Def a cintura fica acima das ancas e baixo do peito.
+---
+> Def parte que fica acima das ancas e baixo do peito.
+297c316
+< ES cadera
+---
+> ES
+303c322
+< !Def parte lateral do corpo humano, entre a cintura e a coxa.
+---
+> Def parte lateral do corpo humano, entre a cintura e a coxa.
+323c342
+< Def a nádega é cada uma das partes que fica por cima das coxas.
+---
+> Def cada uma das partes que ficam por cima das coxas
+325,326c344,345
+< GI 5
+< IM 3
+---
+> GI
+> IM
+355,358c374,376
+< Dom anatomia
+< BT corpo humano 
+< POF 
+< Def a clavícula é osso que se situa entre o ombro e o pescoço
+---
+> Dom corpo humano
+> BT anatomia
+> Def osso que se situa entre o ombro e o pescoço
+368,370d385
+< FR
+< ES
+< DE
+374,376c389,391
+< BT corpo humano 
+< POF 
+< Def a costela é cada uma das peças do esqueleto do toráx.
+---
+> BT corpo humano
+> POF esqueleto
+> Def cada uma das peças do esqueleto do toráx.
+393c408
+< POF 
+---
+> POF esqueleto
+406,407c421,422
+< Dom anatomia 
+< BT corpo humano
+---
+> Dom  Corpo humano 
+> BT
+420c435
+< Def osso que constitui a parte posterior do ombro
+---
+> !Def osso que constitui a parte posterior do ombro
+432,434c447,449
+< Dom anatomia 
+< BT corpo humano anatomia
+< POF 
+---
+> Dom  Corpo humano 
+> BT osso
+> POF estrutura óssea
+436,437d450
+< GI 5
+< IM 3
+446,447c459,460
+< Dom anatomia 
+< BT corpo humano
+---
+> Dom Corpo humano 
+> BT
+462,464c475,477
+< Dom anatomia 
+< BT corpo humano anatomia
+< POF 
+---
+> Dom  Corpo humano 
+> BT osso
+> POF estrutura óssea
+466,467d478
+< GI 5
+< IM 3
+476,477c487,488
+< Dom anatomia 
+< BT corpo humano 
+---
+> Dom  Corpo humano 
+> BT 
+479,480c490,505
+< GI 5
+< IM 3
+---
+> ID noelia
+> 
+> PT esqueleto
+> -catgra nm
+> -exuso
+> EN   skeleton
+> CN   ??
+> NU   317
+> PART crânio
+> PART costela
+> PART clavícula
+> PART esterno
+> PART pélvis
+> Dom anatamia  
+> BT corpo humano
+> Def estrutura que protege os órgãos internos do corpo humano, formada por ossos, cartilagens e ligamentos
+487,489d511
+< FR
+< ES
+< DE
+492,494c514,516
+< Dom anatomia 
+< BT corpo humano anatomia
+< POF 
+---
+> Dom corpo humano 
+> !BT fibra
+> !POF estrutura muscular
+496d517
+< 
+503,505d523
+< FR
+< ES
+< DE
+508,513c526,529
+< Dom anatomia 
+< BT corpo humano 
+< POF 
+< Def órgão formado por tecido que se contrai e produz os movimentos do corpo
+< GI 5
+< IM 3
+---
+> Dom Corpo humano 
+> BT órgão
+> !POF estrutura muscular
+> Def orgão formado por tecido que se contrai e produz os movimentos do corpo
+519,522c535
+< EN joint
+< FR
+< ES
+< DE
+---
+> EN   joint
+525,527c538,540
+< Dom anatomia 
+< BT corpo humano anatomia
+< POF 
+---
+> Dom corpo humano 
+> BT anatomia
+> POF estrutura óssea
+539,544c552,553
+< POF 
+< GI 5
+< IM 3
+< Def vaso que transporta o sangue.
+< GI 5
+< IM 3
+---
+> POF aparelho circulatório
+> Def vaso que transporta sangue
+555,558c564,565
+< POF 
+< Def vaso que transporta o sangue das diferentes partes do corpo para o coração. 
+< GI 5
+< IM 3
+---
+> POF aparelho circulatório
+> Def vaso que transporta o sangue das diferentes partes do corpo para o coração, com a ajuda da válvula e a contracção dos músculos que a rodeiam. 
+571,572d577
+< GI 5
+< IM 3
+584,586c589
+< Def vaso sanguíneo, que rodeia os órgãos, constituído por uma parede fina, que facilita as trocas gasosas. 
+< GI 5
+< IM 3
+---
+> Def vaso sanguíneo, que rodeia os orgãos, constituído por uma parede fina, que facilita as trocas gasosas. 
+597,599c600
+< !Def órgão que conduz e transmite os impulsos nervosos do cérebro para as diversas partes do corpo.
+< GI 5
+< IM 3
+---
+> Def órgão que conduz e transmite os impulsos nervosos do cérebro para as diversas partes do corpo
+610,613c611,612
+< POF 
+< Def espécie de cordão formado por células nervosas que vai da ^cervical^ até a zona ^lombar^.
+< GI 5
+< IM 3
+---
+> POF aparelho nervoso
+> Def espécie de cordão formado por células nervosas, parte do sistema nervoso central, que corre no canal formado pelas vértebras, desde a cervical até a segunda lombar
+624,627c623,624
+< POF 
+< Def movimento de ^inspiração^ e ^expiração^.
+< GI 5
+< IM 3
+---
+> POF aparelho respiratório
+> Def movimento de inspiração e expiração.
+638,641c635,636
+< POF 
+< Def canal que conduz o ar para os pulmões.
+< GI 5
+< IM 3
+---
+> POF aparelho respiratório
+> Def canal, situado entre a laringe e os brônquios, que conduz o ar para os pulmões.
+646c641
+< -exuso 
+---
+> -exuso
+651,654c646,647
+< BT corpo humano
+< !Def .
+< GI 5
+< IM 3
+---
+> BT órgão
+> Def orgão, situado no toráx, que é parte integral do sistema respiratório.
+664,665c657
+< BT corpo humano
+< POF
+---
+> BT órgão
+668,670c660
+< Def órgão central da circulação do sangue constituído por duas aurículas e dois ventrículos.
+< GI 5
+< IM 3
+---
+> Def órgão central da circulação do sangue, situado no peito entre os pulmões, constituído por duas aurículas e dois ventrículos.
+680,684c670,671
+< BT corpo humano
+< POF 
+< Def músculo que separa a ^cavidade toráxica^ da cavidade ^abdominal^ e interfere na respiração.
+< GI 5
+< IM 3
+---
+> BT músculo
+> Def músculo que separa a cavidade toráxica da abdominal e interfere na respiração.
+694,698c681,682
+< BT corpo humano
+< POF
+< Def quando deitamos o ar para fora do nosso corpo.
+< GI 5
+< IM 3
+---
+> BT aparelho respiratório
+> !Def lançar vapor pelas vias respiratórias
+708,712c692,694
+< BT corpo humano
+< POF 
+< Def quando fazemos entrar o ar pelas vias respiratórias.
+< GI 5
+< IM 3
+---
+> BT aparelho respiratório
+> POF aparelho respiratório
+> Def absorver cheiro pelas vias respiratórias
+715c697
+< PT órgão interno
+---
+> !PT   orgão interno
+721,725c703,705
+< Dom anatomia 
+< BT corpo humano
+< Def órgão que fica no interior do corpo humano.
+< GI 5
+< IM 3
+---
+> Dom  Corpo humano 
+> BT
+> Def órgão situado no interior do corpo humano
+735,739c715,717
+< BT corpo humano
+< POF 
+< Def órgão que liga a ^faringe^ ao ^estômago^.
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF aparelho digestivo
+> Def orgão que estabelece a comunicação entre a faringe e o estômago.
+749,753c727,729
+< BT corpo humano
+< POF 
+< Def órgão que faz a digestão dos alimentos.
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF aparelho digestivo
+> Def orgão que desempenha papel importante na digestão.
+763,767c739,741
+< BT corpo humano
+< POF 
+< !Def órgão responsável pela libertação do ^suco biliar^ ou ^bílis^.
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF aparelho digestivo
+> Def orgão reponsável pela secreção biliar (produz a bílis).
+777,781c751,753
+< BT corpo humano
+< POF 
+< Def pequeno saco onde se acumula a ^bílis^.
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF aparelho digestivo
+> Def pequeno saco onde se acumula a bilis.
+791,795c763,765
+< BT corpo humano
+< POF 
+< Def ^glândula^ alongada situada atrás do ^estomâgo^.
+< GI 5
+< IM 3
+---
+> BT glândula
+> POF aparelho digestivo
+> Def glândula alongada situada atrás do estomâgo.
+805,809c775,776
+< BT corpo humano
+< POF
+< Def órgão situado à esquerda do estomâgo.
+< GI 5
+< IM 3
+---
+> BT órgão
+> Def orgão situado à esquerda do estomâgo
+819,823c786,788
+< BT corpo humano
+< POF 
+< Def parte inicial do ^intestino delgado^.
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF aparelho digestivo
+> Def parte inicial do intestino delgado
+827c792
+< -catgra nm
+---
+> -catgra 
+833,837c798,800
+< BT corpo humano
+< POF 
+< Def órgão que une o estômago ao ^anûs^.
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF aparelho digestivo
+> Def orgão fino ou delgado que une o estômago ao anûs.
+841c804
+< -catgra nm
+---
+> -catgra 
+847,851c810,812
+< BT corpo humano
+< POF 
+< Def órgão que une o estômago ao ^anûs^.
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF aparelho digestivo
+> Def orgão grosso que une o estômago ao anûs.
+861,865c822,823
+< BT corpo humano
+< POF
+< Def parte inicial do intestino grosso.
+< GI 5
+< IM 3
+---
+> BT órgão
+> Def parte inicial e alargada do intestino grosso
+875,876c833,834
+< BT corpo humano
+< POF 
+---
+> BT órgão
+> POF aparelho digestivo
+878,879d835
+< GI 5
+< IM 3
+889,893c845,847
+< BT corpo humano
+< POF
+< Def parte final do intestino.
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF aparelho digestivo
+> Def parte final do intestino
+902,907c856,859
+< Dom anatomia 
+< BT corpo humano
+< POF 
+< Def oríficio, situado no final do tubo digestivo, por onde saem as fezes e os gases.
+< GI 5
+< IM 3
+---
+> !Dom  Corpo humano 
+> BT
+> POF aparelho digestivo
+> Def oríficio, situado no final do tubo digestivo, por onde se expelem as fezes e gases.
+916,921c868,871
+< Dom anatomia 
+< BT corpo humano
+< POF 
+< Def fazer a digestão de alimentos.
+< GI 5
+< IM 3
+---
+> Dom  Corpo humano 
+> BT
+> POF aparelho digestivo
+> Def fazer a digestão de alimentos
+930,934c880,882
+< Dom anatomia 
+< BT corpo humano
+< Def recolher e ^reter^ os ^nutrientes^ dos alimentos.
+< GI 5
+< IM 3
+---
+> Dom  Corpo humano 
+> BT
+> Def recolher e reter uma substância
+943,948c891,894
+< Dom anatomia 
+< BT corpo humano 
+< POF 
+< !!Def a secreção é quando algum órgão do nosso organismo produz alguma substância.
+< GI 5
+< IM 3
+---
+> Dom  Corpo humano 
+> BT 
+> POF aparelho endócrino
+> Def conjunto de substâncias, elaboradas pelas células, que podem ou não ser expelidas pelo organismo
+959,964c905,908
+< Dom anatomia 
+< BT corpo humano
+< POF 
+< Def resíduos da ^digestão^ que são expelidos pelo ^anûs^.
+< GI 5
+< IM 3
+---
+> Dom  Corpo humano 
+> BT
+> POF aparelho digestivo
+> Def resíduos da digestão que são expelidos pelo anûs.
+968,969c912
+< -catgra nm 
+< -pl rins
+---
+> -catgra nm [pl rins]
+975,979c918,920
+< BT corpo humano 
+< POF
+< Def cada um dos dois órgãos que filtram o sangue e produzem a ^urina^.
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF aparelho urinário
+> Def cada um dos dois orgãos que filtram o sangue e produzem a urina.
+989,993c930,932
+< BT corpo humano 
+< POF 
+< Def órgão que guarda a ^urina^. 
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF aparelho urinário
+> Def orgão que funciona como reservatório da urina 
+1003,1007c942,944
+< BT corpo humano
+< POF 
+< Def órgão sexual masculino.
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF aparelho reprodutor
+> Def orgão sexual masculino
+1017,1023c954,957
+< BT corpo humano 
+< POF 
+< POF 
+< POF
+< Def cada uma das glândulas genitais masculinas que produzem espermatozóides.
+< GI 5
+< IM 3
+---
+> BT glândula
+> POF aparelho reprodutor
+> POF aparelho endócrino
+> Def cada uma das glândulas genitais masculinas que produzem espermatozóides
+1032,1033c966,967
+< Dom anatomia 
+< BT corpo humano
+---
+> Dom  Corpo humano 
+> BT
+1039d972
+< PT chichi
+1044,1049c977,980
+< Dom anatomia 
+< BT corpo humano
+< POF 
+< Def líquido que é produzido pelos rins, é guardado na bexiga e depois libertado pelo corpo.
+< GI 5
+< IM 3
+---
+> Dom  Corpo humano 
+> BT
+> POF aparelho urinário
+> Def líquido segregado pelos rins e expelido para o exterior pelo aparelho urinário através da uretra.
+1055c986
+< EN ovary
+---
+> EN   ovary
+1059,1064c990,993
+< BT corpo humano
+< POF
+< POF
+< Def órgão do aparelho reprodutor feminino onde se produzem óvulos.
+< GI 5
+< IM 3
+---
+> !BT órgão/glândula
+> POF aparelho reprodutor
+> POF aparelho endócrino
+> Def orgão do aparelho produtor feminino onde se produzem óvulos.
+1068c997
+< -catgra nm
+---
+> -catgra
+1074,1078c1003,1005
+< BT corpo humano
+< POF 
+< Def órgão do ^aparelho genital^ feminino onde se ^gera^ e desenvolve o ^feto^.
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF aparelho reprodutor
+> Def orgão, do aparelho genital feminino, onde se gera e desenvolve o feto
+1082c1009
+< -catgra nf
+---
+> -catgra
+1084c1011
+< EN vagina
+---
+> EN   vagina
+1087,1092c1014,1017
+< Dom anatomia 
+< BT corpo humano
+< POF 
+< Def órgão sexual feminino.
+< GI 5
+< IM 3
+---
+> Dom  Corpo humano 
+> BT órgão
+> POF aparelho reprodutor
+> Def orgão sexual feminino
+1096c1021
+< -catgra nf
+---
+> -catgra n.f.
+1100,1104c1025,1027
+< BT corpo humano
+< POF 
+< Def cavidade do coração que recebe o sangue das veias e o passa para o ventrículo correspondente.
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF aparelho circulatório
+> DEF cavidade do coração que recebe o sangue das veias e o passa para o ventrículo correspondente.
+1108c1031
+< -catgra nm
+---
+> -catgra nm.
+1112,1116c1035,1038
+< BT corpo humano
+< POF 
+< Def cavidade inferior do coração de onde saem as ^artérias^.
+< GI 5
+< IM 3
+---
+> BT órgão
+> POF coração
+> POF aparelho circulatório
+> DEF cavidade inferior do coração, de onde saem as artérias.
+1118a1041
+> 
+1121c1044
+< -exuso 
+---
+> -exuso a artéria aorta envia sangue para todo o corpo.
+1123,1128c1046,1049
+< Dom anatomia 
+< BT corpo humano 
+< POF
+< Def sai do ^ventrículo^ esquerdo e envia o sangue para todo o corpo. 
+< GI 5
+< IM 3
+---
+> DOM corpo humano 
+> BT 
+> POF aparelho circulatório
+> DEF sai do ventriculo esquerdo e envia o sangue para todo o corpo. 
+1133c1054
+< -exuso  
+---
+> -exuso a artéria pulmonar leva sangue aos pulmões. 
+1135,1140c1056,1059
+< Dom anatomia 
+< BT corpo humano 
+< POF 
+< Def sai do ^ventrículo^ direito e leva o sangue venoso aos pulmões para que este seja ^oxigenado^.
+< GI 5
+< IM 3
+---
+> DOM corpo humano 
+> BT 
+> POF aparelho circulatório
+> DEF sai do ventriculo direito e leva o sangue venoso aos pulmões para este ser oxigenado.
+1147,1152c1066,1069
+< Dom anatomia 
+< BT corpo humano 
+< POF 
+< Def traz o sangue rico em ^oxigénio^(arterial) dos pulmões até à ^aurícula^ esquerda. 
+< GI 5
+< IM 3
+---
+> DOM corpo humano 
+> BT 
+> POF aparelho circulatório
+> DEF traz o sangue rico em oxigénio (arterial) dos pulmões à aurícula esquerda. 
+1159,1160c1076,1077
+< Dom anatomia 
+< BT corpo humano  
+---
+> DOM corpo humano 
+> BT  
+1162c1079
+< Def traz o sangue rico em ^dióxido de carbono^ (venoso) de todo o corpo à ^aurícula direita^. 
+---
+> DEF traz o sangue rico em dioxido de carbono (venoso) de todo o corpo à auricula direita. 
+1169,1170c1086,1087
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1172,1176c1089
+< PART plasma
+< PART glóbulo vermelho
+< PART glóbulo amarelo
+< PART plaquetas
+< Def líquido espesso e vermelho que circula nas veias e artérias. 
+---
+> DEF líquido espesso e vermelho que circula nas veias e artérias (composto de plasma, glóbulos brancos, glóbulos vermelhos e plaquetas). 
+1181c1094
+< -exuso o sangue venoso é rico em dióxido de carbono.
+---
+> -exuso o sangue venoso é rico em dióxido de carbono
+1183,1184c1096,1097
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1186c1099
+< Def sangue rico em ^dióxido de carbono^ que as veias levam aos ^pulmões^ para receber ^oxigénio^.
+---
+> DEF sangue rico em dióxido de carbono que as veias levam aos pulmões para receber oxigénio.
+1193,1194c1106,1107
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1196c1109
+< Def sangue rico em oxigénio que circula nas artérias.
+---
+> DEF sangue rico em oxigénio que circula nas artérias.
+1203,1204c1116,1117
+< Dom anatomia 
+< BT corpo humano célula
+---
+> DOM corpo humano 
+> BT célula
+1206c1119
+< Def corpo ou célula pequeno e esférico, que faz parte do sangue. 
+---
+> DEF corpo (ou célula), constituinte do sangue, pequeno e esférico 
+1209,1213c1122,1123
+< PT glóbulo vermelho 
+< -catgra nm
+< -exuso
+< PT hemácia
+< -catgra nf
+---
+> PT glóbulo vermelho (ou hemácia)
+> -catgra
+1216,1218c1126,1127
+< Dom anatomia 
+< BT corpo humano célula
+< RT hemoglobina
+---
+> DOM corpo humano 
+> BT célula
+1220c1129
+< Def célula do sangue que transporta o oxigênio absorvido nos alvéolos pulmonares para os tecidos do organismo
+---
+> DEF  célula do sangue, sem núcleo, rica em hemoglobina, que transporta o oxigênio absorvido nos alvéolos pulmonares para os tecidos do organismo
+1223c1132
+< PT glóbulo branco 
+---
+> PT glóbulo branco (ou leucócito)
+1226,1228d1134
+< PT leucócito
+< -catgra nm
+< -exuso
+1230,1231c1136,1137
+< Dom anatomia 
+< BT corpo humano célula
+---
+> DOM corpo humano 
+> BT célula
+1233c1139
+< Def célula que ajuda a defender o corpo das infecções de bactérias e vírus.
+---
+> DEF  célula que ajuda a defender o corpo das infecções de bactérias e vírus.
+1240,1241c1146,1147
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1243c1149
+< Def parte líquida do sangue
+---
+> DEF parte liquida do sangue
+1250,1251c1156,1157
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1253c1159
+< Def protegem-nos das perdas de sangue em caso de corte.
+---
+> DEF protegem-nos das perdas de sangue em caso de corte.
+1260,1261c1166,1167
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1263c1169
+< Def dispositivo que abre para deixar passar o sangue e fecha para evitar que o que sangue que passou volte para trás.
+---
+> DEF dispositivo que abre para deixar passar o sangue e fecha para evitar que o que sangue que passou volte para trás.
+1268c1174
+< -exuso a faringe é um órgão do aparelho digestivo.
+---
+> -exuso a faringe é um orgão do aparelho digestivo.
+1270,1271c1176,1177
+< Dom anatomia 
+< BT corpo humano
+---
+> DOM corpo humano 
+> BT órgão
+1273c1179
+< !Def órgão de forma oval que vai da base do crânio ao início do esófago.
+---
+> DEF orgão de forma oval, que vai da base do crânio ao início do esófago.
+1280,1281c1186,1187
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1283c1189
+< Def transformação dos alimentos de modo a que possam ser absorvidos pelo organismo.
+---
+> DEF transformação dos alimentos de modo a que possam ser absorvidos pelo organismo.
+1290,1291c1196,1197
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1293c1199
+< Def comida, substância que serve para alimentar.
+---
+> DEF comida, substância que serve para alimentar.
+1300,1301c1206,1207
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1303c1209
+< Def alimento, substância indespensável na manutenção do organismo.
+---
+> DEF alimento, substância indespensável na manutenção do organismo.
+1310,1311c1216,1217
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1313c1219
+< Def substância líquida produzida pelo fígado.
+---
+> DEF substância líquida produzida pelo fígado.
+1320,1321c1226,1227
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1323c1229
+< Def massa formada pelos alimentos depois da digestão e que se encontra no estomâgo.
+---
+> DEF massa formada pelos alimentos, depois da digestão, que se encontra no estomâgo.
+1330,1331c1236,1237
+< Dom anatomia 
+< BT corpo humano glândula
+---
+> DOM corpo humano 
+> BT glândula
+1333c1239
+< Def glândula situada na laringe
+---
+> DEF glândula situada na laringe
+1340,1341c1246,1247
+< Dom anatomia
+< BT corpo humano célula
+---
+> DOM corpo humano
+> BT célula
+1343c1249
+< Def célula sexual feminina que se produz no ovário.
+---
+> DEF célula sexual feminina que se produz no ovário.
+1350,1351c1256,1257
+< Dom anatomia
+< BT corpo humano molécula
+---
+> DOM corpo humano
+> BT molécula
+1353c1259
+< Def molécula produzida por glândulas ou células
+---
+> DEF molécula produzida por glândulas ou células
+1360,1361c1266,1267
+< Dom anatomia
+< BT corpo humano
+---
+> DOM corpo humano
+> BT órgão
+1363c1269
+< Def órgão que tem como função produzir uma secreção
+---
+> DEF orgão que tem como função produzir secreção
+1370,1371c1276,1277
+< Dom anatomia
+< BT corpo humano 
+---
+> DOM corpo humano
+> BT 
+1373c1279
+< Def glândula sexual masculina situada na parte inicial da uretra
+---
+> DEF glândula sexual masculina, situada em volta da parte inicial da uretra
+1380,1381c1286,1287
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1383c1289
+< Def conjunto das partes externas do aparelho genital feminino
+---
+> DEF conjunto das partes externas do aparelho genital feminino
+1393,1394c1299,1300
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1396c1302
+< Def tempo (geralmente 9 meses) entre a concepção do feto e o parto
+---
+> DEF tempo (geralmente 9 meses) entre a concepção do feto e o parto
+1405,1406c1311,1312
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1408c1314
+< Def ser vivo na fase inicial do seu desenvolvimento
+---
+> DEF ser vivo na fase inicial do seu desenvolvimento
+1415,1416c1321,1322
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1418c1324
+< Def libertação do óvulo no ovário
+---
+> DEF libertação do óvulo no ovário
+1425,1426c1331,1332
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1428c1334
+< Def perda de sangue, com origem no útero, que acontece, nas mulheres adultas e não grávidas, uma vez por mês.
+---
+> DEF perda de sangue, com origem no útero, que acontece, nas mulheres adultas e não grávidas, uma vez por mês.
+1435,1436c1341,1342
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1438c1344
+< Def órgão que une o feto à parede do útero e que, através do cordão umbilical, assegura a nutrição do feto
+---
+> DEF orgão que une o feto à parede do útero e que, através do cordão umbilical, assegura a nutrição do feto
+1447,1448c1353,1354
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1450c1356
+< Def líquido que envolve o feto durante a gestação
+---
+> DEF bolsa de água; líquido que envolve o feto durante a gestação
+1457,1458c1363,1364
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1460c1366
+< Def método utilizado para evitar a gravidez
+---
+> DEF método utilizado para evitar a fecundação do óvulo (gravidez)
+1467,1468c1373,1374
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1470c1376
+< Def união da célula sexual feminina com a masculina para dar origem a um novo ser
+---
+> DEF união da célula sexual feminina com a masculina para dar origem a um novo ser
+1474c1380
+< -catgra nf
+---
+> -catgra n.f.
+1477,1478c1383,1384
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1480c1386
+< Def cavidade, onde se encontram as cordas vocais, situado entre a faringe e a traqueia
+---
+> DEF cavidade, onde se encontram as cordas vocais, situado entre a faringe e a traqueia
+1487,1488c1393,1394
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1490c1396
+< Def cada um dos canais em que se divide a traqueia e que se ramificam nos pulmões
+---
+> DEF cada um dos canais em que se divide a traqueia e que se ramificam nos pulmões
+1497,1498c1403,1404
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1500c1406
+< Def pequena cavidade pulmonar do corpo humano
+---
+> DEF pequena cavidade pulmonar do corpo humano
+1507,1508c1413,1414
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1510c1416
+< Def entrada do ar nos pulmões
+---
+> DEF entrada do ar nos pulmões
+1517,1518c1423,1424
+< Dom anatomia 
+< BT corpo humano
+---
+> DOM corpo humano 
+> BT
+1520c1426
+< Def saída do ar nos pulmões
+---
+> DEF saída do ar nos pulmões
+1527,1528c1433,1434
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1530c1436
+< Def movimento de inspiração e expiração
+---
+> DEF movimento de inspiração e expiração
+1537,1538c1443,1444
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1540c1446
+< Def canal que conduz a urina do rim à bexiga
+---
+> DEF canal que conduz a urina do rim à bexiga
+1547,1548c1453,1454
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1550c1456
+< Def canal que conduz a urina da bexiga para o exterior
+---
+> DEF canal que conduz a urina da bexiga para o exterior
+1557,1559c1463,1465
+< Dom anatomia 
+< BT corpo humano 
+< Def mudar-se de um lugar para outro ou deslocar-se
+---
+> DOM corpo humano 
+> BT 
+> DEF mudança de lugar; deslocação
+1566,1569c1472,1475
+< Dom anatomia 
+< BT corpo humano vértebra
+< POF 
+< Def conjunto de vértebras, situadas na parte posterior do tronco, que sustentem o esqueleto
+---
+> DOM corpo humano 
+> BT vértebra
+> POF estrutura óssea
+> DEF conjunto de vértebras, situadas na parte posterior do tronco, que sustentem o esqueleto
+1576,1579c1482,1485
+< Dom anatomia 
+< BT corpo humano anatomia
+< POF 
+< Def osso da cintura pélvica e da bacia
+---
+> DOM corpo humano 
+> BT osso
+> POF estrutura óssea
+> DEF osso da cintura pélvica e da bacia
+1586,1587c1492,1493
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1589c1495
+< Def 
+---
+> DEF orgão que na mulher produz o leite (mama)
+1596,1597c1502,1503
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1599c1505
+< Def 
+---
+> DEF sentido, que através do toque, permite conhecer as coisas
+1603c1509
+< -catgra nf
+---
+> -catgra n.f.
+1606,1607c1512,1513
+< Dom anatomia 
+< BT corpo humano 
+---
+> DOM corpo humano 
+> BT 
+1609c1515
+< Def parte exterior do corpo
+---
+> DEF parte exterior do corpo

@@ -1,0 +1,1610 @@
+
+PT cabeça
+-catgra nf
+-exuso A cabeça de uma pessoa adulta pode chegar a pesar........
+EN head
+FR tête
+ES cabeza
+DE kopf
+CN   ?
+NU   366
+Dom anatomia
+BT corpo humano
+PART crânio
+PART cérebro
+Def a cabeça é a parte do corpo humano que se encontra por cima do pescoço.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT tronco
+-catgra nm
+-exuso Na zona do tronco é onde temos os órgãos vitais.....
+EN torso
+FR torse
+ES torso
+DE rumpf 
+CN   
+NU   
+Dom anatomia
+BT corpo humano 
+PART umbigo
+PART mamilo
+PART peito
+PART abdómen
+PART ombro
+PART cintura
+PART clavícula
+PART costela
+Def o tronco é a parte do corpo humano abaixo da cabeça, que suporta os braços e que fica acima das pernas.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT membro
+-catgra nm
+-exuso Os ^braços^ e as ^pernas^ são os membros do corpo humano.
+EN member
+FR membre
+ES miembro
+DE mitglied
+CN   
+NU   
+Dom anatomia
+BT corpo humano
+Def um membro é o braço ou a perna.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT garganta
+-catgra nf
+-exuso Quando temos a garganta inflamada temos dificuldade em falar ou em engulir.
+EN throat
+FR gorge
+ES garganta
+DE hals
+CN   ??\n ??
+NU   291
+Dom anatomia 
+BT corpo humano
+POF pescoço
+Def a garganta é a parte do pescoço por onde passam os alimentos da boca para o estômago.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT pêlo
+-catgra nm
+-exuso
+EN hair
+FR poil 
+ES pelo 
+DE haar
+CN   ??
+NU   292
+Dom anatomia 
+BT corpo humano
+POF pele
+!Def o pêlo é um fio que cresce na pele.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT mamilo
+-catgra nm
+-exuso Os mamíferos fêmea têm mamilos por onde sai o leite que alimenta as crias.
+EN nipple
+FR mamelon
+ES pezón
+DE nippel
+CN   ??
+NU   293
+Dom anatomia 
+BT corpo humano
+Def bico da mama (ou seio)
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT peito
+-catgra nm
+-exuso Quando inspiramos enchemos o peito de ar.
+EN chest
+FR caisse
+ES pecho
+DE brust
+CN   ??
+NU   294
+Dom anatomia 
+BT corpo humano
+Def o peito é a parte da frente do tronco.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT sinal
+-catgra nm
+-exuso Ela tem um sinal preto no rosto.
+EN pit
+£FR
+ES lunar
+£DE
+CN   ??
+NU   295
+Dom anatomia 
+BT corpo humano
+Def um sinal é uma mancha ou pinta escura na pele.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT umbigo
+-catgra nm
+FIG alguém que "só olha para o seu umbigo" é uma pessoa que só pensa nela própria.
+-exuso O umbigo na nossa barriga é uma cicatriz e todos os seres humanos têm uma parecida.
+EN navel
+FR nombril
+ES ombligo 
+DE nabel
+CN   ??
+NU   296
+Dom anatomia 
+BT corpo humano
+Def o umbigo é uma cicatriz na barriga, deixada pelo corte do cordão umbilical no momento em que nascemos.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT abdómen
+-catgra nm 
+-PL abdómenes
+-exuso O abdómen também se pode chamar ^"barriga"^.
+PT barriga
+-catgra nf
+-exuso A barriga é um sinónimo de ^"abdómen"^.
+EN abdomen
+FR abdomen
+ES abdomen
+DE bauch
+CN   ??
+NU   297
+Dom anatomia 
+BT corpo humano
+Def o abdómen á a parte do corpo onde se situam o estômago e os intestinos.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT partes íntimas
+-catgra loc
+-exuso Cobrimos as partes íntimas com roupa interior.
+EN private parts
+FR 
+ES
+DE
+CN   ??
+NU   298
+Dom anatomia 
+BT corpo humano
+Def parte do corpo humano constituída pelos órgãos genitais.
+IMG N
+GI 1
+IM 3 
+ID noelia
+
+PT coxa 
+-catgra nf
+-exuso 
+EN thigh
+FR cuisse
+ES muslo
+DE oberschenkel
+CN   ??
+NU   299
+Dom anatomia 
+BT corpo humano
+Def a coxa é a parte da perna que fica acima do joelho.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT pescoço
+-catgra nm
+-exuso 
+EN neck
+FR
+ES cuello
+DE
+CN   ??
+NU   300
+Dom anatomia 
+BT corpo humano
+PART garganta
+Def o pescoço é a parte do corpo que segura a cabeça.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT ombro 
+-catgra nm
+-exuso 
+EN shoulder
+FR
+ES ombro
+DE
+CN   ?
+NU   301
+Dom anatomia
+BT corpo humano
+Def o ombro é a parte superior do braço.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT costas
+-catgra nm
+-exuso Levo a mochila às costas.
+EN back
+FR
+ES espalda
+DE
+CN   ?
+NU   302
+Dom anatomia
+BT corpo humano
+Def as costas ficam na parte de trás do tronco.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT cintura
+-catgra nf
+-exuso Colocamos o cinto na cintura.
+EN waist
+FR
+ES cintura
+DE
+CN   ?
+NU   303
+Dom anatomia 
+BT corpo humano
+Def a cintura fica acima das ancas e baixo do peito.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT anca
+-catgra nf
+-exuso 
+EN hip
+FR
+ES cadera
+DE
+CN   ??
+NU   304
+Dom anatomia 
+BT corpo humano
+!Def parte lateral do corpo humano, entre a cintura e a coxa.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT nádega
+-catgra nf
+PT rabo
+-catgra nm
+-exuso
+EN buttock
+FR
+ES
+DE
+CN   ??
+NU   305
+Dom anatomia 
+BT corpo humano
+POF perna
+Def a nádega é cada uma das partes que fica por cima das coxas.
+IMG
+GI 5
+IM 3
+ID noelia
+
+PT crânio
+-catgra nm
+-exuso 
+EN skull
+FR
+ES
+DE
+CN   ??\n ???
+NU   306
+Dom anatomia
+BT corpo humano
+Def parte óssea da cabeça
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT clavícula
+-catgra nf
+-exuso
+EN collarbone
+FR
+ES
+DE
+CN   ??
+NU 307
+Dom anatomia
+BT corpo humano 
+POF 
+Def a clavícula é osso que se situa entre o ombro e o pescoço
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT costela
+-catgra nf
+-exuso 
+EN rib
+FR
+ES
+DE
+CN   ??
+NU   308
+Dom anatonomia 
+BT corpo humano 
+POF 
+Def a costela é cada uma das peças do esqueleto do toráx.
+IMG N
+GI 5
+IM 2
+ID noelia
+
+PT espinha dorsal
+-catgra nf
+-exuso
+EN backbone
+FR
+ES
+DE
+CN   ??\n ??
+NU   309
+Dom anatomia
+BT corpo humano
+POF 
+Def  
+IMG N
+GI 5
+IM 2
+ID noelia
+
+!PT articulação da omoplata (talvez só articulação)
+-catgra
+-exuso
+EN   shoulder joint
+CN   ???
+NU   310
+Dom anatomia 
+BT corpo humano
+Def
+ID noelia
+
+PT omoplata
+-catgra nf
+-exuso 
+EN   shoulder blade
+CN   ???
+NU   311
+Dom anatomia 
+BT corpo humano
+POF esqueleto
+Def osso que constitui a parte posterior do ombro
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT esterno
+-catgra nm
+-exuso
+EN breastbone
+CN   ??
+NU   312
+Dom anatomia 
+BT corpo humano anatomia
+POF 
+Def osso da parte da frente do tórax, ao qual se ligam as costelas
+GI 5
+IM 3
+ID noelia
+
+!PT articulação do cotovelo
+-catgra
+-exuso
+EN elbow joint
+CN   ???
+NU   313
+Dom anatomia 
+BT corpo humano
+Def
+ID noelia
+
+PT pélvis
+-catgra nf
+PT bacia
+-catgra nf
+-exuso
+EN pelvis
+FR
+ES
+DE
+CN   ??
+NU   314
+Dom anatomia 
+BT corpo humano anatomia
+POF 
+Def cavidade óssea na parte inferior do tronco
+GI 5
+IM 3
+ID noelia
+
+PT osso
+-catgra nm
+-exuso
+EN bone
+CN   ?
+NU   316
+Dom anatomia 
+BT corpo humano 
+Def cada uma das peças duras que formam o esqueleto
+GI 5
+IM 3
+ID noelia
+
+PT tendão
+-catgra nm
+-exuso
+EN sinew
+FR
+ES
+DE
+CN   ?
+NU   318
+Dom anatomia 
+BT corpo humano anatomia
+POF 
+Def fibra que liga os músculos aos ossos ou a outros órgãos
+
+ID noelia
+
+PT músculo
+-catgra nm
+-exuso
+EN muscle
+FR
+ES
+DE
+CN   ??
+NU   319
+Dom anatomia 
+BT corpo humano 
+POF 
+Def órgão formado por tecido que se contrai e produz os movimentos do corpo
+GI 5
+IM 3
+ID noelia
+
+PT articulação
+-catgra nf
+-exuso
+EN joint
+FR
+ES
+DE
+CN   ??
+NU   320
+Dom anatomia 
+BT corpo humano anatomia
+POF 
+Def junção de dois ou mais ossos
+ID noelia
+
+PT vaso sanguineo
+-catgra nm
+-exuso
+EN blood vessel
+CN   ??
+NU   321
+Dom anatomia
+BT corpo humano
+POF 
+GI 5
+IM 3
+Def vaso que transporta o sangue.
+GI 5
+IM 3
+ID noelia
+
+PT veia
+-catgra nf
+-exuso 
+EN vein
+CN   ??
+NU   322
+Dom anatomia
+BT corpo humano
+POF 
+Def vaso que transporta o sangue das diferentes partes do corpo para o coração. 
+GI 5
+IM 3
+ID noelia
+
+PT artéria
+-catgra nf
+-exuso
+EN artery
+CN   ??
+NU   323
+Dom anatomia
+BT corpo humano
+POF aparelho circulatório
+Def vaso que conduz o sangue do coração para as diversas partes do corpo.
+GI 5
+IM 3
+ID noelia
+
+PT capilar
+-catgra nm
+-exuso
+EN capillary
+CN   ????
+NU   324
+Dom anatomia
+BT corpo humano
+POF aparelho circulatório
+Def vaso sanguíneo, que rodeia os órgãos, constituído por uma parede fina, que facilita as trocas gasosas. 
+GI 5
+IM 3
+ID noelia
+
+PT nervo
+-catgra nm
+-exuso
+EN   nerve
+CN   ??
+NU   325
+Dom anatomia 
+BT corpo humano
+!Def órgão que conduz e transmite os impulsos nervosos do cérebro para as diversas partes do corpo.
+GI 5
+IM 3
+ID noelia
+
+PT medula espinal
+-catgra nf
+-exuso
+EN spinal marrow
+CN   ??
+NU   326
+Dom anatomia
+BT corpo humano
+POF 
+Def espécie de cordão formado por células nervosas que vai da ^cervical^ até a zona ^lombar^.
+GI 5
+IM 3
+ID noelia
+
+PT respiração
+-catgra nf
+-exuso
+EN respiration
+CN   ??
+NU   328
+Dom anatomia 
+BT corpo humano
+POF 
+Def movimento de ^inspiração^ e ^expiração^.
+GI 5
+IM 3
+ID noelia
+
+PT traqueia
+-catgra nf
+-exuso
+EN windpipe
+CN   ??
+NU   329
+Dom anatomia
+BT corpo humano 
+POF 
+Def canal que conduz o ar para os pulmões.
+GI 5
+IM 3
+ID noelia
+
+PT pulmão
+-catgra nm
+-exuso 
+EN   lung
+CN   ?
+NU   330
+Dom anatomia 
+BT corpo humano
+!Def .
+GI 5
+IM 3
+ID noelia
+
+PT coração
+-catgra nm
+-exuso
+EN heart
+CN   ??
+NU   331
+Dom anatomia 
+BT corpo humano
+POF
+PART ventrículo
+PART aurícula
+Def órgão central da circulação do sangue constituído por duas aurículas e dois ventrículos.
+GI 5
+IM 3
+ID noelia
+ 
+PT diafragma
+-catgra nm
+-exuso
+EN diaphragm
+CN   ??
+NU   332
+Dom anatomia 
+BT corpo humano
+POF 
+Def músculo que separa a ^cavidade toráxica^ da cavidade ^abdominal^ e interfere na respiração.
+GI 5
+IM 3
+ID noelia
+
+PT exalar
+-catgra v
+-exuso
+EN exhale
+CN   ??
+NU   333
+Dom anatomia 
+BT corpo humano
+POF
+Def quando deitamos o ar para fora do nosso corpo.
+GI 5
+IM 3
+ID noelia
+
+PT inalar
+-catgra v
+-exuso
+EN inhale
+CN   ??
+NU   334
+Dom anatomia
+BT corpo humano
+POF 
+Def quando fazemos entrar o ar pelas vias respiratórias.
+GI 5
+IM 3
+ID noelia
+
+PT órgão interno
+-catgra nm
+-exuso
+EN   internal organ
+CN   ??
+NU   335
+Dom anatomia 
+BT corpo humano
+Def órgão que fica no interior do corpo humano.
+GI 5
+IM 3
+ID noelia
+
+PT esófago
+-catgra nm
+-exuso
+EN gullet
+CN   ??
+NU   336
+Dom  anatomia
+BT corpo humano
+POF 
+Def órgão que liga a ^faringe^ ao ^estômago^.
+GI 5
+IM 3
+ID noelia
+
+PT estômago
+-catgra nm
+-exuso
+EN stomach
+CN   ?
+NU   337
+Dom anatomia 
+BT corpo humano
+POF 
+Def órgão que faz a digestão dos alimentos.
+GI 5
+IM 3
+ID noelia
+
+PT fígado
+-catgra nm
+-exuso
+EN   liver
+CN   ??
+NU   338
+Dom anatomia
+BT corpo humano
+POF 
+!Def órgão responsável pela libertação do ^suco biliar^ ou ^bílis^.
+GI 5
+IM 3
+ID noelia
+
+PT vesícula biliar
+-catgra nf
+-exuso
+EN gall bladder
+CN   ??
+NU   339
+Dom anatomia 
+BT corpo humano
+POF 
+Def pequeno saco onde se acumula a ^bílis^.
+GI 5
+IM 3
+ID noelia
+
+PT pâncreas
+-catgra nm
+-exuso
+EN pancreas
+CN   ??
+NU   340
+Dom anatomia
+BT corpo humano
+POF 
+Def ^glândula^ alongada situada atrás do ^estomâgo^.
+GI 5
+IM 3
+ID noelia
+
+PT baço
+-catgra nm
+-exuso
+EN spleen
+CN   ?
+NU   341
+Dom anatomia
+BT corpo humano
+POF
+Def órgão situado à esquerda do estomâgo.
+GI 5
+IM 3
+ID noelia
+
+PT duodeno
+-catgra nm
+-exuso
+EN duodenum
+CN   12??
+NU   342
+Dom anatomia 
+BT corpo humano
+POF 
+Def parte inicial do ^intestino delgado^.
+GI 5
+IM 3
+ID noelia
+
+PT intestino delgado
+-catgra nm
+-exuso
+EN small intestine
+CN   ??
+NU   343
+Dom anatomia
+BT corpo humano
+POF 
+Def órgão que une o estômago ao ^anûs^.
+GI 5
+IM 3
+ID noelia
+
+PT intestino grosso
+-catgra nm
+-exuso
+EN large intestine
+CN   ??
+NU   344
+Dom anatomia 
+BT corpo humano
+POF 
+Def órgão que une o estômago ao ^anûs^.
+GI 5
+IM 3
+ID noelia
+
+PT ceco
+-catgra nm
+-exuso
+EN blind gut
+CN   ??
+NU   345
+Dom anatomia
+BT corpo humano
+POF
+Def parte inicial do intestino grosso.
+GI 5
+IM 3
+ID noelia
+
+PT apêndice 
+-catgra nm
+-exuso
+EN appendix
+CN   ??
+NU   346
+Dom anatomia 
+BT corpo humano
+POF 
+Def saliência do intestino grosso.
+GI 5
+IM 3
+ID noelia
+
+PT recto
+-catgra nm
+-exuso
+EN rectum
+CN   ??
+NU   347
+Dom anatomia 
+BT corpo humano
+POF
+Def parte final do intestino.
+GI 5
+IM 3
+ID noelia
+
+PT ânus
+-catgra nm
+-exuso
+EN   anus
+CN   ??
+NU   348
+Dom anatomia 
+BT corpo humano
+POF 
+Def oríficio, situado no final do tubo digestivo, por onde saem as fezes e os gases.
+GI 5
+IM 3
+ID noelia
+
+PT digerir
+-catgra v
+-exuso
+EN to digest
+CN   ??
+NU   353
+Dom anatomia 
+BT corpo humano
+POF 
+Def fazer a digestão de alimentos.
+GI 5
+IM 3
+ID noelia
+
+PT absorver
+-catgra v
+-exuso
+EN to absord
+CN   ??
+NU   354
+Dom anatomia 
+BT corpo humano
+Def recolher e ^reter^ os ^nutrientes^ dos alimentos.
+GI 5
+IM 3
+ID noelia
+
+PT secreção
+-catgra nf
+-exuso
+EN   discharge
+CN   ??
+NU   355
+Dom anatomia 
+BT corpo humano 
+POF 
+!!Def a secreção é quando algum órgão do nosso organismo produz alguma substância.
+GI 5
+IM 3
+ID noelia
+
+PT escremento
+-catgra nm
+PT fezes
+-catgra nm
+-exuso
+EN excrement
+CN   ??
+NU   356
+Dom anatomia 
+BT corpo humano
+POF 
+Def resíduos da ^digestão^ que são expelidos pelo ^anûs^.
+GI 5
+IM 3
+ID noelia
+
+PT rim 
+-catgra nm 
+-pl rins
+-exuso
+EN   kidney
+CN   ??
+NU   357
+Dom anatomia 
+BT corpo humano 
+POF
+Def cada um dos dois órgãos que filtram o sangue e produzem a ^urina^.
+GI 5
+IM 3
+ID noelia
+
+PT bexiga
+-catgra nf
+-exuso
+EN bladder
+CN   ??
+NU   358
+Dom anatomia 
+BT corpo humano 
+POF 
+Def órgão que guarda a ^urina^. 
+GI 5
+IM 3
+ID noelia
+
+PT pénis
+-catgra nm
+-exuso
+EN penis
+CN   ??
+NU   359
+Dom anatomia
+BT corpo humano
+POF 
+Def órgão sexual masculino.
+GI 5
+IM 3
+ID noelia
+
+PT testículos
+-catgra nm
+-exuso
+EN testicles
+CN   ??
+NU   360
+Dom anatomia
+BT corpo humano 
+POF 
+POF 
+POF
+Def cada uma das glândulas genitais masculinas que produzem espermatozóides.
+GI 5
+IM 3
+ID noelia
+
+*PT   testículos
+-catgra
+-exuso
+EN   scroticles
+CN   ??
+NU   361
+Dom anatomia 
+BT corpo humano
+Def
+ID noelia
+
+PT urina
+-catgra
+PT chichi
+-exuso
+EN   urine
+CN   ??
+NU   362
+Dom anatomia 
+BT corpo humano
+POF 
+Def líquido que é produzido pelos rins, é guardado na bexiga e depois libertado pelo corpo.
+GI 5
+IM 3
+ID noelia
+
+PT ovário
+-catgra nm
+-exuso
+EN ovary
+CN   ??
+NU   363
+Dom  anatomia
+BT corpo humano
+POF
+POF
+Def órgão do aparelho reprodutor feminino onde se produzem óvulos.
+GI 5
+IM 3
+ID noelia
+
+PT útero
+-catgra nm
+-exuso
+EN womb
+CN   ??
+NU   364
+Dom anatomia 
+BT corpo humano
+POF 
+Def órgão do ^aparelho genital^ feminino onde se ^gera^ e desenvolve o ^feto^.
+GI 5
+IM 3
+ID noelia
+
+PT vagina
+-catgra nf
+-exuso
+EN vagina
+CN   ??
+NU   365
+Dom anatomia 
+BT corpo humano
+POF 
+Def órgão sexual feminino.
+GI 5
+IM 3
+ID noelia
+
+PT aurícula
+-catgra nf
+-exuso 
+EN 
+DOM anatomia
+BT corpo humano
+POF 
+Def cavidade do coração que recebe o sangue das veias e o passa para o ventrículo correspondente.
+GI 5
+IM 3
+ID noelia
+
+PT ventrículo
+-catgra nm
+-exuso 
+EN
+DOM anatomia 
+BT corpo humano
+POF 
+Def cavidade inferior do coração de onde saem as ^artérias^.
+GI 5
+IM 3
+ID noelia
+
+PT artéria aorta
+-catgra nf
+-exuso 
+EN 
+Dom anatomia 
+BT corpo humano 
+POF
+Def sai do ^ventrículo^ esquerdo e envia o sangue para todo o corpo. 
+GI 5
+IM 3
+ID noelia
+
+PT artéria pulmonar
+-catgra nf
+-exuso  
+EN 
+Dom anatomia 
+BT corpo humano 
+POF 
+Def sai do ^ventrículo^ direito e leva o sangue venoso aos pulmões para que este seja ^oxigenado^.
+GI 5
+IM 3
+ID noelia
+
+PT veia pulmonar
+-catgra nf
+-exuso 
+EN 
+Dom anatomia 
+BT corpo humano 
+POF 
+Def traz o sangue rico em ^oxigénio^(arterial) dos pulmões até à ^aurícula^ esquerda. 
+GI 5
+IM 3
+ID noelia
+
+!PT veia cava superior e inferior
+-catgra nf
+-exuso 
+EN 
+Dom anatomia 
+BT corpo humano  
+POF aparelho circulatório
+Def traz o sangue rico em ^dióxido de carbono^ (venoso) de todo o corpo à ^aurícula direita^. 
+ID noelia
+
+PT sangue 
+-catgra nm
+-exuso o meu tipo de sangue é B positivo
+EN blood
+Dom anatomia 
+BT corpo humano 
+POF aparelho circulatório
+PART plasma
+PART glóbulo vermelho
+PART glóbulo amarelo
+PART plaquetas
+Def líquido espesso e vermelho que circula nas veias e artérias. 
+ID noelia
+
+PT sangue venoso
+-catgra nm
+-exuso o sangue venoso é rico em dióxido de carbono.
+EN 
+Dom anatomia 
+BT corpo humano 
+POF aparelho circulatório
+Def sangue rico em ^dióxido de carbono^ que as veias levam aos ^pulmões^ para receber ^oxigénio^.
+ID noelia
+
+PT sangue arterial
+-catgra nm
+-exuso o sangue arterial é rico em oxigénio
+EN 
+Dom anatomia 
+BT corpo humano 
+POF aparelho circulatório
+Def sangue rico em oxigénio que circula nas artérias.
+ID noelia
+
+PT glóbulo 
+-catgra nm
+-exuso 
+EN globule
+Dom anatomia 
+BT corpo humano célula
+POF aparelho circulatório
+Def corpo ou célula pequeno e esférico, que faz parte do sangue. 
+ID noelia
+
+PT glóbulo vermelho 
+-catgra nm
+-exuso
+PT hemácia
+-catgra nf
+-exuso 
+EN 
+Dom anatomia 
+BT corpo humano célula
+RT hemoglobina
+POF aparelho circulatório
+Def célula do sangue que transporta o oxigênio absorvido nos alvéolos pulmonares para os tecidos do organismo
+ID noelia
+
+PT glóbulo branco 
+-catgra nm
+-exuso 
+PT leucócito
+-catgra nm
+-exuso
+EN 
+Dom anatomia 
+BT corpo humano célula
+POF aparelho circulatório
+Def célula que ajuda a defender o corpo das infecções de bactérias e vírus.
+ID noelia
+
+PT plasma
+-catgra nm
+-exuso 
+EN 
+Dom anatomia 
+BT corpo humano 
+POF aparelho circulatório
+Def parte líquida do sangue
+ID noelia
+
+PT plaqueta
+-catgra nf
+-exuso 
+EN 
+Dom anatomia 
+BT corpo humano 
+POF aparelho circulatório
+Def protegem-nos das perdas de sangue em caso de corte.
+ID noelia
+
+PT válvula
+-catgra nf
+-exuso 
+EN
+Dom anatomia 
+BT corpo humano 
+POF aparelho circulatório
+Def dispositivo que abre para deixar passar o sangue e fecha para evitar que o que sangue que passou volte para trás.
+ID noelia
+
+PT faringe
+-catgra nf
+-exuso a faringe é um órgão do aparelho digestivo.
+EN pharynx
+Dom anatomia 
+BT corpo humano
+POF aparelho digestivo
+!Def órgão de forma oval que vai da base do crânio ao início do esófago.
+ID noelia
+
+PT digestão
+-catgra nf
+-exuso
+EN 
+Dom anatomia 
+BT corpo humano 
+POF aparelho digestivo
+Def transformação dos alimentos de modo a que possam ser absorvidos pelo organismo.
+ID noelia
+
+PT alimento
+-catgra nm
+-exuso
+EN 
+Dom anatomia 
+BT corpo humano 
+POF aparelho digestivo
+Def comida, substância que serve para alimentar.
+ID noelia
+
+PT nutriente
+-catgra nm
+-exuso
+EN 
+Dom anatomia 
+BT corpo humano 
+POF aparelho digestivo
+Def alimento, substância indespensável na manutenção do organismo.
+ID noelia
+
+PT bilis
+-catgra nf
+-exuso
+EN 
+Dom anatomia 
+BT corpo humano 
+POF aparelho digestivo
+Def substância líquida produzida pelo fígado.
+ID noelia
+
+PT quimo
+-catgra nm
+-exuso
+EN 
+Dom anatomia 
+BT corpo humano 
+POF aparelho digestivo
+Def massa formada pelos alimentos depois da digestão e que se encontra no estomâgo.
+ID noelia
+
+PT tiróide
+-catgra nf
+-exuso
+EN thyroid
+Dom anatomia 
+BT corpo humano glândula
+POF aparelho endócrino
+Def glândula situada na laringe
+ID noelia
+
+PT óvulo
+-catgra nm
+-exuso
+EN
+Dom anatomia
+BT corpo humano célula
+POF aparelho endócrino
+Def célula sexual feminina que se produz no ovário.
+ID noelia
+
+PT hormona
+-catgra nf
+-exuso
+EN
+Dom anatomia
+BT corpo humano molécula
+POF aparelho endócrino
+Def molécula produzida por glândulas ou células
+ID noelia
+
+PT glândula
+-catgra nf
+-exuso
+EN
+Dom anatomia
+BT corpo humano
+POF aparelho endócrino
+Def órgão que tem como função produzir uma secreção
+ID noelia
+
+PT próstata
+-catgra nf
+-exuso
+EN prostate
+Dom anatomia
+BT corpo humano 
+POF aparelho reprodutor
+Def glândula sexual masculina situada na parte inicial da uretra
+ID noelia
+
+PT vulva
+-catgra nf
+-exuso
+EN
+Dom anatomia 
+BT corpo humano 
+POF aparelho reprodutor
+Def conjunto das partes externas do aparelho genital feminino
+ID noelia
+
+
+PT gravidez
+-catgra nf
+PT gestação
+-catgra nf
+-exuso
+EN
+Dom anatomia 
+BT corpo humano 
+POF aparelho reprodutor
+Def tempo (geralmente 9 meses) entre a concepção do feto e o parto
+ID noelia
+
+PT feto 
+-catgra nm
+PT embrião 
+-catgra nm
+-exuso
+EN
+Dom anatomia 
+BT corpo humano 
+POF aparelho reprodutor
+Def ser vivo na fase inicial do seu desenvolvimento
+ID noelia
+
+PT ovulação
+-catgra 
+-exuso
+EN
+Dom anatomia 
+BT corpo humano 
+POF aparelho reprodutor
+Def libertação do óvulo no ovário
+ID noelia
+
+PT menstruação
+-catgra 
+-exuso
+EN
+Dom anatomia 
+BT corpo humano 
+POF aparelho reprodutor
+Def perda de sangue, com origem no útero, que acontece, nas mulheres adultas e não grávidas, uma vez por mês.
+ID noelia
+
+PT placenta
+-catgra 
+-exuso
+EN
+Dom anatomia 
+BT corpo humano 
+POF aparelho reprodutor
+Def órgão que une o feto à parede do útero e que, através do cordão umbilical, assegura a nutrição do feto
+ID noelia
+
+PT amnio
+-catgra
+PT amniótico 
+-catgra  
+-exuso
+EN
+Dom anatomia 
+BT corpo humano 
+POF aparelho reprodutor
+Def líquido que envolve o feto durante a gestação
+ID noelia
+
+PT contracepção 
+-catgra 
+-exuso
+EN
+Dom anatomia 
+BT corpo humano 
+POF aparelho reprodutor
+Def método utilizado para evitar a gravidez
+ID noelia
+
+PT fecundação
+-catgra 
+-exuso
+EN
+Dom anatomia 
+BT corpo humano 
+POF aparelho reprodutor
+Def união da célula sexual feminina com a masculina para dar origem a um novo ser
+ID noelia
+
+PT laringe
+-catgra nf
+-exuso 
+EN larynx
+Dom anatomia 
+BT corpo humano 
+POF aparelho repiratório
+Def cavidade, onde se encontram as cordas vocais, situado entre a faringe e a traqueia
+ID noelia
+
+PT brônquio
+-catgra nm
+-exuso 
+EN bronchus
+Dom anatomia 
+BT corpo humano 
+POF aparelho repiratório
+Def cada um dos canais em que se divide a traqueia e que se ramificam nos pulmões
+ID noelia
+
+PT alvéolo
+-catgra nm
+-exuso 
+EN alveole
+Dom anatomia 
+BT corpo humano 
+POF aparelho repiratório
+Def pequena cavidade pulmonar do corpo humano
+ID noelia
+
+PT inspiração
+-catgra nf
+-exuso 
+EN 
+Dom anatomia 
+BT corpo humano 
+POF aparelho repiratório
+Def entrada do ar nos pulmões
+ID noelia
+
+PT expiração
+-catgra nf
+-exuso 
+EN 
+Dom anatomia 
+BT corpo humano
+POF aparelho repiratório
+Def saída do ar nos pulmões
+ID noelia
+
+PT respiração
+-catgra nf
+-exuso 
+EN 
+Dom anatomia 
+BT corpo humano 
+POF aparelho repiratório
+Def movimento de inspiração e expiração
+ID noelia
+
+PT uréter
+-catgra nf
+-exuso 
+EN ureter
+Dom anatomia 
+BT corpo humano 
+POF aparelho urinário
+Def canal que conduz a urina do rim à bexiga
+ID noelia
+
+PT uretra
+-catgra nf
+-exuso 
+EN urethra
+Dom anatomia 
+BT corpo humano 
+POF aparelho urinário
+Def canal que conduz a urina da bexiga para o exterior
+ID noelia
+
+PT movimento
+-catgra nm
+-exuso 
+EN 
+Dom anatomia 
+BT corpo humano 
+Def mudar-se de um lugar para outro ou deslocar-se
+ID noelia
+
+PT coluna vertebral
+-catgra nf
+-exuso 
+EN vertebral column
+Dom anatomia 
+BT corpo humano vértebra
+POF 
+Def conjunto de vértebras, situadas na parte posterior do tronco, que sustentem o esqueleto
+ID noelia
+
+PT ilíaco
+-catgra 
+-exuso 
+EN 
+Dom anatomia 
+BT corpo humano anatomia
+POF 
+Def osso da cintura pélvica e da bacia
+ID noelia
+
+PT seio
+-catgra 
+-exuso 
+EN 
+Dom anatomia 
+BT corpo humano 
+POF partes externas
+Def 
+ID noelia
+
+PT tacto
+-catgra nm
+-exuso
+EN touch/tact
+Dom anatomia 
+BT corpo humano 
+POF cinco sentidos
+Def 
+ID noelia
+
+PT pele
+-catgra nf
+-exuso
+EN 
+Dom anatomia 
+BT corpo humano 
+POF cinco sentidos
+Def parte exterior do corpo
+ID noelia

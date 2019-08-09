@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=m\ n\ p\ mo\ na
+comment0.target=Vendedor(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.params=im
+comment1.target=void\ registaImovel(Imovel)
+comment2.params=
+comment2.target=void\ showUtilizador()
+comment2.text=public\ List\ <Consulta>\ getConsultas\ (){\n\ \ \ \ \ \ \ \ \n\ \ \ \ }\n\ \ \ \ \n\ \ \ \ public\ void\ setEstado\ (String\ idImovel,\ String\ estado){\n\ \ \ \ \ \ \ \ \n}
+comment3.params=
+comment3.target=int\ isComprador()
+numComments=4

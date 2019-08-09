@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Ex2
+comment0.text=\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ Ex2\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\n
+comment1.params=a\ b
+comment1.target=int\ maximoNumeros(int,\ int)
+numComments=2

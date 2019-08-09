@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Transportes
+comment0.text=\n\ Write\ a\ description\ of\ class\ Transportes\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Transportes()
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment11.params=
+comment11.target=Transportes\ clone()
+comment2.params=deducao\ codigo\ valorDeducao\ descricao\ tipoTransporte
+comment2.target=Transportes(boolean,\ int,\ double,\ java.lang.String,\ java.lang.String)
+comment3.params=t
+comment3.target=Transportes(Transportes)
+comment4.params=
+comment4.target=double\ getValorDeducao()
+comment5.params=
+comment5.target=java.lang.String\ getDescricao()
+comment6.params=
+comment6.target=java.lang.String\ getTipoTransporte()
+comment7.params=valor
+comment7.target=void\ setValorDeducao(double)
+comment8.params=descricao
+comment8.target=void\ setDescricao(java.lang.String)
+comment9.params=tipoTransporte
+comment9.target=void\ setTipoTransporte(java.lang.String)
+numComments=12

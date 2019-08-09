@@ -1,0 +1,10 @@
+BEGIN{
+	FS = ">|</"
+}
+
+$1~/<SAIDA/ {saida=$2}
+$1~/TIPO/ {if($2=="Parques de estacionamento") a[saida]}
+
+END{
+	for (i in a) print i
+}

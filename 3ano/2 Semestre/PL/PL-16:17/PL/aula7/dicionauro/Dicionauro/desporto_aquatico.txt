@@ -1,0 +1,220 @@
+PT natação
+-catgra nf
+-exuso a natação é um bom exercício para as dores nas costas.
+EN swimming
+FR natation 
+ES natación
+DE schwimmsport
+CN ??
+NU 764
+DOM desporto 
+BT
+Def 
+ID manuel
+
+PT pólo aquático 
+-catgra nm
+-exuso no pólo aquático cada equipa tem 7 jogadores.
+AUDPT N  
+EN  water polo
+AUDEN N
+FR polo aquatique
+AUDFR N 
+ES polo acuático
+AUDES N
+DE wasserballspiel
+AUDDE N
+CN 
+NU 
+DOM desporto
+BT
+RT piscina
+RT aquático
+RT água 
+Def jogo de bola parecido com o ^andebol^ só que se joga dentro de uma piscina
+IMG N
+GI 4
+IM 3 
+ID manuel
+
+PT esqui aquático
+-catgr nm
+-exuso hoje vamos fazer esqui aquático e precisamos da ^lancha^. 
+AUDPT N
+EN water skiing
+AUDEN N
+FR ski nautique 
+AUDFR N
+ES esquí acuático 
+AUDES N
+DE das wasserskilaufen
+AUDDE N
+CN   ??
+NU   6366
+DOM desporto 
+BT
+RT esqui
+RT aquático 
+RT lancha 
+Def desporto que se ^pratica^ na água e que ^consiste^ em dar saltos e fazer brincadeiras em cima de um ^esqui^ que é puxado por um barco a motor, 
+uma ^lancha^
+IMG N
+GI 2
+IM 2
+ID manuel 
+
+PT surf 
+PT_BR surfe
+-catgra nm
+-exuso as ondas do mar estão muito boas para fazer surf. 
+AUDPT N
+EN surf
+AUDEN N 
+FR surf
+AUDFR N
+ES surf
+AUDES N
+DE brandung
+AUDDE N
+CN 
+NU 
+DOM desporto
+BT 
+RT mar 
+RT ondas 
+RT surfista
+RT prancha de surf 
+Def o surf é um desporto que se ^pratica^ no mar e que ^consiste^ em uma pessoa equilibrar-se em cima de uma ^prancha^ nas ondas do mar
+IMG N
+GI 3
+IM 3
+ID manuel
+
+PT windsurf
+-catgr
+-exuso O vento e a ^maré^ estão favoráveis para fazer windsurf. 
+AUDPT
+EN windsurf
+AUDEN N  
+FR de la planche à la voile
+AUDFR N
+ES windsurf
+AUDES N
+DE windsurfen
+AUDDE N
+CN   
+NU   
+DOM desporto 
+BT
+RT windsurfista 
+RT prancha de windsurf
+RT vento 
+RT ondas 
+RT mar 
+Def desporto que se ^pratica^ no mar numa ^prancha^ como a do surf, mas que tem uma vela que é puxada pelo vento.
+IMG N
+GI 3
+IM 3
+ID manuel
+
+PT bodyboarding
+-catgr
+-exuso o bodyboard 
+-fon [bódibórdingue]
+EN bodyboarding  
+FR bodyboard
+ES bodyboarding 
+DE surfbrett
+CN   
+NU   
+DOM desporto 
+BT desporto que é parecido com o surf onde uma pessoa
+Def
+ID manuel
+
+PT mergulho 
+-catgr
+-exuso
+EN dive 
+EN plunge 
+FR plongeon 
+ES zambullida
+DE tauchen
+CN   
+NU   
+DOM desporto 
+BT
+Def desporto em que uma pessoa ^mergulha^ para dentro de água e vai explorar o mar, um lago ou um rio  
+ID manuel
+
+PT triatlo 
+-catgr
+-exuso
+EN triathlon
+FR triathlon
+ES
+DE triathlon
+CN   
+NU   
+DOM desporto 
+BT 
+Def
+ID manuel
+
+PT pentatlo moderno 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT 
+Def
+ID manuel
+
+PT pesca
+-catgr
+-exuso o Pedro gosta muito de pesca. 
+AUDPT N
+EN fishing
+AUDEN N 
+FR pêche
+AUDFR N 
+ES pesca
+AUDES N 
+DE die fischerei
+AUDDE N 
+CN   
+NU   
+DOM desporto 
+BT 
+RT cana
+RT peixe
+RT anzol
+Def
+ID manuel
+ 
+PT jet ski 
+-catgra
+-exuso
+AUDPT n 
+EN
+AUDEN n 
+FR
+AUDFR n 
+ES
+AUDES n 
+DE
+AUDDE n 
+CN
+NU
+DOM desporto
+BT
+Def
+IMG n 
+GI 
+IM 
+ID manuel

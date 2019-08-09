@@ -1,0 +1,116 @@
+%inv:  syn: syn
+%inv:  has: tem
+
+%dom:corpo humano
+
+%THE:has
+
+corpo humano: aparelho digestivo| aparelho circulatório| aparelho respiratório
+corpo humano: aparelho urinário| aparelho reprodutivo
+
+corpo humano: esqueleto| orgão
+corpo humano: músculo| nervo| pele| glândula
+corpo humano: cabeça| tronco| perna| braço
+
+aparelho circulatório: coração | veia| artéria| vasos capilares | sangue
+
+aparelho respiratório: pulmões| brônquios| bronquíolos| alvéolos pulmonares
+aparelho respiratório: traqueia| diafragma
+
+aparelho digestivo: esófago| duodeno| estômago| intestino grosso
+aparelho digestivo: fígado| pâncreas| intestino delgado
+
+esqueleto: ossos do tronco| ossos da cabeça| ossos da perna| ossos do braço
+
+cabeça: olho| nariz| boca| orelha| cabelo| queixo| testa| cabelo| barba| bigode
+cabeça: sobrancelha| pescoço| ossos da cabeça| ouvidos
+
+ouvidos|orelha: ossos do ouvido
+
+tronco: ossos do tronco
+
+boca: lábios| dentes| língua| gengivas
+
+olho: retina| iris| pupila| pálpebras| cristalino | pestanas
+
+aparelho urinário: bexiga| rim| ureteres
+
+aparelho reprodutivo: útero| ovários | pénis
+
+braço: ombro| antebraço| cotovelo| pulso| mão| ossos do braço
+
+mão: palma da mão| dedo polegar| dedo indicador| dedo médio| dedo anelar| dedo mínimo
+dedo: unha
+
+perna: anca| coxa| pé| joelho| ossos da perna
+pé:calcanhar| dedos do pé
+
+pele: epiderme| derme | poros
+osso: medula óssea
+
+
+
+%THE:inst
+
+artéria: artéria aorta | artéria pulmonar| artéria coronária
+
+veia: veia cava| veia pulmonar| veia coronária
+
+osso : ossos do tronco| ossos da cabeça| ossos da perna| ossos do braço| ossos do ouvido
+
+ossos do tronco:coluna vertebral| clavícula| omoplata| costela| externo| ossos elíacos
+ossos da cabeça: crânio| maxilar| malares| frontal| parietal| oxipital
+ossos da perna: fémur| rótula| tíbia| prónio
+ossos do braço: úmero| rádio| cúbito| falange| falanginha| falangeta
+ossos do ouvido: bigorna| estribo
+
+dedo: dedo polegar| dedo indicador| dedo médio| dedo anelar| dedo mínimo | dedo do pé
+orgão:  bexiga| rim| útero| ovários |coração| pulmões| esófago
+orgão: estômago| intestino grosso |fígado| pâncreas| intestino delgado| baço
+orgão: cérebro| cerebelo| bolbo raquidiano
+
+articulação : ombro | cotovelo | joelho | pulso | calcanhar
+
+%THE:EN
+
+braço : arm
+costas : back
+bico : beak
+sangue : blood
+tronco : body
+osso : bone
+cérebro : brain
+hálito : breath
+célula : cell
+peito : chest
+peito : chest
+queixo : chin
+orelha : ear
+olho : eye
+rosto : face
+dedo : finger
+pé : foot
+fronte : forehead
+gene : gene
+cabelo : hair
+pelo : hair
+mão : hand
+cabeça : head
+coração : heart
+joelho : knee
+perna : leg
+lábio : lip
+boca : mouth
+músculo : muscle
+unha : nail
+pescoço : neck
+nervo : nerve
+nariz : nose
+pele : skin
+estômago : stomach
+garganta : throat
+polegar : thumb
+dedo do pé : toe
+língua : tongue
+dente : tooth
+

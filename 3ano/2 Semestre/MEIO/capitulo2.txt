@@ -1,0 +1,91 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Capitulo 2:\
+\
+lambda = y ao contrario;\
+\
+Rela\'e7\'f5es fundamentais de Little:\
+L = numero (medio) de elementos do sistema;\
+Lq = numero (medio) de elementos da fila;\
+W = tempo (medio) de espera/permanencia no sistema.\
+Wq = tempo (medio) de espera na fila;\
+L = lambda*W;\
+Lq = lambda*Wq;\
+W = Wq + (1/u);\
+L = Lq+(lambda/u);\
+\
+M/M/1:\
+taxa de ocupa\'e7\'e3o: ro=(lambda/u)<1;\
+taxa de desocupacao. P0=1-ro;\
+Lq=(ro^2)/(1-ro);\
+L=ro/(1-ro);\
+Wq=(Lq/lambda)=lambda/(u*(u-lambda));\
+W=Wq+(1/u)=L/lambda=1/(u-lambda);\
+Pn=ro^n*P0;\
+P(W>t)=e^(-u(1-ro)*t);\
+P(Wq>t)=e^(-u(1-ro)*t)*ro;\
+\
+M/M/S:\
+taxa de ocupa\'e7\'e3o: ro=(lambda/(s*u))<1;\
+taxa de desocupacao. 1-ro;\
+Lq=(P0*(lambda/u)^s*ro)/(s!(1-ro)^2);\
+L=Lq/(lambda/u);\
+Wq=(Lq/lambda);\
+W=Wq+(1/u)=L/lambda;\
+P0=1/(somatorio(0 a s-1)((lambda/u)^n/n!)+(lambda/u)^s/s!)*(1/(1-ro)));\
+P(W>t)=(1-P(Wq=0)*e^(-s*u(1-ro)*t);\
+P(Wq=0)=somatorio(0 a s-1)*Pn;\
+\
+M/M/1(k)  (fila de espera c/ comprimento limitado):\
+n max sistema = k e fila max = k-1;\
+ro=lambda/u;\
+lambdax=lambda(1-Pk);\
+taxa de ocupa\'e7\'e3o: lambdax/u;\
+taxa de desocupacao: 1-(lambdax/u);\
+Lq=L-(lambdax/u);\
+L=(ro/(1-ro)-(((k+1)*ro^k+1)/1-ro^k+1));\
+Wq=(Lq/lambda);\
+W=Wq+(1/u)=L/lambdax;\
+Pn=ro^n*P0, se n=1,\'85,k,\
+P0=(1-ro)/(1-ro^(k+1));\
+P(Wq=0)=P0;\
+\
+M/M/1/N (fila de espera simples, mas popula\'e7\'e3o finita):\
+populacao=N;\
+ro=lambda/u;\
+lambdax=lambda(N-L);\
+taxa de ocupa\'e7\'e3o: lambdax/u;\
+taxa de desocupacao: 1-(lambdax/u);\
+Lq=N-((lambda+u)/lambda)*(1-P0);\
+L=Lq+(lambdax/u);\
+Wq=(Lq/lambdax);\
+W=Wq+(1/u)=L/lambdax;\
+Pn=(N!/(N-np)!)*(lambda/u)^n*P0, se n=1,\'85,k,\
+P0=somatorio(0 a N)(N!/(N-np)!)*(lambda/u)^n;\
+\
+M/M/S(K) (FE comprimento limitado e s servidores):\
+n max sistema = k e fila max = k-s;\
+ro=lambda/(s*u);\
+lambdax=lambda(1-Pk);\
+taxa de ocupa\'e7\'e3o: lambdax/(s*u);\
+taxa de desocupacao: 1-(lambdax/(s*u));\
+L=Lq+(lambdax/u);\
+Wq=(Lq/lambdax);\
+W=Wq+(1/u)=L/lambdax;\
+Pn=ro^n*P0, se n=1,\'85,k,\
+P(Wq=0)=somatorio(0 a s-1)*Pn;\
+\
+M/M/S/N (FE S servidores e popula\'e7\'e3o finita):\
+populacao=N;\
+lambdax=lambda(N-L);\
+taxa de ocupa\'e7\'e3o: lambdax/(s*u);\
+taxa de desocupacao: 1-(lambdax/(s*u));\
+Lq=N+((lambda+u)/lambda)*(1-P0);\
+L=Lq+(lambdax/u);\
+Wq=(Lq/lambdax);\
+W=Wq+(1/u)=L/lambdax;}

@@ -1,0 +1,13 @@
+C1 - Custo de posse ou existencia em inventario
+C1 = i*b
+q - Quantidade de encomenda
+i - Taxa de juro
+b - Valor unitario
+C2 - Custo de quebra
+r - Procura
+C3 - Custo de passagem de encomenda
+q/r - Periodo otimo entre encomendas
+
+Ct = (b*r)* C1 * q/2 + C3 * r/q
+
+Qee = sqrt((2*r*C3)/C1)

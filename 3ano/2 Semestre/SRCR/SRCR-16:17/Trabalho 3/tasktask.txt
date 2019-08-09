@@ -1,0 +1,9 @@
+> teste<-dados[1:197,]
+> treino<-dados[198:844,]
+> formula<-Task ~ KDTM + DDCM + DMSM 
+> rnaexaustao<-neuralnet(formula,treino,hidden=c(4,2),lifesign="full",linear.output = FALSE,threshold=0.1)
+> teste.01<-subset(teste,select=c("KDTM","DDCM","DMSM"))
+> rnaexaustao.resultados<-compute(rnaexaustao,teste.01)
+> resultados<-data.frame(atual=teste$Task,previsao=rnaexaustao.resultados$net.result)
+> resultados$previsao<-round(resultados$previsao,digits=3)
+> rmse(c(teste$Task),c(resultados$previsao))

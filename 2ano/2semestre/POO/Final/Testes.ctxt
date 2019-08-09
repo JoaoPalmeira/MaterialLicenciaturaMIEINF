@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Testes
+comment0.text=\n\ A\ classe\ de\ teste\ Testes.\n\n\ @author\ \ (seu\ nome)\n\ @version\ (um\ n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\n
+comment1.params=
+comment1.target=void\ mainTest()
+comment1.text=\n\ Teste\ principal\n
+comment2.params=jf\ nomeFicheiro
+comment2.target=void\ guardaEstado(JavaFatura,\ java.lang.String)
+comment2.text=\n\ M\u00E9todo\ que\ guarda\ em\ ficheiro\ de\ objectos\ o\ objecto\ que\ recebe\ a\ mensagem.\n
+numComments=3

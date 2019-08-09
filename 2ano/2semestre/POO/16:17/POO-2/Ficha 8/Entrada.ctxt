@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getId()
+comment1.params=
+comment1.target=java.lang.String\ getTitulo()
+comment2.params=
+comment2.target=double\ getTempoT()
+comment3.params=
+comment3.target=boolean\ getPossui()
+comment4.params=
+comment4.target=java.lang.String\ getComentario()
+comment5.params=e2
+comment5.target=Entrada(Entrada)
+comment6.params=
+comment6.target=Entrada\ clone()
+numComments=7

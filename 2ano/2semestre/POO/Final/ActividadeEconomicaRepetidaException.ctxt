@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ActividadeEconomicaRepetidaException
+comment0.text=\n\ Write\ a\ description\ of\ class\ ActividadeEconomicaRepetidaException\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=ActividadeEconomicaRepetidaException()
+comment2.params=message
+comment2.target=ActividadeEconomicaRepetidaException(java.lang.String)
+numComments=3

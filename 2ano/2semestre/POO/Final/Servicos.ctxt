@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Servicos
+comment0.text=\n\ Aticidade\ economica\ de\ Servicos\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Servicos()
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment11.params=
+comment11.target=Servicos\ clone()
+comment2.params=deducao\ codigo\ valorDeducao\ descricao\ tipoServico
+comment2.target=Servicos(boolean,\ int,\ double,\ java.lang.String,\ java.lang.String)
+comment3.params=s
+comment3.target=Servicos(Servicos)
+comment4.params=
+comment4.target=double\ getValorDeducao()
+comment5.params=
+comment5.target=java.lang.String\ getDescricao()
+comment6.params=
+comment6.target=java.lang.String\ getTipoServico()
+comment7.params=valor
+comment7.target=void\ setValorDeducao(double)
+comment8.params=descricao
+comment8.target=void\ setDescricao(java.lang.String)
+comment9.params=tipoServico
+comment9.target=void\ setTipoServico(java.lang.String)
+numComments=12

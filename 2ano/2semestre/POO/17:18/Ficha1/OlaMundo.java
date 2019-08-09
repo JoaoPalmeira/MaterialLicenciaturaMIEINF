@@ -1,0 +1,13 @@
+
+/**
+ * Escreva a descrição da classe OlaMundo aqui.
+ * 
+ * @author (seu nome) 
+ * @version (número de versão ou data)
+ */
+public class OlaMundo{
+    public static void main(String[] args){
+        System.out.println("Olá Mundinho!");
+        System.out.println("Ola -" + args[0]);
+    }
+}

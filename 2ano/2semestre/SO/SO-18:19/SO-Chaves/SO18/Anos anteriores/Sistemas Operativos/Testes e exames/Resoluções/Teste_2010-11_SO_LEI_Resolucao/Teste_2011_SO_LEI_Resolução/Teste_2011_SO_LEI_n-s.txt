@@ -1,0 +1,35 @@
+trataKill(int signum){
+	kill(getpid(), KILL);
+}
+
+int main (int argc, char **argv){
+
+	signal(SIGALRM, trataKill);
+	
+	int nproc = atoi(argv[1]);
+	int tempo = atoi(argv[2]);
+	int i;
+	
+	for (i=3; i<argc; i++){
+		nproc--;
+		
+		if(!fork()){
+			alarm(tempo);
+			execlp(argv[i], argv[i], NULL);
+			exit(EXIT_FAILURE);
+		}
+		
+		//Verifica se ainda pode por a correr mais algum processo
+		if(nproc<=0) {
+			wait(NULL);
+			nproc++;
+		}
+	}
+	
+	while( nproc < atoi(argv[1]) ){
+		wait(NULL);
+		nproc++;
+	}
+	
+	return (EXIT_SUCCESS);
+}

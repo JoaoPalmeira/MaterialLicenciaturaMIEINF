@@ -1,0 +1,5 @@
+<seg, < "Aula de PL" , 9:0 , 11:00 >  
+      < "Aula de CG" , 11:0 , 13:00 > 
+      < "Aula de MEIO" , 14:0 , 16:00 > 
+      < "Aula de LI" , 15:0 , 13:00 >
+>

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Ex1()
+comment0.text=\n\ COnstrutor\ para\ objetos\ da\ classe\ Ex1\n
+comment1.params=a\ b
+comment1.target=Ex1(double,\ double)
+comment2.params=c
+comment2.target=Ex1(Ex1)
+comment3.params=
+comment3.target=Ex1\ conjugado()
+comment4.params=
+comment4.target=void\ conjugadoSelf()
+comment5.params=c
+comment5.target=Ex1\ soma(Ex1)
+comment6.params=
+comment6.target=double\ getA()
+comment7.params=
+comment7.target=double\ getB()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

@@ -1,0 +1,8 @@
+C/LIMITACAO
+
+q(j) = sqrt((2*C3*r(j))/(i*b(j)-2Ya(j)))
+
+Vmax = SUM(a(j)*q(j))
+
+Achar o Y metendo no grafico da calculadora,
+depois substituir o Y para descobrir o Q de cada um

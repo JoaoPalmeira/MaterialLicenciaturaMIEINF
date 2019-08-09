@@ -1,0 +1,176 @@
+#--------------------------------------------------------------------- 
+%dom: dia a dia
+
+%THE: nt
+
+dia a dia: cidade | cozinha | desporto |meio de transporte |ferramenta | escola
+dia a dia: roupa | família | jogo | mobília | loja
+
+família: parentesco
+ferramenta: ferramenta de carpinteiro | ferramenta agrícula
+
+
+#--------------------------------------------------------------------- 
+%THE :has
+
+cozinha: electrodoméstico | banca | utensílio de cozinha | banco de cozinha 
+
+
+# mobílias
+%THE: nt<mobílias
+
+mobília: cadeira | mesa | banco | sofá | poltrona | armário | estante
+mobília: bengaleiro | cabide | banca | cama | mesa de cabeceira | guarda-fatos
+mobília: guarda-vestidos | arca
+mobília: banco de cozinha
+
+mobília: secretária | arquivador
+
+## desporto
+
+%dom: desporto 
+
+%THE: nt
+
+desporto: andebol | futebol | atletismo | vela | golf | hóquei em patins
+desporto: basquetebol | ténis | ténis de mesa | voleibol | badminton
+desporto: natação | ciclismo | 
+
+%dom: ferramentas
+%THE: nt
+
+ferramenta de carpinteiro: plaina | martelo | broca | verruma | chave de parafusos
+ferramenta de carpinteiro: chave de cruz | berbequim | trado | formão | goiva
+ferramenta de carpinteiro: serra | serrote | alicate | alicate de pontas
+
+ferramenta agrícula: sachola | albião | pá | ancinho | sacho | carrinho de mão
+ferramenta agrícula: tesoura de poda | zaragatoa | gadanho | gadanha | machado
+
+%dom: cozinha
+%THE: inst
+
+electrodoméstico: fogão | frigorífico | micro-ondas | batedora | varinha-mágica
+electrodoméstico: rádio | televisão | aparelhagem | aquecedor | máquina de lavar
+electrodoméstico: máquina de lavar louça | secador | ventoínha | aspirador
+
+utensílio de cozinha: cafeteira | tacho | certã | panela | talheres | copo | prato
+utensílio de cozinha: panela-de-pressão | travessa | escorredor | alguidar | bacia
+
+%dom: lojas e comércio
+%THE: inst
+
+loja: mercearia | barbearia | papelaria | livraria | quiosque | loja de ferragens
+loja: retrosaria | alfaiataria | pronto a vestir | loja de informática
+loja: loja dos 300 | café | restaurante | super-mercado | alfarrabista | drogaria
+loja: loja de electrodomésticos | reprografia | lavandaria
+
+%dom: família
+
+%THE: inst
+parentesco: mãe | pai | irmão | filho | sobrinho | tio | avô | neto | bisavô | bisneto
+parentesco: trisavô | trisneto | tetravô | tetraneto | primo | padrinho | afilhado
+parentesco: padrinho | madrinha | afilhado | padrasto | madrasta
+
+#--------------------------------------------------------------------- 
+
+%THE: DE: @gn_de:EN
+
+# pt : de : género Numero do alemão : en
+pais : Eltern : pl : parents
+mãe : Mutter : f : mother
+mamã : Mutti | Mama | Mami : f : mummy | mum | mom | mommy 
+pai : Vater : m : father
+papá : Vati | Papa | Papi : m : daddy | dad
+criança : Kind : n : child
+filho : Sohn : m : son
+filha : Tochter : f : daughter
+filhos : Geschwister : pl : siblings | brothers and sisters
+irmão : Bruder : m : brother
+irmã : Schwester : f : sister
+gémeo : Zwilling : m : twin
+bebé : Säugling | Baby : n : infant | baby
+
+criança : Kind : n : infant
+teenager : Teenager : m : teenager
+
+avós : Großeltern : pl : grandparents
+avô : Großvater : m : grandfather
+avozinha : Opa : m : granddad | grandpa
+avó : Großmutter : f : grandmother
+avozinha : Oma : f : grandma | granny
+bisavós : Urgroßeltern : pl : great-grandparents
+bisavó : Urgroßmutter : f : great grandmother
+bisavô : Urgroßvater : m : great grandfather
+trisavós : Ururgroßeltern | Alteltern : pl : great-great grandparents | gg-grandparents
+tetravós : Urururgroßeltern | Alturgroßeltern : pl : ggg-grandparents
+
+neto : Enkel : m : grandchild
+neto : Enkel : m : grandson
+neta : Enkelin : f : granddaughter
+
+tia : Tante : f : aunt
+tio : Onkel : m : uncle
+sobrinho : Neffe : m : nephew
+sobrinha : Nichte : f : niece
+primo : Cousin | Kusin | Vetter : m : cousin
+prima : Cousine | Kusine | Base : f : cousin
+
+sogros : Schwiegereltern : pl : parents in law
+sogra : Schwiegermutter : f : mother in law
+sogro : Schwiegervater : m : father in law
+genro : Schwiegersohn : m : son in law
+nora : Schwiegertochter : f : daughter in law
+cunhada : Schwägerin : f : sister in law
+cunhado : Schwager : m : brother in law
+
+meio-irmão : Stiefbruder : m : stepbrother
+madrasta : Stiefmutter : f : stepmother
+meia-irmã : Stiefschwester : f : stepsister
+enteado : Stiefsohn : m : stepson
+enteada : Stieftochter : f : stepdaughter
+
+padrasto : Stiefvater : m : stepfather
+meio-irmão : Halbbruder : m : half-brother
+meia-irmã : Halbschwester : f : half-sister
+
+pai adoptivo : Pflegeeltern : pl : foster-parents
+filho adoptivo : Pflegekind : n : foster-child
+
+
+%THE<parentesco : EN
+
+família : family
+
+irmão : brother 
+irmã : sister 
+filha : daughter
+filho : son 
+pai : father 
+mãe : mother
+pais : parents
+avô : grandfather 
+avó : grandmother
+marido : husband
+esposa : wife 
+
+%dom: vida
+%THE : EN
+
+relacionamento : relationship
+
+vida : life
+nascimento : birth
+aniversário : birthday
+morte : death
+
+casamento : marriage
+casamento : wedding
+pessoa : person
+humano : human
+mulher : woman
+rapariga : girl
+homem : man
+rapaz : boy
+bebé : baby
+amigo : friend
+vizinho : neighbor

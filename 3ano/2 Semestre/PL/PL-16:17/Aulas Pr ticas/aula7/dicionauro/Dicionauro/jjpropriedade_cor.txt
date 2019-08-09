@@ -1,0 +1,864 @@
+﻿PT preto  
+-catgra adj e nm
+-exuso 
+AUDPT
+EN black 
+AUDEN
+FR noir 
+AUDFR
+ES negro 
+AUDES
+DE schwarz
+AUDDE
+CN
+NU
+Dom
+BT
+Def
+IMG
+GI
+IM
+ID manuel 
+
+PT amarelo 
+-catgra adj e nm
+-exuso o sol é amarelo
+AUDPT
+EN yellow
+AUDEN
+FR jaune 
+AUDFR
+ES amarillo
+AUDES
+DE
+AUDDE
+CN
+NU
+Dom
+BT
+Def
+IMG
+GI
+IM
+ID manuel 
+
+PT magenta
+-catgra adj e nm 
+-exuso 
+AUDPT
+EN magenta
+AUDEN
+FR magenta
+AUDFR
+ES magenta
+AUDES
+DE magenta
+AUDDE
+CN
+NU
+Dom
+BT
+Def o mangenta é um tom mais forte do cor-de-rosa
+IMG
+GI
+IM
+ID manuel
+
+PT turquesa 
+-catgra 
+-exuso 
+AUDPT
+EN turquoise 
+AUDEN
+FR turquoise 
+AUDFR
+ES turquesa 
+AUDES
+DE türkis 
+AUDDE
+CN
+NU
+Dom
+BT
+Def a cor turquesa é uma cor que está entre o azul e o verde e o seu nome vem de uma pedra que tem o mesmo nome
+IMG
+GI
+IM
+ID manuel  
+
+PT cor-de-rosa
+PT rosa
+-catgra adj e nm 
+-exuso a Teresa tem um vestido cor-de-rosa
+-exuso a Teresa tem um vestido rosa 
+-exuso a Teresa gosta muito de se vestir de rosa
+-exuso a Teresa gosta muito de se vestir de cor-de-rosa
+EN pink
+FR rose 
+ES rosa
+DE rosa
+CN 粉红色
+NU 249
+Dom propriedade 
+BT 
+Def 
+IMG 
+GI
+IM
+ID manuel
+
+PT prateado 
+PT prata
+-catgra 
+-exuso 
+AUDPT
+EN silver
+AUDEN
+FR argent 
+AUDFR
+ES plata
+AUDES
+DE silbern
+AUDDE
+CN
+NU
+DOM
+BT
+Def
+IMG
+GI
+IM
+ID manuel manuel 
+
+PT púrpura
+-catgra 
+-exuso 
+AUDPT
+EN purple
+AUDEN
+FR pourpre
+AUDFR
+ES púrpura
+AUDES
+DE purpur
+AUDDE
+CN
+NU
+DOM propriedade
+BT
+Def
+IMG
+GI
+IM
+ID manuel manuel 
+
+PT salmão 
+-catgra 
+-exuso 
+AUDPT
+EN salmon
+AUDEN
+FR saumon
+AUDFR
+ES salmón
+AUDES
+DE 
+AUDDE
+CN
+NU
+DOM
+BT
+Def
+IMG
+GI
+IM
+ID manuel manuel 
+
+PT dourado 
+PT doirado 
+-catgra 
+-exuso 
+AUDPT
+EN golden
+AUDEN
+FR 
+AUDFR
+ES dorado 
+AUDES
+DE
+AUDDE
+CN
+NU
+DOM
+BT
+Def
+IMG
+GI
+IM
+ID manuel manuel 
+
+#PT rosa salmão
+-catgra
+-exuso
+EN salmon pink
+FR
+ES
+DE
+CN 橙红色
+NU 250
+Dom propriedade
+BT 
+Def
+IMG 
+GI
+IM
+ID manuel
+
+#PT rosa bebé
+-catgra
+-exuso
+EN baby pink
+FR
+ES
+DE
+CN 浅粉红色
+NU 251
+Dom propriedade
+BT 
+Def
+IMG 
+GI
+IM
+ID manuel
+
+#PT rosa choque
+-catgra
+-exuso
+EN shocking pink
+FR
+ES
+DE
+CN 鲜粉红色
+NU 252
+Dom propriedade
+BT 
+Def
+IMG 
+GI
+IM
+ID manuel
+
+PT_PT castanho
+PT_BR marrom
+-catgra adj e nm 
+-exuso a Maria tem os cabelos castanhos
+-exuso o castanho é a cor das castanhas 
+EN brown
+FR brun 
+ES castaño
+ES marrón
+DE braun 
+CN 褐色\n 茶色
+NU 253
+Dom propriedade
+BT
+Def o castanho é a cor que resulta 
+RT acastanhado 
+IMG 
+GI
+IM
+ID manuel
+
+PT bege
+-catgra
+-exuso
+EN beige
+FR beige
+ES beige
+DE
+CN 灰褐色
+NU 254
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+PT chocolate
+-catgra
+-exuso
+EN chocolate
+FR chocolate
+ES chocolate
+DE schokolade
+CN 红褐色\n 赭石色
+NU 255
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+#PT bege areia
+-catgra
+-exuso
+EN sandy beige
+FR
+ES
+DE
+CN 浅褐色
+NU 256
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+#PT cor-de-camelo
+-catgra
+-exuso
+EN camel
+FR
+ES
+DE
+CN 驼色
+NU 257
+RT bege
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+#PT castanho-amarelado
+-catgra
+-exuso
+EN amber
+FR
+ES
+DE
+CN 琥珀色
+NU 258
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+PT caqui
+-catgra
+-exuso
+AUDPT n 
+EN khaki
+AUDEN n
+FR kaki
+AUDFR n 
+ES cáqui
+AUDES n 
+DE kakifrucht
+AUDDE n 
+CN 卡其色
+NU 259
+Dom propriedade
+BT
+Def
+IMG
+GI
+IM
+ID manuel 
+
+#PT castanho-avermelhado
+-catgra
+-exuso
+EN maroon
+FR
+ES
+DE
+CN 褐红色
+NU 260
+Dom propriedade
+BT
+Def
+ID manuel
+
+PT verde
+-catgra adj e nm
+-exuso a erva é verde
+-exuso quando o semáforo está verde podemos avançar. 
+AUDPT n 
+EN green
+AUDEN
+FR vert
+AUDFR
+ES verde
+AUDES n
+DE grün
+AUDDE n
+CN 绿色
+NU 261
+Dom propriedade
+BT
+Def o verde é a cor das ervas e das folhas das árvores I
+GI 4
+IM 4
+ID manuel
+
+#PT verde-musgo
+-catgra
+-exuso
+EN moss green
+FR
+ES
+DE
+CN 苔绿色
+NU 262
+Dom propriedade
+BT
+Def
+ID manuel
+
+#PT verde-esmeralda
+-catgra
+-exuso
+EN emerald green
+FR
+ES
+DE
+CN 鲜绿色
+NU 263
+Dom propriedade
+BT
+Def
+ID manuel
+
+#PT verde-azeitona
+-catgra
+-exuso
+EN olive green
+FR
+ES
+DE
+CN 橄榄绿
+NU 264
+Dom propriedade
+BT
+Def
+ID manuel
+
+PT azul
+-catgra adj e nm 
+-exuso o céu é azul 
+-exuso o mar é azul
+-exuso a cor preferida do Marcos é o azul  
+AUDPT n
+EN blue
+AUDEN n 
+FR bleu 
+AUDFR n 
+ES azul
+AUDES n 
+DE blau
+AUDDE n 
+CN 蓝色
+NU 265
+Dom propriedade
+BT
+Def o azul é a cor do céu, do mar e 
+IMG 
+GI 4
+IM 4 
+ID manuel
+
+#PT azul turquesa
+-catgra
+-exuso
+EN turquoise blue
+FR
+ES
+DE
+CN 土耳其玉色
+NU 266
+Dom propriedade
+BT
+Def
+ID manuel
+
+#PT azul-cobalto
+-catgra
+-exuso
+EN cobalt blue
+FR bleu cobalt
+ES
+DE
+CN 钴蓝色\n 艳蓝色
+NU 267
+Dom propriedade
+BT
+Def
+ID manuel
+
+PT azul marinho
+-catgra
+-exuso
+EN navy blue
+FR bleu marine
+ES azul marino
+DE
+CN 藏青色\n 深蓝色\n 天蓝色
+NU 268
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+#PT azul aquamarine
+-catgra
+-exuso
+EN aquamarine blue
+FR
+ES
+DE
+CN 蓝绿色
+NU 269
+Dom propriedade
+BT
+Def
+ID manuel
+
+PT cor-de-laranja
+PT laranja
+-catgra adj
+-exuso a laranja é cor-de-laranja 
+-exuos o cor-de-laranja é a cor das laranjas e das tangerinas
+-exuso o laranja é a cor das laranjas e das tangerinas 
+AUDPT
+EN orange
+AUDEN
+FR orange 
+AUDFR
+ES naranja 
+AUDES
+DE orange 
+AUDDE
+CN
+NU
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel manuel 
+
+PT vermelho
+PT encarnado 
+-catgra
+-exuso quando o semáforo está vermelho temos de parar 
+-exuso quando o semáforo está encarnado temos de parar 
+-exuso o sangue é vermelho 
+-exuso o sangue é encarnado 
+AUDPT
+EN red
+AUDEN n 
+FR rouge
+AUDFR n  
+ES rojo 
+AUDES n 
+DE rot
+AUDDE n 
+CN 红色
+NU 270
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+PT escarlate
+-catgra
+-exuso
+EN scarlet
+FR
+ES
+DE
+CN 绯红\n 猩红
+NU 271
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+#PT cor-de-malva
+-catgra
+-exuso
+EN mauve
+FR
+ES
+DE
+CN 紫红
+NU 272
+Dom propriedade
+BT
+Def
+ID manuel
+
+PT ciano 
+-catgra 
+-exuso 
+AUDPT
+EN cyan 
+AUDEN
+FR cyan 
+AUDFR
+ES 
+AUDES
+DE cyan
+AUDDE
+CN
+NU
+Dom
+BT
+Def o ciano é a cor que se usa nos ^azulejos^ das piscinas 
+IMG
+GI
+IM
+ID manuel 
+
+PT cor-de-vinho
+-catgra
+-exuso
+EN wine red
+FR
+ES
+DE
+CN 葡萄酒红
+NU 273
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+PT roxo
+-catgra
+-exuso
+PT violeta
+-catgra
+-exuso
+EN purple
+EN violet
+FR
+ES
+DE
+CN 紫色
+NU 274
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+#PT alfazema
+-catgra
+-exuso
+EN lavender
+FR
+ES
+DE
+CN 淡紫色
+NU 275
+Dom propriedade
+BT
+Def
+ID manuel
+
+PT lilás
+-catgra
+-exuso
+EN lilac
+FR lilas 
+ES lila
+DE 
+CN 浅紫色
+NU 276
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+#PT violeta-escuro
+-catgra
+-exuso
+EN pansy
+FR
+ES
+DE
+CN 紫罗兰色
+NU 278
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+PT branco
+-catgra
+-exuso a neve é branca 
+-exuso o branco é a cor da neve 
+EN white
+FR
+ES
+DE
+CN 白色
+NU 279
+Dom propriedade
+BT
+Def o branco é a cor mais clara que existe e resulta da ^junção^ de todas as cores 
+IMG 
+GI
+IM
+ID manuel
+
+#PT branco pérola
+PT branco sujo
+-catgra
+-exuso
+EN off-white
+FR
+ES
+DE
+CN 灰白色
+NU 280
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+PT marfim
+-catgra
+-exuso
+EN ivory
+FR
+ES
+DE
+CN 象牙色
+NU 281
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+#PT branco neve
+-catgra
+-exuso
+EN snowy white
+FR
+ES
+DE
+CN 雪白色
+NU 282
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+#PT branco ostra
+-catgra
+-exuso
+EN oyster white
+CN 乳白色
+NU 283
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+PT cinzento
+PT cinza
+-catgra
+-exuso
+EN gray
+FR
+ES
+DE
+CN 灰色
+NU 284
+Dom propriedade
+BT
+Def
+IMG 
+GI
+IM
+ID manuel
+
+#PT cinzento carvão
+-catgra
+-exuso
+EN charcoal gray
+CN 炭灰色
+NU 285
+Dom propriedade
+BT
+Def
+ID manuel
+
+#PT cinzento esfumado
+-catgra
+-exuso
+EN smoky gray
+CN 烟灰色
+NU 286
+Dom propriedade
+BT
+Def
+ID manuel
+
+#PT cinzento névoa
+-catgra
+-exuso
+EN misty gray
+CN 雾灰色
+NU 287
+Dom propriedade
+BT
+Def
+ID manuel

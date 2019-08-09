@@ -1,0 +1,109 @@
+﻿
+PT   flor
+-catgra
+-exuso
+EN flower
+FR fleure
+ES flor
+DE blume
+CN   花
+NU   4538
+Dom  botânica
+BT   órgão vegetal
+Def
+ID   alvaro
+
+PT   árvore
+-catgra nf 
+-exuso
+AUDPT N 
+EN   Tree
+AUDEN
+FR arbre
+AUDFR 
+ES 
+AUDES
+DE
+AUDDE
+CN   树
+NU   4601
+Dom botânica
+BT 
+PART raiz
+PART caule 
+PART tronco
+PART ramo 
+PART folha
+PART fruto 
+PART copa 
+PART rebento
+PART galho 
+PART nó
+PART botão
+PART casca
+PART seiva
+NT amieiro
+NT azinheira
+NT azevinho
+NT bordo
+NT carrasco
+NT carvalho-português
+NT carvalho-negral
+NT castanheiro
+NT cipreste
+NT freixo de folha estreita
+NT lódão-bastardo
+NT loureiro
+NT medronheiro
+NT pinheiro de alepo
+NT pinheiro-bravo
+NT pinheiro manso
+NT pinheiro silvestre
+NT sabina-da-praia
+NT sobreiro
+NT teixo
+NT ameixoeira
+NT amendoeira
+NT alperceiro
+NT cerejeira
+NT diospireiro
+NT damasqueiro
+NT figueira
+NT ginjeira
+NT laranjeira
+NT marmeleiro
+NT macieira
+NT nespereira
+NT pessegueiro
+NT pereira
+NT romãzeira
+NT tangerineira
+NT toranjeira
+NT abacateiro
+NT nogueira
+NT oliveira
+NT salgueiro
+NT ulmeiro
+NT amoreira
+NT mimosa
+NT olmo
+NT limoeiro
+NT faia
+NT aveleira
+NT vidoeiro
+NT cica
+NT sabugeiro
+NT plátano
+NT sorveira
+NT tília
+NT sândalo
+NT ébano
+NT abeto
+NT vimeiro
+NT algodoeiro
+NT cedro
+Def
+IMG 
+GI
+IM
+ID manuel

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=UtilizadorRepetidoException
+comment0.text=\n\ Write\ a\ description\ of\ class\ UtilizadorRepetidoException\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=UtilizadorRepetidoException()
+comment2.params=message
+comment2.target=UtilizadorRepetidoException(java.lang.String)
+numComments=3

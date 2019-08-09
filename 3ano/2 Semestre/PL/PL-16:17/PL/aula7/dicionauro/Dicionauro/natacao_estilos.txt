@@ -1,0 +1,71 @@
+
+PT   crawl
+-catgra substantivo masculino
+-exuso
+EN   crawl
+FR
+ES
+DE
+CN   爬泳
+NU   6359
+BT  estilo de natação
+Dom Desporto
+Def estilo de nado veloz caracterizado pelo batimento contínuo das pernas, rotação alternativa dos braços, deslizamento aerodinâmico sobre a superfície e minimização do atrito da água; nado livre
+ID Ana Rita Sá
+
+PT   bruços
+-catgra substantivo masculino
+-exuso
+EN   breaststroke
+FR
+ES
+DE
+CN   蛙式
+NU   6360
+BT  estilo de natação
+Dom Desporto
+Def provavelmente o mais antigo dos estilos de natação, consiste em obter deslocamento na água por meio de movimentos dos braços para os lados, os quais se iniciam com as mãos atiradas juntas para a frente, saindo do peito e depois trazidas de volta acima ou abaixo na superfície da água, em conjugação com uma acção simétrica das pernas; nado de peito
+ID Ana Rita Sá
+
+PT   costas
+-catgra substantivo masculino
+-exuso
+EN   backstroke
+FR
+ES
+DE
+CN   仰式
+NU   6361
+BT  estilo de natação
+Dom Desporto
+Def estilo em que o nadador se desloca com o corpo recto, girando os braços para trás e batendo os pés
+ID Ana Rita Sá
+
+PT   estilo livre
+-catgra substantivo masculino
+-exuso
+EN   freestyle
+FR
+ES
+DE
+CN   自由式
+NU   6362
+BT  estilo de natação
+RT crawl
+Dom Desporto
+Def em provas de natação, categoria em que é permitida ao nadador a prática de qualquer estilo (devendo-se a preferência da maioria pelo estilo crawl por seu maior rendimento em termos de velocidade)
+ID Ana Rita Sá
+
+PT   mariposa
+-catgra substantivo masculino
+-exuso
+EN   butterfly (stroke)
+FR
+ES
+DE
+CN   蝶泳
+NU   6363
+BT  estilo de natação
+Dom Desporto
+Def estilo de nado em que os braços são projectados para fora da água; nado borboleta
+ID Ana Rita Sá

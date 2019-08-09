@@ -1,0 +1,11 @@
+((Comp Hb (Unid ((100, 100), ("A", col_blue))) (Unid ((200, 200), ("B", col_green )))), (0.0, 0.0))
+
+ ((Unid ((100, 200), ("A", col_blue ))),(0.0,0.0))
+
+ (Unid (((100,200),("A",col_blue)),(0.0,0.0)))
+
+
+
+(Comp ((Unid ((100, 200), ("A", col_blue ))),(0.0,0.0)) ((Unid ((100, 200), ("A", col_blue ))),(0.0,0.0)) ((Unid ((100, 200), ("A", col_blue ))),(0.0,0.0)))
+
+((Comp Ve (Comp Hb (Unid ((100, 200), ("A", col_blue ))) (Unid ((100, 200), ("B", col_blue ))) ) (Comp Hb (Unid ((100, 200), ("C", col_blue ))) (Comp H (Unid ((100, 200), ("D", col_blue ))) (Unid ((100, 200), ("E", col_blue ))) ))),(0.0,0.0))

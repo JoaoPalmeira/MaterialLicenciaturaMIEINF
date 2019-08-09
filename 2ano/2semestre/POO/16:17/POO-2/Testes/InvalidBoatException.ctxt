@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=InvalidBoatException()
+comment1.params=s
+comment1.target=InvalidBoatException(java.lang.String)
+numComments=2

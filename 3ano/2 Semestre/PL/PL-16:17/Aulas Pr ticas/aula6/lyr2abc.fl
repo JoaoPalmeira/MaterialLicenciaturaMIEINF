@@ -1,0 +1,24 @@
+%option noyywrap
+%x META ABC POEMA
+%%
+  FILE* abc = fopen("out.abc", "w" );
+  char ttl[1024];
+
+<*>title:.* { BEGIN META; strcpy(ttl, yytext+6); }
+<*>\<abc\> { BEGIN ABC; }
+
+<POEMA>.|\n { }
+
+<META>\n{2,} { BEGIN POEMA; }
+<META>.|\n { }
+
+<ABC>\<\/abc\> { BEGIN POEMA; }
+<ABC>X:.* { fprintf(abc, "%s\nT:%s", yytext, ttl); }
+<ABC>.|\n { fprintf(abc, "%s", yytext); }
+%%
+int main (int argc, char* argv[]) {
+    if(argc == 2)
+      yyin = fopen(argv[1], "r");
+    yylex();
+    return 0;
+}

@@ -1,0 +1,92 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+
+int fluxo = 0;
+
+void fa(){
+	printf("\nFluxo: %d\n", fluxo);
+	fluxo = 0;
+	alarm(1);
+}
+
+
+//Exercicio III
+int main(int argc, char **argv){
+	
+	//Sinal para imprimir o fluxo
+	signal(SIGALRM, fa);
+	alarm(1);
+	
+	char buf;
+	int fd1[2], fd2[2];
+	
+	//O que o primeiro comando retorna
+	pipe(fd1);
+	
+	//O que o segundo comando vai recever depois do pai fazer a cópia
+	pipe(fd2);
+	
+	
+	
+	
+	//Primeiro comando a executar
+	if ( !fork() ){
+		
+		//Escreve para o FD1 em vez do terminal
+		dup2(fd1[1],1);
+		
+		//Fecha o descritor de leitura do FD1
+		close(fd1[0]);
+		
+		//Executa o primeira comando
+		execlp(argv[1],argv[1], NULL);
+		
+		//Caso dê erro, fecha o FD1 escrita e dá erro
+		close(fd1[1]);
+		exit(EXIT_FAILURE);
+	}
+	
+	//Fecha o descritor do FD1
+	close(fd1[1]);
+	
+	//Executa o 2º Comando mas ainda não tem a cópia do FD1
+	if( !fork() ){
+		
+		//Troca o descritor de Leitura (TERMINAL) para o FD2 
+		//Ele espera que o while no pai vá passando tudo
+		dup2(fd2[0],0);
+		
+		//Não necessita do FD de escrita porque irá escrever no terminal
+		close(fd2[1]);
+		
+		//Executa o 2º comando
+		execlp(argv[2],argv[2], NULL);
+		
+		//Fecha o FD2 de leitura e sai do fork caso dê erro
+		close(fd2[0]);
+		exit(EXIT_FAILURE);
+	}
+	
+	//Copia o FD1 para o FD2 e incrementa o fluxo
+	while ( read(fd1[0], &buf, 1) != 0 ){
+		write(fd2[1], &buf, 1);
+		fluxo++;
+	}
+	
+	//Fecha o resto dos FDs
+	close(fd1[0]);
+	close(fd2[0]);
+	close(fd2[1]);
+	
+	//Para testar
+	sleep(10);
+	
+	wait(0);
+	wait(0);
+	
+	return (EXIT_SUCCESS);
+	
+}

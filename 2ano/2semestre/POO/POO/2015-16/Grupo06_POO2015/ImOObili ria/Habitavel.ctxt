@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Habitavel()
+comment1.params=cod\ tipoI\ ru\ est\ precoP\ precoM\ visualiz\ ma
+comment1.target=Habitavel(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ double,\ int,\ java.lang.String)
+comment1.text=\r\n\ Construtor\ a\ partir\ das\ partes\r\n
+comment2.params=h
+comment2.target=Habitavel(Habitavel)
+comment2.text=\r\n\ Construtor\ de\ c\u00F3pia\r\n
+comment3.params=
+comment3.target=Habitavel\ clone()
+comment3.text=\r\n\ Retorna\ uma\ c\u00F3pia\ da\ inst\u00E2ncia\r\n
+comment4.params=obj
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\r\n\ Compara\ a\ igualdade\ com\ outro\ objeto\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Devolve\ sobre\ a\ forma\ de\ uma\ string\ toda\ a\ informa\u00E7\u00E3o\ \r\n\ atual\ sobre\ as\ lojas\ habit\u00E1veis\r\n
+numComments=6

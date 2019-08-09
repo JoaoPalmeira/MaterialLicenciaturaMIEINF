@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Mapeamento Direto:
+
+Numero de sets (S) igual ao numero de linhas Uma linha por set (E=1) Um endereco de memoria mapeia em uma e uma so linha da cache 
+Consequencia: potencial para elevado numero de colisoes O set index, e a linha correspondente da cache, e determinado de 
+forma univoca por s bits do endereço Consequencia: hit time reduzido pois so e necessaria uma 
+comparacao de tags 
+
+Mapeamento Completamente Associativo:
+
+Um unico set (S=1) Todas as linhas pertencem ao mesmo set Um endereço de memoria mapeia em qualquer linha da cache 
+Consequencia: reduzido numero de colisoes Como nao existe set index a tag tem mp-bp bits e a procura de um 
+endereco implica a comparacao com todas as tags Consequencia: hit time aumenta pois e necessario comparar 
+com todas as tags, que tem um numero elevado de bits 
+
+Mapeamento n-way set associative 
+
+S sets com E linhas cada Um endereco de memoria mapeia num unico set Um endereco de memoria mapeia em qualquer linha do seu set 
+Consequencia: compromisso no numero de colisoes Para localizar um endereco dentro do respectivo set e necessario 
+comparar com as tags de todas as linhas desse set 
+Consequência: compromisso no hit time 
+</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

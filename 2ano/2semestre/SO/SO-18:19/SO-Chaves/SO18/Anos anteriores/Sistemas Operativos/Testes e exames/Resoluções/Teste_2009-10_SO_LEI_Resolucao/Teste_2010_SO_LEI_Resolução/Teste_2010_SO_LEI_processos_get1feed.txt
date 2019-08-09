@@ -1,0 +1,76 @@
+/*
+ *  Created by Nuno Morais on 11/06/09.
+ *
+ */
+
+
+int main(int argc, char **argv){ //getallfeeds
+	int fd[2];
+	int contador = 0;
+	int i;
+	for (i=1; i<argc; i++){
+		contador++;
+		//Este é um fork forçado, pois o nosso get1feed ainda precisa de se limpar todos os
+		// feeds onde a linha tenha apple
+		if (!fork()){
+			pipe(fd);
+			
+			//Este fork vai buscar todos os feeds de um URL
+			if (!fork()){
+				
+				//Redirecciona o FD de escrita do terminal para o pipe
+				dup2(fd[1],1);
+				
+				//Não precisamos de FD de leitura, por isso fechamos
+				close(fd[0])
+				
+				//Executa o primeiro get1feed
+				execvl("get1feed", "get1feed", argv[i], NULL);
+				
+				//Caso o execvl dê erro, fechamos o descritor de escrita
+				//E fazemos exit
+				close(fd[1]);
+				exit(-1);
+			}
+			
+			//Se tudo correu bem, fechamos o descritor de escrita
+			close(fd[1]);
+			
+			//Este fork retira todas as linhas que contenham apple
+			if(!fork()){
+				
+				//Redireccionamos o FD de leitura para o nosso pipe
+				dup2(fd[0],0);
+				
+				//esta função lê do "pipe" para receber o que a get1feed mandou
+				execvl("retira todoos os apple","retira todos os apple", "apple", NULL);
+				
+				//Caso dê erro, fecha o descritor 0
+				// e faz exit
+				close(fd[0]);
+				exit(-1);
+			}
+			
+			//Se tudo correu bem, fechamos o descritor de leitura
+			close(fd[0]);
+			
+			//Espera que os 2 forks terminem
+			wait(0);
+			wait(0);
+			
+			exit(0);
+		}
+		
+		//Caso o contador seja 10 espera até que um termine
+		if (contador > 9) {
+			wait(0);
+			contador--;
+		}
+		
+	}
+	
+	//Quando sair do for, termina os processos que ainda não terminaram
+	for(i=0;i<contador;i++) wait(0);
+	
+	return 1;
+}

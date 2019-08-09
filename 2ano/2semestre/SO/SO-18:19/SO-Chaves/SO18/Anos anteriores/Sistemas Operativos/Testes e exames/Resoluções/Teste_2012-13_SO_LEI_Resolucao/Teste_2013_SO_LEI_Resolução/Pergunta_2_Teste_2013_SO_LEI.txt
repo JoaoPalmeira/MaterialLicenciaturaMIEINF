@@ -1,0 +1,48 @@
+
+
+
+int incrementa(int a){
+	nprocessos++;
+	i++;
+	if(!fork()=pids[i])
+	{
+		execvp(argv[i+1],argv);
+	}
+}
+
+int decrementa(int a){
+	nprocessos--;
+	kill(pids[i],SIGTERM);
+}
+
+
+int i;
+int *pids;
+int pid;
+
+int main(int argc, char** argv){
+int nprocessos = 5;
+signal(SIGUSR1,incrementa);
+signal(SIGUSR2,decrementa);
+pids =(int*)malloc(sizeof(nprocessos));
+
+for(i=0; i<= nprocessos; i++){
+	if(!fork()=pids[i])
+	{
+		execvp(argv[i+1],argv);
+	}
+}
+
+while(1)
+{
+	pid= wait(0);
+	for(int i=0;i<= nprocessos;i++)
+	{
+		if(pids[i]==pid)
+		{
+			if(!(fork()=pids[i]))
+				execvp(argv[i+1],argv);
+		}
+	}
+}
+}

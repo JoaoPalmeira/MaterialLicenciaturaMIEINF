@@ -1,0 +1,29 @@
+Pipeline: Resumo 
+Execução de n instruções simultaneamente em diferentes  estágios 
+Permite aumentar a frequência do relógio 
+Dependências de Dados 
+stalling :  injecção de bolhas (NOPs)  –  realimentação: elimina penalizações 
+Dependências de Controlo 
+Saltos condicionais implicam execução especula8va 
+(previsão do salto) 
+previsão errada implica stalling do pipeline 
+
+Exemplo Sequencial 
+
+Toda a computação feita num único ciclo
+300 ps para gerar os resultados + 20 ps para os armazenar 
+Ciclo do relógio >= 320 ps
+Tempo de execução de uma instrução  J> Latência= 320 ps 
+Taxa de execução de instruções de Débito = ciclo^-1 = 1 / 320EJ12 = 3.12 GOPS 
+
+
+Fases podem ser agrupadas ou reordenadas para  permi8r a execução das instruções em vários estágios encadeados- pipelining
+
+
+
+
+
+
+
+
+

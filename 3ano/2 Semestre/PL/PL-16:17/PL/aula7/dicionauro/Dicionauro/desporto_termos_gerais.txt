@@ -1,0 +1,365 @@
+
+PT   treinador
+-catgra substantivo masculino
+-exuso
+EN   manager
+FR
+ES
+DE
+CN   经纪人
+NU   6329
+Dom  Termos gerais
+BT Desporto
+Def diz-se de ou profissional que instrui ou treina um atleta
+ID Ana rita Sá
+
+PT   instrutor
+-catgra substantivo e adjectivo masculino
+-exuso  i. de equitação
+EN   instructor
+FR
+ES
+DE
+CN   教练\n 技术指导
+NU   6330
+Dom  Termos gerais
+BT Desporto
+Def que ou aquele que instrui, que ensina, que adestra
+ID Ana rita Sá
+
+PT   guia
+-catgra substantivo masculino/feminino 
+-exuso
+EN   guide
+FR
+ES
+DE
+CN   领队
+NU   6331
+Dom  Termos gerais
+BT Desporto
+Def pessoa que acompanha ou dirige outra(s) para mostrar-lhe(s) o caminho
+ID Ana rita Sá
+
+PT   treinador
+-catgra substantivo masculino
+-exuso
+EN   trainer
+FR
+ES
+DE
+CN   助理教练
+NU   6332
+Dom  Termos gerais
+BT Desporto
+Def
+ID Ana rita Sá
+
+PT   árbitro
+-catgra substantivo masculino
+-exuso  á. de futebol
+EN   referee, umpire
+FR
+ES
+DE
+CN   (网球.棒球)裁判
+NU   6333
+Dom  Termos gerais
+BT Desporto
+Def aquele que faz cumprir, numa competição ou disputa, as regras estabelecidas para a modalidade de esporte que está sendo praticada; juiz
+ID Ana rita Sá
+
++PT   juíz de linha, árbitro auxiliar
+-catgra substantivo masculino
+-exuso
+EN   linesman, touch judge
+FR
+ES
+DE
+CN   (橄榄球)裁判
+NU   6334
+Dom  Termos gerais
+BT Desporto
+Def indivíduo que se coloca à margem do campo ou quadra, tendo na mão pequena bandeira com que sinaliza saída da bola pela linha de fundo ou pela lateral, impedimento no futebol etc.; juiz auxiliar, fiscal de linha, juiz de linha, bandeira
+ID Ana rita Sá
+
+PT   jogador
+-catgra substantivo masculino
+-exuso <mulheres j.> <um bom j. de xadrez> <os j. entraram no campo por volta das 15h>
+EN   contestant, competitor, player
+FR
+ES
+DE
+CN   运动员
+NU   6335
+Dom  Termos gerais
+BT Desporto
+Def  aquele que joga
+ID Ana rita Sá
+
+PT   profissional
+-catgra substantivo/adjectivo masculino /feminino
+-exuso <dançarino p.> 
+EN   professional
+FR
+ES
+DE
+CN   职业运动员
+NU   6336
+Dom  Termos gerais
+BT Desporto
+Def que ou aquele que exerce por profissão determinada actividade desportiva
+ID Ana rita Sá
+
+PT   amador
+-catgra substantivo masculino
+-exuso
+EN   amateur
+FR
+ES
+DE
+CN   业余运动员\n 爱好者
+NU   6337
+Dom  Termos gerais
+BT Desporto
+Def que ou quem pratica um esporte sem interesse pecuniário
+ID Ana rita Sá
+
++PT   adepto, fã
+-catgra substantivo masculino;substantivo masculino/feminino
+-exuso
+EN   enthusiast, fan
+FR
+ES
+DE
+CN   迷\n 爱好者
+NU   6338
+Dom  Termos gerais
+BT Desporto
+Def que ou aquele que simpatiza com entidade desportiva;pessoa que torce por determinado clube
+ID Ana rita Sá
+
+PT   favorito
+-catgra substantivo masculino
+-exuso  <o enxadrista f. era o polonês> <o pugilista sul-americano era o f.>
+EN   favourite
+FR
+ES
+DE
+CN   可望取胜者 (美作:favorite)
+NU   6339
+Dom  Termos gerais
+BT Desporto
+Def diz-se de ou o concorrente que tem maiores hipóteses de vencer uma competição
+ID Ana rita Sá
+
+PT   desconhecido
+-catgra substantivo masculino
+-exuso
+EN   outsider
+FR
+ES
+DE
+CN   无取胜希望者
+NU   6340
+Dom  Termos gerais
+BT Desporto
+Def
+ID Ana rita Sá
+
+PT   campeonato
+-catgra substantivo masculino
+-exuso
+EN   championship
+FR
+ES
+DE
+CN   冠军赛\n 锦标赛
+NU   6341
+Dom  Termos gerais
+BT Desporto
+Def qualquer certame, torneio ou disputa em que se concede o título de campeão ao vencedor
+ID Ana rita Sá
+
+PT   campeão
+-catgra substantivo masculino
+-exuso
+EN   champion
+FR
+ES
+DE
+CN   冠军
+NU   6342
+Dom  Termos gerais
+BT Desporto
+Def o vencedor de qualquer prova, torneio ou certame
+ID Ana rita Sá
+
+PT   recorde
+-catgra substantivo masculino
+-exuso o nadador brasileiro bateu o r. olímpico
+EN   record
+FR
+ES
+DE
+CN   纪录
+NU   6343
+Dom  Termos gerais
+BT Desporto
+Def proeza desportiva verificada oficialmente e que se sobrepõe ao que foi feito anteriormente no mesmo género e nas mesmas condições
+ID Ana rita Sá
+
+#PT   detentor do recorde
+-catgra substantivo masculino
+-exuso
+EN   record holder
+FR
+ES
+DE
+CN   纪录创造者
+NU   6344
+Dom  Termos gerais
+BT Desporto
+Def
+ID Ana rita Sá
+
++PT   ás, excelente
+-catgra substantivo masculino
+-exuso
+EN   ace
+FR
+ES
+DE
+CN   网球赛中的一分
+NU   6345
+Dom  Termos gerais
+BT Desporto
+Def  que é de óptima qualidade; que é muito bom desportista
+ID Ana rita Sá
+
+PT   Jogos Olímpicos
+-catgra substantivo masculino
+-exuso
+EN   Olympic Games, Olympics
+FR
+ES
+DE
+CN   奥林匹克运动会
+NU   6346
+Dom  Termos gerais
+BT Desporto
+Def jogos em que se disputam as Olimpíadas.
+ID Ana rita Sá
+
+PT   Jogos Olímpicos de Inverno
+-catgra substantivo masculino
+-exuso
+EN   Winter Olympics
+FR
+ES
+DE
+CN   冬季奥林匹克运动会
+NU   6347
+Dom  Termos gerais
+BT Desporto
+Def  jogos em que se disputam as Olimpíadas que decorrem na estação do Inverno
+ID Ana rita Sá
+
+PT   estádio
+-catgra substantivo masculino
+-exuso e. de futebol
+EN   stadium
+FR
+ES
+DE
+CN   运动场
+NU   6348
+Dom  Termos gerais
+BT Desporto
+Def campo para jogos e provas desportivas, circundado por arquibancadas ou outras instalações destinadas ao público
+ID Ana rita Sá
+
+PT   pista
+-catgra substantivo feminino
+-exuso
+EN   track
+FR
+ES
+DE
+CN   跑道
+NU   6349
+Dom  Termos gerais
+BT Desporto
+Def pavimento, caminho ou espaço de formas variadas para a prática de diversos desportos ou exercícios (patinagem, esqui etc.)
+ID Ana rita Sá
+
+PT   anel
+PT   bancada
+-catgra substantivo feminino
+-exuso
+EN   ring
+FR
+ES
+DE
+CN   圈
+NU   6350
+Dom  Termos gerais
+BT Desporto
+Def sucessão de assentos individuais arrumados em ordem
+ID Ana rita Sá
+
+PT   campo
+-catgra substantivo masculino
+-exuso
+EN   ground, field
+FR
+ES
+DE
+CN   场地
+NU   6351
+Dom  Termos gerais
+BT Desporto
+Def
+ID Ana rita Sá
+
+PT   campo
+-catgra substantivo masculino
+-exuso c. de golfe, de futebol
+EN   pitch
+FR
+ES
+DE
+CN   (足球、橄榄球)场地
+NU   6352
+Dom  Termos gerais
+BT Desporto
+Def lugar tecnicamente preparado para a prática de diversos desportos
+ID Ana rita Sá
+
+#PT   campo
+-catgra substantivo masculino
+-exuso
+EN   court
+FR
+ES
+DE
+CN   网球场
+NU   6353
+Dom  Termos gerais
+BT Desporto
+Def
+ID Ana rita Sá
+
+PT   equipa
+-catgra substantivo feminino
+-exuso  e. de futebol
+EN   team, side
+FR
+ES
+DE
+CN   队
+NU   6354
+Dom  Termos gerais
+BT Desporto
+Def grupo de duas ou mais pessoas que, formando um conjunto solidário, participam de uma competição desportiva
+ID Ana rita Sá

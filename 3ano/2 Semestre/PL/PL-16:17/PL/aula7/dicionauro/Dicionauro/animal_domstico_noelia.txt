@@ -1,0 +1,958 @@
+
+PT cavalo
+-catgra nm
+FEM égua
+-exuso Este cavalo tem um ^galope^ elegante.
+EN horse
+FR cheval
+ES cavallo
+DE pferd
+CN   ?
+NU   530
+Dom animal
+BT mamífero
+BT animal doméstico
+RT cavalariça
+RT cavalgar
+UP usado como meio de transporte, como ajudante na ^agricultura^ para carregar mercadorias ou puxar um ^engenho agrícola^.
+Def o cavalo é um animal grande e forte que as pessoas usam para passear nele ou para puxar carroças.
+IMG S
+GI 5
+IM 4
+ID noelia 
+
+PT garanhão
+-catgra nm
+-exuso O garanhão foi trazido para a quinta para ^procriar^.
+EN stallion
+FR étalon
+ES semental
+DE hengst
+CN   ??
+NU   531
+Dom animal
+BT mamífero
+BT animal doméstico
+Def o garanhão é um cavalo que é usado para procriar.
+IMG n
+GI 2
+IM 3
+ID noelia
+
+PT égua
+-catgra nf
+MASC cavalo
+-exuso A égua deu à luz um lindo ^potro^.
+EN mare
+FR jument
+ES yegua
+DE stute
+CN   ??
+NU   532
+Dom animal
+BT mamífero
+BT animal doméstico
+UP usado como meio de transporte, como ajudante na agricultura para carregar mercadorias ou puxar engenhos agrícolas
+Def a égua é um animal grande e forte que as pessoas usam para passear nele ou para puxar carroças
+IMG 
+GI 5
+IM 4
+ID noelia
+
+PT potro 
+-catgra nm
+-exuso A ^égua^ deu à luz um lindo potro.
+EN colt
+FR poulain
+ES potro
+DE fohlen
+CN   ??
+NU   533
+Dom animal
+BT mamífero
+BT animal doméstico
+UP 
+Def o potro é o filho da égua e do cavalo. 
+IMG N
+GI 5
+IM 4
+ID noelia
+
+PT castração
+-catgra n
+-exuso A castração é feita para que os animais deixem de procriar. 
+£EN castration
+FR castration
+ES castración
+DE entmannung
+CN   ????
+NU   534
+&Dom  
+$BT
+RT castrar
+RT castrado
+Def a castração é o acto de remover os ^testículos^ a um animal para que não possa procriar mais.
+IMG n 
+GI 1
+IM 3
+ID noelia
+
+PT burro
+-catgra nm
+FEM mula
+-exuso O burro era o meio de transporte usado pelo ^almocreve^.
+£EN donkey, ass
+FR âne
+ES burro
+DE esel
+CN   ?
+NU   535
+Dom animal
+BT mamífero
+UP usado como meio de transporte, como ajudante na agricultura para carregar mercadorias ou puxar engenhos agrícolas
+Def animal que pode ser cinzento ou castanho, mais pequeno que um cavalo e com orelhas longas
+IMG N
+GI 5
+IM 4
+ID noelia
+
+#PT   burro
+-catgra
+-exuso
+EN   donkey
+CN   ??
+NU   536
+Dom  Animais domésticos
+BT
+Def
+ID
+
+PT mula
+-catgra nf
+MASC burro
+-exuso A mula do Sr. Joaquim vai carregada de cântaros de água.
+EN jenny ass
+EN mule
+FR mulet
+ES mula
+DE maulesel
+CN   ??
+NU   537
+Dom animal
+BT mamífero
+BT animal doméstico
+UP usado como meio de transporte, como ajudante na agricultura para carregar mercadorias ou puxar engenhos agrícolas
+Def a mula é um animal que pode ser cinzento ou castanho, mais pequeno que um cavalo e com orelhas longas.
+GI 5
+IM 3
+ID noelia
+
+!PT   macho
+-catgra
+-exuso
+EN   hinny 
+CN   ??
+NU   538
+Dom  Animais domésticos
+BT
+Def
+ID
+
+#PT   mula
+-catgra
+-exuso
+EN   mule
+CN   ??
+NU   539
+Dom  Animais domésticos
+BT
+Def
+ID
+
+PT gado
+-catgra nm colectivo
+-exuso O João está a guardar o gado.
+EN cattle
+FR bétail
+ES ganado
+DE vieh
+CN   ?
+NU   540
+Dom animal
+BT mamífero
+BT animal doméstico
+UP usado como ajudante na agricultura para trabalhar e ^pastar^ nos campos
+Def conjunto de animais domesticados pelo homem e que vivem numa quinta
+IMG S
+GI 5
+IM 3
+ID noelia
+
+PT touro
+-catgra nm
+FEM vaca
+FIG ^agarrar o touro pelos cornos^ significa enfrentar uma situação difícil com coragem e confiança
+-exuso O ^toureiro^ já está na ^arena^ pronto para enfrentar o touro.
+£EN bull, ox
+FR taureau
+ES toro
+DE stier
+CN   ??
+NU   541
+Dom animal
+BT mamífero
+BT animal doméstico
+UP o touro é usado como entretenimento do público nas touradas 
+Def o touro é um macho adulto da família do gado, que se distingue pela sua agressividade e pelos seus grandes cornos
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT vaca
+-catgra nf
+MASC touro
+-exuso A vaca pode produzir 20 litros de leite por dia.
+EN cow
+FR vache
+ES vaca
+DE kuh
+CN   ??
+NU   542
+Dom animal
+BT mamífero
+BT animal doméstico
+UP usada pelo seu leite e pela sua carne para a alimentação das pessoas
+Def a vaca é uma fêmea adulta da família do gado que é mantida nas quintas para produzir leite
+IMG S 
+GI 5
+IM 3
+ID noelia
+
+PT vitelo
+-catgra nm
+-exuso A ^vaca^ deu à luz um pequeno vitelo.
+EN calf 
+-obs cria de animais de grande porte: vaca, elefante, etc.
+FR veau
+ES ternero
+DE
+CN   ????
+NU   543
+Dom animal
+BT mamífero
+NT kalb
+Def o bébé de uma vaca e do boi
+IMG N
+GI 5
+IM 2
+ID noelia
+
+PT rebanho
+-catgra nm
+-exuso O pastor conduz o rebanho de ovelhas pelo monte.
+EN herd
+FR troupeau
+ES rebaño
+DE herde
+CN   ????
+NU   544
+Dom zoologia
+BT
+UP 
+Def conjunto de ovelhas ou cabras que vivem e se alimentam juntos numa quinta
+GI 5
+IM 3
+ID noelia
+
+PT manada
+-catgra nf
+-exuso
+EN  herd 
+FR
+ES 
+DE
+CN   ????
+NU  
+Dom animal
+BT mamífero
+BT animal doméstico
+UP 
+Def 
+GI 5
+IM 1
+ID noelia
+
+PT búfalo 
+-catgra nm
+-exuso O búfalo vive em ^manadas^.
+EN buffalo
+FR bufflesse
+ES búfalo
+DE büffel
+CN   ??
+NU   545
+Dom animal
+BT mamífero
+NT bovino
+Def 
+GI 5
+IM 1
+IDfgvv noelia
+
+PT iaque
+-catgra nm 
+-exuso O iaque foi ^domesticado^ em algumas regiões da Ásia central.
+EN yak
+FR yack
+£ES yac ou yak? 
+DE yak
+CN   ??
+NU   546
+Dom animal
+BT mamífero
+NT bovino
+UP quando são domesticados fornecem lã, carne e leite, sendo utilizados para puxar engenhos agrícolas
+Def os iaques são bois selvagens que vivem na Ásia em terras muito montanhosas. Possuem pêlo preto ou castanho escuro e grandes chifres curvados. 
+GI 4
+IM 4
+ID noelia
+
+#PT ovelha
+-catgra 
+-exuso 
+EN sheep, ewe
+FR
+ES
+DE
+CN   ??
+NU   547
+Dom animal
+BT mamífero
+NT ovino
+BT animal doméstico
+UP 
+Def 
+IMG N
+GI 5
+IM 3
+ID noelia
+
+#PT carneiro não castrado
+-catgra
+-exuso
+EN   ram
+CN   ???
+NU   548
+Dom  Animais domésticos
+BT
+Def
+ID
+
+PT ovelha
+-catgra nf
+MASC carneiro
+-exuso A lã vem da ovelha.
+EN ewe (plural: sheep)
+FR brebis
+ES oveja
+DE mutterschaf
+CN   ???
+NU   549
+Dom animal
+BT mamífero
+NT ovino
+BT animal doméstico
+UP fornece lã e carne
+Def a ovelha é um animal que come erva e é mantido nas quintas pela sua lã e carne.
+GI 5
+IM 4
+ID noelia
+
+PT cordeiro
+-catgra nm
+-exuso A ovelha deu à luz um pequeno cordeiro.
+PT anho
+-catgra nm
+-exuso A ovelha deu à luz um pequeno anho.
+EN lamb
+FR agneau
+ES cordero
+DE lamm
+CN   ?????
+NU   550
+Dom animal
+BT mamífero
+BT doméstico
+UP usado pela sua carne
+Def o cordeiro é o filho da ovelha e do carneiro.
+GI 5
+IM 4
+ID noelia
+
+PT bando (de aves)
+-catgra
+-exuso As ^pombas^ voam em bandos.
+EN flock
+FR volée
+ES bandada 
+DE schwarm
+CN   ?????
+NU   551
+Dom animal
+BT nome colectivo
+Def 
+ID noelia
+
+PT carneiro
+-catgra nm
+-fem ovelha
+-exuso O carneiro é o macho da ovelha.
+£EN mutton (carne do carneiro)
+£FR mouton
+£ES carne de cordero
+£DE hammelfleisch
+CN   ??
+NU   552
+Dom animal
+BT mamífero
+BT doméstico
+Def animal adulto, macho, mantido nas quintas pela sua lã.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT bode
+-catgra nm
+-exuso o bode é o macho da cabra
+FIG ^bode expiatório^ quando alguém é escolhido injustamente para ser culpado de algum mal
+
+PT cabra
+-catgra nf
+MASC carneiro, bode
+-exuso A cabra trepa o ^penhasco^.
+EN goat
+FR chèvre
+ES cabra
+DE ziege
+CN   ??
+NU   553
+Dom animal
+BT mamífero
+BT doméstico
+Def a cabra é um animal parecido com a ovelha, com menos pelo e com pequenos cornos. Consegue trepar pelas rochas nos montes.
+GI 5
+IM 3
+ID noelia
+
+#PT   bode
+-catgra nm
+-exuso 
+£EN   billy (verificar tradução)
+FR
+ES 
+DE
+CN   ???
+NU   554
+Dom animal
+BT mamífero
+NT
+BT animal doméstico
+Def
+IMG N
+GI 5
+IM 1
+ID noelia
+
+#PT   cabra
+-catgra
+-exuso
+EN   nanny
+CN   ???
+NU   555
+Dom  Animais domésticos
+BT
+Def
+ID noelia
+
+PT cabrito
+-catgra nm
+-exuso A ^cabra^ deu à luz um pequeno cabrito.
+EN kid 
+FR chevreau
+ES cabrito
+ES choto
+DE kitz
+CN   ?????
+NU   556
+Dom animal
+BT mamífero
+NT ovino
+BT animal doméstico
+Def o cabrito é o filho da cabra e do carneiro.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT porco
+-catgra nm
+FIG ^porco^ diz-se da pessoa que não toma banho ou que diz asneiras
+-exuso O porco está na sua ^pocilga^.
+EN pig
+FR cochon
+ES marrano
+DE schwein
+CN   ?
+NU   557
+Dom animal
+BT mamífero
+BT animal doméstico
+UP usado pela sua carne para fazer presunto e chouriços
+Def o porco é um animal de quinta que pode ser cor-de-rosa ou preto, redondo e de pernas curtas
+IMG N
+GI 5
+IM 4
+ID noelia
+
+PT javali
+-catgra nm
+-exuso O javali é um porco selvagem.
+EN boar
+£FR sanglier 
+ES jabalí
+DE keiler
+CN   ??
+NU   558
+Dom animal
+BT mamífero
+BT animal selvagem
+Def o javali é um animal parecido com o porco mas que é peludo, escuro e vive solto nos montes.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+#PT   porca
+-catgra
+-exuso
+EN   sow
+CN   ??
+NU   559
+Dom  Animais domésticos
+BT
+Def
+ID
+
+PT leitão
+-catgra nm
+-exuso A porca deu à luz três leitões.
+PT porquinho
+-catgra nm diminutivo
+-exuso A porca deu à luz três porquinhos.
+EN piglet
+FR cochonnet
+ES cochinillo
+DE ferkel
+CN   ????
+NU   560
+Dom animal
+BT mamífero
+BT animal doméstico
+UP usado pela sua carne
+Def filho da porca e do porco
+IMG N
+GI 5
+IM 3
+ID noelia
+
+#PT   rebanho, manada
+-catgra
+-exuso
+EN   herd
+CN   ????
+NU   561
+Dom  Animais domésticos
+BT
+Def
+ID
+
+!!!!PT   cão
+-catgra nm
+-exuso 
+EN   dog
+CN   ?
+NU   562
+Dom  Animais domésticos
+BT
+Def
+ID
+
+#PT   cadela
+-catgra
+-exuso
+EN   dog
+CN   ??
+NU   563
+Dom  Animais domésticos
+BT
+Def
+ID noelia
+
+#PT   cadela
+-catgra
+-exuso
+EN   bitch
+CN   ??
+NU   564
+Dom  Animais domésticos
+BT
+Def
+ID noelia
+
+PT cachorro
+-catgra nm
+-exuso A cadela deu à luz quatro cachorros.
+EN pup
+FR chiot
+ES perrito
+£DE junger hund
+CN   ????
+NU   565
+Dom animal
+BT mamífero
+BT canídeo
+BT animal doméstico
+POF ninhada
+UP usado para companhia
+Def o cachorro é o filho da cadela e do cão.
+IMG N
+GI 5
+IM 4
+ID noelia
+
+PT coelho
+-catgra nm
+-exuso O coelho está escondido na sua toca.
+EN rabbit
+FR lapin
+ES conejo
+DE kaninchen
+CN   ?
+NU   566
+Dom animal
+BT mamífero
+BT animal doméstico
+UP usado pela sua carne
+Def o coelho é um animal pequeno de orelhas compridas, pêlo suave e com dois dentes grandes para roer.
+IMG S
+GI 5
+IM 4
+ID noelia
+
+#PT   bode
+-catgra
+-exuso
+EN   buck
+CN   ??
+NU   567
+Dom  Animais domésticos
+BT
+Def
+ID noelia
+
+PT ganso
+-catgra nm
+-exuso O ganso nada no lago.
+EN goose
+FR oie
+ES ganso
+DE Gans
+CN   ?
+NU   568
+Dom animal
+BT ave
+BT animal doméstico
+UP fornece carne e penas
+Def o ganso é animal parecido com o pato, mas um pouco maior e com pescoço mais comprido.
+IMG N
+GI 5
+IM 4
+ID noelia
+
+#PT   ganso
+-catgra
+-exuso
+EN   gander
+CN   ??
+NU   569
+Dom  Animais domésticos
+BT
+Def
+ID noelia
+
+#PT   ganso
+-catgra
+-exuso
+EN   goose
+CN   ??
+NU   570
+Dom  Animais domésticos
+BT
+Def
+ID noelia
+
+PT gansinho
+-catgra nm diminutivo
+-exuso Os gansinhos nadam atrás da mãe gansa.
+EN gosling
+FR gosling
+ES ansarino
+DE gänschen
+CN   ??
+NU   571
+Dom animal
+BT ave
+BT animal doméstico
+POF ninhada
+Def o filho da gansa e do ganso
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT grasnar
+-catgra v
+-exuso O ganso e o pato grasnam.
+EN to quack
+£FR
+ES graznar
+£DE
+CN   ????
+NU   572
+Dom animal
+BT ave
+BT som
+Def o grasnar é o som produzido pelos patos, gansos, corvos e por outras aves.
+AUDIO S/N
+GI 5
+IM 3
+ID noelia
+
+PT galinha
+-catgra nf
+MASC galo
+-exuso A galinha está na ^capoeira^.
+EN chicken
+£EN hen
+FR poulet
+ES gallina
+DE huhn
+CN   ?
+NU   573
+Dom animal
+BT ave
+BT animal doméstico
+UP fornece carne e ovos.
+Def animal de bico pequeno, com penas, crista e asas curtas, mas não voa.
+IMG N
+GI 5
+IM 4
+ID noelia
+
+PT galo
+-catgra nm
+FEM galinha
+-exuso O galo reina na ^capoeira^.
+EN cock
+EN rooster
+FR coq
+ES gallo
+DE hahn
+CN   ??
+NU   574
+Dom animal
+BT ave
+BT animal doméstico
+Def o galo é o macho da galinha e é mantido numa quinta pela sua carne.
+IMG N
+GI 5
+IM 4
+ID noelia
+
+#PT   galinha
+-catgra
+-exuso
+EN   hen
+CN   ??
+NU   575
+Dom  
+BT
+Def
+ID
+
+PT pintainho
+PT pintinho
+-catgra nm
+-exuso O pintainho saiu do ^ovo^.
+EN chick
+FR poussin
+ES pollito
+DE küken
+CN   ??
+NU   576
+Dom animal
+BT ave
+BT animal doméstico
+POF ninhada
+Def o pintainho é o filho bébé da galinha e do galo.
+GI 5
+IM 4
+ID noelia
+
+PT ninhada
+-catgra nf
+-exuso A fêmea deu à luz uma ninhada de crias.
+EN brood
+FR couvée
+ES nidada
+£DE 
+CN   ????
+NU   577
+Dom animal
+BT nome colectivo 
+Def uma ninhada é um conjunto de crias recém-nascidas que nascem ao mesmo tempo.
+GI 5
+IM 4
+ID noelia
+
+PT pato
+-catgra nm
+-exuso O pato grasna no lago.
+EN duck
+FR canard
+ES pato
+DE ente
+CN   ?
+NU   578
+Dom animal
+BT ave
+BT animal doméstico
+Def animal de bico largo, mais pequeno que o ganso e que nada em lagos.
+IMG N
+GI 5
+IM 4
+ID noelia
+
+PT perú
+-catgra nm
+FEM perua
+-exuso O perú tem penas compridas.
+EN turkey
+FR dindon
+ES pavo
+DE truthahn
+CN   ??
+NU   579
+Dom animal
+BT ave
+BT animal doméstico
+UP fornece carne
+Def o perú é uma ave maior que a galinha, que tem a cabeça e o pescoço sem penas e no resto do corpo as penas podem ser pretas ou castanhas. 
+IMG N
+GI 5
+IM 4
+ID noelia
+
+!PT   gato, macho
+-catgra
+-exuso
+EN   tom
+CN   ???
+NU   580
+Dom  ferramenta
+BT
+Def
+ID noelia
+
+PT frango (animal)
+-catgra nm
+FIG ^frango^ é um golo que entra na baliza por falta de habilidade ou distracção do guarda-redes
+-exuso Os frangos andam soltos no ^quintal^.
+£EN poult
+FR poulet
+ES pollo
+£DE huhn 
+CN   ???
+NU   581
+Dom animal
+BT ave
+BT animal doméstico
+Def um frango é uma jovem galinha ou galo.
+IMG N
+GI 5
+IM 3
+ID noelia
+
+PT gato
+-catgra nm
+-exuso O gato consegue passar por lugares muito estreitos porque é muito ^flexível^.
+FIG diz-se ^gato^ ou ^gata^ um rapaz ou rapariga bonitos. 
+EN cat
+FR chat
+ES gato
+DE katze
+CN   ?
+NU   582
+Dom animal
+BT mamífero
+NT felino
+BT animal doméstico
+UP usado para companhia ou como caçador de ratos
+Def o gato é um animal pequeno, de pêlo macio, rabo comprido e orelhas aguçadas, mantido em casa como animal de estimação. 
+IMG S
+GI 5
+IM 4
+ID noelia
+
+#PT   gato
+-catgra
+-exuso
+EN   tomcat
+CN   ??
+NU   583
+Dom  Animais domésticos
+BT
+Def
+ID noelia
+
+#PT   gata
+-catgra
+-exuso
+EN   catta
+CN   ??
+NU   584
+Dom  Animais domésticos
+BT
+Def
+ID noelia
+
+PT gatinho
+-catgra nm diminutivo
+-exuso A gata deu à luz três gatinhos.
+EN kitten
+FR chaton
+ES gatito
+DE kätzchen
+CN   ??
+NU   585
+Dom animal
+BT mamífero
+BT animal doméstico
+POF ninhada
+Def o filho pequenino da gata e do gato.
+IMG N
+GI 5
+IM 4
+ID noelia

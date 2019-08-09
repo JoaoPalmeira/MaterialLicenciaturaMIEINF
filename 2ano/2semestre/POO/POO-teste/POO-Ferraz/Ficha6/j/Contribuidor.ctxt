@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Contribuidor()
+comment1.params=idcontribuidor\ nomecontribuidor\ contribuicoes
+comment1.target=Contribuidor(long,\ java.lang.String,\ int)
+comment2.params=c
+comment2.target=Contribuidor(Contribuidor)
+comment3.params=
+comment3.target=long\ getIdcontribuidor()
+comment4.params=idcontribuidor
+comment4.target=void\ setIdcontribuidor(long)
+comment5.params=
+comment5.target=java.lang.String\ getNomecontribuidor()
+comment6.params=nomecontribuidor
+comment6.target=void\ setNomecontribuidor(java.lang.String)
+comment7.params=obj
+comment7.target=boolean\ equals(java.lang.Object)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=
+comment9.target=Contribuidor\ clone()
+numComments=10

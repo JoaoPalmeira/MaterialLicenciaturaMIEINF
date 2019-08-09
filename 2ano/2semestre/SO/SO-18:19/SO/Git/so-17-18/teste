@@ -1,0 +1,12 @@
+Este comando lista os ficheiros:
+$ ls
+Agora podemos ordenar estes ficheiros:
+$| sort
+E escolher o primeiro:
+$2| head -5
+Tail do anterior
+$| tail -1
+Grep do ls
+$4| grep notebook
+Head do Tail
+$2| head -1

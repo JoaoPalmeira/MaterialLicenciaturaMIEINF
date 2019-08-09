@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HotelDiscount()
+comment1.params=h
+comment1.target=HotelDiscount(HotelDiscount)
+comment2.params=
+comment2.target=float\ getOcupacao()
+comment3.params=codigo\ nome\ localidade\ precoQuarto\ ocupacao\ nquartos
+comment3.target=HotelDiscount(java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ float,\ int)
+comment4.params=
+comment4.target=double\ precoQuarto()
+comment5.params=
+comment5.target=HotelDiscount\ clone()
+numComments=6

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Pixel()
+comment1.params=x\ y\ cor
+comment1.target=Pixel(double,\ double,\ int)
+comment10.params=
+comment10.target=java.lang.String\ nomeCor()
+comment2.params=p2
+comment2.target=Pixel(Pixel)
+comment3.params=
+comment3.target=double\ getX()
+comment4.params=
+comment4.target=double\ getY()
+comment5.params=
+comment5.target=int\ getCor()
+comment6.params=x
+comment6.target=void\ setX(double)
+comment7.params=y
+comment7.target=void\ setY(double)
+comment8.params=cor
+comment8.target=void\ mudarCor(int)
+comment9.params=x\ y
+comment9.target=void\ desloca(double,\ double)
+numComments=11

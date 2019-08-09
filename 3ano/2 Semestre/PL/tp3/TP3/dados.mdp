@@ -1,0 +1,393 @@
+Emigrante{
+	Nome: Antonio Mendes;
+	Dados pessoais->
+		Idade = 15;
+		Data de Nascimento = 20/1/1820;
+		Sexo = Masculino;
+		Lugar = Pardais;
+		Freguesia = Sao Sebastiao;
+		Concelho = Fafe;
+		Estado Civil = Solteiro;
+		Profissao = Trolha;
+		Nome do Pai = Ramiro Silvino Mendes;
+		Nome da Mae = Maria da Conceicao;
+		Engajado = Sim;
+		OBS = a avo paterna e natural de S. Vicente, Braga;
+	<-
+	Dados de emigracao->
+		Destino = Rio de Janeiro;
+		Data de Saida = 23/7/1835;
+	<-
+	Fez->
+		Ponte de S. Joao;
+	<-
+	Participou->
+		Musical da D. Josefa;
+		Opera S. Luis;
+	<-
+}
+Emigrante{
+	Nome: Jose Castro;
+	Dados pessoais->
+		Idade = 20;
+		Data de Nascimento = 4/6/1825;
+		Sexo = Masculino;
+		Lugar = Lugar Novo;
+		Freguesia = Bairro da Maria;
+		Concelho = Cabeceiros;
+		Estado Civil = Casado;
+		Esposa/Marido = Anacleta Maria;
+		Profissao = Escritor;
+		Nome do Pai = Joao Silva Castro;
+		Nome da Mae = Marisa da Silva;
+		Engajado = Sim;
+		OBS = Casado em Portugal;
+	<-
+	Dados de emigracao->
+		Destino = Rio de Janeiro;
+		Data de Saida = 21/10/1840;
+	<-
+	Fez->
+		A vida do cais;
+		Portugal Renascentista;
+		O Papagaio de S. Jorge do Campo;
+	<-
+	Participou->
+		Sarua Museu Sul Americano do Rio de Janeiro;
+	<-
+}
+Emigrante{
+	Nome: Ana Josefa Tralhao;
+	Dados pessoais->
+		Idade = 17;
+		Data de Nascimento = 26/11/1818;
+		Sexo = Feminino;
+		Freguesia = Santa Marta;
+		Concelho = Guimaraes;
+		Estado Civil = Solteira;
+		Profissao = Tecedeira;
+		Nome do Pai = Humberto Tralhao;
+		Nome da Mae = Celina Bravo;
+		Engajado = Sim;
+		OBS = Descendente da realeza;
+	<-
+	Dados de emigracao->
+		Destino = Sao Paulo;
+		Data de Saida = 13/1/1836;
+	<-
+	Fez->
+		Pensao do Guarau;
+	<-
+	Participou->
+		O Festa do Povo;
+	<-
+}
+Emigrante{
+	Nome: Felix Antunes;
+	Dados pessoais->
+		Idade = 14;
+		Data de Nascimento = 9/5/1826;
+		Sexo = Masculino;
+		Lugar = Leis;
+		Freguesia = Estoroes;
+		Concelho = Fafe;
+		Estado Civil = Solteiro;
+		Profissao = Padre;
+		Nome do Pai = Ramiro Silvino Mendes;
+		Nome da Mae = Maria da Conceicao;
+		Engajado = Sim;
+		OBS = formacao eclesiasta em Braga;
+	<-
+	Dados de emigracao->
+		Destino = Pernambuco;
+		Data de Saida = 11/7/1840;
+	<-
+	Fez->
+	<-
+	Participou->
+		Igreja Nova Brasil;
+	<-
+}
+Emigrante{
+	Nome: Joao Arantes;
+	Dados pessoais->
+		Idade = 15;
+		Data de Nascimento = 28/2/1820;
+		Sexo = Masculino;
+		Lugar = Cruz;
+		Freguesia = S. Mateus;
+		Concelho = Braga;
+		Estado Civil = Solteiro;
+		Profissao = Padre;
+		Engajado = Sim;
+		OBS = formacao eclesiasta em Braga;
+	<-
+	Dados de emigracao->
+		Destino = Sao Paulo;
+		Data de Saida = 23/9/1835;
+	<-
+	Fez->
+		Festa do Povo;
+	<-
+	Participou->
+		Igreja Jesuita de Sao Paulo;
+	<-
+}
+Emigrante{
+	Nome: Manuel Soares;
+	Dados pessoais->
+		Idade = 14;
+		Data de Nascimento = 29/5/1823;
+		Sexo = Masculino;
+		Freguesia = Sao Gens;
+		Concelho = Fafe;
+		Estado Civil = Solteiro;
+		Profissao = Agricultor;
+		Engajado = Sim;
+		OBS = pediu passaporte em 9/11/1837, no G. C. nr. 3246;
+	<-
+	Dados de emigracao->
+		Destino = Brasil;
+		Data de Saida = 1/9/1837;
+	<-
+	Fez->
+	<-
+	Participou->
+	<-
+}
+Emigrante{
+	Nome: Jose Florencio Soares Castro;
+	Dados pessoais->
+		Idade = 13;
+		Data de Nascimento = 4/3/1824;
+		Sexo = Masculino;
+		Freguesia = Fafe;
+		Concelho = Fafe;
+		Estado Civil = Solteiro;
+		Nome do Pai = Miguel Antonio Soares;
+		Nome da Mae = Maria joaquina Goncalves;
+		Engajado = Sim;
+	<-
+	Dados de emigracao->
+		Destino = Brasil;
+		Data de Saida = 20/10/1837;
+	<-
+	Fez->
+	<-
+	Participou->
+		Comandante militar da zona territorial centro;
+	<-
+}
+Emigrante{
+	Nome: Joao Ferreira;
+	Dados pessoais->
+		Idade = 13;
+		Data de Nascimento = 24/6/1844;
+		Sexo = Masculino;
+		Freguesia = Silvares, sm;
+		Concelho = Fafe;
+		Estado Civil = Solteiro;
+		Profissao = Ator;
+		Nome do Pai = Manuel Ferreira;
+		Nome da Mae = Joaquina de Sousa;
+		Engajado = Nao;
+		OBS = a avo paterna e natural de S. Vicente, Braga;
+	<-
+	Dados de emigracao->
+		Destino = Rio de Janeiro;
+		Data de Saida = 3/10/1857;
+	<-
+	Fez->
+		Turtulia com as Marias;
+	<-
+	Participou->
+		A bela encantada;
+		Os 3 da vigairada;
+		O mago e a maga;
+		A menina perdida do bosque;
+		O crime da fereira Amanda;
+	<-
+}
+Emigrante{
+	Nome: Francisco Martins;
+	Dados pessoais->
+		Idade = 35;
+		Data de Nascimento = 19/3/1813;
+		Sexo = Masculino;
+		Freguesia = Armil;
+		Concelho = Fafe;
+		Estado Civil = Casado;
+		Esposa/Marido = Joaquina de Sampaio;
+		Filho = Joaquim Tinoco Martins;
+		Filha = Felizberta Sampaio Martins;
+		Filho = Cristovao Martins;
+		Profissao = Marinheiro;
+		Nome do Pai = Manuel Ferreira;
+		Nome da Mae = Joaquina de Sousa;
+		Engajado = Sim;
+		OBS = deixou a mulher Joaquina de Sampaio e os tres filhos em 1848;
+	<-
+	Dados de emigracao->
+		Destino = Campos;
+		Data de Saida = 3/12/1848;
+	<-
+	Fez->
+	<-
+	Participou->
+		Capitao;
+		Espedicao ao Sul do Brasil;
+	<-
+}
+Emigrante{
+	Nome: Joaquina de Sampaio;
+	Dados pessoais->
+		Idade = 43;
+		Data de Nascimento = 31/7/1814;
+		Sexo = Feminino;
+		Freguesia = Armil;
+		Concelho = Fafe;
+		Estado Civil = Casada;
+		Esposa/Marido = Francisco Martins;
+		Engajado = Nao;
+		OBS = vai para companhia do seu marido e leva tres filhos;
+	<-
+	Dados de emigracao->
+		Destino = Campos;
+		Data de Saida = 12/10/1857;
+	<-
+	Fez->
+	<-
+	Participou->
+	<-
+}
+Emigrante{
+	Nome: Jaime Marta dos Campos Sousa;
+	Dados pessoais->
+		Idade = 39;
+		Data de Nascimento = 12/3/1812;
+		Sexo = Masculino;
+		Freguesia = Santo Andre;
+		Concelho = Vila Verde;
+		Estado Civil = Solteiro;
+		Profissao = jornalista;
+		Engajado = Sim;
+		OBS = escritor nos tempos livres;
+	<-
+	Dados de emigracao->
+		Destino = Sao Paulo;
+		Data de Saida = 9/8/1841;
+	<-
+	Fez->
+		Jardins Proibidos;
+		Amor o vento levou;
+		As obras do Tobias Morais;
+	<-
+	Participou->
+		Jornal Novo Sao Paulo;
+	<-
+}
+
+
+
+Obra{
+	Nome: Portugal Renascentista;
+	Detalhes->
+		Ano = 1856;
+		Editora = Nova Brasil;
+		Tema = documentario sobre o Portugal Renascentista;
+	<-
+}
+Obra{
+	Nome: O Papagaio de S. Jorge do Campo;
+	Detalhes->
+		Ano = 1860;
+		Editora = Nova Brasil;
+		Tema = parabola infatil sobre a vida de um papagaio;
+	<-
+}
+Obra{
+	Nome: A vida do cais;
+	Detalhes->
+		Ano = 1850;
+		Editora = Floral;
+		Tema = documentario sobre a sociedade criminosa e contrabandista do cais de Santa Maria;
+	<-
+}
+Obra{
+	Nome: A Gente da minha terra;
+	Detalhes->
+		Ano = 1872;
+		Editora = Prado Verdejante;
+		Tema = historias e memorias de vida de Portugal na epoca;
+	<-
+}
+
+
+
+
+
+Evento{
+	Nome: Sarau Cultural Museu Sul Americano do Rio de Janeiro;
+	Detalhes->
+		Ano = 1850;
+		Local = Teatro S. Jorge;
+		Duracao = cinco horas;
+		Tema = O Novo Brasil;
+		Presenca = D. Pedro 2;
+		Convidado Especial = Manuel da Silva Araujo Ferreira;
+	<-
+}
+Evento{
+	Nome: O Festa do Povo;
+	Detalhes->
+		Ano = 1855;
+		Local = Teatro S. Jorge;
+		Convidado Especial = Joaquim Alberto Ramos;
+	<-
+}
+Evento{
+	Nome: Os 3 da vigairada;
+	Detalhes->
+		Ano = 1866;
+		Local = Teatro Municipal do Rio;
+		Atores = Jose do Carmo, Dalila Miranda, Jacob Martins, Vitor Fonseca;
+	<-
+}
+Evento{
+	Nome: Expedicao ao Sul do Brasil;
+	Detalhes->
+		Ano = 1851;
+		Inicio = S. Bernardo do Campo;
+		Fim = Santa Catarina;
+		Duracao = 30 dias;
+		Navio = Santo Amaro;
+		Tripulantes = 34;
+		Capitao = Francisco Martins;
+	<-
+}
+Evento{
+	Nome: Festa do Povo;
+	Detalhes->
+		Ano = 1844;
+		Local = Largo da Praia;
+		Palestrante = Joao arantes;
+	<-
+}
+Evento{
+	Nome: Turtulia com as Marias;
+	Detalhes->
+		Ano = 1865;
+		Local = Teatro D. Maria 2;
+		Tema = Alta Sociedade;
+		Participantes = Josefa Rosa, Rogerio Silva, Rodivaldo Ferreira;
+		Duracao = duas horas;
+		Presenca = D. Pedro 2;
+	<-
+}
+Evento{
+	Nome: Passeio cultural a Amazonia;
+	Detalhes->
+		Ano = 1870;
+		Local = Amazonia;
+	<-
+}

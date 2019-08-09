@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Relacoes entre as metricas
+
+Exemplo 1: aumentar f (diminuir o Tcc) implica frequentemente um aumento do CPI
+Explicacao: se Tcc diminuir, mas o tempo de acesso a memoria (Tmem) se mantem, sao necessarios mais ciclos para aceder a memoria.
+Conclusao: Apesar de Tcc diminuir para metade, Texec nao diminui para metade, pois o numero de ciclos de acesso a memoria aumenta. 
+
+Exemplo 2: Diminuir o numero de instrucoes recorrendo a instrucoes mais complexas resulta num aumento do CPI!
+Explicacao: As instrucoes mais complexas realizam o trabalho de varias instrucoes simples, mas podem necessitar de mais ciclos para o completar, resultando num aumento do CPI.
+Conclusao: O numero de instrucoes diminui, mas o ganho em tempo de execucao nao diminui na mesma proporcao, devido ao aumento do CPI. </string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

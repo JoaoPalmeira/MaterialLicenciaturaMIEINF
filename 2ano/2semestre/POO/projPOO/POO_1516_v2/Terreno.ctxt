@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=r\ p\ pm\ v\ t\ d\ k\ e
+comment0.target=Terreno(java.lang.String,\ double,\ double,\ int,\ java.lang.String,\ int,\ float,\ java.lang.Boolean)
+comment1.params=
+comment1.target=java.lang.String\ getTipoTerreno()
+comment2.params=
+comment2.target=int\ getDiametro()
+comment3.params=
+comment3.target=float\ getKwh()
+comment4.params=
+comment4.target=java.lang.Boolean\ getEsgoto()
+comment5.params=
+comment5.target=void\ showTerreno()
+numComments=6

@@ -1,0 +1,7 @@
+\select@language {portuges}
+\contentsline {section}{\numberline {1}\textbf {Introdu\IeC {\c c}\IeC {\~a}o}}{3}
+\contentsline {section}{\numberline {2}\textbf {Desenvolvimento}}{4}
+\contentsline {subsection}{\numberline {2.1}\textbf {1\IeC {\textordfeminine } Etapa}}{4}
+\contentsline {subsection}{\numberline {2.2}\textbf {2\IeC {\textordfeminine } Etapa}}{6}
+\contentsline {subsection}{\numberline {2.3}\textbf {3\IeC {\textordfeminine } Etapa}}{7}
+\contentsline {section}{\numberline {3}\textbf {Conclus\IeC {\~a}o}}{8}

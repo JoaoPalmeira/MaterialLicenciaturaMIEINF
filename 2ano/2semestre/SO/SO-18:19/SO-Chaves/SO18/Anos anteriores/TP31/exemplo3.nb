@@ -1,0 +1,43 @@
+/ Este comando lista os ficheiros:
+$ ls
+>>>
+enunciado-so-2017-18.pdf
+errors.txt
+exemplo1.nb
+exemplo2.nb
+exemplo3.nb
+exemplo4.nb
+exemplo5.nb
+exemplo6.nb
+makefile
+notebook
+notebook.c
+notebookGomes.c
+processNotebooks.c
+result.txt
+<<<
+/ Agora podemos ordenar estes ficheiros:
+$1 | sort
+>>>
+enunciado-so-2017-18.pdf
+errors.txt
+exemplo1.nb
+exemplo2.nb
+exemplo3.nb
+exemplo4.nb
+exemplo5.nb
+exemplo6.nb
+makefile
+notebook
+notebook.c
+notebookGomes.c
+processNotebooks.c
+result.txt
+<<<
+/ E escolher o primeiro do ls normal:
+$2 | head -3
+>>>
+enunciado-so-2017-18.pdf
+errors.txt
+exemplo1.nb
+<<<

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=double\ getX()
+comment1.params=
+comment1.target=double\ getY()
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=double\ getRaio()
+comment3.params=nx
+comment3.target=void\ setX(int)
+comment4.params=ny
+comment4.target=void\ setY(int)
+comment5.params=nr
+comment5.target=void\ setRaio(int)
+comment6.params=dx\ dy
+comment6.target=void\ alteraCentro(double,\ double)
+comment7.params=
+comment7.target=double\ calculaArea()
+comment8.params=
+comment8.target=double\ calculaPerimetro()
+comment9.params=o
+comment9.target=boolean\ equals(java.lang.Object)
+numComments=11

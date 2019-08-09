@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid1\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx0\tx0\tx0\tx0\tx0\tx0\tx0\tx0\tx0\tx0\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Hierarquia de Memoria\
+\
+Terminologia: \
+\
+\pard\tx0\tx0\tx0\tx0\tx0\tx0\tx0\tx0\tx0\tx0\pardeftab720\partightenfactor0
+\cf0 \expnd0\expndtw0\kerning0
+Linha \'96
+\b  
+\b0 a cache esta dividida em linhas. Cada linha tem o seu endere\'e7o (indice) e tem a capacidade de um bloco.\uc0\u8232 Bloco \'96 Quantidade de informacao que e transferida de cada vez da memoria central para a cache. E igual a capacidade da linha. \
+Hit \'96
+\b  
+\b0 Diz-se que ocorreu um hit quando o elemento de memoria acedido pelo CPU se encontra na cache. \
+Miss \'96
+\b  
+\b0 Diz-se que ocorreu um miss
+\i  
+\i0 quando o elemento de memoria acedido pelo CPU nao se encontra na cache, sendo necessario le-lo do nivel inferior da hierarquia.\
+Hit rate \'96 Percentagem de hits ocorridos relativamente ao total de acessos a \
+memoria.\uc0\u8232 Miss rate \'96 Percentagem de misses ocorridos relativamente ao total de \
+acessos a memoria.\
+Hit time \'96 Tempo necessario para aceder a cache, incluindo o tempo necessario para determinar se o elemento a que o CPU esta a aceder se encontra ou nao na cache. \
+Miss penalty \'96 Penalizacao incorrida para aceder a um bloco dos niveis superiores da hierarquia, ocorre um miss. \
+\
+H-M e Localidade:\
+\
+\pard\tx0\tx0\tx0\tx0\tx0\tx0\tx0\tx0\tx0\tx0\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf0 Localidade Temporal\uc0\u8232 A primeira vez que um endereco de memoria e acedido, e carregado do n\'edvel de \u8232 memoria inferior para a cache \'96 cold miss \u8232 O proximo acesso a esse endereco encontra os dados na cache \'96 hit \u8232 (excepto se entretanto foram removidos devido a uma colisao, resultando nesse caso numa miss) \u8232 \
+Localidade Espacial\uc0\u8232 Quando um endere\'e7o e carregado para a cache, e carregado um bloco de \u8232 enderecos consecutivos\u8232 O acesso seguinte a um endereco na vizinhanca resulta num hit 
+\f1 \uc0\u8232 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\
+}

@@ -1,0 +1,143 @@
+
+/**
+ * Classe que representa um Turma, utilizando Set.
+ * 
+ * @author José C. Campos 
+ * @version 20160310
+ */
+public class TurmaSet {
+     
+    // Variáveis de instância
+    private String designação;
+    private List<Aluno> lstAlunos;
+    
+    // construtores
+    
+    /**
+     * Construtor Vazio.
+     */
+    public Turma() {
+           this("N/A");
+
+    }
+    
+    /**
+     * @param desig nome da turma.
+     */
+    public Turma(String desig) {
+            designação = desig;
+            lstAlunos = new ArrayList<>();
+    }
+    
+    /**
+     * Construtor de cópia.
+     * 
+     * @param t a turma a ser copiada.
+     */
+    public Turma(Turma t) {
+        designação = t.getDesignação();
+        lstAlunos = t.getLstAlunos();
+        tamanho = t.getTamanho();
+    }
+    
+    // Métodos de instãncia
+    
+    /**
+     * @return o nome da turma.
+     */
+    public String getDesignação() {
+        return designação;
+    }
+    
+    /**
+     * Método auxiliar que devolve uma 'deep copy' da lista de alunos.
+     * Declarado privado: outras classes não poderão obter a lista.
+     * 
+     * @return um List com os alunos da turma (faz uma 'deep copy')
+     */
+    private Set<Aluno> getLstAlunos() {
+        List<Aluno> res = new ArrayList<>();
+        
+        for(Aluno a: lstAlunos)
+            res.add(a.clone());
+        
+        return res;
+    }
+    
+    /**
+     * @return o número de alunos da turma.
+     */
+    public int getTamanho() {
+        return lstAlunos.size();
+    }
+    
+    /**
+     * Adicionar um aluno à turma.
+     * 
+     * NOTA: Verifica-se se o aluno ainda acabe e se ainda não existe!
+     * 
+     * @param a o aluno a adicionar.
+     */
+    public void addAluno(Aluno a) {
+        lstAlunos.add(a.clone());
+    }
+    
+    /**
+     * Obter o i-ésimo aluno da turma.
+     * 
+     * ATENÇÃO: Falta validar o valor de pos (complete o método!).
+     * 
+     * @param pos a posição do aluno pretendido
+     * @return uma cópia do aluno na posição referida
+     */
+    public Aluno getAluno(int pos) {
+        if (pos<lstAlunos.length())
+            return lstAlunos.get(pos).clone();
+        else 
+            return null;
+    }
+    
+    /**
+     * Alterar a nota de um aluno.
+     * 
+     * ATENÇÃO: Falta validar o valor de pos (complete o método!).
+     * 
+     * @param pos a posição do aluno
+     * @param nota a nova nota
+     */
+    public void setNota(int pos, double nota) {
+        if (pos<lstAlunos.length())
+                lstAlunos.get(pos).setNota(nota);
+    }
+    
+    /**
+     * Verificar se um aluno existe na turma.
+     * 
+     * @param a o aluno a procurar
+     * @return true se o aluno existe; false noutro caso.
+     */
+    public boolean existeAluno(Aluno a) {
+        
+        return lstAlunos.contains(a);        
+    }
+    
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (o==null || o.getClass()!=this.getClass())
+            return false;
+        Turma t = (Turma) o;
+        return this.designação.equals(t.getDesignação()) 
+            && this.tamanho==t.getTamanho() 
+            && this.lstAlunos.equals(t.getLstAlunos()));
+    }
+    
+    public String toString() {
+        StringBuilder sb = new StringBuilder("Turma(");
+        sb.append(this.designação);
+        sb.append(", ");
+        sb.append(this.lstAlunos.toString());
+        return sb.toString();
+    }
+    
+}

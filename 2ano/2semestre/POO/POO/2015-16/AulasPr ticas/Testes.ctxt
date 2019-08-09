@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Testes()
+comment0.text=\r\n\ Default\ constructor\ for\ test\ class\ Testes\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ testVeiculo()
+comment2.text=\r\n\ Testes\ da\ classe\ Veiculo\r\n
+comment3.params=s\ args
+comment3.target=boolean\ testToString(java.lang.String,\ java.lang.Object[])
+comment3.text=\r\n\ \ \ \ @Test\r\n\ \ \ \ public\ void\ testLLString()\ {\r\n\ \ \ \ \ \ \ \ LLStrings\ l\ \=\ new\ LLStrings();\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ //Teste\ a\ adicionar,\ tamanho\ e\ vazia\r\n\ \ \ \ \ \ \ \ assertEquals(0,l.tamanho());\r\n\ \ \ \ \ \ \ \ assertTrue(l.vazia());\r\n\ \ \ \ \ \ \ \ l.adicionar("Teste");\r\n\ \ \ \ \ \ \ \ l.adicionar("Teste2");\r\n\ \ \ \ \ \ \ \ l.adicionar("Teste3");\r\n\ \ \ \ \ \ \ \ assertEquals(3,l.tamanho());\r\n\ \ \ \ \ \ \ \ assertFalse(l.vazia());\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ //teste\ a\ inserir\ e\ get\r\n\ \ \ \ \ \ \ \ l.inserir(2,"TesteN");\r\n\ \ \ \ \ \ \ \ String\ v1\ \=\ l.get(2);\r\n\ \ \ \ \ \ \ \ String\ v2\ \=\ l.get(3);\r\n\ \ \ \ \ \ \ \ assertEquals(v1,"TesteN");\r\n\ \ \ \ \ \ \ \ assertEquals(v2,"Teste3");\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ //teste\ a\ esvaziar\r\n\ \ \ \ \ \ \ \ l.esvaziar();\r\n\ \ \ \ \ \ \ \ assertEquals(0,l.tamanho());\r\n\ \ \ \ \ \ \ \ assertTrue(l.vazia());\ \ \ \r\n\ \ \ \ }\r\n
+comment4.params=
+comment4.target=void\ tearDown()
+comment4.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+numComments=5

@@ -1,0 +1,681 @@
+PT mão
+-catgra nf
+-exuso 
+EN hand
+FR
+ES mano
+DE
+CN 手
+NU 418
+Dom anatomia 
+BT
+PART dedo
+PART unha
+PART pulso
+Def parte final do braço que tem cinco dedos
+GI 5
+IM 3
+ID noelia
+
+PT ombro
+-catgra
+-exuso
+EN shoulder
+FR
+ES ombro
+DE
+CN 肩
+NU 301
+Dom anatomia
+BT
+Def parte superior do braço
+ID noelia
+
+PT polegar
+-catgra
+-exuso
+EN thumb
+FR
+ES
+DE
+CN 大拇指
+NU 419
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT indicador
+-catgra
+-exuso
+EN forefinger
+FR
+ES
+DE
+CN 食指
+NU 420
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT dedo médio
+-catgra
+-exuso
+EN middle finger
+FR
+ES
+DE
+CN 中指
+NU 421
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT anelar
+-catgra
+-exuso
+EN third finger
+FR
+ES
+DE
+CN 无名指
+NU 422
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT mindinho
+-catgra
+-exuso
+EN little finger
+FR
+ES
+DE
+CN 小指
+NU 423
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT palma
+-catgra
+-exuso
+EN palm
+FR
+ES
+DE
+CN 手掌
+NU 424
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT punho fechado
+-catgra
+-exuso
+EN ball
+FR
+ES
+DE
+CN 拇指腕掌
+NU 425
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT unha
+-catgra
+-exuso
+EN nail
+FR
+ES
+DE
+CN 指甲
+NU 426
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT lúnula
+-catgra
+-exuso
+EN half moon
+FR
+ES
+DE
+CN 甲晕
+NU 427
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT punho
+-catgra
+-exuso
+EN fist
+FR
+ES
+DE
+CN 拳头
+NU 428
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT nó
+-catgra
+-exuso
+EN knuckle
+FR
+ES
+DE
+CN 指关节
+NU 429
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT costas
+-catgra
+-exuso
+EN back
+FR
+ES
+DE
+CN 手背
+NU 430
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT pulso
+-catgra
+-exuso
+EN wrist
+FR
+ES
+DE
+CN 手腕
+NU 431
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT cotovelo
+-catgra
+-exuso
+EN elbow
+FR
+ES
+DE
+CN 肘
+NU 432
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT axila
+-catgra
+-exuso
+EN armpit
+FR
+ES
+DE
+CN 腋下
+NU 433
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT pegar
+-catgra
+-exuso
+EN take
+FR
+ES
+DE
+CN 拿在手上
+NU 434
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT receber
+-catgra
+-exuso
+EN have
+FR
+ES
+DE
+CN 拿着
+NU 435
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT segurar
+-catgra
+-exuso
+EN hold
+FR
+ES
+DE
+CN 握住
+NU 436
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT agarrar
+-catgra
+-exuso
+EN grasp
+FR
+ES
+DE
+CN 抓住\n 紧握
+NU 437
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT atirar
+-catgra
+-exuso
+EN throw
+FR
+ES
+DE
+CN 投掷
+NU 438
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT transportar
+-catgra
+-exuso
+EN carry
+FR
+ES
+DE
+CN 搬运
+NU 439
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT pôr
+-catgra
+-exuso
+EN put
+FR
+ES
+DE
+CN 摆放
+NU 440
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT empurrar
+-catgra
+-exuso
+EN push
+FR
+ES
+DE
+CN 推
+NU 441
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT puxar
+-catgra
+-exuso
+EN pull
+FR
+ES
+DE
+CN 拉
+NU 442
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT fazer
+-catgra
+-exuso
+EN make
+FR
+ES
+DE
+CN 制作
+NU 443
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT partir
+-catgra
+-exuso
+EN break
+FR
+ES
+DE
+CN 打破
+NU 444
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT apanhar
+-catgra
+-exuso
+EN catch
+FR
+ES
+DE
+CN 抓住
+NU 445
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT apontar
+-catgra
+-exuso
+EN point
+FR
+ES
+DE
+CN 指着
+NU 446
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT arranhão
+-catgra
+-exuso
+EN scratch
+FR
+ES
+DE
+CN 搔
+NU 447
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT beliscão
+-catgra
+-exuso
+EN pinch
+FR
+ES
+DE
+CN 捻
+NU 448
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT sacudir
+-catgra
+-exuso
+EN flip
+FR
+ES
+DE
+CN 弹
+NU 449
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT estalo
+-catgra
+-exuso
+EN snap
+FR
+ES
+DE
+CN 响指
+NU 450
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT levantar a mão
+-catgra
+-exuso
+EN raise one's hand
+FR
+ES
+DE
+CN 举手
+NU 451
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT acenar a mão
+-catgra
+-exuso
+EN wave one's hand
+FR
+ES
+DE
+CN 摇手
+NU 452
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT esticar o braço
+-catgra
+-exuso
+EN stretch one's hand
+FR
+ES
+DE
+CN 伸手
+NU 453
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+ 
+PT aperto de mão
+-catgra
+-exuso
+EN shake hands with a person
+FR
+ES
+DE
+CN 与人握手
+NU 454
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT bater palmas
+-catgra
+-exuso
+EN clap one's hands
+FR
+ES
+DE
+CN 拍手
+NU 455
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT abraçar
+-catgra
+-exuso
+EN fold one's arms
+FR
+ES
+DE
+CN 交叉双臂
+NU 456
+Dom anatomia
+BT
+Def
+ID Adriana Nº43949
+
+PT massajar
+-catgra v
+-exuso
+EN knead
+FR
+ES
+DE
+CN 揉捏
+NU 351
+Dom anatomia
+BT
+Def fazer massagem, ou seja compressão dos músculos do corpo com as mãos
+ID Adriana Nº43949
+
+PT rádio
+-catgra 
+-exuso 
+EN radium
+FR
+ES
+DE
+CN
+NU
+Dom anatomia
+BT 
+POF estrutura óssea
+DEF osso do antebraço
+ID adriana nº43949
+
+PT falange
+-catgra 
+-exuso 
+EN phalange
+FR
+ES
+DE
+CN
+NU
+Dom anatomia
+BT 
+POF estrutura óssea
+DEF cada um dos ossos que formam o esqueleto dos dedos
+ID adriana nº43949
+
+PT úmero
+-catgra 
+-exuso 
+EN 
+FR
+ES
+DE
+CN
+NU
+Dom anatomia
+BT 
+POF estrutura óssea
+DEF osso que vai do ombro ao cotovelo
+ID adriana nº43949
+
+PT carpo
+-catgra 
+-exuso 
+EN 
+FR
+ES
+DE
+CN
+NU
+Dom anatomia
+BT 
+POF estrutura óssea
+DEF osso no pulso
+ID adriana nº43949
+
+PT cúbito
+-catgra 
+-exuso 
+EN 
+FR
+ES
+DE
+CN
+NU
+Dom anatomia
+BT 
+POF estrutura óssea
+DEF osso do antebraço
+ID adriana nº43949
+
+PT braço
+-catgra 
+-exuso 
+EN arm
+FR
+ES
+DE
+CN
+NU
+Dom anatomia
+BT 
+DEF membro superior do corpo humano, situado entre o ombro e a mão
+ID adriana nº43949
+
+PT dedo
+-catgra 
+-exuso 
+EN finger/
+FR
+ES
+DE
+CN
+NU
+Dom anatomia
+BT 
+DEF cada uma das partes em que terminam a mão e o pé
+ID adriana nº43949

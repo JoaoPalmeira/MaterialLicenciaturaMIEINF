@@ -1,0 +1,14 @@
+Este comando lista os ficheiros:
+$ ls
+Ordenar:
+$| sort
+Ordenar o output do 1 comando anterior:
+$1| head -2
+Escolher o quarto primeiros:
+$| head -4
+Escolher o dois primeiros:
+$| head -2
+Escolher o primeiro:
+$| head -1
+Ordenar o output do 5 comando anterior:
+$5| sort

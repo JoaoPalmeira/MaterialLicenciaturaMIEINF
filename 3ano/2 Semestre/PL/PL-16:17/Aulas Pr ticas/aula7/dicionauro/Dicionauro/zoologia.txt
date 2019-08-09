@@ -1,0 +1,157 @@
+! zoologia superdomínio
+
+PT animal
+-catgra nm
+FEM -
+-exuso O animal é um ser vivo que...
+EN animal
+AUDIOEN n
+FR animal
+AUDIOFR n
+ES animal
+AUDIOES n
+DE tier
+AUDIODE n
+CN
+NU
+Dom zoologia
+BT
+NT mamífero
+NT réptil
+NT ave
+NT peixe
+NT animal doméstico 
+NT animal selvagem
+NT 
+NT
+RT
+UP
+Def um animal é um ser vivo que 
+IMG
+GI
+IM
+ID noelia
+
+PT zoologia
+-catgra nf
+FEM -
+-exuso A 
+EN
+AUDIOEN
+FR
+AUDIOFR
+ES
+AUDIOES
+DE
+AUDIODE
+CN
+NU
+Dom seres vivos
+BT 
+NT animal
+NT planta
+RT jardim zoológico
+RT
+UP 
+Def a Zoologia é a ciência que estuda os animais.
+IMG
+GI
+IM
+ID noelia
+
+PT mamífero
+-catgra nm
+FEM -
+-exuso O homem é um mamífero.
+EN mammal
+AUDIOEN n
+FR mammifère
+AUDIOFR n
+ES mamífero
+AUDIOES n
+DE säugetier
+AUDIODE n
+CN
+NU
+Dom zoologia
+BT
+NT canídeo
+NT ovino
+NT bovino
+NT felino
+NT cão
+NT gato
+NT coelho
+NT égua
+NT garanhão
+NT potro
+NT
+NT
+NT
+NT
+RT
+UP
+Def
+IMG
+GI
+IM
+ID noelia
+
+PT réptil
+-catgra nm
+FEM - 
+Plural reptéis
+-exuso Os répteis têm sangue frio.
+EN reptile
+AUDIOEN 
+FR reptile
+AUDIOFR
+ES reptil
+AUDIOES
+DE reptil
+AUDIODE
+CN
+NU
+Dom zoologia
+BT
+NT lagarto
+NT cobra
+NT serpente
+NT iguana
+NT crocodilo
+NT
+RT
+UP
+Def
+IMG
+GI
+IM
+ID noelia
+
+PT nome colectivo
+-catgra 
+FEM
+-exuso
+EN
+AUDIOEN
+FR
+AUDIOFR
+ES
+AUDIOES
+DE
+AUDIODE
+CN
+NU
+Dom zoologia
+BT
+NT manada
+NT bando
+NT rebanho
+NT ninhada
+RT
+UP
+Def
+IMG
+GI
+IM
+ID noelia

@@ -1,0 +1,54 @@
+REGISTO E REMOÇAO DE UTENTES
+
+listing(utente).
+----------------------------
+evolucao(utente(10,manuel,30,lisboa)).
+
+listing(utente).
+----------------------------
+involucao(utente(10,manuel,30,lisboa)).
+
+listing(utente).
+----------------------------
+
+IDENTIFICAR ATOS MEDICOS DE INSTITUICAO
+
+listing(utente).
+listing(cuidados).
+listing(atoMedico).
+
+identificarAMI(hospitalBraga,R).
+
+
+---------------------------
+Custo total de atos medicos por data
+
+listing(utente).
+listing(cuidados).
+listing(atoMedico).
+
+calcularCD(20-11-2016,R).
+
+
+-------------------------------
+CUIDADOS PRESTADOS POR INSTITUIÇAO
+
+listing(cuidados).
+identificarIC(hospitalBraga,C,R).
+
+
+EXTRA:
+
+IDENTIFICAR SERVIÇOS QUE NAO EXISTEM NUMA INSTITUIÇÃO
+
+listing(cuidados).
+
+
+naoEstaoInst(hospitalBraga,R).
+---------------------------------
+DETERMINAR NUMERO DE ATOS MEDICOS QUE EXISTEM NUM UTENTE
+
+listing(utente).
+listing(atoMedico).
+
+numAtos(8,R).

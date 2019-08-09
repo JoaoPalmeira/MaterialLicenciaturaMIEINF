@@ -1,0 +1,44 @@
+Organização da Cache
+
+Memória (central) tem M bytes.
+O endereço tem m = log2 (M) bits
+
+A cache organiza-se em linhas de B bytes.
+b=log2 (B) bits identificam um byte.
+
+As linhas encontram-se agrupadas em S sets.
+s=log2 (S) bits identificam um set.
+
+Cada set contém E linhas.
+
+A organização da cache é caracterizada por (S, E, B, m)
+
+Número total de linhas = S * E 
+Capacidade da cache = S * E * B
+
+
+block offset – b bits identificam o byte dentro do bloco. 
+t=m-s-b
+set index – s bits identificam o set dentro da cache.
+s=log2S
+tag– t bits para a tag (a discutir depois).
+b=log2B
+
+Escrita na cache
+O que acontece quando o CPU altera um byte ou palavra nacache?
+Existem 2 políticas alternativas:
+1. Write-through – a informação é escrita na cache e na memória central;
+2. Write-back – a informação é escrita apenas na cache. A memória central só é actualizada quando o bloco for substituído.
+
+Write-misses • Como tratar os write-misses?
+write-allocate - o bloco é lido de memória para a cache, escrito na cache e, se se tratar de write-through, também na memória ;
+no-write-allocate - o bloco é escrito apenas na memória
+
+Políticas de Substituição
+Numa cache com algum grau de associatividade qual o bloco que deve ser substituído quando ocorre uma colisão?
+Aleatoriamente (random) – o bloco a substituir é escolhido aleatoriamente. 
+Least Recently Used (LRU) – é substituído o bloco que não é usadohá mais tempo.
+LRU: a implementação é muito custosa para associatividade > 2 (eventualmente 4).
+Alguns processadores usam uma aproximação a LRU.
+A diferença de miss rate entre o esquema aleatório e LRU não é elevada (1.1 vezes superior para 2-way associative).
+Se a miss penalty não é muito elevada o esquema aleatório pode ser tão, ou mais, eficaz como as aproximações ao LRU.

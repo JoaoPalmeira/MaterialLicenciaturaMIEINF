@@ -1,0 +1,8 @@
+%option noyywrap yylineno
+%%
+[a-zA-Z]+ { yylval.s = strdup(yytext); return ID; }
+[0-9]+    { yylval.i = atoi(yytext); return NUM; }
+[()]      { return yytext[0]; }
+[ \n]     { }
+.         { yyerror("Caracter desconhecido"); }
+%%

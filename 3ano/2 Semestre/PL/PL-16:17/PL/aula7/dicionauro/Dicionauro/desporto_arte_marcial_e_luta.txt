@@ -1,0 +1,96 @@
+PT boxe 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM
+BT
+Def
+GI
+IM
+ID manuel
+
+PT capoeira 
+-catgra nf
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM
+BT
+Def
+GI
+IM
+ID manuel
+
+PT judo  
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM
+BT
+Def
+GI
+IM
+ID manuel
+
+PT karaté 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM
+BT
+Def
+GI
+IM
+ID manuel
+
+
+PT luta livre 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM
+BT
+Def
+GI
+IM
+ID manuel
+
+PT sumo  
+-catgra
+-exuso
+EN sumo 
+FR
+ES
+DE
+CN
+NU
+DOM
+BT
+Def
+GI
+IM
+ID manuel

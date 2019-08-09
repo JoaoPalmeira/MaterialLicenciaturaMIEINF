@@ -1,0 +1,1292 @@
+﻿
+PT balonismo 
+-catgr
+-exuso o desporto que se ^pratica^ com um balão chama-se balonismo. 
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT 
+RT balão 
+Def desporto que se ^pratica^ no ar, com um balão que levanta voo com a ajuda de ar quente
+IMG n 
+GI 
+IM
+ID 
+
+PT petanca 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def desporto que se ^pratica^ com umas bolas de metal 
+ID manuel 
+
+PT columbofilia 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT escalada 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT esgrima 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT ginástica artística 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual
+NT ginástica  
+Def
+ID manuel
+
+PT ginástica rítmica 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual
+NT ginástica  
+Def
+ID manuel
+
+PT ginástica aeróbica 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual
+NT ginástica  
+Def
+ID manuel
+
+PT ginástica acrobática 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual
+NT ginástica  
+Def
+ID manuel
+
+PT golfe 
+-catgr
+-exuso o golfe joga-se num terreno muito grande e cheio de ^espaços verdes^, de lagos, de árvores e de ^poços de areia^, para o jogo ser mais difícil. 
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual
+NT taco 
+NT bola de golfe  
+RT golfista 
+Def é um desporto que ^consiste^ em atirar, com ajuda de um ^taco^, uma pequena bolinha para acertar num buraco com o mínimo de ^tacadas^ possível
+ID manuel
+
+PT halterofilismo
+PT levantamento de pesos
+-catgra nm
+-exuso o halterofilismo é um desporto que ^exige^ muita força.
+PT levantamento de pesos
+-catgra
+-exuso o levantamento de pesos é um desporto que ^exige^ muita força 
+PT halterofilia
+-catgra nf 
+-exuso a halterofilia é um desporto que ^exige^ muita força.
+AUDPT n 
+EN  
+AUDEN n 
+FR
+AUDFR n 
+ES
+AUDES n 
+DE gewichtheben
+AUDDE n 
+CN   
+NU   
+DOM desporto 
+BT individual 
+NT haltere 
+RT musculo 
+RT musculação 
+RT peso 
+RT halterofilista
+Def desporto em que uma pessoa levanta uma barra com um peso de cada lado e quem levantar mais peso ganha. 
+IMG
+GI 3
+IM 2
+ID manuel
+
+PT trampolim 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual
+POF ginástica  
+Def
+ID manuel
+
+PT fitness
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual
+NT ginástica  
+Def
+ID manuel
+
+PT hipismo 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT minigolfe 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT orientação 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT parapente 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT patinagem 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT pesca 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT squash 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT ténis
+-catgra nm 
+-exuso
+EN tennis
+FR 
+ES
+DE
+CN   网球
+NU   803
+Dom desporto 
+BT individual 
+Def
+ID
+
+PT ciclismo
+-catgra
+-exuso
+EN cycling
+FR
+ES
+DE
+CN   自行车赛
+NU   7908
+Dom desporto 
+BT individual 
+Def
+ID
+
+PT ténis de mesa 
+-catgra
+-exuso
+PT ping-pong
+-catgra
+-exuso 
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT triatlo
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT tiro 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT tiro com arco 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT xadrez 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT alpinismo 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT skate 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT esqui 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT parkour 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT pentatlo 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT biatlo 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT boxe
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT capoeira 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT karaté 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT luta livre 
+-catgr
+-exuso
+EN wrestling 
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT individual 
+Def
+ID manuel
+
+PT surf 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT windsurf 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT bodyboard 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT snowboard 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT montanhismo 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT   400 metros barreiras
+-catgra
+-exuso
+EN   the 400 metre hurdles
+FR
+ES
+DE
+CN   400??
+NU   6301
+Dom  Atletismo
+BT Desporto
+Def
+ID Ana Rita Sá
+
+PT   maratona
+-catgra substantivo feminino
+-exuso
+EN   marathon
+FR
+ES
+DE
+CN   ???
+NU   6302
+Dom  Atletismo
+BT Desporto
+Def prova de corrida a pé, de longo percurso (cerca de 42 km)
+ID Ana Rita Sá
+
+PT   decatlo
+-catgra substantivo masculino 
+-exuso
+EN   decathlon
+FR
+ES
+DE
+CN   ??
+NU   6303
+Dom  Atletismo
+BT Desporto
+Def conjunto de dez provas atléticas que tem por objetivo conhecer o decatleta, o atleta mais completo prova mista constituída de dez etapas, realizadas cinco de cada vez em dois dias [Consiste em corrida de 100 m, salto em distância, lançamento de peso, salto em altura, corrida de 400 m, corrida de 110 m com barreiras, lançamento de disco, salto em altura com vara, lançamento de dardo e corrida de 1.500 m.]
+ID Ana Rita Sá
+
+PT   salto em altura
+-catgra substantivo masculino 
+-exuso
+EN   high jump
+FR
+ES
+DE
+CN   ??
+NU   6307
+Dom  Atletismo
+BT Desporto
+Def prova em que o atleta parte correndo para tomar impulso e saltar sobre uma barra horizontal, leve e não fixa, apoiada em dois suportes graduados
+ID Ana Rita Sá
+
+PT   salto em comprimento
+-catgra substantivo masculino
+-exuso
+EN   long jump
+FR
+ES
+DE
+CN   ?? (??:broad jump)
+NU   6308
+Dom  Atletismo
+BT Desporto
+Def prova em que o atleta toma impulso a partir de uma tábua de madeira maciça, arma o salto e cai numa caixa de areia situada logo após a tábua; salto em comprimento
+ID Ana Rita Sá
+
+PT   triplo salto
+-catgra substantivo masculino
+-exuso
+EN   triple jump, hop step and jump
+FR
+ES
+DE
+CN   ???
+NU   6309
+Dom  Atletismo
+BT Desporto
+Def prova com regras semelhantes às do salto em distância, na qual o atleta cumpre três etapas: um salto antes da linha limite, caindo com o mesmo pé do impulso, um segundo salto para cair sobre o outro pé, e um terceiro no qual ele cai com os dois pés na caixa de areia; triplo salto
+ID Ana Rita Sá
+
+PT   salto com vara
+-catgra substantivo masculino
+-exuso
+EN   pole vault
+FR
+ES
+DE
+CN   ???
+NU   6310
+Dom  Atletismo
+BT Desporto
+Def salto em que o ginasta usa uma peça de madeira como acessório de equilíbrio
+ID Ana Rita Sá
+
+PT   arremesso do peso
+-catgra substantivo masculino
+-exuso
+EN   putting the shot, shot put
+FR
+ES
+DE
+CN   ???
+NU   6313
+Dom  Atletismo
+BT Desporto
+Def em atletismo, lançamento de uma esfera metálica de arremesso
+ID Ana Rita Sá
+
+PT   lançamento do disco
+-catgra subsatntivo masculino
+-exuso
+EN   throwing the discus
+FR
+ES
+DE
+CN   ???
+NU   6314
+Dom  Atletismo
+BT Desporto
+Def peça circular de madeira com a borda de metal, pesando 1,972 kg, que os atletas arremessam em competições desportivas modernas
+ID Ana Rita Sá
+
+PT   arremesso do martelo
+-catgra substantivo masculino
+-exuso
+EN   throwing the hammer
+FR
+ES
+DE
+CN   ???
+NU   6315
+Dom  Atletismo
+BT Desporto
+Def bola de metal com pouco mais de sete quilos, munida de um fio de aço ou cabo de madeira por meio do qual é empunhada e atirada a distância em competições de atletismo
+ID Ana Rita Sá
+
+PT   lançamento do dardo
+-catgra substantivo masculino
+-exuso
+EN   throwing the javelin
+FR
+ES
+DE
+CN   ???
+NU   6316
+Dom  Atletismo
+BT Desporto
+Def  lançamento da haste semelhante à arma, us. em provas de arremesso a distância
+ID Ana Rita Sá
+
+PT   marcha
+-catgra substantivo feminino
+-exuso
+EN   walk
+FR
+ES
+DE
+CN   ??
+NU   6317
+Dom  Atletismo
+BT Desporto
+Def exercício regulamentado para efeitos de competição e que consiste na progressão do atleta executada passo a passo, mantendo-se ininterrupto o contato com o solo, na medida em que um pé não se levanta antes de o outro ter-se apoiado no chão
+ID Ana Rita Sá
+
+PT 100 metros 
+-catgr
+-exuso
+EN the 100 metre
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 100 metros barreiras 
+-catgr
+-exuso
+EN the 100 metre hurdles 
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 200 metros 
+-catgr
+-exuso
+EN the 200 metre 
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 400 metros 
+-catgr
+-exuso
+EN the 400 metre
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT  800 metros
+-catgr
+-exuso
+EN the 800 metre
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 1500 metros 
+-catgr
+-exuso
+EN the 1500 metre
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 3000 metros obstáculos 
+-catgr
+-exuso
+EN the 3000 metre steeplechase
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 5000 metros 
+-catgr
+-exuso
+EN the 5000 metre
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 4 x 400 metros  
+-catgr
+-exuso
+EN 4 x 400 relay 
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 110 metros barreiras 
+-catgr
+-exuso
+EN
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 10000 metros    
+-catgr
+-exuso
+EN
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 4x100 metros 
+-catgr
+-exuso
+EN
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT heptatlo 
+-catgr
+-exuso
+EN
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT meia-maratona 
+-catgr
+-exuso
+EN
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT   remo
+-catgr substantivo masculino
+-exuso
+EN   rowing
+FR
+ES
+DE
+CN   ??
+NU   6367
+DOM desporto 
+BT individual
+Def 
+ID manuel 
+
+PT   canoagem
+-catgr substantivo feminino
+-exuso
+EN   canoe
+FR
+ES
+DE
+CN   划艇
+NU   6368
+DOM desporto 
+BT naútico 
+Def modalidade de competição na qual se descem rios em canoas e similares
+ID manuel 
+
+
+
+PT   caiaque
+-catgr substantivo masculino
+-exuso
+EN   kayak
+FR
+ES
+DE
+CN   皮船
+NU   6371
+DOM desporto 
+BT individual
+Def pequena embarcação para desporto e lazer, usada geralmente por dois tripulantes remadores
+ID manuel
+
+PT jet ski 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT F1 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT natação
+-catgra nf
+-exuso a natação é um bom exercício para as dores das costas
+EN swimming
+FR natation 
+ES natación
+DE
+CN ??
+NU 764
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT   esqui aquático
+-catgr substantivo masculino
+-exuso
+EN   water skiing
+FR
+ES
+DE
+CN   ??
+NU   6366
+DOM desporto 
+BT
+Def desporte praticado sobre a água com tal apetrecho
+ID manuel
+
+PT mergulho 
+-catgr
+-exuso
+EN   
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT 
+Def
+ID manuel
+
+PT rali
+PT   rally
+-catgra substantivo masculino
+-exuso
+EN   rally
+FR
+ES
+DE
+CN   ?????
+NU   6327
+Dom  Motociclismo
+BT Desporto
+Def prova automobilística corrida em vias públicas e segundo a exigência de uma velocidade média especificada (cuja aferição é feita em postos de controle distribuídos pelo percurso e ger. desconhecidos dos participantes, até o início da corrida)
+ID Ana Rita Sá
+
+PT fórmula 1
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT motocrosse 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT karting
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT todo-terreno
+PT TT
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel   
+
+PT sumo  
+-catgra
+-exuso
+EN sumo 
+FR
+ES
+DE
+CN
+NU
+DOM
+BT
+Def
+GI
+IM
+ID manuel
+
+PT judo  
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM
+BT
+Def
+GI
+IM
+ID manuel
+
+PT luge 
+-catgra 
+-exuso 
+AUD
+EN
+AUD
+FR
+AUD
+ES
+AUD
+DE
+AUD
+CN
+NU
+DOM
+BT
+Def
+ID manuel 
+
+PT skeleton
+-catgra 
+-exuso 
+AUD
+EN
+AUD
+FR
+AUD
+ES
+AUD
+DE
+AUD
+CN
+NU
+DOM
+BT
+Def
+ID manuel 
+
+PT bobsleigh
+-catgra 
+-exuso 
+AUD
+EN
+AUD
+FR
+AUD
+ES
+AUD
+DE
+AUD
+CN
+NU
+DOM
+BT
+Def
+ID manuel 
+

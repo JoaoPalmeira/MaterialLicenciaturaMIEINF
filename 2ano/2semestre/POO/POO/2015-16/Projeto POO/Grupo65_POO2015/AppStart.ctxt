@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=imo
+comment1.target=void\ save(Imoobiliaria)
+comment1.text=\r\n\ Salvaguarda\ do\ estado\ da\ aplica\u00E7\u00E3o.\r\n
+comment2.params=
+comment2.target=Imoobiliaria\ load()
+comment2.text=\r\n\ Carrega\ o\ ficheiro\ de\ imobili\u00E1ria\ com\ a\ informa\u00E7\u00E3o\ contida\ previamente.\r\n
+comment3.params=
+comment3.target=void\ fechaSessao()
+numComments=4

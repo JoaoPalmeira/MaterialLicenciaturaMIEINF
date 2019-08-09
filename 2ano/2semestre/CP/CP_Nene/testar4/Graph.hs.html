@@ -1,0 +1,138 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+span.lineno { color: white; background: #aaaaaa; border-right: solid white 12px }
+span.nottickedoff { background: yellow}
+span.istickedoff { background: white }
+span.tickonlyfalse { margin: -1px; border: 1px solid #f20913; background: #f20913 }
+span.tickonlytrue  { margin: -1px; border: 1px solid #60de51; background: #60de51 }
+span.funcount { font-size: small; color: orange; z-index: 2; position: absolute; right: 20 }
+span.decl { font-weight: bold }
+span.spaces    { background: white }
+</style>
+</head>
+<body>
+<pre>
+<span class="lineno">    1 </span>{-|
+<span class="lineno">    2 </span>Module      : Graph
+<span class="lineno">    3 </span>Description : Módulo de grafos.
+<span class="lineno">    4 </span>
+<span class="lineno">    5 </span>Módulo com vários algoritmos de grafos orientados e não pesados.
+<span class="lineno">    6 </span>-}
+<span class="lineno">    7 </span>module Graph where
+<span class="lineno">    8 </span>
+<span class="lineno">    9 </span>import Control.Monad.State
+<span class="lineno">   10 </span>import Data.Maybe
+<span class="lineno">   11 </span>import Data.Set as Set
+<span class="lineno">   12 </span>   
+<span class="lineno">   13 </span>-- | O tipo 'Edge' representa uma aresta entre dois vértices.
+<span class="lineno">   14 </span>data Edge v = Edge {<span class="istickedoff"><span class="decl"><span class="istickedoff">source</span></span></span> :: v, <span class="istickedoff"><span class="decl"><span class="istickedoff">target</span></span></span> :: v}
+<span class="lineno">   15 </span>              deriving (<span class="decl"><span class="nottickedoff"><span class="decl"><span class="nottickedoff">Show</span></span></span></span>,<span class="decl"><span class="istickedoff"><span class="decl"><span class="nottickedoff">Eq</span></span></span></span>,<span class="decl"><span class="istickedoff"><span class="decl"><span class="nottickedoff"><span class="decl"><span class="istickedoff"><span class="decl"><span class="nottickedoff"><span class="decl"><span class="istickedoff">Ord</span></span></span></span></span></span></span></span></span></span>)
+<span class="lineno">   16 </span>
+<span class="lineno">   17 </span>-- | A função 'swap' troca a origem com o destino de um vértice.
+<span class="lineno">   18 </span>swap :: Edge v -&gt; Edge v
+<span class="lineno">   19 </span><span class="decl"><span class="istickedoff">swap e = Edge {source = target e, target = source e}</span></span>
+<span class="lineno">   20 </span>      
+<span class="lineno">   21 </span>-- | O tipo 'Graph' representa um grafo orientado.
+<span class="lineno">   22 </span>data Graph v = Graph {<span class="istickedoff"><span class="decl"><span class="istickedoff">nodes</span></span></span> :: Set v, <span class="istickedoff"><span class="decl"><span class="istickedoff">edges</span></span></span> :: Set (Edge v)}
+<span class="lineno">   23 </span>               deriving <span class="decl"><span class="nottickedoff"><span class="decl"><span class="nottickedoff">Show</span></span></span></span>
+<span class="lineno">   24 </span>
+<span class="lineno">   25 </span>-- | Instância de 'Eq' para grafos.
+<span class="lineno">   26 </span>instance Ord v =&gt; Eq (Graph v) where
+<span class="lineno">   27 </span>    <span class="decl"><span class="istickedoff">g == g' = nodes g == nodes g' &amp;&amp; edges g == edges g'</span></span>
+<span class="lineno">   28 </span>              
+<span class="lineno">   29 </span>-- | O grafo vazio.
+<span class="lineno">   30 </span>empty :: Graph v
+<span class="lineno">   31 </span><span class="decl"><span class="istickedoff">empty = Graph {nodes = Set.empty, edges = <span class="nottickedoff">Set.empty</span>}</span></span>
+<span class="lineno">   32 </span>                        
+<span class="lineno">   33 </span>-- | A função 'isEmpty' testa se um grafo é vazio.
+<span class="lineno">   34 </span>isEmpty :: Graph v -&gt; Bool
+<span class="lineno">   35 </span><span class="decl"><span class="istickedoff">isEmpty g = Set.null (nodes g)</span></span>
+<span class="lineno">   36 </span>            
+<span class="lineno">   37 </span>-- | A função 'isValid' teste se um grafo é valido, ou seja, se todos as arestas têm
+<span class="lineno">   38 </span>-- como origem e destino um dos vértices do grafo, e se não há mais do que uma aresta
+<span class="lineno">   39 </span>-- entre dois pares de nós.
+<span class="lineno">   40 </span>isValid :: Ord v =&gt; Graph v -&gt; Bool
+<span class="lineno">   41 </span><span class="decl"><span class="istickedoff">isValid g = (Set.map source (edges g) `Set.union` Set.map target (edges g)) `isSubsetOf` nodes g</span></span>
+<span class="lineno">   42 </span>          
+<span class="lineno">   43 </span>-- | A função 'isDAG' testa se um grafo é acíclico.
+<span class="lineno">   44 </span>isDAG :: Ord v =&gt; Graph v -&gt; Bool
+<span class="lineno">   45 </span><span class="decl"><span class="istickedoff">isDAG g = isValid g &amp;&amp; all nocycle (nodes g)</span>
+<span class="lineno">   46 </span><span class="spaces">    </span><span class="istickedoff">where nocycle v = all (\a -&gt; v `notMember` reachable g a) $ Set.map target (adj g v)</span></span>
+<span class="lineno">   47 </span>
+<span class="lineno">   48 </span>-- | O tipo 'DAG v' é um alias para grafos que satisfazem o predicado 'isDAG'.
+<span class="lineno">   49 </span>type DAG v = Graph v
+<span class="lineno">   50 </span>                      
+<span class="lineno">   51 </span>-- | A função 'isForest' testa se um DAG válido é uma floresta (um conjunto de árvores), ou seja,
+<span class="lineno">   52 </span>-- se cada vértice tem no máximo um adjacente.
+<span class="lineno">   53 </span>isForest :: Ord v =&gt; DAG v -&gt; Bool
+<span class="lineno">   54 </span><span class="decl"><span class="istickedoff">isForest g = isDAG g &amp;&amp; all (\v -&gt; length (adj g v) &lt;= 1) (nodes g)</span></span>
+<span class="lineno">   55 </span>          
+<span class="lineno">   56 </span>-- | O tipo 'Forest' é um alias para DAGs que satisfazem o predicado 'isForest'.
+<span class="lineno">   57 </span>type Forest v = DAG v
+<span class="lineno">   58 </span>
+<span class="lineno">   59 </span>-- | A função 'isSubgraphOf' testa se o primeiro grafo é um subgrafo do segundo.
+<span class="lineno">   60 </span>isSubgraphOf :: Ord v =&gt; Graph v -&gt; Graph v -&gt; Bool
+<span class="lineno">   61 </span><span class="decl"><span class="istickedoff">isSubgraphOf g g' = isSubsetOf (nodes g) (nodes g') &amp;&amp; isSubsetOf (edges g) (edges g')</span></span>
+<span class="lineno">   62 </span>
+<span class="lineno">   63 </span>-- | A função 'adj' retorna a lista de arestas adjacentes de um dado vértice.
+<span class="lineno">   64 </span>adj :: Ord v =&gt; Graph v -&gt; v -&gt; Set (Edge v)
+<span class="lineno">   65 </span><span class="decl"><span class="istickedoff">adj g v = Set.filter ((==v) . source) $ edges g</span></span>
+<span class="lineno">   66 </span>    
+<span class="lineno">   67 </span>-- | A função 'transpose' inverte todas as arestas de um grafo.
+<span class="lineno">   68 </span>transpose :: Ord v =&gt; Graph v -&gt; Graph v
+<span class="lineno">   69 </span><span class="decl"><span class="istickedoff">transpose g = Graph {nodes = nodes g, edges = Set.map swap (edges g)}</span></span>
+<span class="lineno">   70 </span>
+<span class="lineno">   71 </span>-- | A função `union` faz a união de dois grafos.
+<span class="lineno">   72 </span>union :: Ord v =&gt; Graph v -&gt; Graph v -&gt; Graph v
+<span class="lineno">   73 </span><span class="decl"><span class="istickedoff">union g g' = Graph {nodes = nodes g `Set.union` nodes g', edges = edges g `Set.union` edges g'}</span></span>
+<span class="lineno">   74 </span>
+<span class="lineno">   75 </span>-- | A função 'bft' faz uma travessia por níveis a partir de um conjunto de vértices.
+<span class="lineno">   76 </span>-- Os adjacentes não visitados de um vértice são visitados por ordem crescente.
+<span class="lineno">   77 </span>bft :: Ord v =&gt; Graph v -&gt; Set v -&gt; Forest v
+<span class="lineno">   78 </span><span class="decl"><span class="istickedoff">bft g vs = fst $ execState aux (Graph {nodes = vs, edges = Set.empty},elems vs)</span>
+<span class="lineno">   79 </span><span class="spaces">    </span><span class="istickedoff">where aux = do (forest,queue) &lt;- get</span>
+<span class="lineno">   80 </span><span class="spaces">                   </span><span class="istickedoff">if Prelude.null queue</span>
+<span class="lineno">   81 </span><span class="spaces">                   </span><span class="istickedoff">then return <span class="nottickedoff">()</span></span>
+<span class="lineno">   82 </span><span class="spaces">                   </span><span class="istickedoff">else do let c = head queue</span>
+<span class="lineno">   83 </span><span class="spaces">                           </span><span class="istickedoff">let es = Set.filter (\e -&gt; target e `notMember` (nodes forest)) (adj g c)</span>
+<span class="lineno">   84 </span><span class="spaces">                           </span><span class="istickedoff">let new = Graph {nodes = Set.map target es, edges = Set.map swap es}</span>
+<span class="lineno">   85 </span><span class="spaces">                           </span><span class="istickedoff">put (forest `Graph.union` new, tail queue ++ elems (Set.map target es))</span>
+<span class="lineno">   86 </span><span class="spaces">                           </span><span class="istickedoff">aux</span></span>
+<span class="lineno">   87 </span>
+<span class="lineno">   88 </span>-- | A função 'reachable' determina os vértices acessíveis a partir de um determinado vértice.
+<span class="lineno">   89 </span>reachable :: Ord v =&gt; Graph v -&gt; v -&gt; Set v
+<span class="lineno">   90 </span><span class="decl"><span class="istickedoff">reachable g v = nodes (bft g (singleton v))</span></span>
+<span class="lineno">   91 </span>
+<span class="lineno">   92 </span>-- | Um caminho é representado por uma sequência de arestas.
+<span class="lineno">   93 </span>type Path v = [Edge v]
+<span class="lineno">   94 </span>
+<span class="lineno">   95 </span>-- | A função 'isPathOf' testa se um caminho é válido para um dado grafo.
+<span class="lineno">   96 </span>isPathOf :: Ord v =&gt; Path v -&gt; Graph v -&gt; Bool
+<span class="lineno">   97 </span><span class="decl"><span class="istickedoff">isPathOf [] _ = True</span>
+<span class="lineno">   98 </span><span class="spaces"></span><span class="istickedoff">isPathOf [e] g = e `member` edges g</span>
+<span class="lineno">   99 </span><span class="spaces"></span><span class="istickedoff">isPathOf (e1:e2:es) g = e1 `member` edges g &amp;&amp; target e1 == source e2 &amp;&amp; isPathOf (e2:es) g</span></span>                   
+<span class="lineno">  100 </span>                
+<span class="lineno">  101 </span>-- | A função 'path' calcula o caminho mais curto entre dois vértices.
+<span class="lineno">  102 </span>-- Devolve 'Nothing' se não existir caminho.
+<span class="lineno">  103 </span>path :: Ord v =&gt; Graph v -&gt; v -&gt; v -&gt; Maybe (Path v)
+<span class="lineno">  104 </span><span class="decl"><span class="istickedoff">path g o d = aux (bft g (singleton o)) o d</span>
+<span class="lineno">  105 </span><span class="spaces">    </span><span class="istickedoff">where aux f o d | o == d = return []</span>
+<span class="lineno">  106 </span><span class="spaces">                    </span><span class="istickedoff">| <span class="tickonlytrue">otherwise</span> = do guard (not $ Prelude.null $ adj f d)</span>
+<span class="lineno">  107 </span><span class="spaces">                                     </span><span class="istickedoff">let [Edge _ p] = elems $ adj f d</span>
+<span class="lineno">  108 </span><span class="spaces">                                     </span><span class="istickedoff">r &lt;- aux f o p</span>
+<span class="lineno">  109 </span><span class="spaces">                                     </span><span class="istickedoff">return $ r ++ [Edge p d]</span></span>
+<span class="lineno">  110 </span>
+<span class="lineno">  111 </span>-- | A função 'topo' faz a ordenação topológica de um DAG.
+<span class="lineno">  112 </span>topo :: Ord v =&gt; DAG v -&gt; [Set v]
+<span class="lineno">  113 </span><span class="decl"><span class="istickedoff">topo g | Set.null (nodes g) = []</span>
+<span class="lineno">  114 </span><span class="spaces">       </span><span class="istickedoff">| <span class="tickonlytrue">otherwise</span> = let s = Set.filter (\v -&gt; Set.null (adj (transpose g) v)) (nodes g)</span>
+<span class="lineno">  115 </span><span class="spaces">                         </span><span class="istickedoff">g' = Graph {nodes = nodes g `difference` s,</span>
+<span class="lineno">  116 </span><span class="spaces">                                     </span><span class="istickedoff">edges = Set.filter (\e -&gt; source e `notMember` s) (edges g)</span>
+<span class="lineno">  117 </span><span class="spaces">                                    </span><span class="istickedoff">}</span>
+<span class="lineno">  118 </span><span class="spaces">                      </span><span class="istickedoff">in s : topo g'</span></span>
+
+</pre>
+</body>
+</html>

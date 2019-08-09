@@ -1,0 +1,28 @@
+Mapeamento completamente associativo
+
+1 único set (S=1) que contém todas as linhas
+qualquer endereço pode mapear em qualquer linha
+set index não é usado
+Cache (1, E, B, m)
+
+block offset – b bits identificam o byte dentro do bloco. set index – s=0 bits não é utilizado pois só existe 1 set.
+tag– t bits para a tag.
+
+t=m-s-b
+b=log2B
+
+Considere uma máquina com um espaço de endereçamento de 32 bits, uma cache de 64 Kbytes, mapeamento completamente associativo e blocos de 32 bytes.
+Quantos bits são necessários para a tag?
+
+A cache tem 1 set (set index = 0 bits).
+bloco offset são b=log2(32) = 5 bits.
+A tag será de t = m – s –b = 32-0-5 =27 bits.
+
+Um único set (S=1)
+Todas as linhas pertencem ao mesmo set
+Um endereço de memória mapeia em qualquer linha da cache
+Consequência: reduzido número de colisões
+Como não existe set index a tag tem m-b bits e a procura de um
+endereço implica a comparação com todas as tags
+Consequência: hit time aumenta pois é necessário comparar
+com todas as tags, que têm um número elevado de bits

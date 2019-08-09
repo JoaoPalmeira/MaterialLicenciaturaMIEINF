@@ -1,0 +1,121 @@
+node n2 {
+    type router
+    model PC
+    network-config {
+	hostname monitor1
+	!
+	interface eth0
+	 ipv6 address 2001:0::20/64
+	 ip address 10.0.1.20/24
+	!
+    }
+    canvas c1
+    iconcoords {902.0 612.0}
+    labelcoords {902.0 644.0}
+    interface-peer {eth0 n1}
+}
+
+node n1 {
+    type router
+    model PC
+    network-config {
+	hostname ReverseProxy
+	!
+	interface eth3
+	 ipv6 address 2001:3::20/64
+	 ip address 10.0.3.21/24
+	!
+	interface eth1
+	 ipv6 address 2001:1::21/64
+	 ip address 10.0.2.21/24
+	!
+	interface eth0
+	 ipv6 address 2001:0::21/64
+	 ip address 10.0.1.21/24
+	!
+    }
+    canvas c1
+    iconcoords {609.0 593.0}
+    labelcoords {609.0 625.0}
+    interface-peer {eth0 n2}
+    interface-peer {eth1 n3}
+    interface-peer {eth3 n5}
+}
+
+node n3 {
+    type router
+    model PC
+    network-config {
+	hostname monitor2
+	!
+	interface eth0
+	 ipv6 address 2001:1::20/64
+	 ip address 10.0.2.20/24
+	!
+    }
+    canvas c1
+    iconcoords {598.0 96.0}
+    labelcoords {598.0 128.0}
+    interface-peer {eth0 n1}
+}
+
+node n5 {
+    type router
+    model PC
+    network-config {
+	hostname monitor3
+	!
+	interface eth0
+	 ipv6 address 2001:3::21/64
+	 ip address 10.0.3.20/24
+	!
+    }
+    canvas c1
+    iconcoords {240.0 585.0}
+    labelcoords {240.0 617.0}
+    interface-peer {eth0 n1}
+}
+
+link l1 {
+    delay 1000
+    duplicate 40
+    nodes {n2 n1}
+    bandwidth 0
+}
+
+link l2 {
+    delay 10000
+    duplicate 15
+    ber 15
+    nodes {n3 n1}
+    bandwidth 0
+}
+
+link l4 {
+    delay 5000
+    duplicate 10
+    ber 10
+    nodes {n1 n5}
+    bandwidth 0
+}
+
+canvas c1 {
+    name {Canvas1}
+}
+
+option global {
+    interface_names no
+    ip_addresses yes
+    ipv6_addresses yes
+    node_labels yes
+    link_labels yes
+    show_api no
+    background_images no
+    annotations yes
+    grid yes
+    traffic_start 0
+}
+
+option session {
+}
+

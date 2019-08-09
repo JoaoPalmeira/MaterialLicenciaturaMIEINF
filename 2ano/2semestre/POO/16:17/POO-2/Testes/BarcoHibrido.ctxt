@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=id\ milhas\ categoria\ autonomia\ skipper\ tripulantes\ bateria\ potencia\ autonomiaE\ seguro
+comment0.target=BarcoHibrido(java.lang.String,\ double,\ java.lang.String,\ double,\ Pessoa,\ java.util.Set,\ long,\ long,\ double,\ double)
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment2.params=b2
+comment2.target=BarcoHibrido(BarcoHibrido)
+comment3.params=
+comment3.target=double\ getAutonomiaE()
+comment4.params=
+comment4.target=long\ getBateria()
+comment5.params=
+comment5.target=long\ getPotencia()
+comment6.params=
+comment6.target=double\ getSeguro()
+comment7.params=
+comment7.target=BarcoHibrido\ clone()
+comment8.params=
+comment8.target=double\ getAutonomiaTotal()
+numComments=9

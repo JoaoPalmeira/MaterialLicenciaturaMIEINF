@@ -1,0 +1,6 @@
+/ Este comando lista os ficheiros:
+$ ls
+/ Vai dar erro, so não é um comando:
+$| sort
+/ E escolher o primeiro:
+$| head -1

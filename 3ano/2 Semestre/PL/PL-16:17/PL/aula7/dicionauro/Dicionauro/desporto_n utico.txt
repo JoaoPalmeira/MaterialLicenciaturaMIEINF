@@ -1,0 +1,166 @@
+﻿PT remo
+-catgr nm
+-exuso o remo é um desporto que se pratica em rios, mas pode também ser praticado no mar.
+AUDPT n 
+EN   rowing
+AUDEN n
+FR aviron 
+AUDFR n
+ES remo
+AUDES n
+DE rudern
+AUDDE n
+CN   ??
+NU   6367
+DOM desporto 
+BT 
+RT remar 
+RT remador 
+RT 
+Def desporto que se ^pratica^ em barcos pequenos e ^estreitos^ que têm um banco que anda para tràs e prara a frente onde os ^remadores^ se sentam 
+de costas para a direcção em que estão a andar, fazendo assim força para remar e fazer andar o barco depressa.  
+ID manuel 
+
+PT   canoagem
+-catgr nf
+-exuso
+AUDPT n 
+EN   canoe
+AUDEN n 
+FR canoë
+AUDFR n 
+ES piragüismo 
+AUDES n 
+ES canotaje
+AUDES n 
+DE kanusport
+AUDDE n 
+CN   划艇
+NU   6368
+DOM desporto 
+BT  
+RT canoa 
+RT remo
+Def desporto que consiste em subir e descer, em ^canoas, rios grandes
+IMG n
+GI 3
+IM 4
+ID manuel 
+
+PT vela
+-catgr nf
+-exuso a vela é um desporto 
+AUDPT
+EN sailing
+AUDEN n 
+FR nautisme à la voile
+AUDFR n 
+ES vela
+AUDES n 
+DE segeln 
+AUDDE n 
+CN   帆船运动
+NU   6372
+DOM desporto 
+BT 
+RT velejar 
+RT velejador  
+Def desporto que se ^pratica^ com barcos que são puxados por uma ^lona^, que se chama vela, na qual o vento sopra, fazendo assim com que o barco ande
+IMG n
+GI 3
+IM 4 
+ID manuel 
+
+PT   corrida de barcos
+-catgr substantivo
+-exuso 
+EN   boat race
+FR
+ES
+DE
+CN   赛艇
+NU   6369
+DOM desporto 
+BT individual
+Def
+ID manuel 
+
+PT   caiaque
+-catgr nm
+-exuso o caiaque é um desporto parecido com a canoagem 
+EN   kayak
+FR
+ES
+DE
+CN   皮船
+NU   6371
+DOM desporto 
+BT individual
+Def pequena embarcação para desporto e lazer, usada geralmente por dois tripulantes remadores
+ID manuel 
+
+PT esqui aquático 
+-catgra 
+-exuso hoje vamos fazer esqui aquático e precisamos da ^lancha^. 
+AUDPT
+EN
+AUDEN
+FR
+AUDFR
+ES
+AUDES
+DE
+AUDDE
+CN
+NU
+DOM
+BT
+Def
+IMG
+GI
+IM
+ID manuel 
+
+PT bodyboard
+-catgra 
+-exuso 
+AUDPT
+EN
+AUDEN
+FR
+AUDFR
+ES
+AUDES
+DE
+AUDDE
+CN
+NU
+DOM
+BT
+Def
+IMG
+GI
+IM
+ID manuel 
+
+PT windsurf
+-catgra 
+-exuso 
+AUDPT
+EN
+AUDEN
+FR
+AUDFR
+ES
+AUDES
+DE
+AUDDE
+CN
+NU
+DOM
+BT
+Def
+IMG
+GI
+IM
+ID manuel 

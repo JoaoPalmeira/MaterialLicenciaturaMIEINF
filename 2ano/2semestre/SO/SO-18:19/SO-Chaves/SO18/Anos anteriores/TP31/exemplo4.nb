@@ -1,0 +1,6 @@
+/ Este comando lista os ficheiros:
+$ ls
+/ Vai dar erro, so não é um comando:
+$1 | so
+/ E escolher o primeiro:
+$2 | head -1

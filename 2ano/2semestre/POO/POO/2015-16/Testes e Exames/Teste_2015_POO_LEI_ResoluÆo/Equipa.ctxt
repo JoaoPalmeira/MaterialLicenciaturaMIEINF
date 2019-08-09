@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Equipa()
+comment1.params=nome\ barcos
+comment1.target=Equipa(java.lang.String,\ java.util.HashMap)
+comment2.params=e
+comment2.target=Equipa(Equipa)
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment4.params=
+comment4.target=java.util.HashMap\ getBarcos()
+comment5.params=idBarco
+comment5.target=double\ totalEmProva(java.lang.String)
+comment6.params=
+comment6.target=double\ registoMaisLongo()
+comment7.params=
+comment7.target=java.util.TreeSet\ getBarcosOrdBySeguro()
+comment8.params=o
+comment8.target=boolean\ equals(java.lang.Object)
+comment9.params=
+comment9.target=Equipa\ clone()
+numComments=10

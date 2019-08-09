@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Imoobiliaria()
+comment1.params=
+comment1.target=void\ initApp()
+comment10.params=email\ password
+comment10.target=void\ iniciaSessao(java.lang.String,\ java.lang.String)
+comment11.params=
+comment11.target=void\ MenuAdicionaImovel()
+comment2.params=
+comment2.target=void\ MenuInicial()
+comment3.params=
+comment3.target=void\ MenuRegUtil()
+comment4.params=
+comment4.target=void\ MenuInitSessao()
+comment5.params=
+comment5.target=void\ MenuVendedor()
+comment6.params=
+comment6.target=void\ MenuComprador()
+comment7.params=
+comment7.target=void\ subMenuGeral()
+comment8.params=utilizador
+comment8.target=void\ registarUtilizador(Utilizador)
+comment9.params=
+comment9.target=void\ showUsers()
+numComments=12

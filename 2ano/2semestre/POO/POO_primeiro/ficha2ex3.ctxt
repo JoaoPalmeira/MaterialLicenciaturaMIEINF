@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=int[]\ lerArrayInt(int)
+comment1.params=arr
+comment1.target=int\ minPos(int[])
+comment2.params=
+comment2.target=void\ ex3()
+numComments=3

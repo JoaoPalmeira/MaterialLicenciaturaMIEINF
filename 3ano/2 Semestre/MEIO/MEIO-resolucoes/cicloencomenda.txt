@@ -1,0 +1,16 @@
+DDPP = t + l
+SS = S-r.l-rt
+N(DDPP) = r(t+l)
+P(DDPP>S) = C1*t/C2
+Nivel Servico = 1 - P(DDPP>S)
+
+Exemplo:
+n ciclos = dias operacionais / t
+
+n ciclos*P(DDPP>S) <= quebra(ano)
+
+Ir a tabela buscar o N 
+
+Calcular o S
+
+Calcular o C(t)

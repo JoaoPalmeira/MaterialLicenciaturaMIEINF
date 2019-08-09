@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=opcoes
+comment0.target=Menu(java.lang.String[])
+comment1.params=
+comment1.target=void\ executar()
+comment2.params=
+comment2.target=void\ mostrarMenu()
+comment3.params=
+comment3.target=int\ lerOpcao()
+comment4.params=
+comment4.target=int\ getOpcao()
+numComments=5

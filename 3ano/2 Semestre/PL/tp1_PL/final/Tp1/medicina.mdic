@@ -1,0 +1,48 @@
+
+%inv: lida_com: profissao_associada
+
+%dom : medicina
+
+%THE<profissão : bt : lida_com
+
+médico especialista : médico :
+médico : : doentes| doenças | fármacos
+
+andrologista :  : 
+anestesista :  : anastesia
+calista :  : pés  | calos
+cardiologista : médico especialista : coração
+cirurgião : médico especialista : operações
+citologista : médico especialista : células
+clínico geral : médico : 
+dentista :  : dentes | dentadura
+dermatologista : médico especialista : pele
+dietista : médico especialista : alimentação | dieta
+endocrinologista : médico especialista : hormonas | glândulas
+enfermeiro :  : 
+fisioterapeuta :  : massagens | fisioterapia
+gastrenterologista : médico especialista : 
+gerontologista : médico especialista : 
+ginecologista : médico especialista : ovários | útero | bebés
+histologista : médico especialista : células
+imunologista :  : alergias
+neurocirurgião : médico especialista : nervos | operação
+neurologista : médico especialista : nervos
+obstetra : médico especialista : ovários | útero
+oculista :  : olhos | óculos
+odontologista :  : 
+oftalmologista : médico especialista : olhos | óculos
+oncologista : médico especialista : cancro | quimioterapia | radioterapia
+optometrista :  : olhos | óculos
+ortopedista : médico especialista : pernas | pés
+otorrinolaringologista : médico especialista : garganta | nariz | ouvidos
+parteira :  : parto | bebés
+patologista :  : 
+pediatra : médico especialista : crianças | bebés
+psicanalista : médico especialista : doenças mentais | psicanálise
+psicólogo :  : 
+psiquiatra : médico especialista : doenças mentais | malucos
+radiologista :  : radiografia | raio-X | radioterapia | TAC
+reumatologista : médico especialista : coluna vertebral| reumatismo
+socorrista :  : primeiros socorros
+urologista : médico especialista : rim | bexiga

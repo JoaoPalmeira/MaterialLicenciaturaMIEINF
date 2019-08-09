@@ -1,0 +1,9 @@
+BEGIN{
+	FS = ">|</"
+}
+
+$1~/<SAIDA/ {a[$2]}
+
+END{
+	for (i in a) print i
+}

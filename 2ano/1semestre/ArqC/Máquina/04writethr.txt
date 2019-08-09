@@ -1,0 +1,17 @@
+Write-through
+Uma vez que a escrita é feita nos vários níveis da hierarquia, leva tanto tempo como o nível mais lento
+SOLUÇÃO: usar um write-buffer. A escrita é feita no nível superior da cache e enviada para este buffer.
+O processador continua a executar e a escrita nos níveis mais lentos da hierarquia é feita de forma assíncrona.
+Problema: o write-buffer pode encher
+Várias escritas sucessivas no mesmo bloco implicam também escritas sucessivas nos níveis mais caros da hierarquia
+
+write-thought
+Vantagens
+1. Não aumenta a miss penalty, pois o bloco não tem que ser escrito num miss
+2. Mais simples de implementar
+Desvantagens
+3. Várias escritas no mesmo bloco implicam várias escritas na memória
+central
+4. As escritas são feitas à velocidade da memória central e não à da cache
+(embora os processadores actuais usem write-buffers para diminuir a ocorrência deste problema)
+Vantagens

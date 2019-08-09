@@ -1,0 +1,13 @@
+public void take (int i , int a) { av[i].take(a); }
+
+public int query (int i) { return av[i].query();}
+
+public sumn(int i)
+{
+	if (i==slots) return 0;
+	synchronized(av[i])
+	{ return av[i].query() + sumn(i+1);}
+
+}
+
+public int slots { return slots; }

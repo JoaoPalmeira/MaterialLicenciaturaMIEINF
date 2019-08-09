@@ -1,0 +1,54 @@
+int *fds[2];
+int *pids;
+
+int main(int argc, char **argv){
+	
+	int numFich = atoi(argc-2);
+	
+	fds	 = (int *) malloc ( numFich *sizeof(int));
+	pids = (int *) malloc ( numFich *sizeof(int));
+	
+	char buf;
+
+	int abrirFicheiro;
+	int i;
+	
+	for(i=2;i<argc;i++){
+		abrirFicheiro = open(argv[i], O_RDONLY | O_CREAT, 0666);
+		pipe(fds[i-2]);
+		if ( !( pids[i-2] = fork() ) ){
+			//Leitura passa a ser do ficheiro
+			dup2(abrirFicheiro, 0);
+			//Redirecciona a escrita para o pipe
+			dup2(fds[i-2][1],1);
+			//Fecha para leitura do pipe
+			close(fds[i-2][0]);
+			execlp("oc","oc",argv[1], NULL);
+			exit(EXIT_FAILURE);
+		}
+		//Fecha descritor de escrita do pipe e fecha o ficheiro
+		close(fds[i-2][1]);
+		close(abrirFicheiro);
+	}
+
+	
+	for(i=0; i<argc-2; i++){
+		waitpid(pids[i],NULL,1); //Acho que é a flag a 1 para esperar
+		
+		//Escreve o nome do ficheiro no output
+		write(1, argv[i+2], atoi(argv[i+2]));
+		
+		//Podem embelezar e ainda escrever ": " no output, não me apeteceu fazer :P
+		
+		//Escreve o que está no pipe no output
+		while(read(fds[i][0], &buf , 1))
+			write(1,&buf,1);
+		
+		//Já podemos fechar a "leitura" do pipe
+		close(fds[i][0])
+	}
+	
+	//E pronto, penso que é só isto
+	
+	return (EXIT_SUCCESS);
+}

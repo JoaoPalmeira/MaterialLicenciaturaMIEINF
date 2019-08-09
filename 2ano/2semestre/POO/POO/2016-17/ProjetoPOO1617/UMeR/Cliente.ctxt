@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Cliente()
+comment0.text=\r\n\ Construtor\ para\ objetos\ da\ classe\ Cliente\r\n
+comment1.params=email\ nome\ password\ morada\ dataNascimento\ viagens\ localizacao
+comment1.target=Cliente(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.time.LocalDate,\ java.util.Map,\ Espaco2D)
+comment2.params=c
+comment2.target=Cliente(Cliente)
+comment3.params=
+comment3.target=Espaco2D\ getLocalizacao()
+comment4.params=localizacao
+comment4.target=void\ setLocalizacao(Espaco2D)
+comment5.params=m\ nota
+comment5.target=void\ darNota(Motorista,\ int)
+comment6.params=
+comment6.target=Cliente\ clone()
+comment7.params=o
+comment7.target=boolean\ equals(java.lang.Object)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

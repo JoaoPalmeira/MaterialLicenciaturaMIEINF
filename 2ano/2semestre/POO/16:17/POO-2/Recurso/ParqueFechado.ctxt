@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=v
+comment0.target=void\ entra(Carro)
+comment1.params=numeroCarro
+comment1.target=void\ sai(java.lang.String)
+numComments=2

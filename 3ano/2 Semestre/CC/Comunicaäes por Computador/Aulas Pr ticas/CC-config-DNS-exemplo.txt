@@ -1,0 +1,61 @@
+named.conf:
+#########################
+
+include "/home/core/primario/named.conf.options";
+include "/home/core/primario/named.conf.local";
+include "/home/core/primario/named.conf.default-zones";
+
+#########################
+
+
+db.cc.pt:
+#########################
+
+$TTL    604800
+@       IN      SOA     cc.pt. GrupoXX.cc.pt. (
+			2	 ; Serial
+			604800 		; Refresh
+			86400         ; Retry
+			2419200         ; Expire
+			604800 )       ; Negative Cache TTL
+;
+       IN      NS      dns1.cc.pt.
+       IN      NS      dns2.cc.pt.
+
+       IN      MX      10      mail.cc.pt.
+
+dns1   IN      A       10.1.1.1
+dns2   IN      A       10.3.3.2
+
+Servidor1 IN   A       10.1.1.1
+Servidor2 IN   A       10.3.3.2
+
+mail   IN      A       10.1.1.1
+www    IN      CNAME       Servidor1
+
+#########################
+
+
+1.1.10.in.addr.arpa:
+#########################
+
+$ORIGIN 1.1.10.in-addr.arpa.
+$TTL 84600
+@	SOA	cc.pt.	Grupo13.cc.pt. (
+			2001062501 ; serial                     
+			21600      ; refresh after 6 hours                     
+			3600       ; retry after 1 hour                     
+			604800     ; expire after 1 week                     
+			86400 )    ; minimum TTL of 1 day        
+
+
+	IN	PTR	dns1.cc.pt.       
+	IN	PTR	dns2.cc.pt.
+
+	IN	PTR    Servidor1.cc.pt.
+	IN	PTR    Servidor2.cc.pt.
+
+	IN	PTR    www.cc.pt.
+	IN	PTR    mail.cc.pt.
+
+#########################

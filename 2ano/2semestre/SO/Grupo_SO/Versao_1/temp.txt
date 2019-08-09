@@ -1,0 +1,25 @@
+Este comando lista os ficheiros:
+$ ls
+>>>
+enunciado-so-2017-18.pdf
+exemplo.txt
+makefile
+notebook
+notebook.c
+temp.txt
+<<<
+Organizar:
+$| sort
+>>>
+enunciado-so-2017-18.pdf
+exemplo.txt
+makefile
+notebook
+notebook.c
+temp.txt
+<<<
+Escolher o primeiro
+$| head -1
+>>>
+enunciado-so-2017-18.pdf
+<<<

@@ -1,0 +1,8 @@
+Texec = #I*CPI/f
+speed up = Sp = T1/Tp -- p=num processadores
+--T1 = texec p=1
+--Tp = texec com p proc
+indica quantas vezes mais rapida e a versao paralela com pprocessadores relativamente a versao sequencial.O desafio esta na escolha de T1:– deve-se usar o mesmo algoritmo mas apenas 1 processador?– deve-se usar o melhor algoritmo sequencial conhecido para aquele problema?A resposta depende claramente do que se pretende avaliar com este ganho!desempenho – speed up
+
+eficiencia = Ep=Sp/p
+indica em que medida estão os p processadores a ser bemutilizadosRazao entre o speed up observado e o ideal (=p)A utilização total efectiva dos processadores resultaria numa eficiencia de 100%

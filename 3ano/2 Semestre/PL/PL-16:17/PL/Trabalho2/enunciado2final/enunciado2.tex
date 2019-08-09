@@ -1,0 +1,311 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% * <rjcsvv@gmail.com> 2017-03-31T16:40:18.072Z:
+%
+% ^.
+% University Assignment Title Page 
+% LaTeX Template
+% Version 1.0 (27/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% WikiBooks (http://en.wikibooks.org/wiki/LaTeX/Title_Creation)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+% Instructions for using this template:
+% This title page is capable of being compiled as is. This is not useful for 
+% including it in another document. To do this, you have two options: 
+%
+% 1) Copy/paste everything between \begin{document} and \end{document} 
+% starting at \begin{titlepage} and paste this into another LaTeX file where you 
+% want your title page.
+% OR
+% 2) Remove everything outside the \begin{titlepage} and \end{titlepage} and 
+% move this file to the same directory as the LaTeX file you wish to add it to. 
+% Then add \input{./title_page_1.tex} to your LaTeX file where you want your
+% title page.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\title{Title page with logo}
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[utf8x]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage{listings}
+
+\begin{document}
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE Universidade do Minho}\\[1.5cm] % Name of your university/college
+\textsc{\Large Mestrado Integrado em Engenharia Informática}\\[0.5cm] % Major heading such as course name
+\textsc{\large Computação Gráfica}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\textbf\HRule \\[0.4cm]
+{ \huge \bfseries Fase 2 - Sistema Solar Estático}\\[0.4cm] % Title of your document
+\HRule \\[1.0cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+André Germano \\
+André Freitas \\
+Sofia Carvalho \\
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+A71150 \\
+A74619 \\
+A76658 \\
+\end{flushright}
+\end{minipage}\\[1.0cm]
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\newpage % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+\tableofcontents
+
+\begin{appendix}
+	\listoffigures
+    \renewcommand\lstlistlistingname{Listagens}
+    \lstlistoflistings
+\end{appendix}
+
+\vfill
+\newpage
+\section{Implementação}
+De forma a facilitar a compreensão do projeto, foi decidido dividir em três partes distintas tendo em conta o objetivo do projeto.
+
+Para facilitar a leitura e análise das soluções, o \emph{stdout} do analisador léxico é alterado para um apontador de \emph{FILE}.
+\begin{center}
+\begin{minipage}{8cm}
+\begin{verbatim}
+int main(int argc,char *argv[]){
+	yyin=fopen(argv[1],"r");
+	yyout=fopen("...","w");
+	yylex();
+	return 0;
+}
+\end{verbatim}
+\end{minipage}
+\end{center}
+
+\subsection{Acentos Explícitos e Indentação}
+Começamos então por converter todos os caracteres com acentos explícitos em caracteres portugueses, trocar todas as aspas por chavetas e tornar a indentação do texto mais apelativa.
+
+De forma a facilitar a escrita de expressões regulares foram elaboradas as seguintes definições:
+\begin{center}
+\begin{minipage}{8cm}
+\begin{verbatim}
+a1 	        \{\\’a\}
+a2 	        \{\\`a\}
+...
+u1 	        \{\\’u\}
+u2 	        \{\\’U\}
+c           \{\\c\{c\}\}
+
+D           de|da|dos|do
+lm 			        [a-z]|\.|{acent}|{pt}
+P           ([A-Z]|{acentM}|{pt}){lm}+
+nome        {P}([ ]({P}|{D}))*  
+author      (AUTHOR|author)[ ]*=[ ]*
+editor      (EDITOR|editor)[ ]*=[ ]*
+pt          {a1}|{a2}|{a3}|{a4}|{a5}|{e1}|
+{e2}|{i1}|{i2}|{o1}|{o2}|{o3}|{u1}|{u2}|{c}
+acent       á|à|ã|Á|À|é|É|í|Í|ó|õ|Ó|ú|Ú|ç
+acentM      Á|À|É|Í|Ó|Ú      
+char        [a-zA-z]|{acent}|\.
+\end{verbatim}
+\end{minipage}
+\end{center}
+
+\newpage
+
+Começámos por obter todas linhas cujos campos são \emph{author} ou \emph{editor}, para isso foram utilizadas as seguintes regras respetivamente:
+\begin{verbatim}
+<*>{author}(\{|\")  {BEGIN TOKENS;fprintf(yyout,"%s","author = {");}
+<*>{editor}(\{|\")  {BEGIN TOKENS;fprintf(yyout,"%s","editor = {");}
+\end{verbatim}
+
+Sempre que for encontrado um campo \emph{author} ou \emph{editor} são invocadas um conjunto de regras cuja \emph{Start Condition} é \emph{TOKENS}, regras essas que permitem efetuar o \emph{parsing} da linha desejada e remover todos os acentos explícitos,tal como efetuar a indentação pretendida.
+\begin{verbatim}
+<TOKENS>[ ]*(\}|\")\,    {fprintf(yyout,"%s","},");BEGIN(0);}
+<TOKENS>{a1}             {fprintf(yyout,"%s","á");}
+<TOKENS>{a2}             {fprintf(yyout,"%s","à");}
+<TOKENS>{a3}             {fprintf(yyout,"%s","ã");}
+...
+\end{verbatim}
+
+A primeira das regras apresentadas anteriormente permite identificar o final da linha e portanto, através da \emph{Star Condition BEGIN(0)} retornar ao estado inicial, procurando o próximo campo pretendido.
+
+O input dado como exemplo no enunciado produz o seguinte output:
+
+\begin{verbatim}
+author = {Ricardo Martini and Cristiana Araújo and Pedro Rangel Henriques},
+editor = {Giovani Librelotto},
+...
+author = {Vilas Boas, Ismael and Oliveira, Nuno and Henriques, Pedro Rangel},
+...
+\end{verbatim}
+
+\newpage
+\subsection{Nomes e Sobrenomes}
+Para a segunda parte do projeto, é requerido que um autor seja identificado pelo Apelido seguido de uma vírgula e letras iniciais dos restantes nomes seguidas por um '.'.
+
+De forma a atingir este fim, foi necessário, nas linhas com campos \emph{autor} e \emph{editor}, ter em atenção que poderão já haver Apelidos seguidos de vírgulas, sendo que neste caso apenas é necessário analisar e gerar os restantes nomes. 
+
+Foram então implementadas as seguintes regras:
+\begin{verbatim}
+<AUTORES>{nome}\,	          {
+                           fprintf(yyout,"%s",yytext);
+                           BEGIN ACASE;
+                           }
+                           
+<AUTORES>[A-Z]|{acentM}    {
+                           strcpy(sobrenome,"\0");
+                           strcat(sobrenome,yytext);
+                           strcat(sobrenome,".");
+                           BEGIN BCASE;
+                           }
+\end{verbatim}
+
+No primeiro caso, são invocadas as regras com \emph{Start Condition ACASE}.
+\begin{verbatim}
+<ACASE>[A-Z]|{acentM}     {fprintf(yyout,"%s.",yytext);}
+<ACASE>{lm}*|\.           {}
+<ACASE>and[ ]             {fprintf(yyout,"%s",yytext);BEGIN AUTORES;}
+<ACASE>\}                 {fprintf(yyout,"%s",yytext);BEGIN(0);}
+\end{verbatim}
+
+Partindo do princípio de que todos os nomes começam com letra maiúscula, conseguimos obter a letra inicial de cada nome através da primeira regra, concatenando de seguida o '.' e removendo os restantes caracteres pela segunda regra.
+
+Uma vez que o \emph{and} separa os diferentes autores ou editores, sempre que o analisador gráfico o encontra, são novamente invocadas as regras do \emph{Start Condition AUTORES}, isto aconte até à ocorrência do caracter \} que determina o final de linha, neste caso o analisador léxico volta à condição inicial.
+
+O segundo caso, é um pouco mais complexo, assim sendo foi necessário recorrer à utilização de duas variáveis globais(nome e sobrenome) que permitem guardar a informação necessária para processar o nome dos autores,complementadas com as seguintes regras:
+\begin{verbatim}
+<BCASE>[A-Z]|{acentM}|([ ]{D}[ ])   {
+                                    strcat(sobrenome," ");
+                                    strcat(sobrenome,yytext);
+                                    strcat(sobrenome,".");
+                                    }
+                                    
+<BCASE>{P}[ ]and                    {
+                                    yytext[yyleng-4]='\0';
+                                    nome=strdup(yytext);
+                                    fprintf(yyout,"%s, %s and",nome,sobrenome);
+                                    BEGIN AUTORES;
+                                    }
+                                    
+<BCASE>{P}\}                        {
+                                    yytext[yyleng-1]='\0';  <-ação 1
+                                    nome=strdup(yytext);
+                                    fprintf(yyout,"%s, %s}",nome,sobrenome);
+                                    BEGIN(0);
+                                    }
+                                    
+<BCASE>{lm}*[ ]|\.                  {} 
+\end{verbatim}
+
+Foram tidos em conta dois casos em relação aos nomes. 
+Quando um nome é seguido do caracter '\}', estamos perante o final de linha, sendo '\}' retirado da string \emph{yytext} através da ação 1, de seguida o analisador léxico retorna novamente às regras iniciais.
+
+Quando um nome é seguido por um \emph{and}, sabemos então que existem mais nomes e portanto para além de processar os nome e sobrenomes já guardados nas respetivas variáveis globais, o analisador léxico volta às regras da \emph{Start Condition AUTORES}.
+
+Em ambos os casos, caso um nome não seja seguido de \emph{and} ou \emph{\{} trata-se de um sobrenome, sobrenome esse que é concatenado à uma variável global \emph{sobrenome} ter sido concatenado o caracter '.' ao primeiro caracter. Todos os outros caracteres são removidos através da última regra.
+
+\subsection{Grafo}
+Para finalizar, foi requerida a construção de um grafo com todas as colaborações entre autores. Deste modo, utilizámos quatro variáveis globais(autores,colabora,totalColab e numero).
+\begin{center}
+\begin{minipage}{8cm}
+\begin{verbatim}
+char *autores[1024];
+	char *colabora[1024];
+	int totalColab[1024];
+	int numero;
+\end{verbatim}
+\end{minipage}
+\end{center}
+
+Foram considerados duas situações. Na primeira situação, um nome pode ser sucedido de \emph{and}, o que significa que existe um ou mais colaboradores e a segunda situação que que um nome é sucedido por \emph{'\}'}.
+
+Caso um colaborador seja seguido de \emph{and}, é adicionado na variável global \emph{char *autores[]}, na posição numero, que corresponde ao total de autores encontrados até ao momento. Caso um colaborador seja seguido de \emph{'\}'}, é também adicionado à variável \emph{autores} e é feito o processamento dessa mesma variável através da função \textbf{\emph{char **processa()}}, que retorna um \emph{array de strings} contendo todas as combinações(colaborações) entre os autores recebidos como argumento, combinações essas que através da função \textbf{\emph{insSRepetidos()}} vão ser inseridas, sem repetições à variável \emph{char **colabora}. Para além disso é também calculado o número total de colaborações entre autores.
+\begin{verbatim}
+<AUTORES>{nome}\,([ ]{abv})*[ ]and  
+                  {
+                  yytext[yyleng-4]='\0';
+                  autores[numero]=strdup(yytext);
+                  numero++;
+                  }
+<AUTORES>{nome}\,([ ]{abv})*\}      
+                  {
+                  yytext[yyleng-1]='\0';
+                  autores[numero]=strdup(yytext);
+                  if(numero>=1){
+                  	char **aut=processa(autores,numero);
+                    insSRepetidos(colabora,aut,totalColab);
+                  }
+                  BEGIN(0);
+\end{verbatim}
+
+Finalmente, quando o analisador léxico chega ao final do ficheiro são imprimidas, num ficheiro com a extensão \emph{.dot} todas as colaborações entre autores, através da função \textbf{\emph{printGraph()}}.
+\begin{verbatim}
+<*><<EOF>>       {printGraph(colabora,totalColab);return 0;}
+\end{verbatim}
+
+O output gerado pela função \textbf{\emph{printGraph()}} é o seguinte:
+\begin{verbatim}
+digraph Colaboradores{
+   size="15,15";
+   rankdir=LR;
+   "Almeida, J. J." -> "Martins, F." [label="96"];
+   "Henriques, P. R." -> "Martins, F." [label="14"];
+   "Almeida, J. J." -> "Henriques, P. R." [label="10"];
+   "Almeida, J. J." -> "Barros, J. B." [label="7"];
+   "Almeida, J. J." -> "Pinto, U." [label="2"];
+   "Almeida, J. J." -> "Barbosa, L. S." [label="5"];
+   "Almeida, J. J." -> "Ramalho, J. C." [label="1"];
+   "Henriques, P. R." -> "Ramalho, J. C." [label="1"];
+   "Nijholt, A." -> "Scollo, G." [label="1"];
+   ...
+   }
+\end{verbatim}
+
+Em que cada nó representa um colaborador e cada ligação entre nós contém o total de colaborações entre esses dois autores.
+\end{document}

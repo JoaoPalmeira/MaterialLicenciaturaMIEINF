@@ -1,0 +1,13 @@
+BEGIN{
+	FS = ">|</"
+}
+
+$1~/DATA_SAIDA/ {split($2,b,"-"); mes=b[2]}
+$1~/IMPORTANCIA/ {sub(",","."); valor=$2}
+$1~/VALOR_DESCONTO/ {sub(",","."); desc=$2}
+$1~/TIPO/ {tipo=$2; if(tipo=="Parques de estacionamento"){a[mes]+=valor; desconto[mes]+=desc}}
+
+END{
+	for (i in a){total+=a[i]-desconto[i]; print "mes:", i,"  valor:", a[i],"  desconto:", desconto[i]};
+	print "valor total:", total;
+}

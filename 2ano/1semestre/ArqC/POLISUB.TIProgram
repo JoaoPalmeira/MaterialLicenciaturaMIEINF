@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Politicas de Substituicao
+
+Numa cache com algum grau de associatividade qual o bloco que deve ser substituido quando ocorre uma colisao? 
+Aleatoriamente (random) – o bloco a substituir e escolhido aleatoriamente. 
+Least Recently Used (LRU) – e substituido o bloco que nao e usado ha mais tempo. 
+LRU: a implementacao e muito custosa para associatividade &gt; 2 (eventualmente 4). Alguns processadores usam uma aproximacao a LRU. A diferença de miss rate entre o esquema aleatório e LRU nao e elevada (1.1 vezes superior para 2-way associative). 
+Se a miss penalty nao e muito elevada o esquema aleatorio pode ser tao, ou mais, eficaz como as aproximacoes ao LRU. </string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

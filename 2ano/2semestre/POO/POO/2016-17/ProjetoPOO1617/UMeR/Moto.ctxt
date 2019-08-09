@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Moto()
+comment0.text=\r\n\ Construtor\ para\ objetos\ da\ classe\ Motos\r\n
+comment1.params=viagens\ velMedKm\ precoBaseKm\ fiabilidade\ localizacao\ matricula\ capacidade\ ocupacao
+comment1.target=Moto(java.util.Map,\ double,\ double,\ double,\ Espaco2D,\ java.lang.String,\ int,\ int)
+comment2.params=m
+comment2.target=Moto(Moto)
+comment3.params=
+comment3.target=int\ getCapacidade()
+comment4.params=capacidade
+comment4.target=void\ setCapacidade(int)
+comment5.params=
+comment5.target=int\ getOcupacao()
+comment6.params=ocupacao
+comment6.target=void\ setOcupacao(int)
+comment7.params=
+comment7.target=Moto\ clone()
+comment8.params=o
+comment8.target=boolean\ equals(java.lang.Object)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

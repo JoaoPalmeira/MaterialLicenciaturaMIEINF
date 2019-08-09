@@ -1,0 +1,31 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Escrita na Cache\
+\
+\expnd0\expndtw0\kerning0
+Write-through \'96 a informacao e escrita na cache e na memoria central; \
+\pard\pardeftab720\partightenfactor0
+\cf0 Uma vez que a escrita e feita nos varios niveis da hierarquia, leva tanto tempo como o nivel mais lento; \
+SOLUCAO: usar um write-buffer. A escrita e feita no nivel superior da cache e enviada para este buffer.\uc0\u8232 O processador continua a executar e a escrita nos niveis mais lentos da hierarquia e feita de forma assincrona. \
+Problema: o write-buffer pode encher\uc0\u8232 Varias escritas sucessivas no mesmo bloco implicam tambem escritas sucessivas nos niveis mais caros da hierarquia;
+\f1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0 \cf0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf0 Write-back \'96 a informacao e escrita apenas na cache. A mem\'f3ria central so e actualizada quando o\
+bloco for substituido. \
+Uma vez que a escrita e feita no nivel superior da hierarquia e mais rapida \
+Escritas consecutivas no mesmo endereco (mesmo bloco) nao implicam multiplas escritas nos niveis\
+mais lentos.\
+Esta escrita acontece apenas quando o bloco e substituido. \
+Uma vez que quando ocorre um miss o respectivo bloco tem que ser actualizado na memoria (se foi\
+escrito anteriormente), aumenta a miss penalty \
+Bastante mais complexo de implementar do que write-through\
+}

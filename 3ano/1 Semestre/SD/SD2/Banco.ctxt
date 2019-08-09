@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=numContas
+comment0.target=Banco(int)
+comment1.params=nr_conta
+comment1.target=double\ consultar(int)
+comment2.params=nr_conta\ valor
+comment2.target=void\ levantar(int,\ double)
+comment3.params=nr_conta\ valor
+comment3.target=void\ depositar(int,\ double)
+numComments=4

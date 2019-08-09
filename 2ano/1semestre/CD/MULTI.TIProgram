@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>|y(f)|=|H(f)|*|X(f)|
+
+-Primeiro fazer o espectro bilateral de X(f)
+
+-Depois calcular os valores de |H(f=f0)|, e |H(f=2f0)|,etc
+
+-Multiplicamos esses valores pelas amplitudes de X(f) e obtemos um novo espectro bilateral mas com valores diferentes
+
+-Passar para uma equacao com cossenos e isso</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

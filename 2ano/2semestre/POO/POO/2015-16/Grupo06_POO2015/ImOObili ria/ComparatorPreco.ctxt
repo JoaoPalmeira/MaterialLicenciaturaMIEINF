@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=i1\ i2
+comment0.target=int\ compare(Imovel,\ Imovel)
+comment0.text=\r\n\ COnstrutor\ para\ objetos\ da\ classe\ ComparatorPreco\r\n
+numComments=1

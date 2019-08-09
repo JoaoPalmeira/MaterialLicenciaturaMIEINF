@@ -1,0 +1,13 @@
+Linha – a cache está dividida em linhas. Cada linha tem o seu endereço (índice) e tem a capacidade de um bloco
+Bloco – Quantidade de informação que é transferida de cada vez da memória central para a cache. É igual à capacidade da linha.
+Hit – Diz-se que ocorreu um hit quando o elemento de memória acedido pelo CPU se encontra na cache.
+Miss – Diz-se que ocorreu um miss quando o elemento de memória acedido pelo CPU não se encontra na cache, sendo necessário lê-lo do nível inferior da hierarquia.
+
+Hit rate – Percentagem de hits ocorridos relativamente ao total de acessos à
+memória.
+Hit rate = #hits / #acessos
+Miss rate – Percentagem de misses ocorridos relativamente ao total de acessos
+à memória.
+Miss rate = (1 – hit rate)
+Hit time – Tempo necessário para aceder à cache, incluindo o tempo necessário para determinar se o elemento a que o CPU está a aceder se encontra ou não na cache.
+Miss penalty – Penalização incorrida para aceder a um bloco dos níveis superiores da hierarquia, ocorre um miss.

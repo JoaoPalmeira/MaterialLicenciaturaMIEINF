@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=m2
+comment0.target=MsgMap(MsgMap)
+comment1.params=
+comment1.target=java.util.TreeMap\ getMsgBox()
+comment2.params=
+comment2.target=int\ tamanho()
+comment3.params=remetente
+comment3.target=int\ quantosDe(java.lang.String)
+comment4.params=palavra
+comment4.target=void\ antiSpam(java.lang.String)
+comment5.params=
+comment5.target=java.util.Map\ msgDeRemetente()
+numComments=6

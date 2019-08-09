@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GrowingArray()
+comment1.params=capacidade
+comment1.target=GrowingArray(int)
+comment2.params=gArray
+comment2.target=GrowingArray(GrowingArray)
+comment3.params=
+comment3.target=int\ getCap()
+comment4.params=
+comment4.target=int\ getNveiculos()
+comment5.params=
+comment5.target=Veiculo[]\ getVeiculos()
+comment6.params=capaci
+comment6.target=void\ setCap(int)
+comment7.params=numV
+comment7.target=void\ setNveiculos(int)
+comment8.params=veics
+comment8.target=void\ setVeiculos(Veiculo[])
+numComments=9

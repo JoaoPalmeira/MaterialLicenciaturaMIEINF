@@ -1,0 +1,65 @@
+%option noyywrap
+%x AUTORES TOKENS
+%{
+%}
+
+a1 	        \{\\’a\}
+a2 	        \{\\`a\}
+a3 	        \{\\~a\}
+a4 	        \{\\’A\}
+a5 	        \{\\`A\}
+e1 	        \{\\’e\}
+e2 	        \{\\’E\}
+i1 	        \{\\’i\}
+i2 	        \{\\’I\}
+o1 	        \{\\’o\}
+o2 	        \{\\~o\}
+o3 	        \{\\’O\}
+u1 	        \{\\’u\}
+u2 	        \{\\’U\}
+c           \{\\c\{c\}\}
+
+D           de|da|dos|do
+lm 			[a-z]|\.|{acent}|{pt}
+P           ([A-Z]|{acentM}|{pt}){lm}+
+nome        {P}([ ]({P}|{D}))*  
+author      (AUTHOR|author)[ ]*=[ ]*
+editor      (EDITOR|editor)[ ]*=[ ]*
+pt          {a1}|{a2}|{a3}|{a4}|{a5}|{e1}|{e2}|{i1}|{i2}|{o1}|{o2}|{o3}|{u1}|{u2}|{c}
+acent       á|à|ã|Á|À|é|É|í|Í|ó|õ|Ó|ú|Ú|ç
+acentM      Á|À|É|Í|Ó|Ú      
+char        [a-zA-z]|{acent}|\.
+
+%%
+
+<*>{author}(\{|\")  {BEGIN TOKENS;fprintf(yyout,"%s","author = {");}
+<*>{editor}(\{|\")  {BEGIN TOKENS;fprintf(yyout,"%s","editor = {");}
+<*><<EOF>>   {return 0;}
+
+<TOKENS>[ ]*(\}|\")\,    {fprintf(yyout,"%s","},");BEGIN(0);}
+<TOKENS>{a1}             {fprintf(yyout,"%s","á");}
+<TOKENS>{a2}             {fprintf(yyout,"%s","à");}
+<TOKENS>{a3}             {fprintf(yyout,"%s","ã");}
+<TOKENS>{a4}             {fprintf(yyout,"%s","Á");}
+<TOKENS>{a5}             {fprintf(yyout,"%s","À");}
+<TOKENS>{e1}             {fprintf(yyout,"%s","é");}
+<TOKENS>{e2}             {fprintf(yyout,"%s","É");}
+<TOKENS>{i1}             {fprintf(yyout,"%s","í");}
+<TOKENS>{i2}             {fprintf(yyout,"%s","Í");}
+<TOKENS>{o1}             {fprintf(yyout,"%s","ó");}
+<TOKENS>{o2}             {fprintf(yyout,"%s","õ");}
+<TOKENS>{o3}             {fprintf(yyout,"%s","Ó");}
+<TOKENS>{u1}             {fprintf(yyout,"%s","ú");}
+<TOKENS>{u2}             {fprintf(yyout,"%s","Ú");}
+<TOKENS>{c}              {fprintf(yyout,"%s","ç");}
+<TOKENS>[ ]+             {fprintf(yyout,"%s"," ");}
+<TOKENS>[\n]             {}
+
+%%
+
+int main(int argc,char *argv[]){
+	yyin=fopen(argv[1],"r");
+	yyout=fopen("parte1.txt","w");
+	yylex();
+	return 0;
+}

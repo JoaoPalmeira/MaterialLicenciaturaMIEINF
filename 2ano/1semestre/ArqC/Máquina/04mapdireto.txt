@@ -1,0 +1,25 @@
+Mapeamento Directo
+
+Número de sets (S) igual ao número de linhas
+Uma linha por set (E=1)
+Um endereço de memória mapeia em uma e uma só linha da cache
+Consequência: potencial para elevado número de colisões
+O set index, e a linha correspondente da cache, é determinado de
+forma unívoca por s bits do endereço
+Consequência: hit time reduzido pois só é necessária uma
+comparação de tags
+
+Na máquina anterior com endereços de m=6 bits, 8 sets (S=8), mapeamento directo (E=1) e linhas de 4 bytes (B=4), todos os endereços da forma ?000?? mapeiam no set com o índice 000. Como é que o CPU determina qual o endereço que está na cache?
+
+ Os restantes bits mais significativos do endereço (1 neste exemplo) são colocados na tag. Número de bits da tag t=m-s-b
+Como é que o CPU determina se uma linha da cache contem dados válidos?
+Cada linha da cache tem um bit extra (valid) que indica se os dados dessa linha são válidos.
+
+Considere uma máquina com um espaço de endereçamento de 32 bits, uma cache de 64 Kbytes, mapeamento directo e blocos de 32 bytes. Quantos bits são necessários para a tag?
+
+A cache tem 64 K / 32 sets, ou seja, 26*210 / 25= 211, logo o set index são 11 bits. O bloco offset são b=log2(32) = 5 bits. A tag será de t = m – s –b = 32-11-5 =16 bits.
+
+Qual a capacidade total desta cache, contando com os bits da tag mais os valid bits?
+Temos 64 Kbytes de dados.
+2048 sets (== num. de linhas), cada com 2 bytes de tag = 4 Kbytes. Cada linha tem um valid bit logo 2048 bits = 0,25 Kbytes Capacidade total = 64+4+0,25 = 68,25 KBytes
+

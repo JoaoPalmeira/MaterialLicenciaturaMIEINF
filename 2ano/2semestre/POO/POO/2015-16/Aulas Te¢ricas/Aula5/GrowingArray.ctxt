@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GrowingArray()
+comment1.params=cap
+comment1.target=GrowingArray(int)
+comment2.params=i
+comment2.target=Aluno\ get(int)
+comment3.params=a
+comment3.target=void\ add(Aluno)
+comment4.params=size
+comment4.target=void\ garanteCapacidade(int)
+numComments=5

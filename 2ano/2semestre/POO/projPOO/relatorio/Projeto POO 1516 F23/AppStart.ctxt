@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=imo
+comment1.target=void\ save(Imoobiliaria)
+comment2.params=
+comment2.target=Imoobiliaria\ load()
+comment3.params=
+comment3.target=void\ fechaSessao()
+numComments=4

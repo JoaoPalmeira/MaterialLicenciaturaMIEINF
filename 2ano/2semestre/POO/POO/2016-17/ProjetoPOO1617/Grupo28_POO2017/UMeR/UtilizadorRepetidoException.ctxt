@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=UtilizadorRepetidoException()
+comment1.params=message
+comment1.target=UtilizadorRepetidoException(java.lang.String)
+numComments=2

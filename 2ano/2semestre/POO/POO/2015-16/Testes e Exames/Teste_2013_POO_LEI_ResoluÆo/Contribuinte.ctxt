@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Contribuinte()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Contribuinte\r\n
+comment1.params=NIF\ n\ mor
+comment1.target=Contribuinte(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=cn
+comment2.target=Contribuinte(Contribuinte)
+comment3.params=
+comment3.target=java.lang.String\ getNIF()
+comment4.params=
+comment4.target=java.lang.String\ getNome()
+comment5.params=
+comment5.target=java.lang.String\ getMorada()
+numComments=6

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Ceo()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Ceo\r\n
+comment1.params=cod\ n\ dias\ sal
+comment1.target=Ceo(java.lang.String,\ java.lang.String,\ int,\ double)
+comment2.params=ceo
+comment2.target=Ceo(Ceo)
+comment3.params=
+comment3.target=double\ salario()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=Ceo\ clone()
+numComments=6

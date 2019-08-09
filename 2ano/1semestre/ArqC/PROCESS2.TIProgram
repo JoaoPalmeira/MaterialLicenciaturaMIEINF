@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Assembly – Utilizacao directa de instrucoes assembly 
+
+Compiler Intrinsics 
+– Pseudo-funcoes disponibilizadas pelo compilador que permitem o desenvolvimento explicito de codigo vectorial a um nivel semantico mais elevado que o assembly 
+
+AutoVectorizacao – Vectorizacao pelo compilador
+
+Possibilidade de aliasing, isto e: as regioes de memoria apontadas pelos diferentes apontadores podem- se sobrepor. 
+versioning, isto e: O compilador gera versoes escalares e vectoriais do ciclo e codigo para verificar o aliasing. 
+Em runtime e escolhida a versao mais apropriada do ciclo 
+O qualificador __restrict__ indica ao compilador que durante a existencia daquele apontador NAO EXISTE QUALQUER OUTRA REFERENCIA para a zona de memoria acedida a partir desse apontador. Logo nao existe a possibilidade de aliasing 
+
+Bloqueadores Auto-vectorização: 
+-dados contíguos 
+Array of Structures (AoS) : os varios elementos do mesmo campo nao sao armazenados consecutivamente em memoria. Codigo potencialmente nao vectorizavel.
+Array of Structures (AoS) : os varios elementos do mesmo campo nao sao armazenados consecutivamente em memoria. Codigo potencialmente nao vectorizavel.
+-uncountable loops 
+O número de iteracoes nao pode ser computado (uncountable loop): Codigo nao vectorizavel! 
+-condicoes
+Estruturas condicionais: Código nao vectorizavel.
+Estruturas condicionais realizavel como uma mascara: Codigo vectorizavel.
+-funcoes
+Invocacao de funcoes dentro do ciclo: Codigo nao vectorizavel.
+Invocacao de funcoes intrinseca dentro do ciclo: Codigo vectorizavel.
+-stride
+Stride != 1 Acessos nao contiguos, mas ordenados. Compilador pode nao vectorizar o codigo. Codigo (mesmo vectorial) menos eficiente, devido a acessos a memoria e reduzida localidade espacial. </string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

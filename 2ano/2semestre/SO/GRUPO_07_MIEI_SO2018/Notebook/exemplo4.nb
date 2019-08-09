@@ -1,0 +1,4 @@
+$ ps -l
+$| sort
+$| head -2
+$| wc -l

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ValueComparator1
+comment1.params=map
+comment1.target=ValueComparator1(java.util.Map)
+comment2.params=e1\ e2
+comment2.target=int\ compare(Empresa,\ Empresa)
+numComments=3

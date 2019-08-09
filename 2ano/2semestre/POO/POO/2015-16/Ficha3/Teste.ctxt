@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testarComplexo()
+comment0.text=\r\n\ Exercicio\ 1\ -\ Complexo\r\n
+comment1.params=
+comment1.target=void\ testarVeiculo()
+comment1.text=\r\n\ Exerc\u00C3\u00ADcio\ 3\ -\ Veiculo\r\n
+comment2.params=
+comment2.target=void\ testarCartaoCliente()
+comment2.text=\r\n\ Exerc\u00C3\u00ADcio\ 4\ -\ CartaoCliente\r\n
+comment3.params=
+comment3.target=void\ testarProduto()
+comment3.text=\r\n\ Exerc\u00C3\u00ADcio\ 5\ -\ Produto\r\n
+comment4.params=
+comment4.target=Teste()
+comment4.text=\r\n\ \ \ \ @Test\r\n\ \ \ \ public\ void\ testarContaPrazo()\ {\r\n\ \ \ \ \ \ \ \ GregorianCalendar\ op\ \=\ new\ GregorianCalendar(2016,1,1,10,0,0);\r\n\ \ \ \ \ \ \ \ GregorianCalendar\ lim\ \=\ new\ GregorianCalendar(2017,2,1,10,0,0);\r\n\ \ \ \ \ \ \ \ GregorianCalendar\ now\ \=\ new\ GregorianCalendar();\r\n\ \ \ \ \ \ \ \ ContaPrazo\ c\ \=\ new\ ContaPrazo("a123","Nome",op,100000,now,5);\r\n\r\n\ \ \ \ \ \ \ \ //Testar\ diasPassados\r\n\ \ \ \ \ \ \ \ long\ ms\ \=\ (now.getTimeInMillis()-op.getTimeInMillis())/1000/60/60/24;\r\n\ \ \ \ \ \ \ \ assertEquals(ms,c.diasPassados());\r\n\r\n\ \ \ \ \ \ \ \ //Testar\ alterarTitular\r\n\ \ \ \ \ \ \ \ c.alterarTitular("Titular");\r\n\ \ \ \ \ \ \ \ assertEquals("Titular",c.getTitular());\r\n\r\n\ \ \ \ \ \ \ \ //Testar\ alterarTaxa\r\n\ \ \ \ \ \ \ \ c.alterarTaxa(0.3);\r\n\ \ \ \ \ \ \ \ assertEquals(0.3,\ c.getTaxa(),0);\r\n\r\n\ \ \ \ \ \ \ \ //Testar\ verificarDiaJuros\r\n\ \ \ \ \ \ \ \ assertTrue(c.verificarDiaJuros());\r\n\r\n\ \ \ \ \ \ \ \ //Testar\ actualizarJuros\r\n\ \ \ \ \ \ \ \ c.actualizarJuros(lim);\r\n\ \ \ \ \ \ \ \ assertEquals(130000,c.getCapital(),0);\r\n\r\n\ \ \ \ \ \ \ \ //Testar\ fecharConta\r\n\ \ \ \ \ \ \ \ assertEquals(130000,c.fecharConta(),0);\r\n\r\n\ \ \ \ }\r\n
+comment5.params=
+comment5.target=void\ tearDown()
+comment6.params=
+comment6.target=void\ setUp()
+numComments=7

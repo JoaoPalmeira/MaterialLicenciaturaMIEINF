@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Texec = #I*CPI/f
+speed up = Sp = T1/Tp -- p=num processadores
+--T1 = texec p=1
+--Tp = texec com p proc
+indica quantas vezes mais rapida e a versao paralela com pprocessadores relativamente a versao sequencial.O desafio esta na escolha de T1:– deve-se usar o mesmo algoritmo mas apenas 1 processador?– deve-se usar o melhor algoritmo sequencial conhecido para aquele problema?A resposta depende claramente do que se pretende avaliar com este ganho!desempenho – speed up
+
+eficiencia = Ep=Sp/p
+indica em que medida estão os p processadores a ser bemutilizadosRazao entre o speed up observado e o ideal (=p)A utilização total efectiva dos processadores resultaria numa eficiencia de 100%</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

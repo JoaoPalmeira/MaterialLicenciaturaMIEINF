@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ run()
+comment1.params=a
+comment1.target=HelloRunnable3(int)
+comment2.params=b
+comment2.target=void\ set(int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

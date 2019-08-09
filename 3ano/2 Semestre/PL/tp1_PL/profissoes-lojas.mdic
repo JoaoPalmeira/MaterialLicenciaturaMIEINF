@@ -1,0 +1,234 @@
+%dom:profissões
+
+#---( Profissão : profissãoEspecífica)--------------------------------
+
+%THE<profissão : nt<profissão
+
+professor: professor do ensino superior politécnico| professor do ensino superior universitário| professor do ensino básico| professor do ensino secundário
+
+músico: acordeonista| afinador| baterista| cantor| clarinetista| concertista| contrabaixista| flautista| gaiteiro| guitarrista| harpista| organista| percussionista| pianista| saxofonista| trombonista| trompetista| violinista| violoncelista
+
+cientista: arqueólogo| astrofísico| astrónomo| biofísico| biólogo| botânico| cartógrafo| cosmólogo| egiptólogo| entomólogo| estatístico| etnólogo| físico| geneticista| matemático| microbiologista| microbiólogo| mineralogista| oceanografista| ornitólogo| paleontólogo| químico| sismólogo| sociólogo| zoólogo
+
+
+#----( loja : profissão : objecto )---------------------------------
+#
+%THE<estabelecimento comercial:tem_trabalhador<profissão:lida_com
+
+mercearia:merceeiro:
+barbearia:barbeiro:cabelo| barba
+papelaria::palel| caderno| lápis| caneta
+livraria:livreiro:livro
+quiosque::jornal
+loja de ferragens::ferramentas| pregos
+retrosaria::costura|linhas
+alfaiataria:alfaiate:fato
+pronto a vestir::roupa
+loja de informática::computador
+loja dos 300::
+café::café
+padaria:padeiro:pão
+pastelaria:pasteleiro:bolo
+restaurante:cozinheiro:almoço| jantar| comida
+super-mercado::
+alfarrabista:alfarrabista:livro
+drogaria::
+loja de electrodomésticos::electrodoméstico
+reprografia::fotocópia| cartaz
+lavandaria::roupa
+framácia:farmacêutico:remédios|medicamentos
+peixaria:peixeiro:peixe
+
+%%
+
+%THE<profissão:lida_com<profissão)
+
+aviador: avião
+maquinista: comboio
+lavadeira:roupa
+poeta:poema
+escritor:contos|livros|prosa|poesia
+professor:aluno
+motorista:carro| camionete
+mecânico:carro
+sapateiro:sapato| bota| sandália
+chapeiro:carro| tinta
+cozinheiro:comida
+farmacêutico:remédio
+médico:doente| doença
+
+actor:teatro| cinema
+actuário:
+advogado:leis| tribunal
+agente de inseminação artificial:
+agente oficial da propriedade industrial:
+ajudante técnico de farmácia: remédio
+angariador imobiliário:
+arqueólogo: escavações arqueológicas
+arquitecto: casa
+arquitecto paisagista: jardim| casa
+arquivista: arquivo
+arrais de pesca:pesca| barcos
+arrais de pesca local:pesca| barcos
+assistente de direcção de hotel: hotel
+assistente social:
+astrónomo:estrela| planeta| telescópio| cometa
+auditor financeiro: 
+bailarino:dança
+bibliotecário: livro | biblioteca
+bibliotecário-documentalista:biblioteca| livro
+biólogo:biologia | animais | plantas
+bioquímico:
+cabeleireiro:penteados| cabelo
+calista: pé| calo
+conservador-restaurador:obras de arte
+contabilista:contabilidade
+contramestre:barco
+contramestre pescador:barco
+coreógrafo:dança
+correio de turismo:
+designer:
+dietista:alimentação| dieta
+diplomata: embaixada
+director de hotel:hotel
+docente de educação especial: aluno | deficientes
+professor do ensino superior politécnico: aluno
+professor do ensino superior universitário: aluno
+economista: dinheiro
+ecónomo:
+educador de infância: criança
+electricista:electricidade| instalação eléctrica 
+empregado de bar: bebidas | café
+empregado de mesa: comida
+encenador:teatro
+enfermeiro: doente | curativo
+engenheiro aeronáutico:avião
+engenheiro agrónomo:agricultura
+engenheiro civil:construção civil| casa| ponte
+engenheiro da qualidade:
+engenheiro de electrónica: circuitos elécticos
+engenheiro de minas: mina | minério
+engenheiro de sistemas informáticos:computador| programa
+engenheiro do ambiente:
+engenheiro electrotécnico: electricidade
+engenheiro florestal:floresta | árvore
+engenheiro geográfico:
+engenheiro geógrafo:
+engenheiro informático:computador| programa
+engenheiro mecânico:motor | automóveis
+engenheiro metalúrgico:metal
+engenheiro naval:navios| barcos
+engenheiro químico:
+engenheiro silvicultor:floresta| árvore
+engenheiro técnico agrário:
+engenheiro técnico civil:
+engenheiro técnico de electrónica e telecomunicações:
+engenheiro técnico de energia e sistemas de poténcia:
+engenheiro técnico electrotécnico:
+engenheiro técnico geotécnico:
+engenheiro técnico informático:computador| programa
+engenheiro técnico mecânico:
+engenheiro técnico químico:
+enólogo:vinho
+escanção:vinho
+estatístico: 
+esteticista: depilação
+farmacêutico:farmácia| remédio| medicamento
+físico:
+fisioterapeuta: massagem| ginástica
+geógrafo: mapa
+geólogo: minerais| pedra
+gerente:
+administrador:
+director:
+gestor administrativo-financeiro:
+gestor comercial e de vendas:
+gestor de marketing:
+gestor de recursos humanos:
+gestor hoteleiro:
+governanta:
+governanta de lavandaria:
+guarda florestal: floresta| árvore | parque natural
+guia-intérprete nacional: tradução | língua
+guia-intérprete regional:
+historiador: história
+instalador de infra-estruturas de telecomunicações em edifícios:
+intérprete:tradução| língua
+jornalista:jornal| reportagem
+juiz:tribunal|julgamento| leis | sentença
+magistrado:tribunal|julgamento | leis
+manicura:unhas| mãos
+marinheiro:barco| mar
+marinheiro de embarcações salva-vidas:
+marinheiro de tráfego local:
+marinheiro maquinista: motor | barco
+marinheiro pescador:barco| pesca| mar
+massagista de estética:
+mecânico de bordo:
+dentista| médico dentista:dentes
+veterinário| médico veterinário:animais
+mestre costeiro:
+mestre costeiro pescador:
+mestre de tráfego local:
+mestre do largo pescador:
+meteorologista: clima
+motorista de embarcações salva-vidas:
+motorista de táxi|taxista:táxis
+motorista de turismo:
+motorista práctico:
+músico: música
+oceanógrafo: mar
+oficial das forças armadas:
+oficial de pilotagem da marinha mercante:
+oficial de polícia:
+oficial maquinista da marinha mercante:
+oficial rádio técnico da marinha mercante:
+operador de máquinas agrícolas: tractor
+ortoptista: pés| pernas
+ortóptico|técnico de ortóptica: olhos| óculos
+pasteleiro: bolo| pastel
+pedicura: pé
+pescador: peixe| pesca| barco
+porteiro:
+posticeiro:
+professor do ensino básico:
+professor do ensino secundário:
+projectista:
+psicólogo:
+psicólogo clínico:
+químico:
+recepcionista:
+recepcionista de turismo:
+revisor oficial de contas:
+sapador florestal: floresta| árvore
+secretário:
+sociólogo:
+solicitador:
+técnico de análises clínicas e de saúde pública:
+técnico de anatomia patológica:
+técnico de anatomia tanatológica:
+técnico de anatomia citológica:
+técnico de audiologia:
+técnico de cardiopneumalogiaa:
+técnico de de saúde ambiental:
+técnico de fala | terapeuta da fala: voz
+técnico de farmácia: remédio| medicamento
+técnico de medicina nuclear:
+técnico de neurofisiologia:
+técnico de política social:
+técnico de prótese dentária: dentes| dentadura
+técnico de radiologia: raio X| radiografia
+técnico de radioterapia:
+técnico de relações públicas:
+técnico de segurança e higiene do trabalho:
+técnico especialista:
+técnico generalista:
+técnico oficial de contas:
+técnicos da área turística:
+técnico superior especialista:
+técnico superior generalista:
+terapeuta ocupacional:
+tradutor: língua| tradução
+transferista:
+urbanista:
+

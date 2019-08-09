@@ -1,0 +1,10 @@
+Instruções condicionais 
+Instrução é executada dependendo das flags, reduzindo saltos condicionais.
+IA32 tem moves condicionais, o ARMv7 tem um campo condicional para 
+quase todas as instruções. 
+
+Os registos são escritos apenas no estágio de WRITEBACK 
+Se uma instrução tenta ler um registo antes da escrita 
+estar terminada é necessário resolver a dependência 
+Injectando  bolhas  (NOPs) no estágio de execução a  leitura pode ser adiada até ao ciclo imediatamente a seguir  à escrita 
+

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=idEquipa\ idBarco
+comment0.target=Barco\ getBarco(java.lang.String,\ java.lang.String)
+comment1.params=idEquipa\ milhas
+comment1.target=java.util.List\ getBarcos(java.lang.String,\ double)
+comment2.params=idEquipa\ idBarco
+comment2.target=void\ removeBarco(java.lang.String,\ java.lang.String)
+comment3.params=fich
+comment3.target=void\ gravaFicheiroTextoSeguraveis(java.lang.String)
+numComments=4

@@ -1,0 +1,23 @@
+digraph Colaboradores{
+   size="15,15";
+   rankdir=LR;
+   "Araújo, C." -> "Martini, R." [label="1"];
+   "Henriques, P." -> "Martini, R." [label="1"];
+   "Araújo, C." -> "Henriques, P." [label="1"];
+   "Azcurra, J." -> "Berón, M." [label="1"];
+   "Azcurra, J." -> "Henriques, P." [label="1"];
+   "Azcurra, J." -> "Pereira, M." [label="1"];
+   "Berón, M." -> "Henriques, P." [label="1"];
+   "Berón, M." -> "Pereira, M." [label="1"];
+   "Henriques, P." -> "Pereira, M." [label="1"];
+   "Berón, M." -> "Montejano, G." [label="1"];
+   "Berón, M." -> "Riesco, D." [label="1"];
+   "Berón, M." -> "Henriques, P. R." [label="1"];
+   "Berón, M." -> "Debnath, N." [label="1"];
+   "Montejano, G." -> "Riesco, D." [label="1"];
+   "Henriques, P. R." -> "Montejano, G." [label="1"];
+   "Debnath, N." -> "Montejano, G." [label="1"];
+   "Henriques, P. R." -> "Riesco, D." [label="1"];
+   "Debnath, N." -> "Riesco, D." [label="1"];
+   "Debnath, N." -> "Henriques, P. R." [label="1"];
+}

@@ -1,0 +1,391 @@
+PT futebol
+-catgra nm
+-exuso o Cristiano Ronaldo é um bom jogador de futebol.
+EN football
+FR football
+ES futbol
+DE
+CN ??
+NU 2985
+DOM desporto
+BT colectivo 
+Def
+ID manuel
+
+PT basebol  
+-catgra nm
+-exuso o basebol joga-se com um ^taco de basebol^.
+EN Baseball 
+FR base-ball
+ES
+DE
+CN 
+NU 
+DOM desporto
+BT colectivo 
+RT 
+Def
+ID manuel
+
+PT basquetebol  
+-catgra nm
+-exuso no basquetebol ganha quem meter mais ^cestos^. 
+EN basketball
+FR basket-ball
+ES baloncesto
+DE
+CN 
+NU 
+DOM desporto
+BT colectivo 
+RT 
+Def
+ID manuel
+
+PT voleibol 
+-catgra nm
+-exuso 
+EN volleyball
+FR volley-ball
+ES
+DE
+CN 
+NU 
+DOM desporto
+BT colectivo 
+RT 
+Def
+ID manuel
+
+PT andebol 
+-catgra nm
+-exuso no andebol é um desporto que se pratica com as mãos.
+EN handball
+FR handball
+ES
+DE
+CN 
+NU 
+DOM desporto
+BT colectivo 
+RT 
+Def
+ID manuel
+
+PT hoquei em patins 
+-catgra nm
+-exuso o hoquei em patins é um desporto muito praticado na Espanha e na Itália.
+EN  
+FR
+ES
+DE
+CN 
+NU 
+DOM desporto
+BT colectivo 
+RT 
+Def
+ID manuel
+
+PT pólo
+-catgra nm
+-exuso
+EN polo
+FR polo
+ES
+DE
+CN 
+NU 
+DOM desporto
+BT colectivo 
+RT 
+Def
+ID manuel
+
+PT pólo aquático 
+-catgra nm
+-exuso
+EN  
+FR polo aquatique 
+ES
+DE
+CN 
+NU 
+DOM desporto
+BT colectivo 
+RT 
+Def
+ID manuel
+
+PT hóquei
+-catgra nm
+-exuso
+EN hockey
+FR hockey
+ES
+DE
+CN 
+NU 
+DOM desporto
+BT colectivo 
+RT 
+Def
+ID manuel
+
+PT remo 
+-catgra nm
+-exuso
+EN rowing 
+FR
+ES
+DE
+CN 
+NU 
+DOM desporto
+BT náutico e aquático 
+RT 
+Def
+ID manuel
+
+PT futsal 
+-catgra nm
+-exuso
+£EN futsal 
+£FR futsa 
+ES
+DE
+CN 
+NU 
+DOM desporto
+BT colectivo 
+RT 
+Def
+ID manuel
+
+PT vela  
+-catgra nf
+-exuso
+EN sailing 
+FR voile 
+ES
+DE
+CN 
+NU 
+DOM desporto
+BT náutico e aquático 
+RT 
+Def
+ID manuel
+
+PT voleibol de praia 
+-catgra nm
+-exuso
+EN  
+FR
+ES
+DE
+CN 
+NU 
+DOM desporto
+BT colectivo 
+RT 
+Def
+ID manuel
+
+PT canoagem 
+-catgra nf
+-exuso
+EN  
+FR 
+ES
+DE
+CN 
+NU 
+DOM desporto
+BT colectivo 
+RT 
+Def
+ID manuel
+
+PT ténis 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT ténis de mesa 
+PT ping-pong
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel  
+
+PT hóquei no gelo 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT badminton 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT criquete 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT futebol de sete 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT futebol americano 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT futebol de praia 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT futvolei 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT lacrosse 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT malha 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT corta-mato 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 
+
+PT petanca 
+-catgra
+-exuso
+EN
+FR
+ES
+DE
+CN
+NU
+DOM desporto
+BT
+Def
+ID manuel 

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>Static Multiple Issue 
+
+O compilador agrupa em pacotes as instrucoes que serao lancadas (issue) em  cada ciclo do relogio 
+Estes pacotes de instrucoes concatenadas podem ser vistos como uma unica instrucao com multiplas operacoes: VLIW – Very Long Instruction Word 
+Uma VLIW comporta tantas instrucoes quantos os pipelines disponiveis 
+O compilador e responsavel por:  – garantir que nao ha dependencias dentro de uma VLIW 
+– que as instrucoes integradas numa VLIW podem ser executadas pelas unidades funcionais 
+– resolver dependencias de controlo ou dependencias de dados entre diferentes VLIW 
+
+Loop Unrolling 
+Consiste em fazer multiplas copias do corpo de um ciclo (normalmente feito pelo compilador) 
+O seu efeito no desempenho nem sempre e positivo 
+Contribui para: 
+		•  disponibilizar mais instrucoes independentes para aumentar o ILP, e consequentemente reduzir o CPI  •  reduzir o numero de instrucoes executadas
+
+Dynamic Multiple Issue: SuperEscalaridade 
+SuperEscalaridade: o processador selecciona dinamicamente, em tempo de execução, quais as instruções a executar em cada pipeline (unidade funcional) 
+Diminui a dependencia da compilacão, relativamente à abordagem estatica, pois e o hardware que seleccionas as instrucoes de acordo com a sua propria organizacao 
+
+SuperEscalaridade: 
+
+- static in-order scheduling 
+static in-order scheduling: instrucoes seleccionadas na ordem com que aparecem no programa, baseado na disponibilidade dos operandos e de unidades funcionais apropriadas 
+
+- dynamic out-of-order scheduling 
+dynamic out-of-order scheduling: as instrucoes sao reordenadas pelo processador para maximizar o CPI, garantindo a correcta execucao do programa </string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

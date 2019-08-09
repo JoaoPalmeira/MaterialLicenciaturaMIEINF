@@ -1,0 +1,20 @@
+        pushi 0 //reserva espaço na memória para 'a' e 'b'
+        pushi 0
+start
+        pushs "introduza um numero inteiro:"
+        writes
+        read
+        atoi
+        storeg 0
+        pushs "introduza um numero inteiro:"
+        writes
+        read
+        atoi
+        storeg 1
+        pushs "A soma e: "
+        writes
+        pushg 0  // calcula a+b
+        pushg 1
+        add
+        writei
+stop

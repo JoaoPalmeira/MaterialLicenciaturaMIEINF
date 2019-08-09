@@ -1,0 +1,461 @@
+PT   corrida de meio-fundo
+-catgra
+-exuso
+EN   midle-distance race
+FR
+ES
+DE
+CN   ???
+NU   6298
+Dom  Atletismo
+BT Desporto
+Def corrida que se caracteriza por um percurso de razoável distância, em função da qual o corredor deve aliar técnica e rapidez na recuperação do condicionamento físico
+ID Ana Rita Sá
+
+PT   sprint
+-catgra substantivo masculino
+-exuso
+EN   sprint
+FR
+ES
+DE
+CN   ?? (??:dash)
+NU   6300
+Dom  Atletismo
+BT Desporto
+Def	maior velocidade possível atingida por um corredor em dado momento de uma corrida, esp. no final; embalo
+ID Ana Rita Sá
+
+PT   400 metros barreiras
+-catgra
+-exuso
+EN   the 400 metre hurdles
+FR
+ES
+DE
+CN   400??
+NU   6301
+Dom  Atletismo
+BT Desporto
+Def
+ID Ana Rita Sá
+
+PT   maratona
+-catgra substantivo feminino
+-exuso
+EN   marathon
+FR
+ES
+DE
+CN   ???
+NU   6302
+Dom  Atletismo
+BT Desporto
+Def prova de corrida a pé, de longo percurso (cerca de 42 km)
+ID Ana Rita Sá
+
+PT   decatlo
+-catgra substantivo masculino 
+-exuso
+EN   decathlon
+FR
+ES
+DE
+CN   ??
+NU   6303
+Dom  Atletismo
+BT Desporto
+Def conjunto de dez provas atléticas que tem por objetivo conhecer o decatleta, o atleta mais completo prova mista constituída de dez etapas, realizadas cinco de cada vez em dois dias [Consiste em corrida de 100 m, salto em distância, lançamento de peso, salto em altura, corrida de 400 m, corrida de 110 m com barreiras, lançamento de disco, salto em altura com vara, lançamento de dardo e corrida de 1.500 m.]
+ID Ana Rita Sá
+
+PT   corta-mato
+-catgra  substantivo masculino 
+-exuso
+EN   cross-country race
+FR
+ES
+DE
+CN   ???
+NU   6304
+Dom  Atletismo
+BT Desporto
+Def corrida de atletismo, ciclismo ou esqui que não tem lugar em pista tradicional, ou estrada, mas sim em um terreno rural de obstáculos naturais
+ID Ana Rita Sá
+
+PT   salto
+-catgra
+-exuso
+EN   jumping
+FR
+ES
+DE
+CN   ????
+NU   6306
+Dom  Atletismo
+BT Desporto
+Def
+ID Ana Rita Sá
+
+PT   salto em altura
+-catgra substantivo masculino 
+-exuso
+EN   high jump
+FR
+ES
+DE
+CN   ??
+NU   6307
+Dom  Atletismo
+BT Desporto
+Def prova em que o atleta parte correndo para tomar impulso e saltar sobre uma barra horizontal, leve e não fixa, apoiada em dois suportes graduados
+ID Ana Rita Sá
+
+PT   salto em comprimento
+-catgra substantivo masculino
+-exuso
+EN   long jump
+FR
+ES
+DE
+CN   ?? (??:broad jump)
+NU   6308
+Dom  Atletismo
+BT Desporto
+Def prova em que o atleta toma impulso a partir de uma tábua de madeira maciça, arma o salto e cai numa caixa de areia situada logo após a tábua; salto em comprimento
+ID Ana Rita Sá
+
+PT   triplo salto
+-catgra substantivo masculino
+-exuso
+EN   triple jump, hop step and jump
+FR
+ES
+DE
+CN   ???
+NU   6309
+Dom  Atletismo
+BT Desporto
+Def prova com regras semelhantes às do salto em distância, na qual o atleta cumpre três etapas: um salto antes da linha limite, caindo com o mesmo pé do impulso, um segundo salto para cair sobre o outro pé, e um terceiro no qual ele cai com os dois pés na caixa de areia; triplo salto
+ID Ana Rita Sá
+
+PT   salto com vara
+-catgra substantivo masculino
+-exuso
+EN   pole vault
+FR
+ES
+DE
+CN   ???
+NU   6310
+Dom  Atletismo
+BT Desporto
+Def salto em que o ginasta usa uma peça de madeira como acessório de equilíbrio
+ID Ana Rita Sá
+
+PT   lançamento
+-catgra substantivo masculino
+-exuso  
+EN   throw
+FR
+ES
+DE
+CN   ??
+NU   6311
+Dom  Atletismo
+BT Desporto
+Def arremesso; jogada, passe
+ID Ana Rita Sá
+
+PT   arremesso
+-catgra
+-exuso
+EN   throwing
+FR
+ES
+DE
+CN   ????
+NU   6312
+Dom  Atletismo
+BT Desporto
+Def
+ID Ana Rita Sá
+
+PT   arremesso do peso
+-catgra substantivo masculino
+-exuso
+EN   putting the shot, shot put
+FR
+ES
+DE
+CN   ???
+NU   6313
+Dom  Atletismo
+BT Desporto
+Def em atletismo, lançamento de uma esfera metálica de arremesso
+ID Ana Rita Sá
+
+PT   lançamento do disco
+-catgra subsatntivo masculino
+-exuso
+EN   throwing the discus
+FR
+ES
+DE
+CN   ???
+NU   6314
+Dom  Atletismo
+BT Desporto
+Def peça circular de madeira com a borda de metal, pesando 1,972 kg, que os atletas arremessam em competições desportivas modernas
+ID Ana Rita Sá
+
+PT   arremesso do martelo
+-catgra substantivo masculino
+-exuso
+EN   throwing the hammer
+FR
+ES
+DE
+CN   ???
+NU   6315
+Dom  Atletismo
+BT Desporto
+Def bola de metal com pouco mais de sete quilos, munida de um fio de aço ou cabo de madeira por meio do qual é empunhada e atirada a distância em competições de atletismo
+ID Ana Rita Sá
+
+PT   lançamento do dardo
+-catgra substantivo masculino
+-exuso
+EN   throwing the javelin
+FR
+ES
+DE
+CN   ???
+NU   6316
+Dom  Atletismo
+BT Desporto
+Def  lançamento da haste semelhante à arma, us. em provas de arremesso a distância
+ID Ana Rita Sá
+
+PT   marcha
+-catgra substantivo feminino
+-exuso
+EN   walk
+FR
+ES
+DE
+CN   ??
+NU   6317
+Dom  Atletismo
+BT Desporto
+Def exercício regulamentado para efeitos de competição e que consiste na progressão do atleta executada passo a passo, mantendo-se ininterrupto o contato com o solo, na medida em que um pé não se levanta antes de o outro ter-se apoiado no chão
+ID Ana Rita Sá
+
+PT 100 metros 
+-catgr
+-exuso
+EN the 100 metre
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 100 metros barreiras 
+-catgr
+-exuso
+EN the 100 metre hurdles 
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 200 metros 
+-catgr
+-exuso
+EN the 200 metre 
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 400 metros 
+-catgr
+-exuso
+EN the 400 metre
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT   maratona
+-catgra substantivo feminino
+-exuso
+EN   marathon
+FR
+ES
+DE
+CN   ???
+NU   6302
+Dom desporto 
+BT
+Def 
+ID manuel
+
+PT  800 metros
+-catgr
+-exuso
+EN the 800 metre
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 1500 metros 
+-catgr
+-exuso
+EN the 1500 metre
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 3000 metros obstáculos 
+-catgr
+-exuso
+EN the 3000 metre steeplechase
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 5000 metros 
+-catgr
+-exuso
+EN the 5000 metre
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 4 x 400 metros  
+-catgr
+-exuso
+EN 4 x 400 relay 
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 110 metros barreiras 
+-catgr
+-exuso
+EN
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 10000 metros    
+-catgr
+-exuso
+EN
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT 4x100 metros 
+-catgr
+-exuso
+EN
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT heptatlo 
+-catgr
+-exuso
+EN
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel
+
+PT meia-maratona 
+-catgr
+-exuso
+EN
+FR
+ES
+DE
+CN   
+NU   
+DOM desporto 
+BT
+Def
+ID manuel

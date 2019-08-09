@@ -1,0 +1,6 @@
+/ Vai dar erro:
+$| ls
+/ Agora podemos ordenar estes ficheiros:
+$1 | sort
+/ Vai dar erro:
+$3 | head -1

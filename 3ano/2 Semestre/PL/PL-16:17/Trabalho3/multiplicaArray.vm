@@ -1,0 +1,76 @@
+        pushi 0                 // i = 0
+        pushn 5
+start
+ciclo1:
+        pushgp                  // ler( a[i] )
+        pushi 1
+        padd
+        pushg 0
+        pushs "introduza um numero inteiro:"
+        writes
+        read
+        atoi
+        storen
+
+        pushg 0                 // i = i + 1
+        pushi 1
+        add
+        storeg 0
+
+        pushg 0                 // enq (a != 5)
+        pushi 5
+        equal
+        jz ciclo1
+
+    pushi 0                     // i = 0
+    storeg 0
+ciclo2:
+        pushgp                  // a[i] = a[i] * 2
+        pushi 1
+        padd
+        pushg 0
+        pushgp
+        pushi 1
+        padd
+        pushg 0
+        loadn
+        pushi 2
+        mul
+        storen
+
+        pushg 0                 // i = i + 1
+        pushi 1
+        add
+        storeg 0
+
+        pushg 0                 // enq (a != 5)
+        pushi 5
+        equal
+        jz ciclo2
+
+        pushi 0                 // i = 0
+        storeg 0
+ciclo3:
+        pushgp                  // escreve( a[i] )
+        pushi 1
+        padd
+        pushg 0
+        loadn
+        writei
+        pushs " "
+        writes
+
+        pushg 0                 // i = i + 1
+        pushi 1
+        add
+        storeg 0
+
+        pushg 0                 // enq (a != 5)
+        pushi 5
+        equal
+        jz ciclo3
+
+fim:
+        pushs "That´s the end folks!!!"
+        writes
+        stop

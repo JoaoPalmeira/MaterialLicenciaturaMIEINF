@@ -1,0 +1,18 @@
+Encadeamento: Exemplo 
+comb logica :100ps
+reg:20 ps
+
+Dividir lógica combinatória em 3 estágios de 100 ps cad
+Nova instrução começa logo que a anterior termina o primeiro estágio:   Ciclo >= 120 ps
+Latência = no estágios * ciclo = 3 * 120 = 360 ps 
+Débito = 1/120EJ12 = 8.33 GOPS 
+
+Desempenho 
+Arquitectura sequencial (1 único estágio) -> CPI = 1 
+Numa arquitectura com pipeline (e assumindo por enquanto um  programa com um elevado número de instruções (#I > #estágios), todas  independentes umas das outras), qual o CPI? 
+CPI = 1 (em cada ciclo termina 1 instrução)  
+Texec =CPI*#I/f
+Onde se ganha com o pipeline? 
+O período do relógio (Tcc) pode ser menor do que na arquitectura 
+sequencial (ciclo único), logo a frequência do relógio aumenta 
+Veremos posteriormente que as arquitecturas encadeadas implicam  um aumento do CPI (>1 , para máquinas com um único pipeline) 

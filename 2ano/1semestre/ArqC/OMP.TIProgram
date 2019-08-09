@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>- Os dados podem ser partilhados ou privados 
+- Dados partilhados sao acessiveis a todas as threads 
+- Dados privados sao acessiveis apenas a thread que os possui
+- Por defeito os dados sao partilhados 
+- As variaveis globais a um bloco paralelo sao partilhadas  - Variaveis privadas: - declaradas dentro de um bloco paralelo 
+- explicitamente marcadas como privadas 
+- indices de alguns ciclos for
+
+- diretiva parallel
+- diretiva for
+- diretiva for-collapse: collapse(n) aplica-se a ciclos for aninhados, aumentando 
+o numero de iteracoes disponiveis para execucao paralela
+- diretiva parallel-if: clausula if (condicao) - se condicao != 0 então o grupo de threads e criado 
+- se condicao == 0 então execucao sequencial
+- diretiva single:
+- Apenas a primeira thread a atingir o bloco single o executa 
+- Todas as threads sincronizam no fim do bloco (barreira implicita)
+- controlo de acessos a dados partilhados:
+- race conditions: o resultado depende da ordem de acesso a dados partilhados
+- directiva critical: apenas uma thread executa esse bloco em cada instante.
+- directiva atomic: garante que um endereco de memoria e acedido de forma 
+atomica. Pode ser vista como uma versão leve de critical. So se aplica a operacoes simples e ao lado esquerdo da atribuicao. Nao garante que o lado direito da atribuicao e avaliado de forma atomica. 
+int x=0;</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

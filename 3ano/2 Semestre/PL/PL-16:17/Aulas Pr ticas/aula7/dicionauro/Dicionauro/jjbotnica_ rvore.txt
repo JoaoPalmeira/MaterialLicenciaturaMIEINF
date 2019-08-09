@@ -1,0 +1,1034 @@
+﻿PT pinheiro
+-catgra
+-exuso
+EN pine
+FR pin
+ES pino
+DE kiefer
+CN 松
+NU 4602
+Dom botânica
+BT
+PART pinha 
+Def 
+ID manuel
+
+PT cedro
+-catgra
+-exuso
+EN cerdar
+FR cèdre
+ES cedro
+DE zeder
+CN 雪松类
+NU 4603
+Dom botânica
+BT
+Def
+ID manuel
+
+PT larício
+-catgra
+-exuso
+EN larch
+FR
+ES alerce
+DE
+CN   落叶松
+NU   4604
+Dom botânica
+BT
+Def
+ID manuel
+
+PT zimbro
+-catgra
+-exuso
+EN juniper
+FR genévrier
+ES enebro 
+DE wacholder
+CN   杜松
+NU   4605
+Dom botânica
+BT
+Def
+ID manuel
+
+PT estróbilo
+-catgra
+-exuso
+EN cone
+FR
+ES
+DE
+CN   松果
+NU   4606
+Dom botânica
+BT
+Def
+ID manuel
+
+PT cipreste
+-catgra
+-exuso
+EN cypress
+FR cyprès
+ES ciprés
+DE zypress
+CN   柏树
+NU   4607
+Dom botânica
+BT
+Def
+ID manuel
+
+PT bambu
+-catgra
+-exuso
+EN bamboo
+FR
+ES bambú
+DE bambus
+CN   竹
+NU   4608
+Dom botânica
+BT
+Def
+ID manuel
+
+PT buxo
+-catgra
+-exuso
+EN box
+FR
+ES
+DE buchsbaum
+CN   黄杨
+NU   4609
+Dom botânica
+BT
+Def
+ID manuel
+
+PT choupo
+PT álamo
+-catgra
+-exuso
+EN poplar
+FR peuplier 
+ES chopo
+ES álamo
+DE pappeln
+CN   白杨
+NU   4610
+Dom botânica
+BT
+Def
+ID manuel
+
+PT algodoeiro
+-catgra
+-exuso
+EN cottonwood
+FR cotonnier
+ES
+DE
+CN   三角叶杨
+NU   4611
+Dom botânica
+BT
+Def
+ID manuel
+
+PT vimeiro
+-catgra
+-exuso
+EN osier
+FR osier 
+ES
+DE weide
+CN   紫皮柳树
+NU   4612
+Dom botânica
+BT
+Def
+ID manuel
+
+PT salgueiro
+-catgra
+-exuso
+EN willow
+FR saule
+ES sauce
+DE weide
+CN 垂柳
+NU 4613
+Dom botânica
+BT
+Def
+ID manuel
+
+PT bétula
+-catgra
+-exuso
+EN birch
+FR bouleau 
+ES abedul
+DE birke
+CN   白桦
+NU   4614
+Dom botânica
+BT
+Def
+ID manuel
+
+PT ácer
+-catgra
+-exuso
+EN maple
+FR érable
+ES arce
+DE ahorn
+CN   枫树
+NU   4615
+Dom botânica
+BT
+Def
+ID manuel
+
+PT sequóia
+-catgra
+-exuso
+EN sequoia
+FR
+ES
+DE
+CN   红杉
+NU   4616
+Dom botânica
+BT
+Def
+ID manuel
+
+PT abeto
+-catgra
+-exuso
+EN fir
+FR sapin
+ES abeto
+DE tanne
+CN   冷杉
+NU   4617
+Dom botânica
+BT
+Def
+ID manuel
+
+!PT cicuta espruce
+-catgra
+-exuso
+EN hemlock spruce
+FR
+ES
+DE
+CN   铁杉
+NU   4618
+Dom botânica
+BT
+Def
+ID manuel
+
+PT espruce
+-catgra
+-exuso
+EN spruce
+FR
+ES
+DE
+CN   云杉
+NU   4619
+Dom botânica
+BT
+Def
+ID manuel
+
+PT teixo
+-catgra
+-exuso
+EN yew
+FR
+ES tejo
+DE
+CN   紫杉
+NU   4620
+Dom botânica
+BT
+Def
+ID manuel
+
+PT eucalipto
+-catgra
+-exuso
+EN eucalytus
+FR eucalyptus
+ES eucaliptus
+DE eukalyptus
+CN   桉树
+NU   4621
+Dom botânica
+BT
+Def
+ID manuel
+
+PT locusta
+-catgra
+-exuso
+EN locust
+FR 
+ES 
+DE wanderheuschrecke 
+CN   洋槐
+NU   4622
+Dom botânica
+BT
+Def
+ID manuel
+
+PT mimosa
+-catgra
+-exuso
+EN wattle
+FR mimosa
+ES acacia 
+DE mimose
+CN 金合欢树
+NU 4623
+Dom botânica
+BT
+Def
+ID manuel
+
+PT cânfora
+-catgra
+-exuso
+EN camphor tree
+FR
+ES
+DE kampfer
+CN   樟树
+NU   4624
+Dom botânica
+BT
+Def
+ID manuel
+
+PT pau-rosa
+-catgra
+-exuso
+EN rosewood
+FR
+ES
+DE
+CN   紫檀
+NU   4625
+Dom botânica
+BT
+Def
+ID manuel
+
+PT ébano
+-catgra
+-exuso
+EN ebony
+FR ébène
+ES ébano
+DE ebenholz
+CN   乌檀
+NU   4626
+Dom botânica
+BT
+Def
+ID manuel
+
+#PT madeira de sândalo
+-catgra
+-exuso
+EN sandalwood
+FR
+ES
+DE
+CN   檀香木
+NU   4627
+Dom botânica
+BT
+Def
+ID manuel
+
+PT pau-cetim
+-catgra
+-exuso
+EN satinwood
+FR
+ES
+DE
+CN   椴木
+NU   4628
+Dom botânica
+BT
+Def
+ID manuel
+
+PT tília
+-catgra
+-exuso
+EN linden
+FR tilia
+ES tilo
+DE linde
+DE lindenbaum 
+CN   椴树
+NU   4629
+Dom botânica
+BT
+Def
+ID manuel
+
+PT sorveira-brava
+-catgra
+-exuso
+EN rowan
+FR sorbier
+ES sorbus
+DE mehlbeere
+CN   欧洲山梨
+NU   4630
+Dom botânica
+BT
+Def
+ID manuel
+
+PT teca
+-catgra
+-exuso
+EN teak
+FR
+ES
+DE aktentasche 
+CN   柚木树
+NU   4631
+Dom botânica
+BT
+Def
+ID manuel
+
+PT olmo
+-catgra
+-exuso
+EN elm
+FR
+ES
+DE ulme
+DE rüster
+CN   榆木树
+NU   4632
+Dom botânica
+BT
+Def
+ID manuel
+
+PT carvalho
+-catgra
+-exuso
+EN oak
+FR
+ES
+DE eiche
+CN   橡树
+NU   4633
+Dom botânica
+BT
+Def
+ID manuel
+
+PT bolota
+-catgra
+-exuso
+EN acorn
+FR
+ES
+DE eichel
+CN   橡树果
+NU   4634
+Dom árvore
+BT    
+Def
+ID manuel
+
+PT sicómoro
+-catgra
+-exuso
+EN sycamore
+FR
+ES
+DE
+CN   美国梧桐
+NU   4635
+Dom botânica
+BT
+Def
+ID manuel
+
+PT ginkgo
+-catgra
+-exuso
+EN ginkgo
+FR
+ES
+DE
+CN   银杏树
+NU   4636
+Dom botânica
+BT
+Def
+ID manuel
+
+PT azevinho
+-catgra
+-exuso
+EN holly
+FR
+ES
+DE stechpalme
+CN   冬青
+NU   4637
+Dom botânica
+BT
+Def
+ID manuel
+
+PT coqueiro
+-catgra
+-exuso
+EN coco
+FR
+ES
+DE kokospalme
+CN   椰树
+NU   4638
+Dom botânica
+BT
+Def
+ID manuel
+
+PT tâmareiro
+-catgra
+-exuso
+£EN date
+FR
+ES
+DE
+CN   枣椰树
+NU   4639
+Dom botânica
+BT
+Def
+ID manuel
+
+!PT nogueira amarga
+-catgra
+-exuso
+EN hickory
+FR
+ES
+DE
+CN   山核桃树
+NU   4640
+Dom botânica
+BT
+Def
+ID manuel
+
+PT plátano
+-catgra
+-exuso
+EN plane tree
+FR
+ES
+DE
+CN   悬铃树
+NU   4641
+Dom botânica
+BT
+Def
+ID manuel
+
+PT faia
+-catgra
+-exuso
+EN beech
+FR
+ES
+DE buche
+CN   山毛榉
+NU   4642
+Dom botânica
+BT
+Def
+ID manuel
+
+PT castanheiro-da-índia
+-catgra
+-exuso
+EN horse chestnut
+FR
+ES
+DE
+CN   七叶树
+NU   4643
+Dom botânica
+BT
+Def
+ID manuel
+
+PT espinheiro negro
+-catgra
+-exuso
+EN blackthorn
+FR
+ES
+DE
+CN   黑刺李
+NU   4644
+Dom botânica
+BT
+Def
+ID manuel
+
+PT embondeiro
+-catgra
+-exuso
+EN baobab
+FR
+ES
+DE
+CN   猴面包树
+NU   4645
+Dom botânica
+BT
+Def
+ID manuel
+
+PT sabugueiro
+-catgra
+-exuso
+EN   elder
+FR
+ES
+DE
+CN   接骨木
+NU   4646
+Dom botânica
+BT
+Def
+ID manuel
+
+PT mirto
+PT murta
+PT murteira
+PT murtinheira
+-catgra
+-exuso
+EN myrtle
+FR
+ES
+DE myrte
+CN   桃金娘科植物
+NU   4647
+Dom botânica
+BT
+Def
+ID manuel
+
+PT cica
+-catgra
+-exuso
+EN cycad
+FR
+ES
+DE cycas
+CN   苏铁
+NU   4648
+Dom botânica
+BT
+Def
+ID manuel
+
+PT óleo de palma
+-catgra
+-exuso
+EN oil palm
+FR
+ES
+DE
+CN   油棕榈树
+NU   4649
+Dom botânica
+BT
+Def
+ID manuel
+
+PT copa da árvore
+-catgra
+-exuso
+EN treetop
+FR
+ES
+DE
+CN   树梢
+NU   4650
+Dom botânica
+BT
+POF árvore
+Def
+ID manuel
+
+PT ramo
+-catgra
+-exuso
+EN branch
+FR
+ES
+DE
+CN   树枝
+NU   4651
+Dom botânica
+BT
+POF árvore
+Def
+ID manuel
+
+PT rebento
+-catgra
+-exuso
+EN twig
+FR
+ES
+DE
+CN   小树枝
+NU   4652
+Dom botânica
+BT
+POF árvore
+Def
+ID manuel
+
+PT galho
+-catgra
+-exuso
+EN bough
+FR
+ES
+DE
+CN   大树枝
+NU   4653
+Dom botânica
+BT
+POF árvore
+Def
+ID manuel
+
+PT nó
+-catgra
+-exuso
+EN knot
+FR
+ES
+DE
+CN   树节
+NU   4654
+Dom botânica
+BT
+POF árvore
+Def
+ID manuel
+
+PT tronco
+-catgra
+-exuso
+EN trunk
+FR
+ES
+DE
+CN   树干
+NU   4655
+Dom botânica
+BT
+POF árvore
+Def
+ID manuel
+
+PT fruto 
+-catgra nm
+-exuso a maçã é o fruto da macieira.
+-exuso a ^bolota^ é o fruto do carvalho e não serve para nós comermos. 
+AUDPT N
+EN fruit
+AUDEN N  
+FR fruit
+AUDFR N 
+ES fruto
+AUDES N 
+DE frucht
+AUDDE N 
+CN
+NU
+DOM botânica 
+BT 
+UP comer 
+NT maçã 
+NT pêra 
+NT uva 
+NT castanha 
+NT pêssego 
+NT marmelo 
+NT nêspera 
+NT damasco 
+NT cereja 
+NT ameixa 
+NT amora 
+NT framboesa 
+NT groselha 
+NT morango 
+NT kiwi 
+NT melão 
+NT melancia 
+NT figo 
+NT azeitona
+NT tâmara 
+NT cidra 
+NT laranja 
+NT lima 
+NT limão 
+NT tangerina 
+NT toranja 
+NT abacate 
+NT caqui 
+NT goiaba 
+NT maracujá 
+NT ananás
+NT amêndoa 
+NT banana 
+NT caju
+NT coco 
+NT mamão 
+NT manga 
+NT papaia 
+NT bolota
+POF árvore
+Def cresce nas árvores ou em outras plantas e serve para se comer; é nele que estão as ^sementes^.
+IMG
+GI 3
+IM 4
+ID manuel
+
+PT folha 
+-catgra nf
+-exuso as folhas das árvores caem durante o Outono.
+AUDPT
+EN leaf 
+AUDEN
+FR feuille
+AUDFR
+ES hoja
+AUDES
+DE blatt
+AUDDE
+CN   树叶
+NU   4656
+DOM botânica
+BT
+POF árvore
+Def
+IMG
+GI
+IM
+ID manuel 
+
+PT botão
+-catgra
+-exuso
+EN sprout
+FR
+ES
+DE knospe
+CN   新芽
+NU   4657
+Dom botânica
+BT
+POF árvore
+Def
+ID manuel
+
+PT árvore jovem
+-catgra
+-exuso
+EN sapling
+FR
+ES
+DE
+CN   树苗
+NU   4658
+Dom botânica
+BT
+Def
+ID manuel
+
+PT toco
+PT cepo
+-catgra
+-exuso
+EN stump
+FR
+ES
+DE holzscheit
+DE klotz
+DE scheit
+CN   树桩
+NU   4659
+Dom botânica
+BT
+POF árvore
+Def
+ID manuel
+
+PT raíz
+-catgra
+-exuso
+EN root
+FR
+ES
+DE wurzel
+CN   树根
+NU   4660
+Dom botânica
+BT
+POF árvore
+Def
+ID manuel
+
+PT pêlo radicular
+-catgra
+-exuso
+EN root hair
+FR
+ES
+DE
+CN   根毛
+NU   4661
+Dom botânica
+BT
+POF árvore
+Def
+ID manuel
+
+PT raiz mestra
+-catgra
+-exuso
+EN taproot
+FR
+ES
+DE
+CN   主根
+NU   4662
+Dom botânica
+BT
+Def
+ID manuel
+
+PT cortiça
+-catgra
+-exuso
+EN bark
+FR
+ES 
+DE kork
+CN   树皮
+NU   4663
+Dom botânica
+BT 
+Def
+IMG n
+GI
+IM
+ID manuel
+
+PT resina
+-catgra
+-exuso
+EN resin
+FR
+ES
+DE harz
+CN   树脂
+NU   4664
+Dom botânica
+BT
+Def
+ID manuel
+
+PT medula
+-catgra
+-exuso
+EN pith
+FR
+ES
+DE 
+CN   木髓
+NU   4665
+Dom botânica
+BT
+Def
+ID manuel
+
+#PT câmbio
+-catgra
+-exuso
+EN cambium
+FR
+ES
+DE
+CN   形成层
+NU   4666
+Dom botânica
+BT
+Def
+ID manuel
+
+PT anel
+-catgra
+-exuso
+EN ring
+FR
+ES
+DE
+CN   年轮
+NU   4667
+Dom botânica
+BT
+Def
+ID manuel
+
+PT madeira
+-catgra
+-exuso
+EN wood
+FR
+ES
+DE holz
+CN   木材
+NU   4668
+Dom botânica
+BT
+Def
+ID manuel

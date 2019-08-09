@@ -1,0 +1,4 @@
+$ ls -l
+$| grep b
+$| sort -r
+$2| wc -l

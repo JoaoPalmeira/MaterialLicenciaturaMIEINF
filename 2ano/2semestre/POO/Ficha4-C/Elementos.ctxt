@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=txt\ prox
+comment0.target=Elementos(java.lang.String,\ Elementos)
+comment1.params=txt
+comment1.target=Elementos(java.lang.String)
+comment10.params=
+comment10.target=java.lang.String\ toStringElem()
+comment2.params=
+comment2.target=Elementos()
+comment3.params=e2
+comment3.target=Elementos(Elementos)
+comment4.params=
+comment4.target=java.lang.String\ getTexto()
+comment5.params=
+comment5.target=Elementos\ getProximo()
+comment6.params=txt
+comment6.target=void\ setTexto(java.lang.String)
+comment7.params=prox
+comment7.target=void\ setProximo(Elementos)
+comment8.params=
+comment8.target=Elementos\ clone()
+comment9.params=o
+comment9.target=boolean\ equals(java.lang.Object)
+numComments=11

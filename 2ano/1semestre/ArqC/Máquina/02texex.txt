@@ -1,0 +1,46 @@
+Diferentes tipos de instruções exibem diferentes CPI:
+CPI divisões > CPI adições
+CPI acessos à memória > CPI acessos a registos
+CPI operações vírgula flutuante >= CPI operações
+ inteiras
+
+TEXEC = # clock cycles * Tcc
+
+A mesma instrução pode requerer um número de ciclos diferente para diferentes estados da máquina
+CPI é um valor médio
+Pode ser medido com diferentes precisões.
+
+Previsão do tempo de execução (TEXEC) de um -
+programa numa máquina - requer um modelo que relacione o desempenho com as características do sistema de computação (hw+sw)
+
+Um programa numa máquina executa num determinado número médio de ciclos de relógio: cc
+O período do relógio do CPU é a constante= Tcc
+
+
+#I – depende do algoritmo, do compilador e da arquitectura (ISA)
+CPI – depende da arquitectura (ISA), da mistura de instruções efectivamente utilizadas, da organização do processador e da organização dos restantes componentes do sistema (ex., memória)
+f – depende da organização do processador e da tecnologia utilizada
+AC - Avaliação do Desempe
+“A única métrica completa e fiável para avaliar o desempenho de um computador é o tempo de execução”
+As métricas CPI, f e #I não podem ser avaliadas isoladamente, devendo ser sempre consideradas em conjunto, pois dependem umas das outra
+
+MIPS especifica a taxa de execução das instruções, mas não considera o trabalho feito por cada instrução. CPUs com diferentes instruction sets não podem ser comparados.
+MIPS varia entre diferentes programas no mesmo CPU MIPS pode variar inversamente com o desempenho
+
+Esta métrica favorece programas com muitas instruções simples e rápidas, pois não tem em consideração a quantidade de trabalho feita por cada uma.
+
+
+
+Exemplo 1 : Aumentar f (diminuir Tcc) implica frequentemente um aumento do CPI!
+Explicação: Se Tcc diminui, mas o tempo de acesso à memória (Tmem) se mantém, são necessários mais ciclos para aceder à a memória.
+
+Conclusão: Apesar de Tcc diminuir para metade, Texec não diminui para metade, pois o número de ciclos de acesso à memória aumenta
+
+
+Exemplo 2 : Diminuir o número de instruções (#I) recorrendo a instruções mais complexas resulta num aumento do CPI!
+Explicação: As instruções mais complexas realizam o trabalho de várias instruções simples, mas podem necessitar de mais ciclos para o completar, resultando num aumento do CPI.
+Este é um dos argumentos dos defensores de arquitecturas RISC.
+
+
+Conclusão: O número de instruções diminui, mas o ganho em tempo de execução não diminui na mesma proporção, devido ao aumento do CPI.
+

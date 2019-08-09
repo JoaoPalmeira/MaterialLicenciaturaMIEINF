@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MotoristaNaoDisponivelException()
+comment1.params=message
+comment1.target=MotoristaNaoDisponivelException(java.lang.String)
+numComments=2

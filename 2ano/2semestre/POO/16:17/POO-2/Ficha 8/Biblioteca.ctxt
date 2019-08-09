@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=e
+comment0.target=void\ addEntrada(Entrada)
+comment1.params=idEntrada
+comment1.target=Entrada\ getEntrada(java.lang.String)
+comment2.params=ator
+comment2.target=java.util.Map\ getEntradas(java.lang.String)
+comment3.params=fich
+comment3.target=void\ gravaObj(java.lang.String)
+comment4.params=fich
+comment4.target=Biblioteca\ leObj(java.lang.String)
+numComments=5

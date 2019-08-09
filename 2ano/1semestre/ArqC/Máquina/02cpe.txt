@@ -1,0 +1,10 @@
+As métricas CPI e MIPS dependem do número de instruções
+máquina efectivamente executadas
+Um programador de uma linguagem de alto nível necessita de métricas mais próximas do problema que se pretende resolver
+CPE – Ciclos Por Elemento
+“número médio de ciclos necessários para processar um
+elemento de dados”
+Ajuda a perceber o desempenho do ciclo de um programa iterativo.
+Apropriada para expressar o desempenho de um programa que realiza uma operação repetitiva sobre diferentes elementos de dados:
+
+A utilização de ciclos por elemento e não ciclos por iteração dá uma indicação do tempo necessário para processar um vector de tamanho n independentemente da implementação.

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ mainTest()
+comment0.text=\r\n\ Teste\ principal\r\n
+comment1.params=umer\ nomeFicheiro
+comment1.target=void\ guardaEstado(UMeR,\ java.lang.String)
+comment1.text=\r\n\ M\u00E9todo\ que\ guarda\ em\ ficheiro\ de\ objectos\ o\ objecto\ que\ recebe\ a\ mensagem.\r\n
+numComments=2

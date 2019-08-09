@@ -1,0 +1,69 @@
+// By XXXXX!
+
+typedef struct interlocutores{
+    int fd;
+    int terminou;
+}
+
+int main(int argc, char *argv[]){
+    struct interlocutores **comandos;
+    int fd[2];
+    int terminados = 0;
+    char c;
+    
+    comandos = malloc(sizeof(struct interlocutores) * (argc - 1));
+    for(i = 0, i< argc - 1, i++){
+        comando[i] = mallloc(sizeof(struct interlocutores));
+        comando[i]->terminou = 0;
+        	
+        pipe(fd);
+        if(fork() == 0){
+            close(fd[0]);
+            dup2(fd[1], 1);
+            execlp(argv[i], argv[i], NULL);
+            close(fd[1]);
+            exit(EXIT_FAILURE);
+        }
+        close(fd[1]);
+        comando[i]->fd = fd[0];
+    }
+    
+    i = 0;
+    while(terminados != argc - 1){
+        if (comando[i]->terminou == 1){
+            i++;
+            continue;
+        }
+        while( (x = read(comando[i]->fd, &c, 1)) == 1 ){
+            write(1, &c, 1);
+            if (c != 'o')
+                continue;
+            read(comando[i]->fd, &c, 1);
+            write(1, &c, 1);
+            if (c != 'v')
+                continue;
+            read(comando[i]->fd, &c, 1);
+            write(1, &c, 1);
+            if (c != 'e')
+                continue;
+            read(comando[i]->fd, &c, 1);
+            write(1, &c, 1);
+            if (c != 'r')
+                continue;
+            break;
+        }
+        if (x != 1)
+            comando[i]->terminou = 1;
+        i++;
+    }
+    
+    
+    for(i = 0, i < argc - 1, i++){
+        close(comando[i]->fd);
+        free(comando[i]);
+    }
+    free(comando);
+    
+    return 0;
+    
+}

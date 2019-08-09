@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=id\ milhas\ categoria\ autonomia\ listaReg\ largura
+comment0.target=BarcoRemos(java.lang.String,\ double,\ java.lang.String,\ double,\ java.util.ArrayList,\ double)
+comment1.params=b
+comment1.target=BarcoRemos(BarcoRemos)
+comment2.params=
+comment2.target=double\ getLargura()
+comment3.params=
+comment3.target=BarcoRemos\ clone()
+numComments=4

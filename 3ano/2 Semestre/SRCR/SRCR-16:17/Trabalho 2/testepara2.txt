@@ -1,0 +1,17 @@
+TESTES ex2 
+1. listing(utente).
+2. evolucao(utente(9, manuela, 21, porto)).
+3. evolucao(utente(11, manuela, 21, porto)).
+4. listing(utente).
+5. listing(atoMedico).
+6. evolucao(atoMedico(20-01-2019,9,11,23)).
+7. evolucao(atoMedico(20-01-2019,9,11,23)).
+8. involucao(cuidados(12, ortodontia, hospitalTrofa, braga)).
+9. involucao(cuidados(1,cardiologia,hospitalBraga,braga))
+10. evolucao(atoMedico(4-4-2017, 2, 1, 80)).
+11. demo(utente(10, abel, 23, braga), Resp).
+12. listing(atoMedico).
+13. demo(atoMedico(01-04-2017, 4, 7, 30), Resp).
+14. demoLista([utente(8, andre, 21, selva), utente(9, andre, 21, selva)], Resp).
+15. demoLista([utente(10, abel, 23, braga), atoMedico(14-10-2017, 2, 2, 25), 
+atoMedico(14-10-2017, 2, 2, 20), atoMedico(01-04-2017, 4, 7, 30)],Resp).

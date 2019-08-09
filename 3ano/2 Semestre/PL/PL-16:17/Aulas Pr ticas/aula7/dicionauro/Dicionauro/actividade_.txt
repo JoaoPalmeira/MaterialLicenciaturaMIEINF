@@ -1,0 +1,24 @@
+PT_PT desporto 
+PT_BR esporte 
+-catgra
+-exuso o desporto ajuda-nos a ter uma vida ^saudável^. 
+-exuso o futebol, o ciclismo e surf são desportos. 
+EN sport
+FR sport 
+ES deporte
+DE sport
+CN
+NU
+DOM 
+BT
+NT desporto colectivo
+NT desporto radical
+NT desporto individual
+NT atletismo
+NT desporto motorizado
+NT desporto náutico
+NT desporto aquático 
+NT desporto de combate
+NT desporto de Inverno  
+Def todo o ^exercício físico^ que se pode ^praticar^ para manter o corpo em forma ou para nos divertirmos
+ID manuel

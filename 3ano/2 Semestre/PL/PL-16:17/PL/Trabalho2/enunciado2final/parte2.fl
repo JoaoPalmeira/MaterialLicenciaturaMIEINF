@@ -1,0 +1,58 @@
+%option noyywrap
+%x AUTORES ACASE BCASE
+%{
+	char *nome;
+	char sobrenome[64];
+%}
+
+D           de|da|dos|do
+lm          [A-Za-z]|{acentmin}|[0-9]
+P           ([A-Z]|{acentM}){lm}+
+nome        {P}([ ]({P}|{D}))* 
+author      (AUTHOR|author)[ ]*=[ ]*
+editor      (EDITOR|editor)[ ]*=[ ]*
+acentmin    á|à|ã|é|í|ó|õ|ú|ç
+acent       á|à|ã|Á|À|é|É|í|Í|ó|õ|Ó|ú|Ú|ç
+acentM      Á|À|É|Í|Ó|Ú
+
+%%
+
+<*>{author}|{editor}  {fprintf(yyout,"%s",yytext);BEGIN AUTORES;}
+<*><<EOF>>   {return 0;}
+
+<AUTORES>{nome}\,		            {fprintf(yyout,"%s",yytext);BEGIN ACASE;}
+<AUTORES>[A-Z]|{acentM}             {
+                                    strcpy(sobrenome,"\0");
+                                    strcat(sobrenome,yytext);
+                                    strcat(sobrenome,".");
+                                    BEGIN BCASE;
+                                    }
+
+<ACASE>[A-Z]|{acentM}               {fprintf(yyout,"%s.",yytext);}
+<ACASE>{lm}*|\.                     {}
+<ACASE>and[ ]                       {fprintf(yyout,"%s",yytext);BEGIN AUTORES;}
+<ACASE>\}                           {fprintf(yyout,"%s",yytext);BEGIN(0);}
+
+<BCASE>[A-Z]|{acentM}|([ ]{D}[ ])   {strcat(sobrenome," ");strcat(sobrenome,yytext);strcat(sobrenome,".");}
+<BCASE>{P}[ ]and                    {
+                                    yytext[yyleng-4]='\0';
+                                    nome=strdup(yytext);
+                                    fprintf(yyout,"%s, %s and",nome,sobrenome);
+                                    BEGIN AUTORES;
+                                    }
+<BCASE>{P}\}                        {
+                                    yytext[yyleng-1]='\0';
+                                    nome=strdup(yytext);
+                                    fprintf(yyout,"%s, %s}",nome,sobrenome);
+                                    BEGIN(0);
+                                    }  
+<BCASE>{lm}*[ ]|\.                  {}                          
+
+%%
+
+int main(int argc,char *argv[]){
+	yyin=fopen(argv[1],"r");
+	yyout=fopen("parte2.txt","w");
+	yylex();
+	return 0;
+}

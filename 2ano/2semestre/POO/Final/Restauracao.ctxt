@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Restauracao
+comment0.text=\n\ Write\ a\ description\ of\ class\ Restauracao\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Restauracao()
+comment2.params=deducao\ codigo\ valorDeducao\ descricao
+comment2.target=Restauracao(boolean,\ int,\ double,\ java.lang.String)
+comment3.params=r
+comment3.target=Restauracao(Restauracao)
+comment4.params=
+comment4.target=double\ getValorDeducao()
+comment5.params=
+comment5.target=java.lang.String\ getDescricao()
+comment6.params=valor
+comment6.target=void\ setValorDeducao(double)
+comment7.params=descricao
+comment7.target=void\ setDescricao(java.lang.String)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=
+comment9.target=Restauracao\ clone()
+numComments=10

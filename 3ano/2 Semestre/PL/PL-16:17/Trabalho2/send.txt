@@ -1,0 +1,24 @@
+%{
+#include <string.h>
+
+char* token;
+
+
+%}
+
+%% 
+
+
+
+[tT]"o "[a-zA-Z]+ {      token=strtok(yytext," "); token=strtok(NULL," ");
+
+			if(strcmp(token,"C")!=0&&strcmp(token,"a")!=0&&strcmp(token,"the")!=0&&strcmp(token,"lambdas")!=0&&strcmp(token,"objects")!=0&&strcmp(token,"I")!=0&&strcmp(token,"two")!=0){
+
+			printf("	<li>%s</li>\n",token);
+    }
+
+		  } 
+[cC]"an "[a-zA-Z]+ {      token=strtok(yytext," "); token=strtok(NULL," ");
+			if(strcmp(token,"C")!=0&&strcmp(token,"a")!=0&&strcmp(token,"the")!=0&&strcmp(token,"lambdas")!=0&&strcmp(token,"objects")!=0&&strcmp(token,"I")!=0&&strcmp(token,"two")!=0){
+			printf("	<li>%s</li>\n",token);}
+		}

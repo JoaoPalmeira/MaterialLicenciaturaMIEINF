@@ -1,0 +1,12 @@
+ac
+int main
+int a b
+print antes
+if fork == 0
+exec\"usr/bin/\s" v "\s" v "-\" v Nu\\
+perror("naoexiste")
+exit1
+
+wait nu\\
+
+print depois

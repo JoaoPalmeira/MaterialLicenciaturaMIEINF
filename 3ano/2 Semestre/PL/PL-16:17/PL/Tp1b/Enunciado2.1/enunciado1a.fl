@@ -1,0 +1,27 @@
+%option noyywrap
+%%
+
+'m              {printf(" am");}
+'ll             {printf(" will");}
+'re             {printf(" are");}
+'s              {printf(" is");}
+'ve             {printf(" have");}
+'d              {printf(" had");}
+
+'s[ ]got        {printf(" has got");}
+'s[ ]happened   {printf(" has happened");}
+
+can't           {printf("cannot");}
+shan't          {printf("shall not");}
+won't           {printf("will not");}
+
+n't             {printf(" not");}
+
+%%
+
+int main(int argc, char* argv[]){
+	if (argc == 2)
+		yyin = fopen(argv[1],"r");
+	yylex();
+	return 0;
+}

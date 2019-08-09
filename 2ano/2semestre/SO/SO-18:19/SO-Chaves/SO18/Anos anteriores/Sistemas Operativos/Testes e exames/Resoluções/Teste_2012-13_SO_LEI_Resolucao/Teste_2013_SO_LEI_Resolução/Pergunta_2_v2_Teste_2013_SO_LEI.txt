@@ -1,0 +1,63 @@
+#include <unistd.h>		/* fork, pipe, primitivas IO(read, write, close, etc) */
+#include <string.h>		/* strstr, strlen, etc */
+#include <stdlib.h>		/* malloc, free, rand */
+#include <fcntl.h>		/* manipular descritores ficheiros */
+#include <sys/types.h>	
+#include <sys/wait.h>	/* para usar wait */
+#include <signal.h>		/* para usar sinais */
+#include <stdio.h>
+
+int MAX_PROCESS = 5;
+int process_act = 0;
+pid_t pids[20];
+
+void incrementa(){
+	MAX_PROCESS++;
+}
+
+void decrementa(){
+	//printf("ProcessAct : %d \n", process_act);
+	if(process_act >= MAX_PROCESS){
+		//printf("Vai matar: %d\n", pids[process_act-1]);
+		//printf("Pai Pid: %d\n", getppid());
+		kill(pids[process_act-1],SIGKILL);
+	}
+	MAX_PROCESS--;
+}
+
+void child_handler(){
+	int status;
+	if(waitpid(-1,&status,WNOHANG) != 0) //Retorna o pid do processo que acabou de acabar ou -1 se acabou por alguma razao
+		process_act--;
+}
+
+int main(int argc, char ** argv){
+	pid_t pid;
+	signal(SIGUSR1, incrementa); //SIGINT
+	signal(SIGUSR2, decrementa); //SIGTSTP - Para efeitos de teste
+	signal(SIGCHLD,child_handler);
+	while(1){
+		printf("-------- MAX_PROCESS: %d\n", MAX_PROCESS);
+		printf(" ------- NumProcessos: %d\n", process_act);
+		if(process_act >= MAX_PROCESS){
+			wait(NULL);
+		}
+		else process_act++;
+		switch(pid = fork()){
+			case -1:
+				perror("Fork:");
+				return EXIT_FAILURE;
+			case 0:
+				//process_act++;
+				sleep(5);
+				//printf("PID FILHO: %d PID PAI: %d\n", getpid(), getppid());
+				pids[process_act-1] = getpid();
+				execlp("ls","ls",NULL);
+				perror("EXEC:");
+				return EXIT_FAILURE;
+		}
+
+	}
+
+
+}

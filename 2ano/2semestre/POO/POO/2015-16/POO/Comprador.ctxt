@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Comprador()
+comment1.params=email\ nome\ password\ morada\ dataNasc\ imoveisFavoritos
+comment1.target=Comprador(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.util.Date,\ java.util.List)
+comment2.params=c
+comment2.target=Comprador(Comprador)
+comment3.params=
+comment3.target=java.util.List\ getImoveisFavoritos()
+comment4.params=imoveisFavoritos
+comment4.target=void\ setImoveisFavoritos(java.util.List)
+comment5.params=
+comment5.target=Comprador\ clone()
+comment6.params=im
+comment6.target=void\ addFavorito(Imovel)
+numComments=7

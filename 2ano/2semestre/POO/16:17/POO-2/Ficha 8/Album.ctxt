@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=a2
+comment0.target=Album(Album)
+comment1.params=
+comment1.target=int\ getNumeroM()
+comment2.params=
+comment2.target=java.lang.String\ getArtista()
+comment3.params=
+comment3.target=Album\ clone()
+numComments=4

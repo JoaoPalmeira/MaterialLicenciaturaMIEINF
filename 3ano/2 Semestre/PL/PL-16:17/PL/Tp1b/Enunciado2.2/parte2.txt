@@ -1,0 +1,8 @@
+author = {Martini, R. and Araújo, C. and Henriques, P.},
+editor = {Librelotto, G.},
+author = {Azcurra, J. and Berón, M. and Henriques, P. and Pereira, M.},
+author = {Oliveira,  and Henriques,   and da Cruz,  and Pereira,   },
+author = {Vilas Boas,  and Oliveira,  and Henriques,  },
+author = {Martini,  and Araújo,  and Almeida,   and Henriques, },
+editor = {Rocha, Á. and Correia,   and Adeli,  and Mendonça Teixeira, },
+author = {Berón, M. and Montejano, G. and Riesco, D. and Henriques, P. R. and Debnath, N.},

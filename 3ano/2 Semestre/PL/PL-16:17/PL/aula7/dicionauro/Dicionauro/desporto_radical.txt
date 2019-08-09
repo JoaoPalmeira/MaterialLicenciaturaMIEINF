@@ -1,0 +1,114 @@
+PT bungee jumping
+-catgra
+-exuso 
+EN bunjee jumping 
+FR saut à l'élastique  
+ES puénting
+DE Bungee-Springen 
+CN
+NU
+DOM desporto
+BT 
+Def
+ID manuel 
+
+PT skate 
+-catgra
+-exuso 
+EN skateboarding 
+FR
+ES skateboarding 
+DE skateboarding 
+CN
+NU
+DOM desporto
+BT 
+Def
+ID manuel 
+
+PT snowboard 
+-catgra
+-exuso 
+EN snowboard 
+FR surf des neiges 
+FR snowboard 
+ES snowboard 
+DE
+CN
+NU
+DOM desporto
+BT 
+Def
+ID manuel 
+
+PT parkour 
+-catgra
+-exuso 
+EN parkour 
+FR parkour 
+FR L'art du déplacement 
+ES
+DE parkour 
+CN
+NU
+DOM desporto
+BT 
+Def
+ID manuel 
+
+PT surf
+PT_BR surfe 
+-catgra
+-exuso 
+EN surf 
+FR surf 
+ES surf 
+DE wellenreiten
+CN
+NU
+DOM desporto
+BT 
+Def
+ID manuel 
+
+PT esqui 
+-catgra
+-exuso 
+EN ski
+FR ski
+ES esquí
+DE skifahren
+CN
+NU
+DOM desporto
+BT 
+Def
+ID manuel 
+
+PT montanhismo 
+-catgra
+-exuso 
+EN mountaineering
+FR alpinisme
+ES montañismo
+DE alpinismus
+CN
+NU
+DOM desporto
+BT 
+Def
+ID manuel 
+
+PT alpinismo 
+-catgra
+-exuso 
+EN
+FR alpinisme
+ES
+DE alpinismus
+CN
+NU
+DOM desporto
+BT 
+Def
+ID manuel 

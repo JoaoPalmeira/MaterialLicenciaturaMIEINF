@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid1\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid101\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Static Multiple Issue \
+\pard\tx0\tx0\tx0\tx0\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx0\tx0\tx0\tx0\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf0 \expnd0\expndtw0\kerning0
+O compilador agrupa em pacotes as instrucoes que serao lancadas (issue) em \uc0\u8232 cada ciclo do relogio \
+\pard\tx0\tx0\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf0 Estes pacotes de instrucoes concatenadas podem ser vistos como uma unica instrucao com multiplas operacoes:\uc0\u8232 VLIW \'96 Very Long Instruction Word \
+\pard\tx0\tx0\tx0\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf0 Uma VLIW comporta tantas instrucoes quantos os pipelines disponiveis \
+\pard\tx0\tx0\pardeftab720\partightenfactor0
+\ls1\ilvl0\cf0 O compilador e responsavel por: \uc0\u8232 \'96 garantir que nao ha dependencias dentro de uma VLIW \
+\pard\pardeftab720\partightenfactor0
+\cf0 \'96 que as instrucoes integradas numa VLIW podem ser executadas pelas unidades funcionais \
+\'96 resolver dependencias de controlo ou dependencias de dados entre diferentes VLIW \
+\
+Loop Unrolling \
+Consiste em fazer multiplas copias do corpo de um ciclo (normalmente feito pelo compilador) \
+O seu efeito no desempenho nem sempre e positivo \
+Contribui para: \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+\'95 \'a0disponibilizar mais instrucoes independentes para aumentar o ILP, e consequentemente reduzir o CPI \uc0\u8232 \'95 \'a0reduzir o numero de instrucoes executadas\
+\pard\tx566\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 Dynamic Multiple Issue: SuperEscalaridade \
+SuperEscalaridade: o processador selecciona dinamicamente, em tempo de execu\'e7\'e3o, quais as instru\'e7\'f5es a executar em cada pipeline (unidade funcional) \
+Diminui a dependencia da compilac\'e3o, relativamente \'e0 abordagem estatica, pois e o hardware que seleccionas as instrucoes de acordo com a sua propria organizacao \
+\
+SuperEscalaridade: \
+\
+- static in-order scheduling \
+static in-order scheduling: instrucoes seleccionadas na ordem com que aparecem no programa, baseado na disponibilidade dos operandos e de unidades funcionais apropriadas \
+\
+- dynamic out-of-order scheduling \
+dynamic out-of-order scheduling: as instrucoes sao reordenadas pelo processador para maximizar o CPI, garantindo a correcta execucao do programa \
+\
+\
+\
+\pard\tx566\pardeftab720\partightenfactor0
+\cf0 \
+}

@@ -1,0 +1,23 @@
+program exerciseThree
+{
+    variable N, index, number, count : integer;
+
+    instructions
+    {
+        read(N);
+
+        while (index < N)
+        {
+            read(number);
+
+            if ((number % 2) == 0) {
+                write("Numero Par: " ++ number ++ "\n");
+                count = count + 1;
+            }
+
+            index = index + 1;
+        }
+
+        write("Total Numeros Pares = " ++ count ++ "\n");
+    }
+}

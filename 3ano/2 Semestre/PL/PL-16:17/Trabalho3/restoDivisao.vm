@@ -1,0 +1,31 @@
+        pushi 0
+        pushi 0
+start
+        pushs "introduza um numero inteiro (a):"
+        writes
+        read
+        atoi
+        storeg 0
+        pushs "introduza um numero inteiro (b):"
+        writes
+        read
+        atoi
+        storeg 1
+
+ciclo:
+        pushg 0
+        pushg 1
+        supeq
+        jz fim
+amaior:
+        pushg 0
+        pushg 1
+        sub
+        storeg 0
+        jump ciclo
+fim:
+        pushs "O resto da divisao inteira de a por b e: "
+        writes
+        pushg 0
+        writei
+        stop

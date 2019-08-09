@@ -1,0 +1,13 @@
+Localidade Temporal
+Localidade Temporal – um elemento de memória acedido pelo CPU será, com grande probabilidade, acedido de novo num futuro próximo.
+Exemplos: tanto as instruções dentro dos ciclos, como as variáveis usadas como contadores de ciclos, são acedidas repetidamente em curtos intervalos de tempo.
+
+Localidade Temporal
+A primeira vez que um endereço de memória é acedido, é carregado do nível de
+memória inferior para a cache – cold miss
+O próximo acesso a esse endereço encontra os dados na cache – hit
+(excepto se entretanto foram removidos devido a uma colisão, resultando nesse caso numa miss)
+Localidade Espacial
+Quando um endereço é carregado para a cache, é carregado um bloco de endereços consecutivos
+O acesso seguinte a um endereço na vizinhança resulta num hit
+

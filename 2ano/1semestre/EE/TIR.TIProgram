@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>O criterio de decisao quanto a aceitacao ou rejeicao de um projeto de investimento passa por comparar a TIR com o custo de oportunidade do capital, cuja taxa foi usada no calculo dos valores atualizados do VAL: 
+		Se a TIR &gt; i, aceita-se o projeto, uma vez que o investimento remunera os capitais a uma taxa superior a do custo de oportunidade do capital.  
+		Se a TIR = i, e indiferente aceitar ou rejeitar o projeto, uma vez que o investimento remunera os capitais a uma taxa idêntica a do custo de oportunidade do capital.  
+		Se a TIR &lt; i, rejeita-se o projeto, uma vez que o investimento remunera os capitais a uma taxa inferior a do custo de oportunidade do capital.
+</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>untitled</string>
+	<key>device type</key>
+	<string>TI-84 Plus</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

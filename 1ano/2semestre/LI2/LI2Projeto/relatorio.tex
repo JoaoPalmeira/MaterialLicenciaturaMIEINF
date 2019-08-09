@@ -1,0 +1,55 @@
+\documentclass[12pt,a4paper,portuges]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[portuges]{babel}
+
+\begin{document}
+
+\title{\textbf{Laboratórios de Informática II Batalha Naval em C}}
+\author{André Freitas (A74619) \and Bruno Sousa (A74330) \and João Palmeira (A73864)}
+\date{\today}
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{\textbf{Introdução}}
+%Breve descrição do trabalho e dos seus objetivos.
+
+Na batalha naval, existem dois jogadores que tentam descobrir onde estão colocados os barcos um do outro, no entanto, no \textit{puzzle} da batalha naval há apenas um jogador que tem de descobrir onde estão os barcos através de informações como saber o que se encontra em certas posições da grelha (água ou segmentos de barcos) e o número de segmentos em cada linha ou coluna. 
+
+Este projeto tem como objetivo criar uma aplicação na linguagem de programação C que resolva o \textit{puzzle} da batalha naval, sendo constituído por três etapas.
+
+\newpage
+
+\section{\textbf{Desenvolvimento}}
+%Descrição das várias etapas do projeto.
+
+\subsection{\textbf{3ª Etapa}}
+
+Na terceira etapa, os comandos a serem desenvolvidos eram o "R" e o "G", que seriam usados de forma idêntica à da etapa anterior. Para além disso, teria ainda de ser feita a parte da análise do código. O nosso grupo apenas conseguiu concluir com sucesso o comando "R", por isso, é nele que nos vamos focar.
+
+\subsubsection{\textbf{Implementação do comando "R"}}
+
+O comando "R" tem como objetivo resolver o puzzle da batalha naval e quando aparece no interpretador de comandos, chama a função \textit{insR} que resolve, portanto, o tabuleiro.
+
+Definimos inicialmente o "x", o "y" e o "z" como sendo "1", sendo que esta função vai executar as três estratégias até que as três variáveis, "x", "y" e "z", sejam iguais a zero, correndo, portanto, um ciclo até que isso aconteça. Após isto, o \textit{for} vai verificar um caso não abordado pelas estratégias, que consiste em verificar se os caracteres adjacentes a um cardinal têm de ser obrigatoriamente segmentos de um barco. Se alguma alteração acontecer, a função volta ao início, correndo novamente o ciclo das estratégias. 
+
+\newpage
+
+\section{\textbf{Conclusão}}
+%Retiram-se conclusões acerca do projeto, referindo-se as dificuldades encontradas e os conhecimentos adquiridos.
+
+Concluindo, em relação à terceira etapa, como já foi referido, apenas concluímos o comando "R" no qual também tivemos algumas dificuldades. Não conseguimos realizar os pontos pedidos na análise do código nem o comando "G". Tivemos cerca de 18 horas de trabalho nesta etapa.
+
+\end{document}
+
+
+
+
+
+
+

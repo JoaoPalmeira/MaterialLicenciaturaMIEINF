@@ -1,0 +1,45 @@
+program exerciseFive
+{    
+    variable N, M, i, j : integer;
+    variable matrix[3][3] : integer;
+    variable sum, average, maximum : integer;
+    
+    instructions
+    {
+        N = 3;
+        M = 3;
+        
+        while (i < N)
+        {
+            j = 0;
+            while (j < M)
+            {
+                read(matrix[i][j]);
+                j = j + 1;
+            }
+
+            i = i + 1;
+        }
+
+        i = 0;
+        while (i < N)
+        {
+            j = 0;
+            while (j < M)
+            {
+                sum = sum + matrix[i][j];
+                if (maximum < matrix[i][j]) {
+                    maximum = matrix[i][j];
+                }
+                j = j + 1;
+            }
+
+            i = i + 1;
+        }
+
+        average = sum / (N * M);
+
+        write("Media = " ++ average ++ "\n");
+        write("Maximo = " ++ maximum ++ "\n");
+    }
+}

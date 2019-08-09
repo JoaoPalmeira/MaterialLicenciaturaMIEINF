@@ -1,0 +1,219 @@
+PT esqui 
+-catgra 
+-exuso 
+AUD
+EN ski 
+AUD
+FR ski 
+AUD
+ES
+AUD
+DE
+AUD
+CN
+NU
+DOM desporto 
+BT
+Def
+IMG n 
+GI 
+IM 
+ID manuel 
+
+PT salto de esqui
+-catgra 
+-exuso 
+AUDPT
+EN
+AUDEN
+FR
+AUDFR
+ES
+AUDES
+DE
+AUDDE
+CN
+NU
+DOM
+BT
+Def
+IMG
+GI
+IM
+ID manuel 
+
+PT hóquei no gelo 
+-catgra 
+-exuso 
+AUD
+EN
+AUD
+FR
+AUD
+ES
+AUD
+DE
+AUD
+CN
+NU
+DOM
+BT
+Def
+IMG n 
+GI 
+IM 
+ID manuel 
+
+PT patinagem no gelo 
+-catgra 
+-exuso 
+AUD
+EN
+AUD
+FR
+AUD
+ES
+AUD
+DE
+AUD
+CN
+NU
+DOM
+BT
+Def
+IMG n 
+GI 
+IM 
+ID manuel 
+
+PT patinagem de velocidade
+-catgra 
+-exuso 
+AUDPT
+EN
+AUDEN
+FR
+AUDFR
+ES
+AUDES
+DE
+AUDDE
+CN
+NU
+DOM
+BT
+Def
+IMG
+GI
+IM
+ID manuel 
+
+PT snowboard 
+-catgra 
+-exuso 
+AUD
+EN snowboard 
+AUD
+FR
+AUD
+ES
+AUD
+DE
+AUD
+CN
+NU
+DOM
+BT
+Def
+IMG n 
+GI 
+IM 
+ID manuel 
+
+PT luge 
+-catgra 
+-exuso 
+AUD
+EN
+AUD
+FR
+AUD
+ES
+AUD
+DE
+AUD
+CN
+NU
+DOM
+BT
+Def
+IMG n 
+GI 
+IM 
+ID manuel 
+
+PT biatlo 
+-catgra 
+-exuso 
+AUD
+EN
+AUD
+FR
+AUD
+ES
+AUD
+DE
+AUD
+CN
+NU
+DOM
+BT
+Def
+IMG n 
+GI 
+IM 
+ID manuel 
+
+PT skeleton
+-catgra 
+-exuso 
+AUD
+EN
+AUD
+FR
+AUD
+ES
+AUD
+DE
+AUD
+CN
+NU
+DOM
+BT
+Def
+IMG n 
+GI 
+IM 
+ID manuel 
+
+PT bobsleigh
+-catgra 
+-exuso 
+AUD
+EN
+AUD
+FR
+AUD
+ES
+AUD
+DE
+AUD
+CN
+NU
+DOM
+BT
+Def
+IMG n 
+GI 
+IM 
+ID manuel 

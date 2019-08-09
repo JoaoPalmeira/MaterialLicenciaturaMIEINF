@@ -1,0 +1,24 @@
+%{
+#include <glib.h>
+#include <string.h>
+%}
+%option noyywrap
+%%
+	FILE* indice = fopen("index.html", "w");
+	char person[1024];
+	char country[1024];
+	char city[1024];	
+
+
+
+\<ENAMEX" "TYPE=\"CITY\"\>.*\<\/ENAMEX\>|\<ENAMEX" "TYPE=\"CITY\"\>.*\n.*\<\/ENAMEX\> {printf("%s\n", yytext);}
+.|\n { }
+
+%%
+
+int main(int argc, char* argv[]){
+	if (argc == 2)
+		yyin = fopen(argv[1],"r");
+	yylex();
+	return 0;
+}

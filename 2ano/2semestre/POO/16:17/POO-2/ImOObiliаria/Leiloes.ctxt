@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=im\ horas
+comment0.target=void\ iniciaLeilao(Imovel,\ int)
+comment1.params=idComprador\ limite\ incrementos\ minutos
+comment1.target=void\ adicionaComprador(java.lang.String,\ double,\ double,\ double)
+comment2.params=
+comment2.target=Comprador\ encerraLeilao()
+numComments=3

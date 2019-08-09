@@ -1,0 +1,88 @@
+//
+//  teste2011.c
+//  
+//
+//  Created by Nuno Morais on 8/29/11.
+//  Copyright 2011 Universidade do Minho. All rights reserved.
+//
+
+//2
+
+void termina(int signum){
+    kill(pid, KILL);
+}
+
+int main (int argc, char **argv){
+    
+    int i;
+    int cont = argv[1];
+    int temp = argv[2];
+
+    int pid;
+    
+    signal(SIGALRM, termina);
+    
+    
+    for (i = 3; i < arc; i++){
+        
+        if (!fork()){
+            alarm(temp);
+            if( !( pid = fork() ) ){
+                execvp(argv[i],argv[i],..); //nha nha nha ... só por a executar
+                exit(EXIT_FAILURE);
+            }
+            exit(EXIT_SUCCESS);
+        }
+        
+        cont--;
+        if( cont == 0 ) {
+            wait(NULL);
+            cont++;
+        }
+    }
+    
+    while(cont > 0){
+        wait(NULL);
+        cont--;
+    }
+    
+} 
+
+
+//3
+
+int *fds;
+int *pid;
+
+int main(int argc, char **argv){
+    int i; 
+    int pipes[2];
+    fds = (int *) malloc ((argc-2)*sizeof(int));
+    pid = (int *) malloc ((argc-2)*sizeof(int));
+    for (i = 2; i < argc; i++){
+        pipe(pipes);
+        if ( ! ( pid[i-1] = fork() ) ){
+            dup2(pipes[0],0);
+            close(pipes[1]);
+            execlp("oc","oc",argv[1],NULL);
+            close(pipes[0]);
+            exit(EXIT_FAILURE);
+        }
+        fds[i-2] = pipes[1]; //Copia o descritor de "escrita"
+        close(pipes[0]);
+    }
+    
+    //
+    i=2;
+    while(i < argc){
+        write(0,argv[i],strlen(argv[i]));
+        write(0,": ", 2); //formatar
+        //escreve enquanto houver alguma coisa no file descriptor
+        while(write(0,fds[i-2],1));
+        write(0,", ", 2); //formatar
+        //Por fim fecha o File descriptor
+        close(fds[i-2]);
+    }
+    return 0;
+    
+}

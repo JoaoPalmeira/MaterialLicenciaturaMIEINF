@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Contribuinte
+comment0.text=\n\ Classe\ dos\ contribuintes\ individuais\n\n\ @author\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Contribuinte()
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment11.params=
+comment11.target=Contribuinte\ clone()
+comment2.params=nif\ email\ nome\ morada\ pass\ nAgrFam\ coef\ numeroFiscais\ codiActividades
+comment2.target=Contribuinte(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int,\ java.util.List,\ java.util.Map)
+comment3.params=c
+comment3.target=Contribuinte(Contribuinte)
+comment4.params=
+comment4.target=int\ getNAgrFam()
+comment5.params=
+comment5.target=int\ getCoef()
+comment6.params=
+comment6.target=java.util.List\ getNfa()
+comment7.params=
+comment7.target=java.util.Map\ getCodAct()
+comment8.params=act
+comment8.target=void\ setCodAct(java.util.Map)
+comment9.params=ae
+comment9.target=boolean\ adicionaActividade(ActividadeEconomica)
+numComments=12

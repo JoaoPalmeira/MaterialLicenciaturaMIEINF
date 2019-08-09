@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ ex1(java.lang.String[])
+comment1.params=
+comment1.target=void\ ex2()
+comment2.params=
+comment2.target=void\ ex3()
+comment3.params=
+comment3.target=void\ ex5()
+comment4.params=valor
+comment4.target=double\ factorial(double)
+comment5.params=args
+comment5.target=void\ ex6(java.lang.String[])
+comment6.params=
+comment6.target=void\ ex7()
+comment7.params=d1\ h1\ m1\ s1\ d2\ h2\ m2\ s2
+comment7.target=java.lang.String\ ex10(int,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
+comment8.params=
+comment8.target=void\ ex17()
+numComments=9

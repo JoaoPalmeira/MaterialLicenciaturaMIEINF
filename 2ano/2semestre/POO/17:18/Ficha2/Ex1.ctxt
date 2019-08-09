@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=a
+comment0.target=int\ minimo(int[])
+comment1.params=a\ i\ f
+comment1.target=int[]\ arrayEntre(int[],\ int,\ int)
+comment2.params=a\ b
+comment2.target=int[]\ comuns(int[],\ int[])
+numComments=3

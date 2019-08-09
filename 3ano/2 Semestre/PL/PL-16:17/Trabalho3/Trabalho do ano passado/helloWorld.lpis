@@ -1,0 +1,28 @@
+program helloWorld
+{ 
+    variable sum : integer;
+
+    function sum() : integer {
+
+        instructions {
+            sum = 1;
+        }
+
+        return sum + 1 ;
+    }
+
+    function helloWorld() : empty {
+
+        instructions {
+            write("Hello World");
+        }
+
+        return ;
+    }
+
+    instructions
+    {
+        helloWorld();
+        write(sum());
+    }
+}

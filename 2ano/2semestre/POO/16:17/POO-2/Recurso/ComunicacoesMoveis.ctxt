@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=com
+comment0.target=void\ adComunicacao(Comunicacao)
+comment1.params=numeroOriginador\ inicio\ fim
+comment1.target=int\ factura(java.lang.String,\ java.util.GregorianCalendar,\ java.util.GregorianCalendar)
+numComments=2

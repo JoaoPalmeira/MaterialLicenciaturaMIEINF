@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testarComplexo()
+comment0.text=\n\ Exercicio\ 1\ -\ Complexo\n
+comment1.params=
+comment1.target=void\ testarVeiculo()
+comment1.text=\n\ Exerc\u00EDcio\ 3\ -\ Veiculo\n
+comment2.params=
+comment2.target=void\ testarCartaoCliente()
+comment2.text=\n\ Exerc\u00EDcio\ 4\ -\ CartaoCliente\n
+comment3.params=
+comment3.target=void\ testarProduto()
+comment3.text=\n\ Exerc\u00EDcio\ 5\ -\ Produto\n
+comment4.params=
+comment4.target=Teste()
+comment4.text=\n\ \ \ \ @Test\n\ \ \ \ public\ void\ testarContaPrazo()\ {\n\ \ \ \ \ \ \ \ GregorianCalendar\ op\ \=\ new\ GregorianCalendar(2016,1,1,10,0,0);\n\ \ \ \ \ \ \ \ GregorianCalendar\ lim\ \=\ new\ GregorianCalendar(2017,2,1,10,0,0);\n\ \ \ \ \ \ \ \ GregorianCalendar\ now\ \=\ new\ GregorianCalendar();\n\ \ \ \ \ \ \ \ ContaPrazo\ c\ \=\ new\ ContaPrazo("a123","Nome",op,100000,now,5);\n\n\ \ \ \ \ \ \ \ //Testar\ diasPassados\n\ \ \ \ \ \ \ \ long\ ms\ \=\ (now.getTimeInMillis()-op.getTimeInMillis())/1000/60/60/24;\n\ \ \ \ \ \ \ \ assertEquals(ms,c.diasPassados());\n\n\ \ \ \ \ \ \ \ //Testar\ alterarTitular\n\ \ \ \ \ \ \ \ c.alterarTitular("Titular");\n\ \ \ \ \ \ \ \ assertEquals("Titular",c.getTitular());\n\n\ \ \ \ \ \ \ \ //Testar\ alterarTaxa\n\ \ \ \ \ \ \ \ c.alterarTaxa(0.3);\n\ \ \ \ \ \ \ \ assertEquals(0.3,\ c.getTaxa(),0);\n\n\ \ \ \ \ \ \ \ //Testar\ verificarDiaJuros\n\ \ \ \ \ \ \ \ assertTrue(c.verificarDiaJuros());\n\n\ \ \ \ \ \ \ \ //Testar\ actualizarJuros\n\ \ \ \ \ \ \ \ c.actualizarJuros(lim);\n\ \ \ \ \ \ \ \ assertEquals(130000,c.getCapital(),0);\n\n\ \ \ \ \ \ \ \ //Testar\ fecharConta\n\ \ \ \ \ \ \ \ assertEquals(130000,c.fecharConta(),0);\n\n\ \ \ \ }\n
+comment5.params=
+comment5.target=void\ tearDown()
+comment6.params=
+comment6.target=void\ setUp()
+numComments=7

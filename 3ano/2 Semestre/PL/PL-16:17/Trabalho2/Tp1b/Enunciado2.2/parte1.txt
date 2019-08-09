@@ -1,0 +1,8 @@
+author = {Ricardo Martini and Cristiana Araújo and Pedro Rangel Henriques},
+editor = {Giovani Librelotto},
+author = {Javier Azcurra and Mario Berón and Pedro Henriques and Maria João Varanda Pereira},
+author = {Oliveira, Nuno and Henriques, Pedro Rangel and da Cruz, Daniela and Pereira, Maria João Varanda},
+author = {Vilas Boas, Ismael and Oliveira, Nuno and Henriques, Pedro Rangel},
+author = {Martini, Ricardo and Araújo, Cristiana and Almeida, José João and Henriques, Pedro},
+editor = {Rocha, Álvaro and Correia, Maria Ana and Adeli, Hojjat and Mendonça Teixeira, Marcelo},
+author = {Berón, M. and Montejano, G. and Riesco, D. and Henriques, P. R. and Debnath, N.},

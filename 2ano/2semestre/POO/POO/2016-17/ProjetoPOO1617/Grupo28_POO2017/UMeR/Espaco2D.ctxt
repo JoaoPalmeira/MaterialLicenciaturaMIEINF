@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Espaco2D()
+comment0.text=\r\n\ Construtor\ para\ objetos\ da\ classe\ Espaco2D\r\n
+comment1.params=x\ y
+comment1.target=Espaco2D(double,\ double)
+comment2.params=p
+comment2.target=Espaco2D(Espaco2D)
+comment3.params=
+comment3.target=double\ getX()
+comment4.params=
+comment4.target=double\ getY()
+comment5.params=x1
+comment5.target=void\ setX(double)
+comment6.params=y1
+comment6.target=void\ setY(double)
+comment7.params=
+comment7.target=Espaco2D\ clone()
+comment8.params=o
+comment8.target=boolean\ equals(java.lang.Object)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

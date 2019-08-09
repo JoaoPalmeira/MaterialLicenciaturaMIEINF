@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=m\ n\ p\ mo\ na
+comment0.target=Vendedor(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.params=
+comment1.target=Vendedor()
+comment2.params=v
+comment2.target=Vendedor(Vendedor)
+comment3.params=im
+comment3.target=void\ registaPVenda(Imovel)
+comment4.params=
+comment4.target=java.util.List\ getPVenda()
+comment5.params=
+comment5.target=Vendedor\ clone()
+comment6.params=
+comment6.target=void\ showUtilizador()
+numComments=7

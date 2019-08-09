@@ -1,0 +1,14 @@
+Write-back
+Uma vez que a escrita é feita no nível superior da hierarquia é mais rápida
+Escritas consecutivas no mesmo endereço (mesmo bloco) não implicam múltiplas escritas nos níveis mais lentos.
+Esta escrita acontece apenas quando o bloco é substituído.
+Uma vez que quando ocorre um miss o respectivo bloco tem que ser actualizado na memória (se foi escrito anteriormente), aumenta a miss penalty
+Bastante mais complexo de implementar do que write-through
+
+Write-back
+1. Minimização do número de escritas na memória central;
+2. Cada palavra é escrita à velocidade da cache e não à velocidade da
+memória central
+Desvantagens
+3. Aumenta a miss penalty
+4. Mais complexo de implementar

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ ex2()
+comment1.params=n
+comment1.target=int[]\ lerArrayInt(int)
+comment1.text=\r\n\ M\u00E9todo\ que\ l\u00EA\ N\ inteiros\r\n\ @author\ (seu\ nome)\r\n\ @return\ 0\ array\ lido\r\n
+comment2.params=arr
+comment2.target=int\ minPos(int[])
+numComments=3

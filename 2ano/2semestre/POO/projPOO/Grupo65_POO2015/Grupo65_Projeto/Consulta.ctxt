@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=m\ i
+comment0.target=Consulta(java.lang.String,\ java.lang.String)
+comment1.params=c
+comment1.target=Consulta(Consulta)
+comment2.params=
+comment2.target=Consulta\ clone()
+comment3.params=
+comment3.target=java.lang.String\ getComentario()
+comment4.params=
+comment4.target=java.util.Date\ getData()
+comment5.params=
+comment5.target=java.lang.String\ getHoraVisita()
+comment5.text=\n\ Hora\ atual\ da\ visita\ de\ um\ Im\u00F3vel,\ j\u00E1\ com\ formata\u00E7\u00E3o.\n
+numComments=6

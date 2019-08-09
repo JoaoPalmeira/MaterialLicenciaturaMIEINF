@@ -1,0 +1,98 @@
+\documentclass{llncs}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+
+% Comentar para not MAC Users
+\usepackage[applemac]{inputenc}
+
+\usepackage{a4}
+%\usepackage[margin=3cm,nohead]{geometry}
+\usepackage{epstopdf}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{amsmath}
+%\renewcommand{\baselinestretch}{1.5}
+
+\begin{document}
+\mainmatter
+\title{Paper Title}
+
+\titlerunning{Paper Title}
+
+\author{Autor1 \and Autor2 \and Autor3}
+
+\authorrunning{Autor1 \and Autor2 \and Autor3}
+
+\institute{
+University of Minho, Department of  Informatics, 4710-057 Braga, Portugal\\
+e-mail: \{aXXXXX,aYYYYY,aZZZZZ\}@alunos.uminho.pt
+}
+
+\date{}
+\bibliographystyle{splncs}
+
+\maketitle
+\begin{abstract}
+Resumo...
+\end{abstract}
+
+\section{Introduction}
+
+%Não esquecer de referenciar apropriadamente...
+ The present study proposes a novel and simple strategy to defined high-level unified QoS metrics for Internet services resorting to fuzzy logic principles \cite{Zadeh65}. 
+ Attending to the specificity of the problem, which combines the difficulty of handling multiple low-level QoS parameters with the blur boundaries of user perceived QoS, the use of fuzzy logic to achieve a unique per service QoS metric brings a clear advantage and simplicity to the solution.
+Fuzzy logic has two different meanings~\cite{Nguyen99}. ...
+
+\section{One more section}
+
+\subsection{One subsection}
+abdc...
+\subsection{One more...}
+
+%UNCOMMENT se necessário
+%De acordo com o ilustrado na Figura~\ref{fig:controller}
+%% Exemplo para inserção de uma figura
+%\begin{figure}
+%\begin{center}
+%\includegraphics[scale=0.40]{figura.pdf} 
+%\end{center}
+%\caption{\label{fig:controller}Architecture of the unified QoS metric fuzzy controller.}
+%\end{figure} 
+
+According to Table~\ref{tab:TabelaExemplo}...
+
+% Exemplo de uma tabela com duas colunas
+\begin{figure}
+\centering
+\begin{tabular}{|c|c|}\hline
+(a) Delay and jiiter & (b) Delay and loss \\ \hline
+
+(c) Delay and throughput & (d) Jitter and loss \\ \hline
+
+(e) Jitter and throughput & (f) Loss and throughput \\ \hline
+\end{tabular}
+\caption{\label{tab:TabelaExemplo}Tabela exemplo.}
+\end{figure}
+
+%\section{Simulation Scenario}
+
+\section{Conclusions}
+Neste trabalho...
+
+%UNCOMMENT para a bibliografia 
+%% ficheirodebibliografia.bib
+%\bibliography{ficheirodebibliografia}
+
+%ou inserir directamente os vários \bibitem 
+\begin{thebibliography}{1}
+\bibitem{Zadeh65}
+Zadeh, L.:
+\newblock {Fuzzy sets} (1965)
+
+\bibitem{Nguyen99}
+Nguyen, H., Walker, E.:
+\newblock {First course in fuzzy logic}.
+\newblock {Boca Raton: Chapman and Hall/CRC Press} (1999)
+\end{thebibliography}
+
+\end{document}

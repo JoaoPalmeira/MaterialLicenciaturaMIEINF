@@ -1,0 +1,93 @@
+%dom: geografia
+
+%inv:  nasce_em :   nascente_de  
+%inv:  desagua_em :    foz_de  
+%inv:  in: pof
+%inv:  atravessa: e_atravessado
+
+
+# Rios PT
+#(rio:comprimento km(erro elevado):nascente:foz:in:é afluende de:passa em)
+
+%THE<rio:@comprimento:nasce_em<serra:desagua_em :in:afluente_de<rio:atravessa<localidade:
+
+ribeira da Peneda::::Parque Natural da Peneda Gerês::
+rio Adrão:serra da Peneda::Parque Natural da Peneda Gerês::
+rio Águeda:::::rio Douro:
+rio Aljezur:::praia da Amoreira:::Aljezur
+rio Almonda::::::Torres Novas|Reserva Natural do Paúl do Boquilobo
+rio Almansor::Arraiolos:Samora Correia::rio Sorraia:Montemor-o-Novo
+rio Alviela:100:serra de Aire:::rio Tejo:
+rio Âncora:19:serra de Arga:Vila Praia de Âncora:Minho::
+rio Angueira::Alcanices::Espanha|Portugal:rio Sabor:São Martinho de Angueira|Vimioso|Algoso
+rio Arade::serra do Malhão:Portimão:Algarve::
+rio Ave:95:serra da Cabreira:Vila do Conde:Minho::Rossas|Caldas das Taipas| Trofa|Santo Tirso|Famalição
+rio Cabril::::Parque Natural da Peneda Gerês:rio Lima:
+rio Caldo::::Parque Natural da Peneda Gerês:rio Cávado:
+rio Castro Laboreiro:::Lindoso::rio Lima:
+rio Cávado:129:serra do Larouco:Esposende:::Montalegre| Barcelos| barragem de Salamonde| barragem da Paradela| barragem da Caniçada
+rio Chança:::::rio Guadiana:
+rio Caia:::::rio Guadiana:
+rio Degeba:::::rio Guadiana:
+rio Odeleite:::::rio Guadiana:
+rio Ardila:::::rio Guadiana:
+rio Côa:::::rio Douro:
+rio Corgo:::::rio Douro:
+rio Ovil:::::rio Douro:
+rio Sardoura:::::rio Douro:
+rio Mau:::::rio Douro:
+rio Arda:::::rio Douro:
+rio Uima:::::rio Douro:
+rio Coura:::Caminha:Minho:rio Minho:
+rio Avia:::::rio Minho:
+rio Dão:98::Santa Comba Dão::rio Mondego:
+rio Alva:::::rio Mondego:
+rio de Froufe::::Parque Natural da Peneda Gerês::
+rio Douro:927:serra do Urbião:Porto:Espanha::Régua|Miranda do Douro| barragem de Crestuma| barragem do Carrapatelo| barragem de Miranda| barragem da Bemposta| barragem do Pocinho
+rio Esla::::Espanha:rio Douro:
+rio Este::serra do Carvalho::Minho:rio Ave:Braga
+rio Fafião::::Parque Natural da Peneda Gerês::
+rio Febros:::::rio Douro:
+rio Ferreira:::::rio Sousa:Valongo
+rio Gerez::::Minho:rio Cávado:
+rio Germil::::Parque Natural da Peneda Gerês:rio Lima:
+rio Guadiana:810:campo Montiel:Vila Real de Santo António:Espanha|Ayamonte::
+rio Homem::serra do Gerês:Soutelo:Minho:rio Cávado:barragem de Vilarinho das Furnas
+rio Judeu:::::rio Tejo:
+rio Leça:43:serra da Agrela:porto de Leixões:::Ermesinde| Maia
+rio Lima:108:serra São Mamede:Viana do Castelo:Espanha::Ponte do Lima| Ponte da Barca| barragem do Lindoso
+rio Maçãs::::::
+rio Minho:300:serra de Meira:Caminha:Espanha::Valença|Vila Nova de Cerveira
+rio Mira:150:serra do Caldeirão:Vila Nova de Milfontes:::
+rio Mondego:234|220:serra da Estrela:Figueira da Foz:::Coimbra| Manteigas|Montemor-o-Velho| Celorico da Beira|Penacova
+rio Mouro:::::rio Minho:
+rio Nabão::::::Tomar
+rio Neiva:::Castelo do Neiva:::
+rio Odeceixe:::Odeceixe:::
+rio Olo:::::rio Tâmega:
+rio Ocreza:::::rio Tejo:
+rio Paiva:111:serra do Leomil:Castelo de Paiva::rio Douro:Moimenta da Beira
+rio Pinhão:::::rio Douro:
+rio Pônsul:::::rio Tejo:
+rio Rabagão:::::rio Cávado:barragem dos Pisões
+rio Ramiscal::::Parque Natural da Peneda Gerês::
+rio Sabor:::::rio Douro:
+rio Sado:180:serra do Caldeirão:Setúbal:::Alcácer do Sal
+rio Salas::::Parque Natural da Peneda Gerês:rio Cávado:
+rio Seia::::::
+rio Sorraia:::::rio Tejo:
+rio Soure :::::rio Mondego:
+rio Sousa:::::rio Douro:
+rio Tâmega:::::rio Douro:
+rio Ceira:::::rio Douro:
+rio Varosa:::::rio Douro:
+rio Távora:::Tabuaço::rio Douro:Trancoso| barragem de Vilar
+rio Teixeira::::::
+rio Tejo:1100:serra de Albarracim:Lisboa:Espanha::Santarém
+rio Torto:::::rio Douro:
+rio Trancão:23::Sacavém::rio Tejo:Mafra
+rio Tua:::::rio Douro:Mirandela| Cachão
+rio Vez:::::rio Lima:Arcos de Val-de-Vez
+rio Vizela:45:serra da Cabreira:::rio Ave:barragem da Queimadela
+rio Vouga:50:serra da Lapa:Aveiro:::
+rio Zêzere:220:serra da Estrela:Constância::rio Tejo:

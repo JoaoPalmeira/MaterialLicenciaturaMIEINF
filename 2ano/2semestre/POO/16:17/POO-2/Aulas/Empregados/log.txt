@@ -1,0 +1,33 @@
+
+----------- LOG - LOG - LOG - LOG - LOG ----------------
+--- Empregados ---
+Gestor: Um - 1 - 50.0 euros
+Gestor: Carlos - 13456 - 1770000.0 euros
+Motorista: Dois - 2 - 101.0 euros
+Empregado Normal: Tres - 3 - 150.0 euros
+Gestor: Quatro - 4 - 800.0 euros
+Motorista: Cinco - 5 - 252.5 euros
+Empregado Normal: Seis - 6 - 300.0 euros
+----------- LOG - LOG - LOG - LOG - LOG ----------------
+
+----------- LOG - LOG - LOG - LOG - LOG ----------------
+--- Empregados ---
+Gestor: Um - 1 - 50.0 euros
+Gestor: Carlos - 13456 - 1770000.0 euros
+Motorista: Dois - 2 - 101.0 euros
+Empregado Normal: Tres - 3 - 150.0 euros
+Gestor: Quatro - 4 - 800.0 euros
+Motorista: Cinco - 5 - 252.5 euros
+Empregado Normal: Seis - 6 - 300.0 euros
+----------- LOG - LOG - LOG - LOG - LOG ----------------
+
+----------- LOG - LOG - LOG - LOG - LOG ----------------
+--- Empregados ---
+Gestor: Um - 1 - 50.0 euros
+Gestor: Carlos - 13456 - 1770000.0 euros
+Motorista: Dois - 2 - 101.0 euros
+Empregado Normal: Tres - 3 - 150.0 euros
+Gestor: Quatro - 4 - 800.0 euros
+Motorista: Cinco - 5 - 252.5 euros
+Empregado Normal: Seis - 6 - 300.0 euros
+----------- LOG - LOG - LOG - LOG - LOG ----------------

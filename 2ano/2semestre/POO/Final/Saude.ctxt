@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Saude
+comment0.text=\n\ Actividade\ Economica\ Saude\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Saude()
+comment2.params=deducao\ codigo\ valorDeducao\ descricao
+comment2.target=Saude(boolean,\ int,\ double,\ java.lang.String)
+comment3.params=s
+comment3.target=Saude(Saude)
+comment4.params=
+comment4.target=double\ getValorDeducao()
+comment5.params=
+comment5.target=java.lang.String\ getDescricao()
+comment6.params=valor
+comment6.target=void\ setValorDeducao(double)
+comment7.params=descricao
+comment7.target=void\ setDescricao(java.lang.String)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=
+comment9.target=Saude\ clone()
+numComments=10

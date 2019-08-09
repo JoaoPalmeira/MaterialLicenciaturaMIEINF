@@ -1,0 +1,12 @@
+
+> teste<-dados[1:711,]
+> treino<-dados[712:844,]
+> formula<-FatigueLevel ~ MAM + MVM + DDCM + AEDM
+> rnaexaustao<-neuralnet(formula,treino,hidden=c(10,5,3),lifesign="full",linear.output = FALSE,threshold=0.1)
+hidden: 10, 5, 3    thresh: 0.1    rep: 1/1    steps:       5	error: 60.08291	time: 0.06 secs
+> teste.01<-subset(teste,select=c("MAM","MVM","DDCM","AEDM"))
+> rnaexaustao.resultados<-compute(rnaexaustao,teste.01)
+> resultados<-data.frame(atual=teste$FatigueLevel,previsao=rnaexaustao.resultados$net.result)
+> resultados$previsao<-round(resultados$previsao,digits=3)
+> rmse(c(teste$FatigueLevel),c(resultados$previsao))
+[1] 1.976438826

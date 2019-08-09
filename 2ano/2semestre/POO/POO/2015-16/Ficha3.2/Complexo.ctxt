@@ -1,0 +1,33 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Complexo()
+comment1.params=na\ nb
+comment1.target=Complexo(double,\ double)
+comment10.params=
+comment10.target=Complexo\ conjugado()
+comment10.text=vers\u00E3o\ alternativa\ do\ conjugado\r\n\ \ \ \ public\ Complexo\ conjugado(){\r\n\ \ \ \ \ \ \ \ Complexo\ c2\ \=\ new\ Complexo();\r\n\ \ \ \ \ \ \ \ c2.setA(this.a);\r\n\ \ \ \ \ \ \ \ c2.setB(-this.b);\r\n\ \ \ \ \ \ \ \ return\ c2;\r\n\ \ \ \ }\r\n
+comment11.params=
+comment11.target=Complexo\ reciproco()
+comment12.params=
+comment12.target=Complexo\ clone()
+comment13.params=o
+comment13.target=boolean\ equals(java.lang.Object)
+comment14.params=
+comment14.target=java.lang.String\ toString()
+comment2.params=c2
+comment2.target=Complexo(Complexo)
+comment3.params=
+comment3.target=double\ getA()
+comment4.params=
+comment4.target=double\ getB()
+comment5.params=a
+comment5.target=void\ setA(double)
+comment6.params=b
+comment6.target=void\ setB(double)
+comment7.params=complexo
+comment7.target=Complexo\ soma(Complexo)
+comment8.params=complexo
+comment8.target=Complexo\ produto(Complexo)
+comment9.params=complexo
+comment9.target=Complexo\ reciproco(Complexo)
+numComments=15
